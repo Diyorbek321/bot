@@ -1,10 +1,12 @@
 import asyncio
 import logging
+import socket
 import sys
 from html import escape
 
 from aiogram import Bot, Dispatcher, F
 from aiogram.client.default import DefaultBotProperties
+from aiogram.client.session.aiohttp import AiohttpSession
 from aiogram.enums import ParseMode
 from aiogram.exceptions import TelegramBadRequest
 from aiogram.filters import Command, CommandStart
@@ -351,11 +353,23 @@ async def finish_quiz(query: CallbackQuery, session: QuizSession) -> None:
 
 # ─────────────────────────── Ishga tushirish ───────────────────────────
 
+class IPv4Session(AiohttpSession):
+    """Telegram'ga faqat IPv4 orqali ulanadi: serverda IPv6 beqaror, so'rovlar osilib qoladi."""
+
+    def __init__(self, **kwargs) -> None:
+        super().__init__(**kwargs)
+        self._connector_init["family"] = socket.AF_INET
+
+
 async def main() -> None:
     if not TOKEN:
         sys.exit("TOKEN topilmadi. telegram_bot/.env fayliga TOKEN=... qo'shing.")
     db.init_db()
-    bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
+    bot = Bot(
+        token=TOKEN,
+        session=IPv4Session(),
+        default=DefaultBotProperties(parse_mode=ParseMode.HTML),
+    )
     await bot.set_my_commands(
         [
             BotCommand(command="start", description="🏠 Bosh menyu"),
