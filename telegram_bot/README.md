@@ -1,6 +1,6 @@
-# 📚 Quiz Bot — B2 lug'at testi
+# 🏫 Shanghai School — English Quiz Bot
 
-O'quvchilar uchun Telegram bot: **B2 darajadagi 500 ta inglizcha so'z** (o'zbekcha tarjimasi bilan)
+**Shanghai School** o'quv markazi o'quvchilari uchun Telegram bot: **B2 darajadagi 500 ta inglizcha so'z** (o'zbekcha tarjimasi bilan)
 bo'yicha test savollari, ball tizimi va reyting.
 
 ## ✨ Imkoniyatlar
@@ -13,6 +13,11 @@ bo'yicha test savollari, ball tizimi va reyting.
 - 👤 **Profil** — ball, aniqlik foizi, eng uzun seriya, reytingdagi o'rin
 - 🧠 **Xatolarim** — xato qilingan so'zlar saqlanadi va alohida mashq qilinadi
 - 🟩 Progress bar, har bir javobdan keyin darhol natija ko'rsatiladi
+
+## 🏷 Brend
+
+Brend nomi va shiori `config.py` faylida (`BRAND_NAME`, `BRAND_SLOGAN`) — bot matnlarida
+va Telegram'dagi bot tavsifida avtomatik ishlatiladi.
 
 ## 🚀 Ishga tushirish
 

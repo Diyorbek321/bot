@@ -21,3 +21,7 @@ STREAK_BONUS_STEP = 2
 STREAK_BONUS_MAX = 10
 
 LEADERBOARD_SIZE = 10
+
+# Brend
+BRAND_NAME = "Shanghai School"
+BRAND_SLOGAN = "Bilim sari birga! 🚀"

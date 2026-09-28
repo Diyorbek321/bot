@@ -12,7 +12,7 @@ from aiogram.types import BotCommand, CallbackQuery, InlineKeyboardMarkup, Messa
 
 import database as db
 import keyboards as kb
-from config import LEADERBOARD_SIZE, MISTAKES_QUIZ_SIZE, TOKEN
+from config import BRAND_NAME, BRAND_SLOGAN, LEADERBOARD_SIZE, MISTAKES_QUIZ_SIZE, TOKEN
 from quiz import (
     MODE_EN_UZ,
     MODE_MISTAKES,
@@ -31,6 +31,8 @@ sessions: dict[int, QuizSession] = {}
 
 MEDALS = {1: "🥇", 2: "🥈", 3: "🥉"}
 DIVIDER = "━━━━━━━━━━━━━━━━━━"
+BRAND_HEADER = f"🏫 <b>{BRAND_NAME.upper()}</b> · <i>English Quiz</i>"
+BRAND_FOOTER = f"<i>🏫 {BRAND_NAME} — {BRAND_SLOGAN}</i>"
 
 
 def register(user: User) -> None:
@@ -55,8 +57,9 @@ async def edit_or_send(query: CallbackQuery, text: str, markup: InlineKeyboardMa
 
 def welcome_text(user: User) -> str:
     return (
+        f"{BRAND_HEADER}\n\n"
         f"👋 Salom, <b>{escape(user.first_name)}</b>!\n\n"
-        f"📚 <b>Quiz Bot</b>ga xush kelibsiz — B2 darajadagi "
+        f"📚 <b>{BRAND_NAME}</b> o'quv markazining quiz botiga xush kelibsiz — B2 darajadagi "
         f"<b>{len(WORDS)} ta</b> inglizcha so'zni o'yin orqali o'rganing!\n\n"
         f"{DIVIDER}\n"
         f"🎯 Savollarga javob bering va ball to'plang\n"
@@ -64,11 +67,13 @@ def welcome_text(user: User) -> str:
         f"🏆 Reytingda boshqa o'quvchilar bilan bellashing\n"
         f"🧠 Xato qilgan so'zlaringizni qayta mashq qiling\n"
         f"{DIVIDER}\n\n"
-        f"Boshlash uchun pastdagi tugmani bosing 👇"
+        f"Boshlash uchun pastdagi tugmani bosing 👇\n\n"
+        f"{BRAND_FOOTER}"
     )
 
 
 HELP_TEXT = (
+    f"{BRAND_HEADER}\n\n"
     "ℹ️ <b>Qanday o'ynaladi?</b>\n\n"
     "1️⃣ <b>Testni boshlash</b> tugmasini bosing\n"
     "2️⃣ Yo'nalishni tanlang: 🇬🇧→🇺🇿, 🇺🇿→🇬🇧 yoki aralash\n"
@@ -87,7 +92,8 @@ HELP_TEXT = (
     "/quiz — yangi test\n"
     "/top — reyting\n"
     "/me — profilim\n"
-    "/help — yordam"
+    "/help — yordam\n\n"
+    f"{BRAND_FOOTER}"
 )
 
 
@@ -122,6 +128,7 @@ def result_text(user: User, session: QuizSession) -> str:
     level, comment = level_for(percent)
     rank, participants = db.get_rank(user.id)
     return (
+        f"{BRAND_HEADER}\n\n"
         f"🏁 <b>Test yakunlandi!</b>\n\n"
         f"{level}\n<i>{comment}</i>\n\n"
         f"{DIVIDER}\n"
@@ -130,7 +137,8 @@ def result_text(user: User, session: QuizSession) -> str:
         f"⭐ Olingan ball: <b>+{session.score}</b>\n"
         f"🔥 Eng uzun seriya: <b>{session.best_streak}</b>\n"
         f"{DIVIDER}\n\n"
-        f"🏆 Reytingdagi o'rningiz: <b>{rank}</b> / {participants}"
+        f"🏆 Reytingdagi o'rningiz: <b>{rank}</b> / {participants}\n\n"
+        f"{BRAND_FOOTER}"
     )
 
 
@@ -139,6 +147,7 @@ def profile_text(user: User) -> str:
     mistakes = len(db.get_mistakes(user.id))
     if not row or row["quizzes"] == 0:
         return (
+            f"{BRAND_HEADER}\n\n"
             f"👤 <b>{escape(user.full_name)}</b>\n\n"
             "Siz hali birorta ham test ishlamadingiz.\n"
             "🎯 Birinchi testni boshlang va reytingga kiring!"
@@ -146,6 +155,7 @@ def profile_text(user: User) -> str:
     accuracy = row["correct"] * 100 / row["answered"] if row["answered"] else 0
     rank, participants = db.get_rank(user.id)
     return (
+        f"{BRAND_HEADER}\n\n"
         f"👤 <b>{escape(row['full_name'])}</b>\n\n"
         f"{DIVIDER}\n"
         f"🏆 Reyting: <b>{rank}</b>-o'rin ({participants} ta ishtirokchi)\n"
@@ -167,7 +177,7 @@ def leaderboard_text(user: User, period: str) -> str:
         title = "🏆 <b>UMUMIY REYTING</b>\n<i>Barcha vaqt natijalari</i>"
         rows = db.top_all_time(LEADERBOARD_SIZE)
 
-    lines = [title, "", DIVIDER]
+    lines = [BRAND_HEADER, "", title, "", DIVIDER]
     if not rows:
         lines.append("Hozircha hech kim test ishlamagan.\nBirinchi bo'ling! 🚀")
     for place, row in enumerate(rows, start=1):
@@ -186,6 +196,7 @@ def leaderboard_text(user: User, period: str) -> str:
             lines.append(f"\n📍 Sizning o'rningiz: <b>{rank}</b> / {participants} · <b>{me['total_score']}</b> ⭐")
         else:
             lines.append("\n📍 Reytingga kirish uchun test ishlang!")
+    lines += ["", BRAND_FOOTER]
     return "\n".join(lines)
 
 
@@ -354,7 +365,17 @@ async def main() -> None:
             BotCommand(command="help", description="ℹ️ Yordam"),
         ]
     )
-    logging.info("Bot ishga tushdi. So'zlar soni: %d", len(WORDS))
+    await bot.set_my_short_description(
+        f"🏫 {BRAND_NAME} — B2 inglizcha so'zlar bo'yicha quiz va reyting 🏆"
+    )
+    await bot.set_my_description(
+        f"🏫 {BRAND_NAME} o'quv markazining rasmiy quiz boti.\n\n"
+        f"📚 B2 darajadagi {len(WORDS)} ta inglizcha so'z\n"
+        "🎯 Test savollari va ball tizimi\n"
+        "🏆 O'quvchilar reytingi\n\n"
+        "Boshlash uchun /start bosing!"
+    )
+    logging.info("%s boti ishga tushdi. So'zlar soni: %d", BRAND_NAME, len(WORDS))
     await dp.start_polling(bot)
 
 
