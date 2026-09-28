@@ -1,0 +1,2002 @@
+[
+ {
+  "en": "achieve",
+  "uz": "erishmoq"
+ },
+ {
+  "en": "acquire",
+  "uz": "egallamoq, o'zlashtirmoq"
+ },
+ {
+  "en": "adapt",
+  "uz": "moslashmoq"
+ },
+ {
+  "en": "adequate",
+  "uz": "yetarli, mos"
+ },
+ {
+  "en": "alternative",
+  "uz": "muqobil"
+ },
+ {
+  "en": "analyse",
+  "uz": "tahlil qilmoq"
+ },
+ {
+  "en": "approach",
+  "uz": "yondashuv; yaqinlashmoq"
+ },
+ {
+  "en": "assess",
+  "uz": "baholamoq"
+ },
+ {
+  "en": "assume",
+  "uz": "faraz qilmoq"
+ },
+ {
+  "en": "aware",
+  "uz": "xabardor, voqif"
+ },
+ {
+  "en": "benefit",
+  "uz": "foyda; foyda bermoq"
+ },
+ {
+  "en": "challenge",
+  "uz": "qiyinchilik, muammo"
+ },
+ {
+  "en": "circumstance",
+  "uz": "sharoit, vaziyat"
+ },
+ {
+  "en": "claim",
+  "uz": "da'vo qilmoq; da'vo"
+ },
+ {
+  "en": "contribute",
+  "uz": "hissa qo'shmoq"
+ },
+ {
+  "en": "crucial",
+  "uz": "juda muhim"
+ },
+ {
+  "en": "decline",
+  "uz": "pasaymoq; rad etmoq"
+ },
+ {
+  "en": "demonstrate",
+  "uz": "namoyish qilmoq"
+ },
+ {
+  "en": "distinguish",
+  "uz": "farqlamoq"
+ },
+ {
+  "en": "encounter",
+  "uz": "duch kelmoq"
+ },
+ {
+  "en": "expand",
+  "uz": "kengaytirmoq"
+ },
+ {
+  "en": "emphasize",
+  "uz": "ta'kidlamoq"
+ },
+ {
+  "en": "enhance",
+  "uz": "yaxshilamoq"
+ },
+ {
+  "en": "ensure",
+  "uz": "ta'minlamoq"
+ },
+ {
+  "en": "estimate",
+  "uz": "taxmin qilmoq"
+ },
+ {
+  "en": "evident",
+  "uz": "aniq, ravshan"
+ },
+ {
+  "en": "factor",
+  "uz": "omil"
+ },
+ {
+  "en": "feature",
+  "uz": "xususiyat"
+ },
+ {
+  "en": "flexible",
+  "uz": "moslashuvchan"
+ },
+ {
+  "en": "furthermore",
+  "uz": "bundan tashqari"
+ },
+ {
+  "en": "generate",
+  "uz": "yaratmoq"
+ },
+ {
+  "en": "impact",
+  "uz": "ta'sir"
+ },
+ {
+  "en": "imply",
+  "uz": "nazarda tutmoq"
+ },
+ {
+  "en": "indicate",
+  "uz": "ko'rsatmoq"
+ },
+ {
+  "en": "inevitable",
+  "uz": "muqarrar"
+ },
+ {
+  "en": "influence",
+  "uz": "ta'sir qilmoq"
+ },
+ {
+  "en": "maintain",
+  "uz": "saqlab qolmoq"
+ },
+ {
+  "en": "occur",
+  "uz": "sodir bo'lmoq"
+ },
+ {
+  "en": "perceive",
+  "uz": "idrok etmoq"
+ },
+ {
+  "en": "potential",
+  "uz": "salohiyat, imkoniyat"
+ },
+ {
+  "en": "prevent",
+  "uz": "oldini olmoq"
+ },
+ {
+  "en": "promote",
+  "uz": "rivojlantirmoq, targ'ib qilmoq"
+ },
+ {
+  "en": "require",
+  "uz": "talab qilmoq"
+ },
+ {
+  "en": "significant",
+  "uz": "muhim, sezilarli"
+ },
+ {
+  "en": "sufficient",
+  "uz": "yetarli"
+ },
+ {
+  "en": "accomplish",
+  "uz": "amalga oshirmoq"
+ },
+ {
+  "en": "accurate",
+  "uz": "aniq"
+ },
+ {
+  "en": "affordable",
+  "uz": "hamyonbop"
+ },
+ {
+  "en": "ambitious",
+  "uz": "maqsadga intiluvchan"
+ },
+ {
+  "en": "beneficial",
+  "uz": "foydali"
+ },
+ {
+  "en": "capable",
+  "uz": "qobiliyatli"
+ },
+ {
+  "en": "competitive",
+  "uz": "raqobatbardosh"
+ },
+ {
+  "en": "complicated",
+  "uz": "murakkab"
+ },
+ {
+  "en": "comprehensive",
+  "uz": "keng qamrovli"
+ },
+ {
+  "en": "consistent",
+  "uz": "izchil"
+ },
+ {
+  "en": "convenient",
+  "uz": "qulay"
+ },
+ {
+  "en": "efficient",
+  "uz": "samarali"
+ },
+ {
+  "en": "essential",
+  "uz": "zarur"
+ },
+ {
+  "en": "exceptional",
+  "uz": "g'ayrioddiy"
+ },
+ {
+  "en": "familiar",
+  "uz": "tanish"
+ },
+ {
+  "en": "independent",
+  "uz": "mustaqil"
+ },
+ {
+  "en": "innovative",
+  "uz": "innovatsion"
+ },
+ {
+  "en": "practical",
+  "uz": "amaliy"
+ },
+ {
+  "en": "reliable",
+  "uz": "ishonchli"
+ },
+ {
+  "en": "relevant",
+  "uz": "tegishli, dolzarb"
+ },
+ {
+  "en": "responsible",
+  "uz": "mas'uliyatli"
+ },
+ {
+  "en": "sophisticated",
+  "uz": "rivojlangan, murakkab"
+ },
+ {
+  "en": "temporary",
+  "uz": "vaqtinchalik"
+ },
+ {
+  "en": "traditional",
+  "uz": "an'anaviy"
+ },
+ {
+  "en": "valuable",
+  "uz": "qimmatli"
+ },
+ {
+  "en": "appropriate",
+  "uz": "mos, maqbul"
+ },
+ {
+  "en": "controversial",
+  "uz": "bahsli"
+ },
+ {
+  "en": "diverse",
+  "uz": "xilma-xil"
+ },
+ {
+  "en": "effective",
+  "uz": "samarali"
+ },
+ {
+  "en": "realistic",
+  "uz": "real, hayotiy"
+ },
+ {
+  "en": "education",
+  "uz": "ta'lim"
+ },
+ {
+  "en": "curriculum",
+  "uz": "o'quv dasturi"
+ },
+ {
+  "en": "assignment",
+  "uz": "topshiriq"
+ },
+ {
+  "en": "assessment",
+  "uz": "baholash"
+ },
+ {
+  "en": "qualification",
+  "uz": "malaka"
+ },
+ {
+  "en": "scholarship",
+  "uz": "stipendiya"
+ },
+ {
+  "en": "lecture",
+  "uz": "ma'ruza"
+ },
+ {
+  "en": "research",
+  "uz": "tadqiqot"
+ },
+ {
+  "en": "knowledge",
+  "uz": "bilim"
+ },
+ {
+  "en": "literacy",
+  "uz": "savodxonlik"
+ },
+ {
+  "en": "discipline",
+  "uz": "fan, intizom"
+ },
+ {
+  "en": "graduate",
+  "uz": "bitirmoq"
+ },
+ {
+  "en": "revise",
+  "uz": "takrorlamoq"
+ },
+ {
+  "en": "memorize",
+  "uz": "yodlamoq"
+ },
+ {
+  "en": "concentrate",
+  "uz": "diqqatni jamlamoq"
+ },
+ {
+  "en": "participate",
+  "uz": "qatnashmoq"
+ },
+ {
+  "en": "specialize",
+  "uz": "ixtisoslashmoq"
+ },
+ {
+  "en": "theory",
+  "uz": "nazariya"
+ },
+ {
+  "en": "tuition",
+  "uz": "o'qish to'lovi"
+ },
+ {
+  "en": "academic",
+  "uz": "akademik"
+ },
+ {
+  "en": "career",
+  "uz": "kasbiy faoliyat"
+ },
+ {
+  "en": "occupation",
+  "uz": "kasb"
+ },
+ {
+  "en": "profession",
+  "uz": "kasb"
+ },
+ {
+  "en": "employee",
+  "uz": "xodim"
+ },
+ {
+  "en": "employer",
+  "uz": "ish beruvchi"
+ },
+ {
+  "en": "colleague",
+  "uz": "hamkasb"
+ },
+ {
+  "en": "position",
+  "uz": "lavozim"
+ },
+ {
+  "en": "responsibility",
+  "uz": "mas'uliyat"
+ },
+ {
+  "en": "opportunity",
+  "uz": "imkoniyat"
+ },
+ {
+  "en": "experience",
+  "uz": "tajriba"
+ },
+ {
+  "en": "salary",
+  "uz": "maosh"
+ },
+ {
+  "en": "income",
+  "uz": "daromad"
+ },
+ {
+  "en": "promotion",
+  "uz": "lavozim ko'tarilishi"
+ },
+ {
+  "en": "retirement",
+  "uz": "nafaqaga chiqish"
+ },
+ {
+  "en": "resign",
+  "uz": "iste'foga chiqmoq"
+ },
+ {
+  "en": "recruit",
+  "uz": "ishga yollamoq"
+ },
+ {
+  "en": "apply",
+  "uz": "ariza bermoq"
+ },
+ {
+  "en": "interview",
+  "uz": "suhbat"
+ },
+ {
+  "en": "deadline",
+  "uz": "oxirgi muddat"
+ },
+ {
+  "en": "workload",
+  "uz": "ish hajmi"
+ },
+ {
+  "en": "workplace",
+  "uz": "ish joyi"
+ },
+ {
+  "en": "contract",
+  "uz": "shartnoma"
+ },
+ {
+  "en": "schedule",
+  "uz": "jadval"
+ },
+ {
+  "en": "shift",
+  "uz": "smena"
+ },
+ {
+  "en": "demanding",
+  "uz": "talabchan, og'ir"
+ },
+ {
+  "en": "rewarding",
+  "uz": "qoniqarli, foydali"
+ },
+ {
+  "en": "stressful",
+  "uz": "stressli"
+ },
+ {
+  "en": "supervise",
+  "uz": "nazorat qilmoq"
+ },
+ {
+  "en": "negotiate",
+  "uz": "muzokara qilmoq"
+ },
+ {
+  "en": "cooperate",
+  "uz": "hamkorlik qilmoq"
+ },
+ {
+  "en": "communicate",
+  "uz": "muloqot qilmoq"
+ },
+ {
+  "en": "manage",
+  "uz": "boshqarmoq"
+ },
+ {
+  "en": "organize",
+  "uz": "tashkil qilmoq"
+ },
+ {
+  "en": "earn",
+  "uz": "pul topmoq"
+ },
+ {
+  "en": "employ",
+  "uz": "ish bilan ta'minlamoq"
+ },
+ {
+  "en": "establish",
+  "uz": "tashkil qilmoq"
+ },
+ {
+  "en": "develop",
+  "uz": "rivojlantirmoq"
+ },
+ {
+  "en": "society",
+  "uz": "jamiyat"
+ },
+ {
+  "en": "community",
+  "uz": "hamjamiyat"
+ },
+ {
+  "en": "population",
+  "uz": "aholi"
+ },
+ {
+  "en": "generation",
+  "uz": "avlod"
+ },
+ {
+  "en": "minority",
+  "uz": "ozchilik"
+ },
+ {
+  "en": "majority",
+  "uz": "ko'pchilik"
+ },
+ {
+  "en": "citizen",
+  "uz": "fuqaro"
+ },
+ {
+  "en": "government",
+  "uz": "hukumat"
+ },
+ {
+  "en": "authority",
+  "uz": "hokimiyat"
+ },
+ {
+  "en": "policy",
+  "uz": "siyosat, siyosiy chora"
+ },
+ {
+  "en": "law",
+  "uz": "qonun"
+ },
+ {
+  "en": "crime",
+  "uz": "jinoyat"
+ },
+ {
+  "en": "criminal",
+  "uz": "jinoyatchi"
+ },
+ {
+  "en": "justice",
+  "uz": "adolat"
+ },
+ {
+  "en": "equality",
+  "uz": "tenglik"
+ },
+ {
+  "en": "poverty",
+  "uz": "qashshoqlik"
+ },
+ {
+  "en": "wealth",
+  "uz": "boylik"
+ },
+ {
+  "en": "unemployment",
+  "uz": "ishsizlik"
+ },
+ {
+  "en": "discrimination",
+  "uz": "kamsitish"
+ },
+ {
+  "en": "freedom",
+  "uz": "erkinlik"
+ },
+ {
+  "en": "rights",
+  "uz": "huquqlar"
+ },
+ {
+  "en": "relationship",
+  "uz": "munosabat"
+ },
+ {
+  "en": "behaviour",
+  "uz": "xulq-atvor"
+ },
+ {
+  "en": "attitude",
+  "uz": "munosabat, qarash"
+ },
+ {
+  "en": "tradition",
+  "uz": "an'ana"
+ },
+ {
+  "en": "culture",
+  "uz": "madaniyat"
+ },
+ {
+  "en": "custom",
+  "uz": "urf-odat"
+ },
+ {
+  "en": "lifestyle",
+  "uz": "turmush tarzi"
+ },
+ {
+  "en": "reputation",
+  "uz": "obro'"
+ },
+ {
+  "en": "environment",
+  "uz": "atrof-muhit"
+ },
+ {
+  "en": "pollution",
+  "uz": "ifloslanish"
+ },
+ {
+  "en": "climate",
+  "uz": "iqlim"
+ },
+ {
+  "en": "climate change",
+  "uz": "iqlim o'zgarishi"
+ },
+ {
+  "en": "global warming",
+  "uz": "global isish"
+ },
+ {
+  "en": "greenhouse",
+  "uz": "issiqxona"
+ },
+ {
+  "en": "emission",
+  "uz": "chiqindi gaz"
+ },
+ {
+  "en": "waste",
+  "uz": "chiqindi"
+ },
+ {
+  "en": "recycling",
+  "uz": "qayta ishlash"
+ },
+ {
+  "en": "renewable",
+  "uz": "qayta tiklanadigan"
+ },
+ {
+  "en": "resource",
+  "uz": "resurs"
+ },
+ {
+  "en": "energy",
+  "uz": "energiya"
+ },
+ {
+  "en": "electricity",
+  "uz": "elektr energiyasi"
+ },
+ {
+  "en": "consumption",
+  "uz": "iste'mol"
+ },
+ {
+  "en": "conservation",
+  "uz": "muhofaza qilish"
+ },
+ {
+  "en": "endangered",
+  "uz": "yo'qolib ketish xavfidagi"
+ },
+ {
+  "en": "species",
+  "uz": "tur"
+ },
+ {
+  "en": "habitat",
+  "uz": "yashash muhiti"
+ },
+ {
+  "en": "ecosystem",
+  "uz": "ekotizim"
+ },
+ {
+  "en": "sustainable",
+  "uz": "barqaror"
+ },
+ {
+  "en": "protect",
+  "uz": "himoya qilmoq"
+ },
+ {
+  "en": "preserve",
+  "uz": "asrab-avaylamoq"
+ },
+ {
+  "en": "reduce",
+  "uz": "kamaytirmoq"
+ },
+ {
+  "en": "reuse",
+  "uz": "qayta ishlatmoq"
+ },
+ {
+  "en": "recycle",
+  "uz": "qayta ishlamoq"
+ },
+ {
+  "en": "damage",
+  "uz": "zarar yetkazmoq"
+ },
+ {
+  "en": "destroy",
+  "uz": "yo'q qilmoq"
+ },
+ {
+  "en": "threaten",
+  "uz": "xavf tug'dirmoq"
+ },
+ {
+  "en": "consume",
+  "uz": "iste'mol qilmoq"
+ },
+ {
+  "en": "conserve",
+  "uz": "tejamoq, asramoq"
+ },
+ {
+  "en": "technology",
+  "uz": "texnologiya"
+ },
+ {
+  "en": "device",
+  "uz": "qurilma"
+ },
+ {
+  "en": "digital",
+  "uz": "raqamli"
+ },
+ {
+  "en": "software",
+  "uz": "dasturiy ta'minot"
+ },
+ {
+  "en": "hardware",
+  "uz": "texnik ta'minot"
+ },
+ {
+  "en": "application",
+  "uz": "ilova"
+ },
+ {
+  "en": "access",
+  "uz": "kirish imkoniyati"
+ },
+ {
+  "en": "data",
+  "uz": "ma'lumotlar"
+ },
+ {
+  "en": "information",
+  "uz": "axborot"
+ },
+ {
+  "en": "network",
+  "uz": "tarmoq"
+ },
+ {
+  "en": "artificial",
+  "uz": "sun'iy"
+ },
+ {
+  "en": "intelligence",
+  "uz": "intellekt"
+ },
+ {
+  "en": "invention",
+  "uz": "ixtiro"
+ },
+ {
+  "en": "innovation",
+  "uz": "innovatsiya"
+ },
+ {
+  "en": "development",
+  "uz": "rivojlanish"
+ },
+ {
+  "en": "advantage",
+  "uz": "afzallik"
+ },
+ {
+  "en": "disadvantage",
+  "uz": "kamchilik"
+ },
+ {
+  "en": "privacy",
+  "uz": "maxfiylik"
+ },
+ {
+  "en": "security",
+  "uz": "xavfsizlik"
+ },
+ {
+  "en": "internet",
+  "uz": "internet"
+ },
+ {
+  "en": "platform",
+  "uz": "platforma"
+ },
+ {
+  "en": "content",
+  "uz": "kontent, mazmun"
+ },
+ {
+  "en": "social media",
+  "uz": "ijtimoiy tarmoqlar"
+ },
+ {
+  "en": "online",
+  "uz": "onlayn"
+ },
+ {
+  "en": "virtual",
+  "uz": "virtual"
+ },
+ {
+  "en": "upload",
+  "uz": "yuklamoq"
+ },
+ {
+  "en": "download",
+  "uz": "yuklab olmoq"
+ },
+ {
+  "en": "update",
+  "uz": "yangilamoq"
+ },
+ {
+  "en": "connect",
+  "uz": "bog'lamoq"
+ },
+ {
+  "en": "browse",
+  "uz": "internetda ko'rib chiqmoq"
+ },
+ {
+  "en": "search",
+  "uz": "qidirmoq"
+ },
+ {
+  "en": "install",
+  "uz": "o'rnatmoq"
+ },
+ {
+  "en": "operate",
+  "uz": "ishlatmoq"
+ },
+ {
+  "en": "replace",
+  "uz": "almashtirmoq"
+ },
+ {
+  "en": "improve",
+  "uz": "yaxshilamoq"
+ },
+ {
+  "en": "automate",
+  "uz": "avtomatlashtirmoq"
+ },
+ {
+  "en": "transform",
+  "uz": "o'zgartirmoq"
+ },
+ {
+  "en": "health",
+  "uz": "sog'liq"
+ },
+ {
+  "en": "disease",
+  "uz": "kasallik"
+ },
+ {
+  "en": "illness",
+  "uz": "xastalik"
+ },
+ {
+  "en": "treatment",
+  "uz": "davolash"
+ },
+ {
+  "en": "symptom",
+  "uz": "alomat"
+ },
+ {
+  "en": "diagnosis",
+  "uz": "tashxis"
+ },
+ {
+  "en": "prevention",
+  "uz": "oldini olish"
+ },
+ {
+  "en": "medicine",
+  "uz": "dori"
+ },
+ {
+  "en": "patient",
+  "uz": "bemor"
+ },
+ {
+  "en": "recovery",
+  "uz": "tiklanish"
+ },
+ {
+  "en": "surgery",
+  "uz": "jarrohlik"
+ },
+ {
+  "en": "injury",
+  "uz": "jarohat"
+ },
+ {
+  "en": "infection",
+  "uz": "infeksiya"
+ },
+ {
+  "en": "stress",
+  "uz": "stress"
+ },
+ {
+  "en": "anxiety",
+  "uz": "xavotir"
+ },
+ {
+  "en": "exercise",
+  "uz": "jismoniy mashq"
+ },
+ {
+  "en": "diet",
+  "uz": "parhez, ovqatlanish tartibi"
+ },
+ {
+  "en": "nutrition",
+  "uz": "oziqlanish"
+ },
+ {
+  "en": "obesity",
+  "uz": "semizlik"
+ },
+ {
+  "en": "healthy",
+  "uz": "sog'lom"
+ },
+ {
+  "en": "harmful",
+  "uz": "zararli"
+ },
+ {
+  "en": "physical",
+  "uz": "jismoniy"
+ },
+ {
+  "en": "mental",
+  "uz": "ruhiy"
+ },
+ {
+  "en": "severe",
+  "uz": "og'ir"
+ },
+ {
+  "en": "minor",
+  "uz": "yengil, kichik"
+ },
+ {
+  "en": "chronic",
+  "uz": "surunkali"
+ },
+ {
+  "en": "medical",
+  "uz": "tibbiy"
+ },
+ {
+  "en": "suffer",
+  "uz": "aziyat chekmoq"
+ },
+ {
+  "en": "recover",
+  "uz": "tuzalmoq"
+ },
+ {
+  "en": "diagnose",
+  "uz": "tashxis qo'ymoq"
+ },
+ {
+  "en": "argue",
+  "uz": "bahslashmoq, fikr bildirmoq"
+ },
+ {
+  "en": "argument",
+  "uz": "dalil, bahs"
+ },
+ {
+  "en": "convince",
+  "uz": "ishontirmoq"
+ },
+ {
+  "en": "persuade",
+  "uz": "ko'ndirmoq"
+ },
+ {
+  "en": "suggest",
+  "uz": "taklif qilmoq"
+ },
+ {
+  "en": "recommend",
+  "uz": "tavsiya qilmoq"
+ },
+ {
+  "en": "mention",
+  "uz": "tilga olmoq"
+ },
+ {
+  "en": "state",
+  "uz": "bayon qilmoq"
+ },
+ {
+  "en": "express",
+  "uz": "ifoda etmoq"
+ },
+ {
+  "en": "respond",
+  "uz": "javob bermoq"
+ },
+ {
+  "en": "interpret",
+  "uz": "talqin qilmoq"
+ },
+ {
+  "en": "explain",
+  "uz": "tushuntirmoq"
+ },
+ {
+  "en": "clarify",
+  "uz": "aniqlashtirmoq"
+ },
+ {
+  "en": "summarize",
+  "uz": "xulosa qilmoq"
+ },
+ {
+  "en": "describe",
+  "uz": "tasvirlamoq"
+ },
+ {
+  "en": "compare",
+  "uz": "taqqoslamoq"
+ },
+ {
+  "en": "contrast",
+  "uz": "qarama-qarshi qo'ymoq"
+ },
+ {
+  "en": "define",
+  "uz": "ta'riflamoq"
+ },
+ {
+  "en": "refer",
+  "uz": "murojaat qilmoq"
+ },
+ {
+  "en": "conclude",
+  "uz": "xulosa qilmoq"
+ },
+ {
+  "en": "predict",
+  "uz": "bashorat qilmoq"
+ },
+ {
+  "en": "prove",
+  "uz": "isbotlamoq"
+ },
+ {
+  "en": "justify",
+  "uz": "asoslamoq"
+ },
+ {
+  "en": "criticize",
+  "uz": "tanqid qilmoq"
+ },
+ {
+  "en": "concept",
+  "uz": "tushuncha"
+ },
+ {
+  "en": "context",
+  "uz": "kontekst, sharoit"
+ },
+ {
+  "en": "evidence",
+  "uz": "dalil"
+ },
+ {
+  "en": "issue",
+  "uz": "masala, muammo"
+ },
+ {
+  "en": "method",
+  "uz": "usul"
+ },
+ {
+  "en": "process",
+  "uz": "jarayon"
+ },
+ {
+  "en": "principle",
+  "uz": "tamoyil"
+ },
+ {
+  "en": "purpose",
+  "uz": "maqsad"
+ },
+ {
+  "en": "result",
+  "uz": "natija"
+ },
+ {
+  "en": "solution",
+  "uz": "yechim"
+ },
+ {
+  "en": "source",
+  "uz": "manba"
+ },
+ {
+  "en": "structure",
+  "uz": "tuzilma"
+ },
+ {
+  "en": "survey",
+  "uz": "so'rovnoma"
+ },
+ {
+  "en": "trend",
+  "uz": "tendensiya"
+ },
+ {
+  "en": "pattern",
+  "uz": "namuna, qonuniyat"
+ },
+ {
+  "en": "category",
+  "uz": "toifa"
+ },
+ {
+  "en": "aspect",
+  "uz": "jihat"
+ },
+ {
+  "en": "role",
+  "uz": "rol, vazifa"
+ },
+ {
+  "en": "function",
+  "uz": "vazifa, funksiya"
+ },
+ {
+  "en": "outcome",
+  "uz": "yakuniy natija"
+ },
+ {
+  "en": "evidence-based",
+  "uz": "dalillarga asoslangan"
+ },
+ {
+  "en": "valid",
+  "uz": "asosli, haqiqiy"
+ },
+ {
+  "en": "identity",
+  "uz": "o'zlik, shaxsiyat"
+ },
+ {
+  "en": "individual",
+  "uz": "shaxs, individual"
+ },
+ {
+  "en": "resident",
+  "uz": "aholi, yashovchi"
+ },
+ {
+  "en": "household",
+  "uz": "uy xo'jaligi"
+ },
+ {
+  "en": "family",
+  "uz": "oila"
+ },
+ {
+  "en": "parenting",
+  "uz": "farzand tarbiyasi"
+ },
+ {
+  "en": "childhood",
+  "uz": "bolalik"
+ },
+ {
+  "en": "adulthood",
+  "uz": "voyaga yetganlik"
+ },
+ {
+  "en": "elderly",
+  "uz": "keksalar"
+ },
+ {
+  "en": "gender",
+  "uz": "jins"
+ },
+ {
+  "en": "marriage",
+  "uz": "nikoh"
+ },
+ {
+  "en": "divorce",
+  "uz": "ajralish"
+ },
+ {
+  "en": "homelessness",
+  "uz": "uysizlik"
+ },
+ {
+  "en": "migration",
+  "uz": "migratsiya"
+ },
+ {
+  "en": "immigration",
+  "uz": "immigratsiya"
+ },
+ {
+  "en": "integration",
+  "uz": "integratsiya"
+ },
+ {
+  "en": "diversity",
+  "uz": "xilma-xillik"
+ },
+ {
+  "en": "volunteer",
+  "uz": "ko'ngilli"
+ },
+ {
+  "en": "charity",
+  "uz": "xayriya"
+ },
+ {
+  "en": "donate",
+  "uz": "ehson qilmoq"
+ },
+ {
+  "en": "economy",
+  "uz": "iqtisodiyot"
+ },
+ {
+  "en": "economic",
+  "uz": "iqtisodiy"
+ },
+ {
+  "en": "finance",
+  "uz": "moliya"
+ },
+ {
+  "en": "financial",
+  "uz": "moliyaviy"
+ },
+ {
+  "en": "industry",
+  "uz": "sanoat"
+ },
+ {
+  "en": "market",
+  "uz": "bozor"
+ },
+ {
+  "en": "customer",
+  "uz": "mijoz"
+ },
+ {
+  "en": "consumer",
+  "uz": "iste'molchi"
+ },
+ {
+  "en": "product",
+  "uz": "mahsulot"
+ },
+ {
+  "en": "service",
+  "uz": "xizmat"
+ },
+ {
+  "en": "demand",
+  "uz": "talab"
+ },
+ {
+  "en": "supply",
+  "uz": "taklif"
+ },
+ {
+  "en": "price",
+  "uz": "narx"
+ },
+ {
+  "en": "cost",
+  "uz": "xarajat"
+ },
+ {
+  "en": "profit",
+  "uz": "foyda"
+ },
+ {
+  "en": "loss",
+  "uz": "zarar"
+ },
+ {
+  "en": "investment",
+  "uz": "investitsiya"
+ },
+ {
+  "en": "business",
+  "uz": "biznes"
+ },
+ {
+  "en": "company",
+  "uz": "kompaniya"
+ },
+ {
+  "en": "enterprise",
+  "uz": "korxona"
+ },
+ {
+  "en": "trade",
+  "uz": "savdo"
+ },
+ {
+  "en": "export",
+  "uz": "eksport"
+ },
+ {
+  "en": "import",
+  "uz": "import"
+ },
+ {
+  "en": "tax",
+  "uz": "soliq"
+ },
+ {
+  "en": "budget",
+  "uz": "byudjet"
+ },
+ {
+  "en": "natural",
+  "uz": "tabiiy"
+ },
+ {
+  "en": "environmental",
+  "uz": "atrof-muhitga oid"
+ },
+ {
+  "en": "agriculture",
+  "uz": "qishloq xo'jaligi"
+ },
+ {
+  "en": "forest",
+  "uz": "o'rmon"
+ },
+ {
+  "en": "wildlife",
+  "uz": "yovvoyi tabiat"
+ },
+ {
+  "en": "biodiversity",
+  "uz": "biologik xilma-xillik"
+ },
+ {
+  "en": "drought",
+  "uz": "qurg'oqchilik"
+ },
+ {
+  "en": "flood",
+  "uz": "toshqin"
+ },
+ {
+  "en": "earthquake",
+  "uz": "zilzila"
+ },
+ {
+  "en": "disaster",
+  "uz": "ofat"
+ },
+ {
+  "en": "temperature",
+  "uz": "harorat"
+ },
+ {
+  "en": "forecast",
+  "uz": "prognoz"
+ },
+ {
+  "en": "carbon",
+  "uz": "uglerod"
+ },
+ {
+  "en": "gas",
+  "uz": "gaz"
+ },
+ {
+  "en": "solar",
+  "uz": "quyoshga oid"
+ },
+ {
+  "en": "wind",
+  "uz": "shamol"
+ },
+ {
+  "en": "fuel",
+  "uz": "yoqilg'i"
+ },
+ {
+  "en": "vehicle",
+  "uz": "transport vositasi"
+ },
+ {
+  "en": "scientific",
+  "uz": "ilmiy"
+ },
+ {
+  "en": "experiment",
+  "uz": "tajriba"
+ },
+ {
+  "en": "discover",
+  "uz": "kashf qilmoq"
+ },
+ {
+  "en": "researcher",
+  "uz": "tadqiqotchi"
+ },
+ {
+  "en": "laboratory",
+  "uz": "laboratoriya"
+ },
+ {
+  "en": "destination",
+  "uz": "manzil"
+ },
+ {
+  "en": "journey",
+  "uz": "safar"
+ },
+ {
+  "en": "accommodation",
+  "uz": "turar joy"
+ },
+ {
+  "en": "reservation",
+  "uz": "bron"
+ },
+ {
+  "en": "departure",
+  "uz": "jo'nab ketish"
+ },
+ {
+  "en": "arrival",
+  "uz": "yetib kelish"
+ },
+ {
+  "en": "luggage",
+  "uz": "bagaj"
+ },
+ {
+  "en": "passport",
+  "uz": "pasport"
+ },
+ {
+  "en": "visa",
+  "uz": "viza"
+ },
+ {
+  "en": "tourist",
+  "uz": "sayyoh"
+ },
+ {
+  "en": "attraction",
+  "uz": "diqqatga sazovor joy"
+ },
+ {
+  "en": "sightseeing",
+  "uz": "diqqatga sazovor joylarni tomosha qilish"
+ },
+ {
+  "en": "adventure",
+  "uz": "sarguzasht"
+ },
+ {
+  "en": "abroad",
+  "uz": "chet elda"
+ },
+ {
+  "en": "domestic",
+  "uz": "ichki, mamlakat ichidagi"
+ },
+ {
+  "en": "local",
+  "uz": "mahalliy"
+ },
+ {
+  "en": "route",
+  "uz": "yo'nalish"
+ },
+ {
+  "en": "transport",
+  "uz": "transport"
+ },
+ {
+  "en": "traffic",
+  "uz": "yo'l harakati"
+ },
+ {
+  "en": "neighbourhood",
+  "uz": "mahalla, hudud"
+ },
+ {
+  "en": "neighbour",
+  "uz": "qo'shni"
+ },
+ {
+  "en": "rent",
+  "uz": "ijara haqi"
+ },
+ {
+  "en": "property",
+  "uz": "mulk"
+ },
+ {
+  "en": "apartment",
+  "uz": "kvartira"
+ },
+ {
+  "en": "facility",
+  "uz": "inshoot, qulaylik"
+ },
+ {
+  "en": "chore",
+  "uz": "uy yumushi"
+ },
+ {
+  "en": "routine",
+  "uz": "kundalik tartib"
+ },
+ {
+  "en": "habit",
+  "uz": "odat"
+ },
+ {
+  "en": "available",
+  "uz": "mavjud"
+ },
+ {
+  "en": "necessary",
+  "uz": "zarur"
+ },
+ {
+  "en": "ordinary",
+  "uz": "oddiy, odatiy"
+ },
+ {
+  "en": "confident",
+  "uz": "o'ziga ishongan"
+ },
+ {
+  "en": "curious",
+  "uz": "qiziquvchan"
+ },
+ {
+  "en": "generous",
+  "uz": "saxiy"
+ },
+ {
+  "en": "honest",
+  "uz": "halol"
+ },
+ {
+  "en": "polite",
+  "uz": "odobli"
+ },
+ {
+  "en": "sensitive",
+  "uz": "ta'sirchan"
+ },
+ {
+  "en": "serious",
+  "uz": "jiddiy"
+ },
+ {
+  "en": "anxious",
+  "uz": "xavotirlangan"
+ },
+ {
+  "en": "embarrassed",
+  "uz": "uyalgan"
+ },
+ {
+  "en": "disappointed",
+  "uz": "hafsalasi pir bo'lgan"
+ },
+ {
+  "en": "satisfied",
+  "uz": "mamnun"
+ },
+ {
+  "en": "frustrated",
+  "uz": "hafsalasi pir bo'lgan"
+ },
+ {
+  "en": "motivated",
+  "uz": "rag'batlangan"
+ },
+ {
+  "en": "creative",
+  "uz": "ijodkor"
+ },
+ {
+  "en": "determined",
+  "uz": "qat'iyatli"
+ },
+ {
+  "en": "avoid",
+  "uz": "chetlab o'tmoq"
+ },
+ {
+  "en": "admit",
+  "uz": "tan olmoq"
+ },
+ {
+  "en": "afford",
+  "uz": "qurbi yetmoq"
+ },
+ {
+  "en": "allow",
+  "uz": "ruxsat bermoq"
+ },
+ {
+  "en": "appear",
+  "uz": "ko'rinmoq"
+ },
+ {
+  "en": "belong",
+  "uz": "tegishli bo'lmoq"
+ },
+ {
+  "en": "consider",
+  "uz": "ko'rib chiqmoq"
+ },
+ {
+  "en": "consist",
+  "uz": "tashkil topmoq"
+ },
+ {
+  "en": "contain",
+  "uz": "o'z ichiga olmoq"
+ },
+ {
+  "en": "depend",
+  "uz": "bog'liq bo'lmoq"
+ },
+ {
+  "en": "deserve",
+  "uz": "loyiq bo'lmoq"
+ },
+ {
+  "en": "enable",
+  "uz": "imkon bermoq"
+ },
+ {
+  "en": "exist",
+  "uz": "mavjud bo'lmoq"
+ },
+ {
+  "en": "expect",
+  "uz": "kutmoq"
+ },
+ {
+  "en": "fail",
+  "uz": "muvaffaqiyatsizlikka uchramoq"
+ },
+ {
+  "en": "focus",
+  "uz": "diqqatni qaratmoq"
+ },
+ {
+  "en": "handle",
+  "uz": "uddalamoq, boshqarmoq"
+ },
+ {
+  "en": "involve",
+  "uz": "jalb qilmoq"
+ },
+ {
+  "en": "lack",
+  "uz": "yetishmaslik"
+ },
+ {
+  "en": "lead",
+  "uz": "olib kelmoq, boshqarmoq"
+ },
+ {
+  "en": "limit",
+  "uz": "cheklamoq"
+ },
+ {
+  "en": "obtain",
+  "uz": "qo'lga kiritmoq"
+ },
+ {
+  "en": "provide",
+  "uz": "ta'minlamoq"
+ },
+ {
+  "en": "receive",
+  "uz": "qabul qilmoq"
+ },
+ {
+  "en": "remain",
+  "uz": "qolmoq"
+ },
+ {
+  "en": "solve",
+  "uz": "hal qilmoq"
+ },
+ {
+  "en": "treat",
+  "uz": "davolamoq, muomala qilmoq"
+ },
+ {
+  "en": "vary",
+  "uz": "farq qilmoq"
+ },
+ {
+  "en": "however",
+  "uz": "biroq"
+ },
+ {
+  "en": "therefore",
+  "uz": "shuning uchun"
+ },
+ {
+  "en": "although",
+  "uz": "garchi"
+ },
+ {
+  "en": "whereas",
+  "uz": "holbuki"
+ },
+ {
+  "en": "despite",
+  "uz": "qaramay"
+ },
+ {
+  "en": "moreover",
+  "uz": "bundan tashqari"
+ },
+ {
+  "en": "nevertheless",
+  "uz": "shunga qaramay"
+ },
+ {
+  "en": "otherwise",
+  "uz": "aks holda"
+ },
+ {
+  "en": "eventually",
+  "uz": "oxir-oqibat"
+ },
+ {
+  "en": "particularly",
+  "uz": "ayniqsa"
+ },
+ {
+  "en": "approximately",
+  "uz": "taxminan"
+ },
+ {
+  "en": "generally",
+  "uz": "umuman olganda"
+ },
+ {
+  "en": "gradually",
+  "uz": "asta-sekin"
+ },
+ {
+  "en": "mainly",
+  "uz": "asosan"
+ },
+ {
+  "en": "significantly",
+  "uz": "sezilarli darajada"
+ },
+ {
+  "en": "frequently",
+  "uz": "tez-tez"
+ },
+ {
+  "en": "rarely",
+  "uz": "kamdan-kam"
+ },
+ {
+  "en": "nearly",
+  "uz": "deyarli"
+ },
+ {
+  "en": "especially",
+  "uz": "ayniqsa"
+ },
+ {
+  "en": "similarly",
+  "uz": "xuddi shunday tarzda"
+ },
+ {
+  "en": "consequence",
+  "uz": "oqibat"
+ },
+ {
+  "en": "effect",
+  "uz": "ta'sir"
+ },
+ {
+  "en": "cause",
+  "uz": "sabab"
+ },
+ {
+  "en": "reason",
+  "uz": "sabab"
+ },
+ {
+  "en": "decision",
+  "uz": "qaror"
+ },
+ {
+  "en": "choice",
+  "uz": "tanlov"
+ },
+ {
+  "en": "option",
+  "uz": "variant"
+ },
+ {
+  "en": "possibility",
+  "uz": "imkoniyat"
+ },
+ {
+  "en": "priority",
+  "uz": "ustuvor vazifa"
+ },
+ {
+  "en": "requirement",
+  "uz": "talab"
+ },
+ {
+  "en": "condition",
+  "uz": "shart"
+ },
+ {
+  "en": "situation",
+  "uz": "vaziyat"
+ },
+ {
+  "en": "progress",
+  "uz": "taraqqiyot"
+ },
+ {
+  "en": "success",
+  "uz": "muvaffaqiyat"
+ },
+ {
+  "en": "failure",
+  "uz": "muvaffaqiyatsizlik"
+ },
+ {
+  "en": "quality",
+  "uz": "sifat"
+ },
+ {
+  "en": "quantity",
+  "uz": "miqdor"
+ },
+ {
+  "en": "value",
+  "uz": "qiymat"
+ },
+ {
+  "en": "level",
+  "uz": "daraja"
+ },
+ {
+  "en": "increase",
+  "uz": "oshish, oshirmoq"
+ },
+ {
+  "en": "decrease",
+  "uz": "kamayish, kamaytirmoq"
+ },
+ {
+  "en": "change",
+  "uz": "o'zgarish"
+ },
+ {
+  "en": "growth",
+  "uz": "o'sish"
+ },
+ {
+  "en": "accessibility",
+  "uz": "foydalanish imkoniyati"
+ },
+ {
+  "en": "awareness",
+  "uz": "xabardorlik"
+ },
+ {
+  "en": "achievement",
+  "uz": "yutuq"
+ },
+ {
+  "en": "announcement",
+  "uz": "e'lon"
+ },
+ {
+  "en": "approval",
+  "uz": "ma'qullash"
+ },
+ {
+  "en": "background",
+  "uz": "kelib chiqish, ma'lumot"
+ },
+ {
+  "en": "capacity",
+  "uz": "salohiyat, sig'im"
+ },
+ {
+  "en": "competition",
+  "uz": "raqobat"
+ },
+ {
+  "en": "complaint",
+  "uz": "shikoyat"
+ },
+ {
+  "en": "complex",
+  "uz": "murakkab"
+ },
+ {
+  "en": "conclusion",
+  "uz": "xulosa"
+ }
+]
