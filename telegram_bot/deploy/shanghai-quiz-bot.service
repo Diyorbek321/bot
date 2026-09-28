@@ -1,0 +1,27 @@
+[Unit]
+Description=Shanghai School English Quiz Telegram bot
+Wants=network-online.target
+After=network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=quizbot
+Group=quizbot
+WorkingDirectory=/opt/shanghai-quiz-bot
+ExecStart=/opt/shanghai-quiz-bot/.venv/bin/python bot.py
+Environment=PYTHONUNBUFFERED=1
+
+# Xato bilan to'xtasa yoki tarmoq uzilsa — qayta ishga tushadi
+Restart=always
+RestartSec=5
+
+# Xavfsizlik: bot faqat o'z papkasiga (quiz.db) yoza oladi
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/shanghai-quiz-bot
+
+[Install]
+WantedBy=multi-user.target

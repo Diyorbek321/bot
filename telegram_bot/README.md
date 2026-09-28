@@ -40,6 +40,41 @@ va Telegram'dagi bot tavsifida avtomatik ishlatiladi.
 
 Natijalar `quiz.db` (SQLite) faylida saqlanadi — alohida baza o'rnatish shart emas.
 
+## 🖥 Serverga o'rnatish (systemd)
+
+Linux server (Ubuntu/Debian), Python 3.10+ va `python3-venv` kerak.
+
+```bash
+# 1. Kodni serverga yuklang
+scp -r telegram_bot user@SERVER:~/
+
+# 2. Serverda o'rnating
+ssh user@SERVER
+sudo bash ~/telegram_bot/deploy/install.sh
+
+# 3. Tokenni yozing va botni ishga tushiring
+sudo nano /opt/shanghai-quiz-bot/.env        # TOKEN=...
+sudo systemctl restart shanghai-quiz-bot
+```
+
+Skript `quizbot` tizim foydalanuvchisini yaratadi, kodni `/opt/shanghai-quiz-bot` ga
+nusxalaydi, venv o'rnatadi va servisni yoqadi. Bot server qayta yoqilganda va xato bilan
+to'xtaganda avtomatik qayta ishga tushadi.
+
+**Yangilash:** yangi kodni yuklab, `sudo bash deploy/install.sh` ni qayta ishga tushiring —
+`.env` va `quiz.db` saqlanib qoladi.
+
+| Vazifa | Buyruq |
+|--------|--------|
+| Holati | `systemctl status shanghai-quiz-bot` |
+| Loglar (jonli) | `journalctl -u shanghai-quiz-bot -f` |
+| Qayta ishga tushirish | `sudo systemctl restart shanghai-quiz-bot` |
+| To'xtatish | `sudo systemctl stop shanghai-quiz-bot` |
+| Bazaning zaxira nusxasi | `sudo cp /opt/shanghai-quiz-bot/quiz.db ~/quiz-$(date +%F).db` |
+
+> ⚠️ Bitta token bilan faqat bitta nusxa ishlashi mumkin — serverda ishga tushirgach,
+> kompyuteringizdagi botni to'xtating, aks holda `Conflict` xatosi chiqadi.
+
 ## ⌨️ Buyruqlar
 
 | Buyruq  | Vazifasi        |
@@ -77,5 +112,6 @@ telegram_bot/
 ├── database.py       # SQLite: foydalanuvchilar, natijalar, xatolar
 ├── config.py         # Sozlamalar
 ├── extract_words.py  # PDF → words.json
+├── deploy/           # systemd servis + o'rnatish skripti
 └── words.json        # 500 ta so'z
 ```
