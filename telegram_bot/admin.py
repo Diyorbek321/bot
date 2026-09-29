@@ -73,6 +73,7 @@ def panel_text() -> str:
         f"🎓 Test ishlagan o'quvchilar: <b>{stats['students']}</b>\n"
         f"🔥 So'nggi 7 kunda faol: <b>{stats['active_week']}</b>\n"
         f"📝 Jami ishlangan testlar: <b>{stats['tests']}</b>\n"
+        f"🏫 Guruhlar: <b>{stats['groups']}</b>\n"
         f"{DIVIDER}"
     )
 
@@ -173,6 +174,7 @@ def students_csv() -> bytes:
 def panel_keyboard() -> InlineKeyboardMarkup:
     kb = InlineKeyboardBuilder()
     kb.row(InlineKeyboardButton(text="👥 O'quvchilar reytingi", callback_data="adm:s:0"))
+    kb.row(InlineKeyboardButton(text="🏫 Guruhlar reytingi", callback_data="grp:l:acc:0"))
     kb.row(InlineKeyboardButton(text="📝 Testlar bo'yicha natijalar", callback_data="adm:t"))
     kb.row(InlineKeyboardButton(text="📥 Excel (CSV) yuklab olish", callback_data="adm:csv"))
     kb.row(InlineKeyboardButton(text="🔄 Yangilash", callback_data="adm:home"))

@@ -89,7 +89,7 @@ to'xtaganda avtomatik qayta ishga tushadi.
 | `/myid`  | O'z Telegram ID'ingizni bilish |
 | `/test`  | 10 ta test (`/test 3` — 3-testni ochadi): test, kartochkalar, PDF |
 | `/stop`  | Quizni to'xtatish (boshlagan odam yoki admin) |
-| `/top`   | Reyting        |
+| `/top`   | Reyting (guruhda — shu guruh reytingi va guruhning o'rni) |
 | `/me`    | Profilim       |
 | `/help`  | Yordam         |
 
@@ -110,6 +110,18 @@ Keyin bot bilan shaxsiy chatda `/admin`:
 - 📥 Excel (CSV) — barcha o'quvchilar va Test 1–10 natijalari bitta jadvalda
 
 Admin panel guruhda ochilmaydi — o'quvchilar ma'lumoti faqat adminga ko'rinadi.
+
+### 🏫 Guruhlar reytingi
+
+Bot qo'shilgan har bir guruh nomi bilan ro'yxatga olinadi. Guruh natijasi — faqat **shu guruhda**
+ishlangan testlar (shaxsiy chatdagi natijalar guruhga qo'shilmaydi).
+
+- `/admin` → **🏫 Guruhlar reytingi** — barcha guruhlar: 🎯 aniqlik, ⭐ ball, 👥 o'quvchilar, 🎮 o'yinlar,
+  🕒 oxirgi faollik. Saralash: **aniqlik** bo'yicha (standart — guruhlar kattaligi har xil bo'lgani uchun
+  adolatli) yoki **ball** bo'yicha
+- guruhni bossangiz — guruh ichidagi o'quvchilar reytingi va Test 1–10 bo'yicha o'rtacha natija
+- 📥 guruhlar reytingi CSV'da
+- guruhning o'zida `/top` — shu guruh o'quvchilari va "📍 Guruhlar orasida: 3-o'rin / 12"
 
 ## 👥 Guruhda ishlatish
 
@@ -192,6 +204,7 @@ telegram_bot/
 ├── poll_handlers.py  # Quiz, jamoa tanlash va javob handlerlari
 ├── vocab.py          # 10 ta test: so'z kartochkalari va test savollari
 ├── admin.py          # /admin: o'quvchilar reytingi, test natijalari, CSV
+├── groups.py         # Guruhlar reytingi (admin) va guruhdagi /top
 ├── day_handlers.py   # /test: testlar ro'yxati, kartochkalar, PDF, 50 savollik test
 ├── build_pdfs.py     # vocab.json → pdf/dayNN.pdf
 ├── branding.py       # Umumiy matn bezaklari

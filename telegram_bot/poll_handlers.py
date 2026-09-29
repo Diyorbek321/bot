@@ -287,6 +287,8 @@ async def finish_game(bot: Bot, game: PollGame, asked: int, open_poll: int | Non
             mode=game.mode,
             chat_id=game.chat_id,
         )
+    if game.is_group and any(player.answered for player in game.players.values()):
+        db.add_group_game(game.chat_id)
 
     if open_poll is not None:
         try:
@@ -362,13 +364,20 @@ def schedule_lobby_refresh(bot: Bot, game: PollGame) -> None:
 
 # ─────────────────────────── Guruh ───────────────────────────
 
+def remember_group(chat: Chat) -> None:
+    """Guruhni reyting uchun ro'yxatga oladi (nomi o'zgargan bo'lsa yangilaydi)."""
+    db.upsert_group(chat.id, chat.title or f"Guruh {chat.id}")
+
+
 @router.my_chat_member(ChatMemberUpdatedFilter(JOIN_TRANSITION), F.chat.type.in_(GROUP_CHATS))
 async def on_added_to_group(event: ChatMemberUpdated) -> None:
+    remember_group(event.chat)
     await event.bot.send_message(event.chat.id, GROUP_WELCOME, reply_markup=kb.group_menu())
 
 
 @router.message(CommandStart(), F.chat.type.in_(GROUP_CHATS))
 async def cmd_start_group(message: Message) -> None:
+    remember_group(message.chat)
     await message.answer(GROUP_WELCOME, reply_markup=kb.group_menu())
 
 
@@ -456,6 +465,7 @@ async def launch(query: CallbackQuery, mode: str, questions: list[Question]) -> 
     games[chat.id] = game
 
     if game.is_group:
+        remember_group(chat)
         game.lobby_message = query.message.message_id
         await render_lobby(query.bot, game)
         await query.answer("👥 Jamoalarni tanlang")

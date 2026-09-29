@@ -15,6 +15,7 @@ from aiogram.types import BotCommand, CallbackQuery, InlineKeyboardMarkup, Messa
 import admin
 import database as db
 import day_handlers
+import groups
 import keyboards as kb
 import poll_handlers
 from branding import BRAND_FOOTER, BRAND_HEADER, DIVIDER, MEDALS, short_name
@@ -25,6 +26,7 @@ dp = Dispatcher()
 dp.include_router(poll_handlers.router)
 dp.include_router(day_handlers.router)
 dp.include_router(admin.router)
+dp.include_router(groups.router)
 PRIVATE = F.chat.type == ChatType.PRIVATE
 
 
@@ -169,6 +171,11 @@ async def cmd_start(message: Message) -> None:
 @dp.message(Command("top"))
 async def cmd_top(message: Message) -> None:
     register(message.from_user)
+    if message.chat.type in poll_handlers.GROUP_CHATS:
+        # Guruhda — shu guruh o'quvchilari va guruhning boshqa guruhlar orasidagi o'rni
+        poll_handlers.remember_group(message.chat)
+        await message.answer(groups.group_top_text(message.chat.id, message.chat.title or "", message.from_user.id))
+        return
     await message.answer(leaderboard_text(message.from_user, "all"), reply_markup=kb.leaderboard("all"))
 
 

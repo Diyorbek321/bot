@@ -39,7 +39,7 @@ def test_stats_and_student_list_sorted_by_score():
     add_student(2, "Vali", [(1500, 45, 50, "day1"), (300, 5, 10, "sent")])
     db.upsert_user(3, "Mehmon", None)  # test ishlamagan — ro'yxatda chiqmaydi
     stats = db.admin_stats()
-    assert stats == {"users": 3, "students": 2, "active_week": 2, "tests": 3}
+    assert stats == {"users": 3, "students": 2, "active_week": 2, "tests": 3, "groups": 0}
     students = db.list_students(limit=10, offset=0)
     assert [s["full_name"] for s in students] == ["Vali", "Ali"]
     assert students[0]["total_score"] == 1800 and students[0]["quizzes"] == 2
