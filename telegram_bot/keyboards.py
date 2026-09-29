@@ -1,7 +1,7 @@
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
-from config import QUESTION_COUNTS, TEAMS
+from config import DAY_COUNT, DAY_SIZE, QUESTION_COUNTS, TEAMS
 from quiz import MODE_EN_UZ, MODE_MIXED, MODE_SENTENCE, MODE_TITLES, MODE_UZ_EN
 
 # Test yo'nalishlari tartibi
@@ -17,6 +17,7 @@ def add_to_group_button(bot_username: str) -> InlineKeyboardButton:
 def main_menu(bot_username: str) -> InlineKeyboardMarkup:
     kb = InlineKeyboardBuilder()
     kb.row(InlineKeyboardButton(text="🎯 Testni boshlash", callback_data="pq:menu"))
+    kb.row(InlineKeyboardButton(text=f"📚 Lug'at va kunlik testlar ({DAY_COUNT} kun)", callback_data="day:list"))
     kb.row(
         InlineKeyboardButton(text="🏆 Reyting", callback_data="top:all"),
         InlineKeyboardButton(text="👤 Profilim", callback_data="menu:me"),
@@ -32,6 +33,7 @@ def main_menu(bot_username: str) -> InlineKeyboardMarkup:
 def group_menu() -> InlineKeyboardMarkup:
     kb = InlineKeyboardBuilder()
     kb.row(InlineKeyboardButton(text="⏱ Quizni boshlash", callback_data="pq:menu"))
+    kb.row(InlineKeyboardButton(text="📚 Kunlik testlar (Day 1–10)", callback_data="day:list"))
     kb.row(InlineKeyboardButton(text="🏆 Reyting", callback_data="top:all"))
     return kb.as_markup()
 
@@ -40,6 +42,7 @@ def poll_modes(is_group: bool) -> InlineKeyboardMarkup:
     kb = InlineKeyboardBuilder()
     for mode in QUIZ_MODES:
         kb.row(InlineKeyboardButton(text=MODE_TITLES[mode], callback_data=f"pq:m:{mode}"))
+    kb.row(InlineKeyboardButton(text=f"📅 Kunlik testlar (Day 1–{DAY_COUNT})", callback_data="day:list"))
     if not is_group:
         kb.row(InlineKeyboardButton(text="⬅️ Orqaga", callback_data="menu:home"))
     return kb.as_markup()
@@ -54,6 +57,42 @@ def poll_counts(mode: str) -> InlineKeyboardMarkup:
         ]
     )
     kb.row(InlineKeyboardButton(text="⬅️ Orqaga", callback_data="pq:menu"))
+    return kb.as_markup()
+
+
+def day_list(is_group: bool) -> InlineKeyboardMarkup:
+    kb = InlineKeyboardBuilder()
+    for day in range(1, DAY_COUNT + 1):
+        kb.button(text=f"📅 Day {day}", callback_data=f"day:open:{day}")
+    kb.adjust(2)
+    if not is_group:
+        kb.row(InlineKeyboardButton(text="🏠 Bosh menyu", callback_data="menu:home"))
+    return kb.as_markup()
+
+
+def day_menu(day: int) -> InlineKeyboardMarkup:
+    kb = InlineKeyboardBuilder()
+    kb.row(InlineKeyboardButton(text="📖 So'zlar (kartochkalar)", callback_data=f"day:w:{day}:0"))
+    kb.row(InlineKeyboardButton(text="📄 PDF yuklab olish", callback_data=f"day:pdf:{day}"))
+    kb.row(InlineKeyboardButton(text=f"🎯 Testni boshlash ({DAY_SIZE} savol)", callback_data=f"day:t:{day}"))
+    kb.row(InlineKeyboardButton(text="⬅️ Kunlar", callback_data="day:list"))
+    return kb.as_markup()
+
+
+def day_cards(day: int, page: int, pages: int) -> InlineKeyboardMarkup:
+    kb = InlineKeyboardBuilder()
+    nav = []
+    if page > 0:
+        nav.append(InlineKeyboardButton(text="◀️", callback_data=f"day:w:{day}:{page - 1}"))
+    nav.append(InlineKeyboardButton(text=f"{page + 1} / {pages}", callback_data=f"day:open:{day}"))
+    if page < pages - 1:
+        nav.append(InlineKeyboardButton(text="▶️", callback_data=f"day:w:{day}:{page + 1}"))
+    kb.row(*nav)
+    kb.row(
+        InlineKeyboardButton(text="📄 PDF", callback_data=f"day:pdf:{day}"),
+        InlineKeyboardButton(text="🎯 Test", callback_data=f"day:t:{day}"),
+    )
+    kb.row(InlineKeyboardButton(text=f"⬅️ Day {day}", callback_data=f"day:open:{day}"))
     return kb.as_markup()
 
 

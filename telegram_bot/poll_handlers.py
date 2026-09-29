@@ -25,7 +25,7 @@ from config import (
     TEAMS,
 )
 from poll_game import PollGame, poll_explanation, poll_question
-from quiz import MODE_MISTAKES, MODE_TITLES, build_questions, level_for, pick_words
+from quiz import MODE_MISTAKES, MODE_TITLES, Question, build_questions, level_for, mode_title, pick_words
 
 router = Router()
 GROUP_CHATS = {ChatType.GROUP, ChatType.SUPERGROUP}
@@ -54,7 +54,8 @@ GROUP_WELCOME = (
     f"⚡ Tez javob — ko'p ball ({POINTS_MAX} → {POINTS_MIN})\n"
     "🏆 Oxirida g'olib jamoa va eng yaxshi o'yinchilar e'lon qilinadi\n"
     f"{DIVIDER}\n\n"
-    "Boshlash: /quiz · To'xtatish: /stop\n\n"
+    "📚 Kunlik lug'at: 10 kun × 50 so'z — PDF, kartochkalar va 50 savollik test\n\n"
+    "Boshlash: /quiz · Lug'at: /lugat · To'xtatish: /stop\n\n"
     f"{BRAND_FOOTER}"
 )
 
@@ -77,7 +78,7 @@ def lobby_text(game: PollGame) -> str:
         BRAND_HEADER,
         "",
         "👥 <b>Jamoaviy quiz</b>",
-        f"<i>{MODE_TITLES[game.mode]} · {game.total} ta savol</i>",
+        f"<i>{mode_title(game.mode)} · {game.total} ta savol</i>",
         rules_line(game),
         "",
         DIVIDER,
@@ -103,7 +104,7 @@ def intro_text(game: PollGame) -> str:
         f"{BRAND_HEADER}\n\n"
         f"🚀 <b>{kind} boshlanmoqda!</b>\n\n"
         f"{DIVIDER}\n"
-        f"📝 {MODE_TITLES[game.mode]}\n"
+        f"📝 {mode_title(game.mode)}\n"
         f"📊 Savollar: <b>{game.total}</b>\n"
         f"{rules_line(game)}\n"
         f"{DIVIDER}\n\n"
@@ -151,7 +152,7 @@ def results_text(game: PollGame, asked: int) -> str:
         BRAND_HEADER,
         "",
         "🏁 <b>Quiz yakunlandi!</b>",
-        f"<i>{MODE_TITLES[game.mode]} · {asked} ta savol</i>",
+        f"<i>{mode_title(game.mode)} · {asked} ta savol</i>",
         "",
         DIVIDER,
     ]
@@ -412,7 +413,7 @@ async def on_poll_count(query: CallbackQuery) -> None:
     if count not in QUESTION_COUNTS:
         await query.answer()
         return
-    await launch(query, mode, pick_words(count))
+    await launch(query, mode, build_questions(mode, pick_words(count)))
 
 
 @router.callback_query(F.data == "pq:mistakes")
@@ -425,10 +426,10 @@ async def on_poll_mistakes(query: CallbackQuery) -> None:
         await query.answer("🎉 Sizda hozircha xato qilingan so'zlar yo'q!", show_alert=True)
         return
     word_ids = random.sample(mistakes, k=min(MISTAKES_QUIZ_SIZE, len(mistakes)))
-    await launch(query, MODE_MISTAKES, word_ids)
+    await launch(query, MODE_MISTAKES, build_questions(MODE_MISTAKES, word_ids))
 
 
-async def launch(query: CallbackQuery, mode: str, word_ids: list[int]) -> None:
+async def launch(query: CallbackQuery, mode: str, questions: list[Question]) -> None:
     """Shaxsiy chatda quizni darhol boshlaydi, guruhda jamoa tanlashni ochadi."""
     chat = query.message.chat
     if chat.id in games:
@@ -441,7 +442,7 @@ async def launch(query: CallbackQuery, mode: str, word_ids: list[int]) -> None:
         chat_id=chat.id,
         is_group=chat.type in GROUP_CHATS,
         mode=mode,
-        questions=build_questions(mode, word_ids),
+        questions=questions,
         started_by=user.id,
     )
     games[chat.id] = game

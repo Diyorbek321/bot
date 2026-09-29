@@ -10,11 +10,20 @@ TOKEN = getenv("TOKEN")
 DB_PATH = getenv("DB_PATH", str(BASE_DIR / "quiz.db"))
 WORDS_PATH = BASE_DIR / "words.json"
 SENTENCES_PATH = BASE_DIR / "sentences.json"
+# So'zlar kartochkasi: definition, sinonim, antonim, misol, assotsiatsiya
+VOCAB_PATH = BASE_DIR / "vocab.json"
+PDF_DIR = BASE_DIR / "pdf"
 
 # Bir testdagi savollar soni uchun variantlar (eng kamida 50 ta)
 QUESTION_COUNTS = (50, 75, 100)
 # "Xatolarim" rejimida bir martada beriladigan savollar soni
 MISTAKES_QUIZ_SIZE = 50
+
+# Kunlik lug'at: DAY_COUNT kun × DAY_SIZE so'z, har kunga bitta test
+DAY_SIZE = 50
+DAY_COUNT = 10
+# "So'zlar" bo'limida bir sahifadagi kartochkalar soni
+CARDS_PER_PAGE = 5
 
 # Har bir savolga beriladigan vaqt, soniyada — tugasa keyingi savolga o'tiladi
 QUESTION_TIME = 20

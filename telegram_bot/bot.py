@@ -13,14 +13,16 @@ from aiogram.filters import Command, CommandStart
 from aiogram.types import BotCommand, CallbackQuery, InlineKeyboardMarkup, Message, User
 
 import database as db
+import day_handlers
 import keyboards as kb
 import poll_handlers
 from branding import BRAND_FOOTER, BRAND_HEADER, DIVIDER, MEDALS, short_name
-from config import BRAND_NAME, LEADERBOARD_SIZE, POINTS_MAX, POINTS_MIN, QUESTION_TIME, TOKEN
+from config import BRAND_NAME, DAY_COUNT, DAY_SIZE, LEADERBOARD_SIZE, POINTS_MAX, POINTS_MIN, QUESTION_TIME, TOKEN
 from quiz import WORDS
 
 dp = Dispatcher()
 dp.include_router(poll_handlers.router)
+dp.include_router(day_handlers.router)
 PRIVATE = F.chat.type == ChatType.PRIVATE
 
 
@@ -46,6 +48,7 @@ def welcome_text(user: User) -> str:
         f"📚 <b>{BRAND_NAME}</b> o'quv markazining quiz botiga xush kelibsiz — B2 darajadagi "
         f"<b>{len(WORDS)} ta</b> inglizcha so'zni o'yin orqali o'rganing!\n\n"
         f"{DIVIDER}\n"
+        f"📚 {DAY_COUNT} kunlik lug'at: har kuni {DAY_SIZE} so'z — kartochka, PDF va test\n"
         f"⏱ Har bir savolga {QUESTION_TIME} soniya — tez javob bering, ko'p ball oling\n"
         f"👥 Guruhda jamoa bo'lib bellashing\n"
         f"🏆 Reytingda boshqa o'quvchilar bilan bellashing\n"
@@ -69,6 +72,9 @@ HELP_TEXT = (
     f"• Darhol to'g'ri javob — <b>{POINTS_MAX} ball</b>\n"
     f"• Oxirgi soniyada to'g'ri javob — <b>{POINTS_MIN} ball</b>\n"
     "• Xato javob yoki vaqt tugasa — 0 ball\n\n"
+    f"📚 <b>Lug'at va kunlik testlar</b> — {DAY_COUNT} kun, har kunda {DAY_SIZE} so'z. Har bir so'z: "
+    "definition, tarjima, sinonim, antonim, kulgili misol va 💡 assotsiatsiya. Kunning PDF jadvalini "
+    f"yuklab oling va {DAY_SIZE} savollik testni ishlang.\n\n"
     "🧠 <b>Xatolarim</b> bo'limida xato qilgan so'zlaringiz saqlanadi. "
     "To'g'ri topsangiz, ro'yxatdan o'chadi.\n"
     f"{DIVIDER}\n"
@@ -78,6 +84,7 @@ HELP_TEXT = (
     "⌨️ <b>Buyruqlar</b>\n"
     "/start — bosh menyu\n"
     "/quiz — yangi test\n"
+    "/lugat — kunlik lug'at va testlar\n"
     "/stop — quizni to'xtatish\n"
     "/top — reyting\n"
     "/me — profilim\n"
@@ -220,6 +227,7 @@ async def main() -> None:
         [
             BotCommand(command="start", description="🏠 Bosh menyu"),
             BotCommand(command="quiz", description="🎯 Yangi test"),
+            BotCommand(command="lugat", description="📚 Kunlik lug'at va testlar"),
             BotCommand(command="stop", description="⛔ Quizni to'xtatish"),
             BotCommand(command="top", description="🏆 Reyting"),
             BotCommand(command="me", description="👤 Profilim"),

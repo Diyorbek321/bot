@@ -1,0 +1,4502 @@
+[
+ {
+  "en": "achieve",
+  "uz": "erishmoq",
+  "definition": "To succeed in reaching a goal.",
+  "synonym": "Reach",
+  "antonym": "Fail",
+  "example": "I finally **achieved** my dream: I woke up before my alarm. Once.",
+  "association": "\"A-chiv\" — jo'ja \"chiv-chiv\" deb tinmay urinib, oxiri donga ERISHDI."
+ },
+ {
+  "en": "acquire",
+  "uz": "egallamoq, o'zlashtirmoq",
+  "definition": "To get or gain something.",
+  "synonym": "Obtain",
+  "antonym": "Lose",
+  "example": "My cat **acquired** a new hobby: knocking cups off the table.",
+  "association": "\"Akvarium\" — akvarium sotib olib, yangi baliqlarni EGALLADIM."
+ },
+ {
+  "en": "adapt",
+  "uz": "moslashmoq",
+  "definition": "To change to fit a new situation.",
+  "synonym": "Adjust",
+  "antonym": "Resist",
+  "example": "My stomach **adapted** to my mom's spicy soup after 12 years.",
+  "association": "\"Adapter\" — adapter vilkani har qanday rozetkaga MOSLASHTIRADI."
+ },
+ {
+  "en": "adequate",
+  "uz": "yetarli, mos",
+  "definition": "Good enough for a purpose.",
+  "synonym": "Sufficient",
+  "antonym": "Insufficient",
+  "example": "Two hours of sleep is not **adequate**, says my face.",
+  "association": "\"Adiq-kat\" — \"adiqqat\" qilsang, bitta daftar YETARLI."
+ },
+ {
+  "en": "alternative",
+  "uz": "muqobil",
+  "definition": "Another possible choice.",
+  "synonym": "Option",
+  "antonym": "Necessity",
+  "example": "The **alternative** to doing homework is explaining to the teacher why you didn't.",
+  "association": "\"Alter-nativ\" — \"alternativa\" = boshqa yo'l, MUQOBIL variant."
+ },
+ {
+  "en": "analyse",
+  "uz": "tahlil qilmoq",
+  "definition": "To study something in detail.",
+  "synonym": "Examine",
+  "antonym": "Ignore",
+  "example": "I **analysed** the fridge for ten minutes and still found nothing to eat.",
+  "association": "\"Analiz\" — shifokor qonni TAHLIL QILADI (analiz)."
+ },
+ {
+  "en": "approach",
+  "uz": "yondashuv; yaqinlashmoq",
+  "definition": "A way of dealing with something; to come near.",
+  "synonym": "Method",
+  "antonym": "Retreat",
+  "example": "My **approach** to exams: panic first, study later.",
+  "association": "\"A-prouch\" — \"a, pora-pora\" qilib yaqinlashib kelyapti — YONDASHUV."
+ },
+ {
+  "en": "assess",
+  "uz": "baholamoq",
+  "definition": "To judge the quality or value of something.",
+  "synonym": "Evaluate",
+  "antonym": "Overlook",
+  "example": "The teacher **assessed** my essay and gave it a sad face.",
+  "association": "\"A-ses\" — \"ha, ses (ovoz)ing zo'r\" deb hakam BAHOLADI."
+ },
+ {
+  "en": "assume",
+  "uz": "faraz qilmoq",
+  "definition": "To think something is true without proof.",
+  "synonym": "Suppose",
+  "antonym": "Know",
+  "example": "I **assumed** the cake was for me. It was not.",
+  "association": "\"A-syum\" — \"a, sumkangda pul bor\" deb FARAZ QILDIM."
+ },
+ {
+  "en": "aware",
+  "uz": "xabardor, voqif",
+  "definition": "Knowing about something.",
+  "synonym": "Informed",
+  "antonym": "Unaware",
+  "example": "Are you **aware** that you have spinach in your teeth?",
+  "association": "\"Avara\" — avara odam hamma mish-mishdan XABARDOR."
+ },
+ {
+  "en": "benefit",
+  "uz": "foyda; foyda bermoq",
+  "definition": "An advantage; to be helped by something.",
+  "synonym": "Advantage",
+  "antonym": "Harm",
+  "example": "One **benefit** of being short: you never hit your head on doors.",
+  "association": "\"Bene-fit\" — \"fitnes\"ning FOYDAsi katta."
+ },
+ {
+  "en": "challenge",
+  "uz": "qiyinchilik, muammo",
+  "definition": "A difficult task that tests you.",
+  "synonym": "Difficulty",
+  "antonym": "Ease",
+  "example": "The real **challenge** is opening a chips bag quietly at night.",
+  "association": "\"Chelenj\" — TikTok chellenji — haqiqiy QIYINCHILIK."
+ },
+ {
+  "en": "circumstance",
+  "uz": "sharoit, vaziyat",
+  "definition": "A condition or fact that affects a situation.",
+  "synonym": "Situation",
+  "antonym": "",
+  "example": "Under no **circumstances** should you wake a sleeping teenager.",
+  "association": "\"Sirk-stans\" — sirkdagi SHAROIT har kuni boshqacha."
+ },
+ {
+  "en": "claim",
+  "uz": "da'vo qilmoq; da'vo",
+  "definition": "To say something is true.",
+  "synonym": "Assert",
+  "antonym": "Deny",
+  "example": "My brother **claims** he can speak to pigeons.",
+  "association": "\"Kleym\" — \"kley\" bilan yopishtirib, \"bu meniki!\" deb DA'VO QILDI."
+ },
+ {
+  "en": "contribute",
+  "uz": "hissa qo'shmoq",
+  "definition": "To give something to help.",
+  "synonym": "Donate",
+  "antonym": "Withhold",
+  "example": "I **contributed** to the group project by bringing snacks.",
+  "association": "\"Kontri-byut\" — kontrakt pulidan HISSA QO'SHDIM."
+ },
+ {
+  "en": "crucial",
+  "uz": "juda muhim",
+  "definition": "Extremely important.",
+  "synonym": "Vital",
+  "antonym": "Trivial",
+  "example": "Coffee is **crucial** for my survival before 9 AM.",
+  "association": "\"Kruchi\" — mashina kalitini \"burash\" (krutit) JUDA MUHIM, bo'lmasa yurmaydi."
+ },
+ {
+  "en": "decline",
+  "uz": "pasaymoq; rad etmoq",
+  "definition": "To go down; to refuse politely.",
+  "synonym": "Decrease",
+  "antonym": "Increase",
+  "example": "My motivation **declines** every time I see a long text.",
+  "association": "\"Di-klayn\" — \"klin\" (pona) singari pastga qarab PASAYDI."
+ },
+ {
+  "en": "demonstrate",
+  "uz": "namoyish qilmoq",
+  "definition": "To show clearly how something works.",
+  "synonym": "Show",
+  "antonym": "Hide",
+  "example": "The chef **demonstrated** how to burn water.",
+  "association": "\"Demonstratsiya\" — ko'chada NAMOYISH QILMOQ."
+ },
+ {
+  "en": "distinguish",
+  "uz": "farqlamoq",
+  "definition": "To see the difference between things.",
+  "synonym": "Differentiate",
+  "antonym": "Confuse",
+  "example": "I can't **distinguish** between my twin cousins, so I call both \"hey you\".",
+  "association": "\"Dis-tin-gish\" — \"tinch\" va \"tintuv\"ni FARQLA!"
+ },
+ {
+  "en": "encounter",
+  "uz": "duch kelmoq",
+  "definition": "To meet unexpectedly.",
+  "synonym": "Meet",
+  "antonym": "Avoid",
+  "example": "I **encountered** a spider in the shower and we both screamed.",
+  "association": "\"En-kaunter\" — \"counter\" (peshtaxta) oldida sobiq sinfdoshga DUCH KELDIM."
+ },
+ {
+  "en": "expand",
+  "uz": "kengaytirmoq",
+  "definition": "To become or make larger.",
+  "synonym": "Enlarge",
+  "antonym": "Shrink",
+  "example": "My stomach **expands** magically when I see dessert.",
+  "association": "\"Eks-pand\" — \"panda\" ovqat yeb-yeb qornini KENGAYTIRDI."
+ },
+ {
+  "en": "emphasize",
+  "uz": "ta'kidlamoq",
+  "definition": "To give special importance to something.",
+  "synonym": "Stress",
+  "antonym": "Understate",
+  "example": "My mom **emphasized** \"CLEAN your room\" three times.",
+  "association": "\"Emfaz\" — \"am-faz\" — \"amma, faqat shu!\" deb TA'KIDLADI."
+ },
+ {
+  "en": "enhance",
+  "uz": "yaxshilamoq",
+  "definition": "To improve the quality of something.",
+  "synonym": "Improve",
+  "antonym": "Worsen",
+  "example": "This filter **enhances** my face so much my mom didn't recognize me.",
+  "association": "\"En-hens\" — \"hens\" (tovuq)ga ziravor sepsang, ta'mi YAXSHILANADI."
+ },
+ {
+  "en": "ensure",
+  "uz": "ta'minlamoq",
+  "definition": "To make certain that something happens.",
+  "synonym": "Guarantee",
+  "antonym": "Risk",
+  "example": "I set seven alarms to **ensure** I wake up. I still overslept.",
+  "association": "\"In-shur\" — \"insurance\" (sug'urta) xavfsizlikni TA'MINLAYDI."
+ },
+ {
+  "en": "estimate",
+  "uz": "taxmin qilmoq",
+  "definition": "To guess an amount or value.",
+  "synonym": "Guess",
+  "antonym": "Measure",
+  "example": "I **estimated** the homework would take 5 minutes. It took 5 hours.",
+  "association": "\"Esti-meyt\" — \"esda tut, mayda\" narsani ko'z bilan TAXMIN QIL."
+ },
+ {
+  "en": "evident",
+  "uz": "aniq, ravshan",
+  "definition": "Easy to see or understand.",
+  "synonym": "Obvious",
+  "antonym": "Unclear",
+  "example": "It was **evident** who ate the cookies: crumbs on his face.",
+  "association": "\"Evi-dent\" — \"video\"da hammasi ANIQ, RAVSHAN ko'rinib turibdi."
+ },
+ {
+  "en": "factor",
+  "uz": "omil",
+  "definition": "Something that influences a result.",
+  "synonym": "Element",
+  "antonym": "",
+  "example": "Pizza is a major **factor** in my life decisions.",
+  "association": "\"Faktor\" — \"fakt\" — har bir fakt natijaga ta'sir qiluvchi OMIL."
+ },
+ {
+  "en": "feature",
+  "uz": "xususiyat",
+  "definition": "An important part or quality of something.",
+  "synonym": "Characteristic",
+  "antonym": "",
+  "example": "The best **feature** of my phone is the \"silent\" button.",
+  "association": "\"Fi-cher\" — telefonning \"fishka\"si — uning XUSUSIYATI."
+ },
+ {
+  "en": "flexible",
+  "uz": "moslashuvchan",
+  "definition": "Able to bend or change easily.",
+  "synonym": "Adaptable",
+  "antonym": "Rigid",
+  "example": "My schedule is very **flexible**: I'm free all day to nap.",
+  "association": "\"Fleks\" — \"fleksibl\" gimnastikachi — tanasi MOSLASHUVCHAN."
+ },
+ {
+  "en": "furthermore",
+  "uz": "bundan tashqari",
+  "definition": "In addition to what was said.",
+  "synonym": "Moreover",
+  "antonym": "",
+  "example": "The movie was boring; **furthermore**, someone ate my popcorn.",
+  "association": "\"Far-dar-mor\" — \"faraz qil, yana-da ko'p\" — BUNDAN TASHQARI."
+ },
+ {
+  "en": "generate",
+  "uz": "yaratmoq",
+  "definition": "To produce or create something.",
+  "synonym": "Produce",
+  "antonym": "Destroy",
+  "example": "My little brother **generates** noise like a power station.",
+  "association": "\"Generator\" — generator tok YARATADI."
+ },
+ {
+  "en": "impact",
+  "uz": "ta'sir",
+  "definition": "A strong effect on something.",
+  "synonym": "Effect",
+  "antonym": "",
+  "example": "Mondays have a huge **impact** on my mood.",
+  "association": "\"Im-pakt\" — \"pak!\" deb urilgan to'p TA'SIRI kuchli."
+ },
+ {
+  "en": "imply",
+  "uz": "nazarda tutmoq",
+  "definition": "To suggest something without saying it directly.",
+  "synonym": "Suggest",
+  "antonym": "State",
+  "example": "When mom says \"Do whatever you want,\" she **implies** \"Don't you dare.\"",
+  "association": "\"Im-play\" — \"o'yin\" (play) ichida yashirin ma'no — NAZARDA TUTMOQ."
+ },
+ {
+  "en": "indicate",
+  "uz": "ko'rsatmoq",
+  "definition": "To show or point out.",
+  "synonym": "Show",
+  "antonym": "Conceal",
+  "example": "The empty fridge **indicates** that my brother is home.",
+  "association": "\"Indikator\" — indikator chirog'i holatni KO'RSATADI."
+ },
+ {
+  "en": "inevitable",
+  "uz": "muqarrar",
+  "definition": "Certain to happen.",
+  "synonym": "Unavoidable",
+  "antonym": "Avoidable",
+  "example": "Stepping on a LEGO at night is **inevitable**.",
+  "association": "\"In-evita-bl\" — \"ne vitaminsiz\" — kasallik MUQARRAR."
+ },
+ {
+  "en": "influence",
+  "uz": "ta'sir qilmoq",
+  "definition": "To have an effect on someone.",
+  "synonym": "Affect",
+  "antonym": "",
+  "example": "My grandma **influences** my diet: she feeds me every 15 minutes.",
+  "association": "\"Influenser\" — influenser obunachilariga TA'SIR QILADI."
+ },
+ {
+  "en": "maintain",
+  "uz": "saqlab qolmoq",
+  "definition": "To keep something in good condition.",
+  "synonym": "Preserve",
+  "antonym": "Neglect",
+  "example": "It's hard to **maintain** a diet when pizza exists.",
+  "association": "\"Meyn-teyn\" — \"mayin\" teri — uni kremda SAQLAB QOLISH kerak."
+ },
+ {
+  "en": "occur",
+  "uz": "sodir bo'lmoq",
+  "definition": "To happen.",
+  "synonym": "Happen",
+  "antonym": "",
+  "example": "Great ideas **occur** to me only in the shower.",
+  "association": "\"O-kyor\" — \"oh, ko'r!\" — ko'z oldingda SODIR BO'LDI."
+ },
+ {
+  "en": "perceive",
+  "uz": "idrok etmoq",
+  "definition": "To notice or understand.",
+  "synonym": "Notice",
+  "antonym": "Overlook",
+  "example": "My dog **perceives** the sound of a cheese packet from three rooms away.",
+  "association": "\"Per-siv\" — \"persik\"ni hidi bilan IDROK ETDI."
+ },
+ {
+  "en": "potential",
+  "uz": "salohiyat, imkoniyat",
+  "definition": "Ability that may develop in the future.",
+  "synonym": "Capability",
+  "antonym": "",
+  "example": "My hamster has great **potential** as an Olympic runner.",
+  "association": "\"Potensial\" — ichingdagi SALOHIYAT."
+ },
+ {
+  "en": "prevent",
+  "uz": "oldini olmoq",
+  "definition": "To stop something from happening.",
+  "synonym": "Stop",
+  "antonym": "Allow",
+  "example": "I lock the fridge to **prevent** midnight snacking. It doesn't work.",
+  "association": "\"Pri-vent\" — \"ventilyator\" qizib ketishning OLDINI OLADI."
+ },
+ {
+  "en": "promote",
+  "uz": "rivojlantirmoq, targ'ib qilmoq",
+  "definition": "To help something grow; to advertise.",
+  "synonym": "Advertise",
+  "antonym": "Discourage",
+  "example": "Bloggers **promote** products they have never used.",
+  "association": "\"Promo\" — \"promo-kod\" mahsulotni TARG'IB QILADI."
+ },
+ {
+  "en": "require",
+  "uz": "talab qilmoq",
+  "definition": "To need something.",
+  "synonym": "Need",
+  "antonym": "",
+  "example": "This recipe **requires** patience, which I don't have.",
+  "association": "\"Ri-kvayr\" — \"rekvizit\" — to'lov uchun rekvizit TALAB QILINADI."
+ },
+ {
+  "en": "significant",
+  "uz": "muhim, sezilarli",
+  "definition": "Important or large enough to notice.",
+  "synonym": "Notable",
+  "antonym": "Minor",
+  "example": "There's a **significant** difference between \"I'm fine\" and \"I'm FINE.\"",
+  "association": "\"Signal\" — signal bergan narsa MUHIM, SEZILARLI."
+ },
+ {
+  "en": "sufficient",
+  "uz": "yetarli",
+  "definition": "Enough for a need.",
+  "synonym": "Enough",
+  "antonym": "Lacking",
+  "example": "One slice of cake is never **sufficient**.",
+  "association": "\"Sufi-shent\" — \"so'fi\" kamtar: unga bir burda non YETARLI."
+ },
+ {
+  "en": "accomplish",
+  "uz": "amalga oshirmoq",
+  "definition": "To finish something successfully.",
+  "synonym": "Complete",
+  "antonym": "Abandon",
+  "example": "Today I **accomplished** nothing, and I did it perfectly.",
+  "association": "\"Akkompli\" — \"akkord\"ni to'liq chalib, qo'shiqni AMALGA OSHIRDI."
+ },
+ {
+  "en": "accurate",
+  "uz": "aniq",
+  "definition": "Correct and exact.",
+  "synonym": "Precise",
+  "antonym": "Inaccurate",
+  "example": "My mom's guess about who broke the vase was 100% **accurate**.",
+  "association": "\"Akkurat\" — akkurat (tartibli) odam hamma narsani ANIQ qiladi."
+ },
+ {
+  "en": "affordable",
+  "uz": "hamyonbop",
+  "definition": "Cheap enough to buy.",
+  "synonym": "Inexpensive",
+  "antonym": "Expensive",
+  "example": "The only **affordable** thing in this mall is the air.",
+  "association": "\"A-ford\" — \"Ford\" mashinasi HAMYONBOP bo'lgani uchun mashhur."
+ },
+ {
+  "en": "ambitious",
+  "uz": "maqsadga intiluvchan",
+  "definition": "Having a strong wish to succeed.",
+  "synonym": "Determined",
+  "antonym": "Unmotivated",
+  "example": "My **ambitious** cousin plans to become president and astronaut by 25.",
+  "association": "\"Ambitsiya\" — ambitsiyali odam — MAQSADGA INTILUVCHAN."
+ },
+ {
+  "en": "beneficial",
+  "uz": "foydali",
+  "definition": "Helpful or good for you.",
+  "synonym": "Useful",
+  "antonym": "Harmful",
+  "example": "Sleep is **beneficial**; my teacher disagrees when I do it in class.",
+  "association": "\"Benefit\" — foyda — FOYDALI."
+ },
+ {
+  "en": "capable",
+  "uz": "qobiliyatli",
+  "definition": "Having the ability to do something.",
+  "synonym": "Able",
+  "antonym": "Incapable",
+  "example": "My dog is **capable** of eating a whole sandwich in one second.",
+  "association": "\"Keyp-bl\" — \"kepka\" kiygan bola hamma ishga QOBILIYATLI."
+ },
+ {
+  "en": "competitive",
+  "uz": "raqobatbardosh",
+  "definition": "Wanting very much to win.",
+  "synonym": "Ambitious",
+  "antonym": "Cooperative",
+  "example": "My family is so **competitive** that Monopoly ends friendships.",
+  "association": "\"Kompyuter\"-dagi o'yin — hamma RAQOBATBARDOSH."
+ },
+ {
+  "en": "complicated",
+  "uz": "murakkab",
+  "definition": "Difficult to understand.",
+  "synonym": "Complex",
+  "antonym": "Simple",
+  "example": "My relationship with math is very **complicated**.",
+  "association": "\"Kompli-keyt\" — \"kompot\" tayyorlash murakkab — MURAKKAB."
+ },
+ {
+  "en": "comprehensive",
+  "uz": "keng qamrovli",
+  "definition": "Including everything.",
+  "synonym": "Complete",
+  "antonym": "Partial",
+  "example": "I made a **comprehensive** list of reasons to skip the gym.",
+  "association": "\"Kompre\" — \"kompres\" butun tanani qoplaydi — KENG QAMROVLI."
+ },
+ {
+  "en": "consistent",
+  "uz": "izchil",
+  "definition": "Always behaving in the same way.",
+  "synonym": "Steady",
+  "antonym": "Inconsistent",
+  "example": "My cat is **consistent**: she ignores me every single day.",
+  "association": "\"Konsistensiya\" — bir xil quyuqlik — IZCHIL."
+ },
+ {
+  "en": "convenient",
+  "uz": "qulay",
+  "definition": "Easy and suitable for your needs.",
+  "synonym": "Handy",
+  "antonym": "Inconvenient",
+  "example": "It's very **convenient** that the fridge is near my bed.",
+  "association": "\"Kon-vini\" — \"konvert\"ga solib yuborish QULAY."
+ },
+ {
+  "en": "efficient",
+  "uz": "samarali",
+  "definition": "Working well without wasting time.",
+  "synonym": "Productive",
+  "antonym": "Wasteful",
+  "example": "I'm very **efficient** at finding excuses.",
+  "association": "\"E-fi-shent\" — \"effekt\" beradigan ishchi — SAMARALI."
+ },
+ {
+  "en": "essential",
+  "uz": "zarur",
+  "definition": "Absolutely necessary.",
+  "synonym": "Necessary",
+  "antonym": "Optional",
+  "example": "Wi-Fi is **essential** for human life, according to teenagers.",
+  "association": "\"Essensiya\" — essensiya — asosiy, ZARUR modda."
+ },
+ {
+  "en": "exceptional",
+  "uz": "g'ayrioddiy",
+  "definition": "Unusually good.",
+  "synonym": "Outstanding",
+  "antonym": "Ordinary",
+  "example": "My grandma makes **exceptional** plov; the neighbors \"accidentally\" visit.",
+  "association": "\"Eksepshn\" — \"istisno\" — G'AYRIODDIY."
+ },
+ {
+  "en": "familiar",
+  "uz": "tanish",
+  "definition": "Well known to you.",
+  "synonym": "Known",
+  "antonym": "Strange",
+  "example": "That smell is **familiar**... someone is burning toast again.",
+  "association": "\"Famil-yar\" — \"familiya\"ng — TANISH."
+ },
+ {
+  "en": "independent",
+  "uz": "mustaqil",
+  "definition": "Not needing help from others.",
+  "synonym": "Self-reliant",
+  "antonym": "Dependent",
+  "example": "I'm **independent**: I only call mom when I'm hungry.",
+  "association": "\"In-dependent\" — \"depend\" (bog'liq) emas — MUSTAQIL."
+ },
+ {
+  "en": "innovative",
+  "uz": "innovatsion",
+  "definition": "Using new ideas.",
+  "synonym": "Creative",
+  "antonym": "Traditional",
+  "example": "My **innovative** idea: a pillow with a built-in alarm clock.",
+  "association": "\"Innovatsiya\" — yangi g'oya — INNOVATSION."
+ },
+ {
+  "en": "practical",
+  "uz": "amaliy",
+  "definition": "Useful in real situations.",
+  "synonym": "Useful",
+  "antonym": "Impractical",
+  "example": "High heels are not very **practical** for running after buses.",
+  "association": "\"Praktika\" — amaliyot — AMALIY."
+ },
+ {
+  "en": "reliable",
+  "uz": "ishonchli",
+  "definition": "Can be trusted.",
+  "synonym": "Dependable",
+  "antonym": "Unreliable",
+  "example": "My alarm clock is **reliable**; I'm the unreliable one.",
+  "association": "\"Ri-lay-bl\" — \"relay\" (estafeta)da ishonchli sherik — ISHONCHLI."
+ },
+ {
+  "en": "relevant",
+  "uz": "tegishli, dolzarb",
+  "definition": "Connected to what is happening.",
+  "synonym": "Pertinent",
+  "antonym": "Irrelevant",
+  "example": "My opinion about cats is not **relevant** to this math problem.",
+  "association": "\"Rele-vant\" — \"relsda\" turgan poyezd — o'z joyiga TEGISHLI."
+ },
+ {
+  "en": "responsible",
+  "uz": "mas'uliyatli",
+  "definition": "Having a duty to take care of something.",
+  "synonym": "Accountable",
+  "antonym": "Irresponsible",
+  "example": "Who is **responsible** for eating the last dumpling?",
+  "association": "\"Response\" — javob bera oladigan — MAS'ULIYATLI."
+ },
+ {
+  "en": "sophisticated",
+  "uz": "rivojlangan, murakkab",
+  "definition": "Complex and advanced.",
+  "synonym": "Advanced",
+  "antonym": "Primitive",
+  "example": "My grandpa's phone is very **sophisticated**: it has two buttons.",
+  "association": "\"Sofi-stik\" — \"sofist\" faylasuflar — RIVOJLANGAN fikr egalari."
+ },
+ {
+  "en": "temporary",
+  "uz": "vaqtinchalik",
+  "definition": "Lasting only for a short time.",
+  "synonym": "Short-term",
+  "antonym": "Permanent",
+  "example": "My diet is **temporary**, it usually ends at lunch.",
+  "association": "\"Tempo\" — tez o'tadi — VAQTINCHALIK."
+ },
+ {
+  "en": "traditional",
+  "uz": "an'anaviy",
+  "definition": "Following old customs.",
+  "synonym": "Conventional",
+  "antonym": "Modern",
+  "example": "Our **traditional** Sunday activity: arguing about the TV remote.",
+  "association": "\"Traditsiya\" — an'ana — AN'ANAVIY."
+ },
+ {
+  "en": "valuable",
+  "uz": "qimmatli",
+  "definition": "Worth a lot.",
+  "synonym": "Precious",
+  "antonym": "Worthless",
+  "example": "My most **valuable** possession is a sock that has no pair.",
+  "association": "\"Valyuta\" — valyuta — QIMMATLI."
+ },
+ {
+  "en": "appropriate",
+  "uz": "mos, maqbul",
+  "definition": "Suitable for a situation.",
+  "synonym": "Suitable",
+  "antonym": "Inappropriate",
+  "example": "Pyjamas are not **appropriate** for a wedding. Apparently.",
+  "association": "\"A-pro-priet\" — \"a, pro (professional)\" kiyim — MOS, MAQBUL."
+ },
+ {
+  "en": "controversial",
+  "uz": "bahsli",
+  "definition": "Causing public disagreement.",
+  "synonym": "Debatable",
+  "antonym": "Accepted",
+  "example": "Pineapple on pizza is the most **controversial** topic in our house.",
+  "association": "\"Kontra\" — kontra (qarshi) fikrlar — BAHSLI."
+ },
+ {
+  "en": "diverse",
+  "uz": "xilma-xil",
+  "definition": "Very different from each other.",
+  "synonym": "Varied",
+  "antonym": "Uniform",
+  "example": "My fridge contains a **diverse** collection of forgotten leftovers.",
+  "association": "\"Di-vers\" — \"versiya\"lar ko'p — XILMA-XIL."
+ },
+ {
+  "en": "effective",
+  "uz": "samarali",
+  "definition": "Producing the result you want.",
+  "synonym": "Successful",
+  "antonym": "Ineffective",
+  "example": "Mom's \"look\" is more **effective** than any punishment.",
+  "association": "\"Effekt\" — effekt beradi — SAMARALI."
+ },
+ {
+  "en": "realistic",
+  "uz": "real, hayotiy",
+  "definition": "Based on facts, practical.",
+  "synonym": "Practical",
+  "antonym": "Unrealistic",
+  "example": "Be **realistic**: you won't learn English by sleeping on the dictionary.",
+  "association": "\"Realist\" — REAL, HAYOTIY."
+ },
+ {
+  "en": "education",
+  "uz": "ta'lim",
+  "definition": "The process of teaching and learning.",
+  "synonym": "Schooling",
+  "antonym": "Ignorance",
+  "example": "My **education** includes 12 years of school and 10 years of YouTube.",
+  "association": "\"Edukatsiya\" — \"ed(u)\" — TA'LIM."
+ },
+ {
+  "en": "curriculum",
+  "uz": "o'quv dasturi",
+  "definition": "The subjects taught in a school.",
+  "synonym": "Syllabus",
+  "antonym": "",
+  "example": "Napping should be part of the school **curriculum**.",
+  "association": "\"Kuri-kulum\" — \"kurs\" + \"kulum\" — kursning O'QUV DASTURI."
+ },
+ {
+  "en": "assignment",
+  "uz": "topshiriq",
+  "definition": "A task given as part of a course.",
+  "synonym": "Task",
+  "antonym": "",
+  "example": "My dog ate my **assignment**. My dog is a vegetarian.",
+  "association": "\"A-sayn\" — \"a, sign (imzo) qo'y\" — TOPSHIRIQni topshir."
+ },
+ {
+  "en": "assessment",
+  "uz": "baholash",
+  "definition": "The process of judging someone's work.",
+  "synonym": "Evaluation",
+  "antonym": "",
+  "example": "The final **assessment** made my brain freeze like Wi-Fi.",
+  "association": "\"Assess\" = baholamoq — assessment = BAHOLASH."
+ },
+ {
+  "en": "qualification",
+  "uz": "malaka",
+  "definition": "A certificate showing skills.",
+  "synonym": "Certificate",
+  "antonym": "",
+  "example": "My only **qualification** is being very good at sleeping.",
+  "association": "\"Kvalifikatsiya\" — MALAKA."
+ },
+ {
+  "en": "scholarship",
+  "uz": "stipendiya",
+  "definition": "Money given to a student for study.",
+  "synonym": "Grant",
+  "antonym": "",
+  "example": "I got a **scholarship**, so now I can afford two meals a day.",
+  "association": "\"Skolar\" — \"shkola\"da a'lochi — STIPENDIYA oladi."
+ },
+ {
+  "en": "lecture",
+  "uz": "ma'ruza",
+  "definition": "A formal talk to students.",
+  "synonym": "Talk",
+  "antonym": "",
+  "example": "The **lecture** was so long my pen fell asleep.",
+  "association": "\"Lekt-sya\" — lektsiya — MA'RUZA."
+ },
+ {
+  "en": "research",
+  "uz": "tadqiqot",
+  "definition": "A detailed study to find facts.",
+  "synonym": "Investigation",
+  "antonym": "",
+  "example": "After much **research**, I found the best place to nap in school.",
+  "association": "\"Ri-serch\" — \"search\" = qidirish, qayta qidirish — TADQIQOT."
+ },
+ {
+  "en": "knowledge",
+  "uz": "bilim",
+  "definition": "Information and understanding.",
+  "synonym": "Understanding",
+  "antonym": "Ignorance",
+  "example": "My **knowledge** of cooking is limited to boiling water.",
+  "association": "\"Nou-lej\" — \"no\" — ko'p narsani \"knows\" — BILIM."
+ },
+ {
+  "en": "literacy",
+  "uz": "savodxonlik",
+  "definition": "The ability to read and write.",
+  "synonym": "Education",
+  "antonym": "Illiteracy",
+  "example": "My grandma's digital **literacy**: she types with one finger in CAPS.",
+  "association": "\"Litera\" — harf — SAVODXONLIK."
+ },
+ {
+  "en": "discipline",
+  "uz": "fan, intizom",
+  "definition": "Training to obey rules; a subject.",
+  "synonym": "Self-control",
+  "antonym": "Disorder",
+  "example": "My **discipline** lasts until I see a chocolate bar.",
+  "association": "\"Distsiplina\" — INTIZOM."
+ },
+ {
+  "en": "graduate",
+  "uz": "bitirmoq",
+  "definition": "To finish school or university.",
+  "synonym": "Complete studies",
+  "antonym": "Drop out",
+  "example": "When I **graduate**, my parents will finally stop asking about grades. Maybe.",
+  "association": "\"Gradus\" — oxirgi darajaga chiqib, BITIRMOQ."
+ },
+ {
+  "en": "revise",
+  "uz": "takrorlamoq",
+  "definition": "To study again before an exam.",
+  "synonym": "Review",
+  "antonym": "Forget",
+  "example": "I **revised** all night and remembered only my name.",
+  "association": "\"Ri-vayz\" — \"re\" (qayta) + \"vizual\" ko'rish — TAKRORLAMOQ."
+ },
+ {
+  "en": "memorize",
+  "uz": "yodlamoq",
+  "definition": "To learn something by heart.",
+  "synonym": "Learn",
+  "antonym": "Forget",
+  "example": "I can't **memorize** vocabulary, but I know all song lyrics.",
+  "association": "\"Memori\" — xotira — YODLAMOQ."
+ },
+ {
+  "en": "concentrate",
+  "uz": "diqqatni jamlamoq",
+  "definition": "To focus your attention.",
+  "synonym": "Focus",
+  "antonym": "Get distracted",
+  "example": "I can't **concentrate** when someone is eating chips next to me.",
+  "association": "\"Konsentrat\" — bir joyga to'plangan — DIQQATNI JAMLAMOQ."
+ },
+ {
+  "en": "participate",
+  "uz": "qatnashmoq",
+  "definition": "To take part in something.",
+  "synonym": "Take part",
+  "antonym": "Watch",
+  "example": "I **participated** in the race and finished... eventually.",
+  "association": "\"Parti\" — \"partiya\"ga qo'shilib QATNASHMOQ."
+ },
+ {
+  "en": "specialize",
+  "uz": "ixtisoslashmoq",
+  "definition": "To focus on one area of work.",
+  "synonym": "Focus on",
+  "antonym": "Generalize",
+  "example": "I **specialize** in forgetting people's names.",
+  "association": "\"Spetsialist\" — mutaxassis — IXTISOSLASHMOQ."
+ },
+ {
+  "en": "theory",
+  "uz": "nazariya",
+  "definition": "An idea that explains something.",
+  "synonym": "Hypothesis",
+  "antonym": "Practice",
+  "example": "My **theory**: socks disappear because the washing machine eats them.",
+  "association": "\"Teoriya\" — NAZARIYA."
+ },
+ {
+  "en": "tuition",
+  "uz": "o'qish to'lovi",
+  "definition": "Money paid for teaching.",
+  "synonym": "Fees",
+  "antonym": "",
+  "example": "University **tuition** is so high that my wallet cried.",
+  "association": "\"Tyu-ishn\" — \"to'lov\" — O'QISH TO'LOVI."
+ },
+ {
+  "en": "academic",
+  "uz": "akademik",
+  "definition": "Related to education and study.",
+  "synonym": "Scholarly",
+  "antonym": "Non-academic",
+  "example": "My **academic** achievement this year: I found the library.",
+  "association": "\"Akademiya\" — AKADEMIK."
+ },
+ {
+  "en": "career",
+  "uz": "kasbiy faoliyat",
+  "definition": "The job you do for a long time.",
+  "synonym": "Profession",
+  "antonym": "",
+  "example": "My **career** plan: become rich without working.",
+  "association": "\"Karyera\" — KASBIY FAOLIYAT."
+ },
+ {
+  "en": "occupation",
+  "uz": "kasb",
+  "definition": "A job or profession.",
+  "synonym": "Job",
+  "antonym": "Unemployment",
+  "example": "My dream **occupation**: professional snack tester.",
+  "association": "\"Okkupatsiya\" — o'rinni egallash — KASB egallash."
+ },
+ {
+  "en": "profession",
+  "uz": "kasb",
+  "definition": "A job that needs special training.",
+  "synonym": "Career",
+  "antonym": "",
+  "example": "Doctors and lawyers belong to old **professions**; YouTuber is new.",
+  "association": "\"Professor\" — professor — KASB egasi."
+ },
+ {
+  "en": "employee",
+  "uz": "xodim",
+  "definition": "A person who works for someone.",
+  "synonym": "Worker",
+  "antonym": "Employer",
+  "example": "The **employee** of the month is the coffee machine.",
+  "association": "\"Employ-ee\" — \"-ee\" oladi, ish oluvchi — XODIM."
+ },
+ {
+  "en": "employer",
+  "uz": "ish beruvchi",
+  "definition": "A person or company that gives work.",
+  "synonym": "Boss",
+  "antonym": "Employee",
+  "example": "My **employer** calls me only on my days off.",
+  "association": "\"Employ-er\" — \"-er\" beradi — ISH BERUVCHI."
+ },
+ {
+  "en": "colleague",
+  "uz": "hamkasb",
+  "definition": "A person you work with.",
+  "synonym": "Co-worker",
+  "antonym": "",
+  "example": "My **colleague** steals my lunch and calls it \"teamwork\".",
+  "association": "\"Kolle-g\" — \"kolleja\"da birga o'qigan — HAMKASB."
+ },
+ {
+  "en": "position",
+  "uz": "lavozim",
+  "definition": "A job in an organisation; a place.",
+  "synonym": "Post",
+  "antonym": "",
+  "example": "My **position** in the company: the one who fixes the printer.",
+  "association": "\"Pozitsiya\" — LAVOZIM."
+ },
+ {
+  "en": "responsibility",
+  "uz": "mas'uliyat",
+  "definition": "A duty to deal with something.",
+  "synonym": "Duty",
+  "antonym": "",
+  "example": "Feeding the cat is my **responsibility**; she reminds me at 5 AM.",
+  "association": "\"Responsible\" — mas'uliyatli — MAS'ULIYAT."
+ },
+ {
+  "en": "opportunity",
+  "uz": "imkoniyat",
+  "definition": "A chance to do something.",
+  "synonym": "Chance",
+  "antonym": "Obstacle",
+  "example": "A free buffet is a great **opportunity** to eat for three days.",
+  "association": "\"Oppor-tyuniti\" — \"a, port ochiq!\" — IMKONIYAT."
+ },
+ {
+  "en": "experience",
+  "uz": "tajriba",
+  "definition": "Knowledge gained by doing something.",
+  "synonym": "Practice",
+  "antonym": "Inexperience",
+  "example": "I have ten years of **experience** in pressing the snooze button.",
+  "association": "\"Eksperiment\" — tajriba — TAJRIBA."
+ },
+ {
+  "en": "salary",
+  "uz": "maosh",
+  "definition": "Money you get regularly for work.",
+  "synonym": "Wage",
+  "antonym": "",
+  "example": "My **salary** arrives and leaves on the same day.",
+  "association": "\"Salat\" — maoshga faqat salat olish mumkin — MAOSH."
+ },
+ {
+  "en": "income",
+  "uz": "daromad",
+  "definition": "Money that you receive.",
+  "synonym": "Earnings",
+  "antonym": "Expenses",
+  "example": "My **income** is small, but my appetite is big.",
+  "association": "\"In-kam\" — ichkariga (in) kelgan (come) pul — DAROMAD."
+ },
+ {
+  "en": "promotion",
+  "uz": "lavozim ko'tarilishi",
+  "definition": "Moving to a higher job position.",
+  "synonym": "Advancement",
+  "antonym": "Demotion",
+  "example": "After my **promotion**, I got a bigger chair and more problems.",
+  "association": "\"Promo\" — oldinga — LAVOZIM KO'TARILISHI."
+ },
+ {
+  "en": "retirement",
+  "uz": "nafaqaga chiqish",
+  "definition": "The time when you stop working because of age.",
+  "synonym": "Pension",
+  "antonym": "",
+  "example": "Grandpa's **retirement** plan: watching TV and giving advice.",
+  "association": "\"Re-tayr\" — \"tire\" (charchoq) — charchab NAFAQAGA CHIQISH."
+ },
+ {
+  "en": "resign",
+  "uz": "iste'foga chiqmoq",
+  "definition": "To leave your job officially.",
+  "synonym": "Quit",
+  "antonym": "Stay",
+  "example": "He **resigned** because his boss wanted him to work.",
+  "association": "\"Ri-zayn\" — \"re-sign\" — imzoni qaytarib olish — ISTE'FOGA CHIQMOQ."
+ },
+ {
+  "en": "recruit",
+  "uz": "ishga yollamoq",
+  "definition": "To find new people to join.",
+  "synonym": "Hire",
+  "antonym": "Dismiss",
+  "example": "The company **recruited** me because I knew how to turn the computer on.",
+  "association": "\"Rekrut\" — askarlikka yollangan — ISHGA YOLLAMOQ."
+ },
+ {
+  "en": "apply",
+  "uz": "ariza bermoq",
+  "definition": "To ask formally for a job or place.",
+  "synonym": "Request",
+  "antonym": "Withdraw",
+  "example": "I **applied** for a job as a professional mattress tester.",
+  "association": "\"Ap-lay\" — \"ariza\"ni \"play\" qil — ARIZA BERMOQ."
+ },
+ {
+  "en": "interview",
+  "uz": "suhbat",
+  "definition": "A formal meeting to test a candidate.",
+  "synonym": "Meeting",
+  "antonym": "",
+  "example": "At the job **interview**, I said my weakness is chocolate.",
+  "association": "\"Inter-vyu\" — intervyu — SUHBAT."
+ },
+ {
+  "en": "deadline",
+  "uz": "oxirgi muddat",
+  "definition": "The latest time to finish something.",
+  "synonym": "Due date",
+  "antonym": "",
+  "example": "I love **deadlines**; I love the whooshing sound they make as they fly by.",
+  "association": "\"Ded-layn\" — \"o'lik (dead) chiziq\" — OXIRGI MUDDAT."
+ },
+ {
+  "en": "workload",
+  "uz": "ish hajmi",
+  "definition": "The amount of work to do.",
+  "synonym": "Tasks",
+  "antonym": "",
+  "example": "My **workload** is so big that my to-do list needs a to-do list.",
+  "association": "\"Work + load\" — ish + yuk — ISH HAJMI."
+ },
+ {
+  "en": "workplace",
+  "uz": "ish joyi",
+  "definition": "The place where you work.",
+  "synonym": "Office",
+  "antonym": "",
+  "example": "My **workplace** has a coffee machine and a nap corner. Paradise.",
+  "association": "\"Work + place\" — ish + joy — ISH JOYI."
+ },
+ {
+  "en": "contract",
+  "uz": "shartnoma",
+  "definition": "A legal written agreement.",
+  "synonym": "Agreement",
+  "antonym": "",
+  "example": "I signed a **contract** with my bed: eight hours minimum.",
+  "association": "\"Kontrakt\" — SHARTNOMA."
+ },
+ {
+  "en": "schedule",
+  "uz": "jadval",
+  "definition": "A plan of times for activities.",
+  "synonym": "Timetable",
+  "antonym": "",
+  "example": "My **schedule** today: eat, sleep, repeat.",
+  "association": "\"Shedul\" — \"shaxmat\" doskasidek chiziqli — JADVAL."
+ },
+ {
+  "en": "shift",
+  "uz": "smena",
+  "definition": "A period of time worked.",
+  "synonym": "Work period",
+  "antonym": "",
+  "example": "After a night **shift**, I talk to the fridge like a friend.",
+  "association": "\"Shift\" — klaviaturadagi Shift — almashish — SMENA."
+ },
+ {
+  "en": "demanding",
+  "uz": "talabchan, og'ir",
+  "definition": "Needing a lot of effort.",
+  "synonym": "Challenging",
+  "antonym": "Easy",
+  "example": "My cat is very **demanding**: she wants food, attention and my chair.",
+  "association": "\"Demand\" — talab — TALABCHAN."
+ },
+ {
+  "en": "rewarding",
+  "uz": "qoniqarli, foydali",
+  "definition": "Giving satisfaction.",
+  "synonym": "Satisfying",
+  "antonym": "Unrewarding",
+  "example": "Teaching is **rewarding**, especially when students laugh at your jokes.",
+  "association": "\"Reward\" — mukofot — QONIQARLI."
+ },
+ {
+  "en": "stressful",
+  "uz": "stressli",
+  "definition": "Causing worry and pressure.",
+  "synonym": "Tense",
+  "antonym": "Relaxing",
+  "example": "Choosing what to watch on Netflix is very **stressful**.",
+  "association": "\"Stress\" — STRESSLI."
+ },
+ {
+  "en": "supervise",
+  "uz": "nazorat qilmoq",
+  "definition": "To watch and direct work.",
+  "synonym": "Oversee",
+  "antonym": "Neglect",
+  "example": "My mom **supervises** my homework like a security camera.",
+  "association": "\"Super-vizor\" — yuqoridan ko'ruvchi — NAZORAT QILMOQ."
+ },
+ {
+  "en": "negotiate",
+  "uz": "muzokara qilmoq",
+  "definition": "To discuss to reach an agreement.",
+  "synonym": "Bargain",
+  "antonym": "",
+  "example": "I **negotiated** with my little sister: one candy for silence.",
+  "association": "\"Nego-shieyt\" — \"nega?\" deb savdolashib MUZOKARA QILMOQ."
+ },
+ {
+  "en": "cooperate",
+  "uz": "hamkorlik qilmoq",
+  "definition": "To work together.",
+  "synonym": "Collaborate",
+  "antonym": "Compete",
+  "example": "Cats never **cooperate**, especially at the vet.",
+  "association": "\"Kooperativ\" — birgalikda — HAMKORLIK QILMOQ."
+ },
+ {
+  "en": "communicate",
+  "uz": "muloqot qilmoq",
+  "definition": "To share information with others.",
+  "synonym": "Talk",
+  "antonym": "",
+  "example": "My dog **communicates** by staring at my sandwich.",
+  "association": "\"Kommunikatsiya\" — aloqa — MULOQOT QILMOQ."
+ },
+ {
+  "en": "manage",
+  "uz": "boshqarmoq",
+  "definition": "To control or be in charge of.",
+  "synonym": "Run",
+  "antonym": "Mismanage",
+  "example": "I **manage** a team of three: me, myself and I.",
+  "association": "\"Menejer\" — BOSHQARMOQ."
+ },
+ {
+  "en": "organize",
+  "uz": "tashkil qilmoq",
+  "definition": "To arrange things in order.",
+  "synonym": "Arrange",
+  "antonym": "Disorganize",
+  "example": "I **organized** my room; now I can't find anything.",
+  "association": "\"Organizator\" — TASHKIL QILMOQ."
+ },
+ {
+  "en": "earn",
+  "uz": "pul topmoq",
+  "definition": "To get money for work.",
+  "synonym": "Make money",
+  "antonym": "Spend",
+  "example": "I **earn** money on Monday and spend it on Tuesday.",
+  "association": "\"Yern\" — \"yer\"da ishlab PUL TOPMOQ."
+ },
+ {
+  "en": "employ",
+  "uz": "ish bilan ta'minlamoq",
+  "definition": "To give someone a job.",
+  "synonym": "Hire",
+  "antonym": "Fire",
+  "example": "The café **employs** a cat to keep customers happy.",
+  "association": "\"Im-ploy\" — \"employer\" — ISH BILAN TA'MINLAMOQ."
+ },
+ {
+  "en": "establish",
+  "uz": "tashkil qilmoq",
+  "definition": "To start or create an organization.",
+  "synonym": "Found",
+  "antonym": "Abolish",
+  "example": "My grandpa **established** a business: selling advice for free.",
+  "association": "\"Ista-blish\" — \"istak\"ni bog'lab — TASHKIL QILMOQ."
+ },
+ {
+  "en": "develop",
+  "uz": "rivojlantirmoq",
+  "definition": "To grow or make something grow.",
+  "synonym": "Grow",
+  "antonym": "Decline",
+  "example": "My cooking skills **developed**: I now burn food more evenly.",
+  "association": "\"Developer\" — dasturchi dastur RIVOJLANTIRADI."
+ },
+ {
+  "en": "society",
+  "uz": "jamiyat",
+  "definition": "People living together in communities.",
+  "synonym": "Community",
+  "antonym": "",
+  "example": "Modern **society** cannot survive without phone chargers.",
+  "association": "\"Sotsium\" — JAMIYAT."
+ },
+ {
+  "en": "community",
+  "uz": "hamjamiyat",
+  "definition": "A group of people living in one place.",
+  "synonym": "Neighbourhood",
+  "antonym": "",
+  "example": "Our **community** has one hero: the man with the ladder.",
+  "association": "\"Kommuna\" — HAMJAMIYAT."
+ },
+ {
+  "en": "population",
+  "uz": "aholi",
+  "definition": "The number of people living in a place.",
+  "synonym": "Inhabitants",
+  "antonym": "",
+  "example": "The pigeon **population** in our yard is bigger than the human one.",
+  "association": "\"Popul\" — \"popular\" — ko'pchilik — AHOLI."
+ },
+ {
+  "en": "generation",
+  "uz": "avlod",
+  "definition": "People born around the same time.",
+  "synonym": "Age group",
+  "antonym": "",
+  "example": "My grandma's **generation** fixes things; mine buys new ones.",
+  "association": "\"Generatsiya\" — AVLOD."
+ },
+ {
+  "en": "minority",
+  "uz": "ozchilik",
+  "definition": "The smaller part of a group.",
+  "synonym": "Few",
+  "antonym": "Majority",
+  "example": "People who like Mondays are a small **minority**.",
+  "association": "\"Mini\" — kichik qism — OZCHILIK."
+ },
+ {
+  "en": "majority",
+  "uz": "ko'pchilik",
+  "definition": "The larger part of a group.",
+  "synonym": "Most",
+  "antonym": "Minority",
+  "example": "The **majority** of my class voted for no homework.",
+  "association": "\"Mayor\" — katta — KO'PCHILIK."
+ },
+ {
+  "en": "citizen",
+  "uz": "fuqaro",
+  "definition": "A legal member of a country.",
+  "synonym": "National",
+  "antonym": "Foreigner",
+  "example": "As a good **citizen**, I always cross the road... eventually.",
+  "association": "\"Siti-zen\" — \"city\" — shahar aholisi — FUQARO."
+ },
+ {
+  "en": "government",
+  "uz": "hukumat",
+  "definition": "The group of people who rule a country.",
+  "synonym": "Administration",
+  "antonym": "",
+  "example": "The **government** should ban Monday mornings.",
+  "association": "\"Gavern\" — \"gubernator\" — HUKUMAT."
+ },
+ {
+  "en": "authority",
+  "uz": "hokimiyat",
+  "definition": "Power to give orders.",
+  "synonym": "Power",
+  "antonym": "",
+  "example": "In our house, grandma has all the **authority**.",
+  "association": "\"Avtoritet\" — HOKIMIYAT."
+ },
+ {
+  "en": "policy",
+  "uz": "siyosat, siyosiy chora",
+  "definition": "A set of plans and rules.",
+  "synonym": "Rules",
+  "antonym": "",
+  "example": "Our family **policy**: whoever cooks doesn't wash dishes.",
+  "association": "\"Politsiya\" — qoidalar — SIYOSAT."
+ },
+ {
+  "en": "law",
+  "uz": "qonun",
+  "definition": "Official rules of a country.",
+  "synonym": "Rule",
+  "antonym": "",
+  "example": "There should be a **law** against loud chewing.",
+  "association": "\"Lo\" — \"lom\" — qattiq — QONUN."
+ },
+ {
+  "en": "crime",
+  "uz": "jinoyat",
+  "definition": "An illegal action.",
+  "synonym": "Offence",
+  "antonym": "",
+  "example": "Eating my sandwich is a **crime** in my apartment.",
+  "association": "\"Kraym\" — \"Krym\"da sodir bo'lgan JINOYAT."
+ },
+ {
+  "en": "criminal",
+  "uz": "jinoyatchi",
+  "definition": "A person who breaks the law.",
+  "synonym": "Offender",
+  "antonym": "Law-abiding",
+  "example": "The **criminal** who ate my cookies left crumbs as evidence.",
+  "association": "\"Kriminal\" — JINOYATCHI."
+ },
+ {
+  "en": "justice",
+  "uz": "adolat",
+  "definition": "Fair treatment.",
+  "synonym": "Fairness",
+  "antonym": "Injustice",
+  "example": "**Justice** is when the cat that broke the vase gets no treats.",
+  "association": "\"Jastis\" — \"just\" — to'g'ri — ADOLAT."
+ },
+ {
+  "en": "equality",
+  "uz": "tenglik",
+  "definition": "The same rights for everyone.",
+  "synonym": "Fairness",
+  "antonym": "Inequality",
+  "example": "In our house, **equality** means everyone washes their own plate.",
+  "association": "\"Ekvaliti\" — \"equal\" (teng) — TENGLIK."
+ },
+ {
+  "en": "poverty",
+  "uz": "qashshoqlik",
+  "definition": "The state of being very poor.",
+  "synonym": "Hardship",
+  "antonym": "Wealth",
+  "example": "After shopping, I live in **poverty** until next month.",
+  "association": "\"Poverti\" — \"pul yo'q\" — \"po'q, varti\" — QASHSHOQLIK."
+ },
+ {
+  "en": "wealth",
+  "uz": "boylik",
+  "definition": "A large amount of money.",
+  "synonym": "Riches",
+  "antonym": "Poverty",
+  "example": "My **wealth** consists of three coins and a bus ticket.",
+  "association": "\"Velt\" — \"veliki\" (katta) mol-dunyo — BOYLIK."
+ },
+ {
+  "en": "unemployment",
+  "uz": "ishsizlik",
+  "definition": "Not having a job.",
+  "synonym": "Joblessness",
+  "antonym": "Employment",
+  "example": "**Unemployment** gave my uncle time to become a sofa expert.",
+  "association": "\"Un-employment\" — ish yo'qligi — ISHSIZLIK."
+ },
+ {
+  "en": "discrimination",
+  "uz": "kamsitish",
+  "definition": "Treating people unfairly.",
+  "synonym": "Prejudice",
+  "antonym": "Equality",
+  "example": "My cat shows **discrimination**: she loves grandma and ignores me.",
+  "association": "\"Diskriminatsiya\" — KAMSITISH."
+ },
+ {
+  "en": "freedom",
+  "uz": "erkinlik",
+  "definition": "The right to act freely.",
+  "synonym": "Liberty",
+  "antonym": "Captivity",
+  "example": "Summer holiday means total **freedom**... until mom finds chores.",
+  "association": "\"Frii-dom\" — \"free\" — ERKINLIK."
+ },
+ {
+  "en": "rights",
+  "uz": "huquqlar",
+  "definition": "Things that you are allowed by law.",
+  "synonym": "Entitlements",
+  "antonym": "",
+  "example": "I know my **rights**: I have the right to a second dessert.",
+  "association": "\"Rayt\" — \"right\" — to'g'ri — HUQUQLAR."
+ },
+ {
+  "en": "relationship",
+  "uz": "munosabat",
+  "definition": "The way people are connected.",
+  "synonym": "Connection",
+  "antonym": "",
+  "example": "My **relationship** with the alarm clock is full of hate.",
+  "association": "\"Relation\" — aloqa — MUNOSABAT."
+ },
+ {
+  "en": "behaviour",
+  "uz": "xulq-atvor",
+  "definition": "The way someone acts.",
+  "synonym": "Conduct",
+  "antonym": "",
+  "example": "My dog's **behaviour** changes when he hears the word \"walk\".",
+  "association": "\"Bi-heyv\" — \"have\" (bor) — odamda bor XULQ-ATVOR."
+ },
+ {
+  "en": "attitude",
+  "uz": "munosabat, qarash",
+  "definition": "A way of thinking or feeling.",
+  "synonym": "Outlook",
+  "antonym": "",
+  "example": "Your **attitude** determines your altitude... and my attitude is sleepy.",
+  "association": "\"Atti-tyud\" — \"a, tyuda\" boraman deb o'ylash — QARASH, MUNOSABAT."
+ },
+ {
+  "en": "tradition",
+  "uz": "an'ana",
+  "definition": "Customs passed from generation to generation.",
+  "synonym": "Custom",
+  "antonym": "Innovation",
+  "example": "Our family **tradition**: arguing about who ate the last samsa.",
+  "association": "\"Traditsiya\" — AN'ANA."
+ },
+ {
+  "en": "culture",
+  "uz": "madaniyat",
+  "definition": "The way of life of a group of people.",
+  "synonym": "Civilization",
+  "antonym": "",
+  "example": "In our **culture**, guests are fed until they can't move.",
+  "association": "\"Kultura\" — MADANIYAT."
+ },
+ {
+  "en": "custom",
+  "uz": "urf-odat",
+  "definition": "A traditional way of behaving.",
+  "synonym": "Tradition",
+  "antonym": "",
+  "example": "It's a **custom** to say \"I'm on my way\" while still in bed.",
+  "association": "\"Kastom\" — \"kostyum\" kiyish odati — URF-ODAT."
+ },
+ {
+  "en": "lifestyle",
+  "uz": "turmush tarzi",
+  "definition": "The way a person lives.",
+  "synonym": "Way of life",
+  "antonym": "",
+  "example": "My **lifestyle** is 50% snacks, 50% sleep.",
+  "association": "\"Life + style\" — hayot + uslub — TURMUSH TARZI."
+ },
+ {
+  "en": "reputation",
+  "uz": "obro'",
+  "definition": "What people think about you.",
+  "synonym": "Name",
+  "antonym": "",
+  "example": "My **reputation** in the family: the one who breaks everything.",
+  "association": "\"Reputatsiya\" — OBRO'."
+ },
+ {
+  "en": "environment",
+  "uz": "atrof-muhit",
+  "definition": "The natural world around us.",
+  "synonym": "Surroundings",
+  "antonym": "",
+  "example": "Please protect the **environment**: don't throw your little brother outside.",
+  "association": "\"En-vayron\" — \"atrof\" — ATROF-MUHIT."
+ },
+ {
+  "en": "pollution",
+  "uz": "ifloslanish",
+  "definition": "Harmful substances in air or water.",
+  "synonym": "Contamination",
+  "antonym": "Purity",
+  "example": "My brother's socks create serious air **pollution**.",
+  "association": "\"Pol-lyushn\" — \"pol\" (pol) iflos — IFLOSLANISH."
+ },
+ {
+  "en": "climate",
+  "uz": "iqlim",
+  "definition": "Usual weather conditions of a place.",
+  "synonym": "Weather",
+  "antonym": "",
+  "example": "In my room, the **climate** is \"tropical mess\".",
+  "association": "\"Klimat\" — IQLIM."
+ },
+ {
+  "en": "climate change",
+  "uz": "iqlim o'zgarishi",
+  "definition": "Long-term change in world weather.",
+  "synonym": "Global warming",
+  "antonym": "",
+  "example": "Because of **climate change**, winter now lasts three days.",
+  "association": "\"Klimat o'zgarishi\" — IQLIM O'ZGARISHI."
+ },
+ {
+  "en": "global warming",
+  "uz": "global isish",
+  "definition": "Rising temperature of the Earth.",
+  "synonym": "Climate change",
+  "antonym": "Global cooling",
+  "example": "**Global warming** melted my ice cream before I could eat it.",
+  "association": "\"Global\" — butun dunyo + \"warm\" — iliq — GLOBAL ISISH."
+ },
+ {
+  "en": "greenhouse",
+  "uz": "issiqxona",
+  "definition": "A glass building for growing plants.",
+  "synonym": "Glasshouse",
+  "antonym": "",
+  "example": "Our car in July is basically a **greenhouse**.",
+  "association": "\"Green + house\" — yashil uy — ISSIQXONA."
+ },
+ {
+  "en": "emission",
+  "uz": "chiqindi gaz",
+  "definition": "Gas or other substance sent into the air.",
+  "synonym": "Discharge",
+  "antonym": "",
+  "example": "After eating beans, my uncle's **emissions** are not eco-friendly.",
+  "association": "\"Emissiya\" — CHIQINDI GAZ."
+ },
+ {
+  "en": "waste",
+  "uz": "chiqindi",
+  "definition": "Unwanted material; rubbish.",
+  "synonym": "Rubbish",
+  "antonym": "",
+  "example": "Watching TV all day is a **waste** of time, but a comfortable one.",
+  "association": "\"Veyst\" — \"vest\" (jilet) eskirib CHIQINDIga ketdi."
+ },
+ {
+  "en": "recycling",
+  "uz": "qayta ishlash",
+  "definition": "Processing used materials to use again.",
+  "synonym": "Reprocessing",
+  "antonym": "",
+  "example": "**Recycling** tip: turn yesterday's pizza into today's breakfast.",
+  "association": "\"Re + cycle\" — qayta aylanish — QAYTA ISHLASH."
+ },
+ {
+  "en": "renewable",
+  "uz": "qayta tiklanadigan",
+  "definition": "Able to be replaced naturally.",
+  "synonym": "Sustainable",
+  "antonym": "Non-renewable",
+  "example": "My hunger is a **renewable** resource.",
+  "association": "\"Re + new\" — qayta yangi — QAYTA TIKLANADIGAN."
+ },
+ {
+  "en": "resource",
+  "uz": "resurs",
+  "definition": "A supply of something useful.",
+  "synonym": "Supply",
+  "antonym": "",
+  "example": "My most valuable **resource** is my mom's patience.",
+  "association": "\"Resurs\" — RESURS."
+ },
+ {
+  "en": "energy",
+  "uz": "energiya",
+  "definition": "Power for work or activity.",
+  "synonym": "Power",
+  "antonym": "Fatigue",
+  "example": "My **energy** level: charged 100% only at 11 PM.",
+  "association": "\"Energiya\" — ENERGIYA."
+ },
+ {
+  "en": "electricity",
+  "uz": "elektr energiyasi",
+  "definition": "Energy used for light and machines.",
+  "synonym": "Power",
+  "antonym": "",
+  "example": "When the **electricity** goes off, my family suddenly talks to each other.",
+  "association": "\"Elektrik\" — ELEKTR ENERGIYASI."
+ },
+ {
+  "en": "consumption",
+  "uz": "iste'mol",
+  "definition": "The amount used or eaten.",
+  "synonym": "Use",
+  "antonym": "Saving",
+  "example": "My chocolate **consumption** is a state secret.",
+  "association": "\"Kansam\" — \"konsum\" — ISTE'MOL."
+ },
+ {
+  "en": "conservation",
+  "uz": "muhofaza qilish",
+  "definition": "Protection of nature.",
+  "synonym": "Protection",
+  "antonym": "Destruction",
+  "example": "**Conservation** of energy: I stay in bed all weekend.",
+  "association": "\"Konserva\" — saqlab qo'yish — MUHOFAZA QILISH."
+ },
+ {
+  "en": "endangered",
+  "uz": "yo'qolib ketish xavfidagi",
+  "definition": "At risk of disappearing.",
+  "synonym": "At risk",
+  "antonym": "Safe",
+  "example": "Quiet moments in my house are an **endangered** species.",
+  "association": "\"En-denjer\" — \"danger\" (xavf) — YO'QOLIB KETISH XAVFIDAGI."
+ },
+ {
+  "en": "species",
+  "uz": "tur",
+  "definition": "A group of similar animals or plants.",
+  "synonym": "Kind",
+  "antonym": "",
+  "example": "My brother is a rare **species** that only eats and sleeps.",
+  "association": "\"Spiishiz\" — \"spets\" (maxsus) — TUR."
+ },
+ {
+  "en": "habitat",
+  "uz": "yashash muhiti",
+  "definition": "The natural home of an animal.",
+  "synonym": "Home",
+  "antonym": "",
+  "example": "The natural **habitat** of a teenager: the bed with a phone.",
+  "association": "\"Habit\" — odat — odatlangan joy — YASHASH MUHITI."
+ },
+ {
+  "en": "ecosystem",
+  "uz": "ekotizim",
+  "definition": "Living things and their environment together.",
+  "synonym": "Environment",
+  "antonym": "",
+  "example": "Under my bed there is a whole **ecosystem** of lost socks.",
+  "association": "\"Eko + sistema\" — EKOTIZIM."
+ },
+ {
+  "en": "sustainable",
+  "uz": "barqaror",
+  "definition": "Able to continue without harming nature.",
+  "synonym": "Renewable",
+  "antonym": "Unsustainable",
+  "example": "Eating five meals a day is not **sustainable** for my wallet.",
+  "association": "\"Sas-teyn\" — \"sustain\" (ushlab turmoq) — BARQAROR."
+ },
+ {
+  "en": "protect",
+  "uz": "himoya qilmoq",
+  "definition": "To keep safe from harm.",
+  "synonym": "Guard",
+  "antonym": "Endanger",
+  "example": "I **protect** my fries from my friends like a lion.",
+  "association": "\"Pro-tekt\" — \"protektor\" shinani HIMOYA QILADI."
+ },
+ {
+  "en": "preserve",
+  "uz": "asrab-avaylamoq",
+  "definition": "To keep something from being damaged.",
+  "synonym": "Save",
+  "antonym": "Destroy",
+  "example": "Grandma **preserves** tomatoes and my childhood photos.",
+  "association": "\"Prezerv\" — \"konserv\" — ASRAB-AVAYLAMOQ."
+ },
+ {
+  "en": "reduce",
+  "uz": "kamaytirmoq",
+  "definition": "To make smaller.",
+  "synonym": "Decrease",
+  "antonym": "Increase",
+  "example": "I tried to **reduce** sugar, but the sugar found me.",
+  "association": "\"Re-dyus\" — \"redaktor\" ortiqchani KAMAYTIRADI."
+ },
+ {
+  "en": "reuse",
+  "uz": "qayta ishlatmoq",
+  "definition": "To use again.",
+  "synonym": "Recycle",
+  "antonym": "Throw away",
+  "example": "I **reuse** the same excuse every Monday.",
+  "association": "\"Re + use\" — qayta + ishlatish — QAYTA ISHLATMOQ."
+ },
+ {
+  "en": "recycle",
+  "uz": "qayta ishlamoq",
+  "definition": "To process used things for reuse.",
+  "synonym": "Reprocess",
+  "antonym": "Waste",
+  "example": "I **recycle** my jokes; my friends are tired of them.",
+  "association": "\"Re + cycle\" — velosiped (cycle) qayta aylanadi — QAYTA ISHLAMOQ."
+ },
+ {
+  "en": "damage",
+  "uz": "zarar yetkazmoq",
+  "definition": "To harm something.",
+  "synonym": "Harm",
+  "antonym": "Repair",
+  "example": "My little brother **damaged** the TV with a toy car.",
+  "association": "\"Demij\" — \"dama\" (sho'r) — ZARAR YETKAZMOQ."
+ },
+ {
+  "en": "destroy",
+  "uz": "yo'q qilmoq",
+  "definition": "To damage completely.",
+  "synonym": "Ruin",
+  "antonym": "Build",
+  "example": "My cat **destroyed** the sofa and then slept on it.",
+  "association": "\"Dis-troy\" — \"Troya\" shahri butunlay YO'Q QILINGAN."
+ },
+ {
+  "en": "threaten",
+  "uz": "xavf tug'dirmoq",
+  "definition": "To say you will cause harm.",
+  "synonym": "Menace",
+  "antonym": "Protect",
+  "example": "My mom **threatened** to cancel Wi-Fi. Scariest moment of my life.",
+  "association": "\"Tret-n\" — \"tret\" (qo'rqitmoq) — XAVF TUG'DIRMOQ."
+ },
+ {
+  "en": "consume",
+  "uz": "iste'mol qilmoq",
+  "definition": "To eat, drink or use up.",
+  "synonym": "Use",
+  "antonym": "Save",
+  "example": "My brother **consumes** a whole pizza in five minutes.",
+  "association": "\"Konsum\" — ISTE'MOL QILMOQ."
+ },
+ {
+  "en": "conserve",
+  "uz": "tejamoq, asramoq",
+  "definition": "To use carefully, not waste.",
+  "synonym": "Save",
+  "antonym": "Waste",
+  "example": "I **conserve** my energy for the weekend.",
+  "association": "\"Konserva\" — TEJAMOQ, ASRAMOQ."
+ },
+ {
+  "en": "technology",
+  "uz": "texnologiya",
+  "definition": "Scientific knowledge used in practice.",
+  "synonym": "Tech",
+  "antonym": "",
+  "example": "Grandma calls every piece of **technology** \"that thing\".",
+  "association": "\"Texnologiya\" — TEXNOLOGIYA."
+ },
+ {
+  "en": "device",
+  "uz": "qurilma",
+  "definition": "A machine or tool for a purpose.",
+  "synonym": "Gadget",
+  "antonym": "",
+  "example": "My brother has five **devices** and still says he's bored.",
+  "association": "\"Di-vays\" — \"davay, ishlat\" — QURILMA."
+ },
+ {
+  "en": "digital",
+  "uz": "raqamli",
+  "definition": "Using computer technology.",
+  "synonym": "Electronic",
+  "antonym": "Analogue",
+  "example": "My **digital** life is more organized than my real one.",
+  "association": "\"Digit\" — raqam — RAQAMLI."
+ },
+ {
+  "en": "software",
+  "uz": "dasturiy ta'minot",
+  "definition": "Programs used by a computer.",
+  "synonym": "Program",
+  "antonym": "Hardware",
+  "example": "My brain needs a **software** update every Monday.",
+  "association": "\"Soft + ware\" — yumshoq qism — DASTURIY TA'MINOT."
+ },
+ {
+  "en": "hardware",
+  "uz": "texnik ta'minot",
+  "definition": "The physical parts of a computer.",
+  "synonym": "Equipment",
+  "antonym": "Software",
+  "example": "The **hardware** is fine; the problem is the user.",
+  "association": "\"Hard + ware\" — qattiq qism — TEXNIK TA'MINOT."
+ },
+ {
+  "en": "application",
+  "uz": "ilova",
+  "definition": "A computer program for a task; a request.",
+  "synonym": "App",
+  "antonym": "",
+  "example": "I downloaded an **application** that reminds me to drink water. I ignore it.",
+  "association": "\"Aplikatsiya\" — ILOVA."
+ },
+ {
+  "en": "access",
+  "uz": "kirish imkoniyati",
+  "definition": "The ability to enter or use something.",
+  "synonym": "Entry",
+  "antonym": "Denial",
+  "example": "My little sister has **access** to all my secrets and snacks.",
+  "association": "\"Akses\" — \"aksessuar\"ga KIRISH IMKONIYATI."
+ },
+ {
+  "en": "data",
+  "uz": "ma'lumotlar",
+  "definition": "Facts and information.",
+  "synonym": "Information",
+  "antonym": "",
+  "example": "According to my **data**, I spend 7 hours a day looking at my phone.",
+  "association": "\"Data\" — \"dada\"ning daftari — MA'LUMOTLAR."
+ },
+ {
+  "en": "information",
+  "uz": "axborot",
+  "definition": "Facts about something.",
+  "synonym": "Data",
+  "antonym": "",
+  "example": "Too much **information**: my uncle told us about his surgery at dinner.",
+  "association": "\"Informatsiya\" — AXBOROT."
+ },
+ {
+  "en": "network",
+  "uz": "tarmoq",
+  "definition": "A system of connected computers or people.",
+  "synonym": "System",
+  "antonym": "",
+  "example": "When the **network** is down, my family remembers I exist.",
+  "association": "\"Net + work\" — to'r + ish — TARMOQ."
+ },
+ {
+  "en": "artificial",
+  "uz": "sun'iy",
+  "definition": "Made by people, not natural.",
+  "synonym": "Man-made",
+  "antonym": "Natural",
+  "example": "These **artificial** flowers are the only plants I haven't killed.",
+  "association": "\"Arti-fishal\" — \"artist\" yasagan — SUN'IY."
+ },
+ {
+  "en": "intelligence",
+  "uz": "intellekt",
+  "definition": "The ability to learn and understand.",
+  "synonym": "Intellect",
+  "antonym": "Stupidity",
+  "example": "My cat's **intelligence** increases when she hears the fridge.",
+  "association": "\"Intellekt\" — INTELLEKT."
+ },
+ {
+  "en": "invention",
+  "uz": "ixtiro",
+  "definition": "Something created for the first time.",
+  "synonym": "Creation",
+  "antonym": "",
+  "example": "The best **invention** ever: the \"skip ad\" button.",
+  "association": "\"In-vent\" — \"vent\" (ventilyator) — ajoyib IXTIRO."
+ },
+ {
+  "en": "innovation",
+  "uz": "innovatsiya",
+  "definition": "A new idea or method.",
+  "synonym": "Novelty",
+  "antonym": "Tradition",
+  "example": "Pizza with a spoon: the **innovation** nobody asked for.",
+  "association": "\"Innovatsiya\" — INNOVATSIYA."
+ },
+ {
+  "en": "development",
+  "uz": "rivojlanish",
+  "definition": "The process of growing or improving.",
+  "synonym": "Growth",
+  "antonym": "Decline",
+  "example": "My cooking **development**: from burnt eggs to slightly burnt eggs.",
+  "association": "\"Develop\" — RIVOJLANISH."
+ },
+ {
+  "en": "advantage",
+  "uz": "afzallik",
+  "definition": "Something that helps you succeed.",
+  "synonym": "Benefit",
+  "antonym": "Disadvantage",
+  "example": "The **advantage** of being tall: you always find the snacks on the top shelf.",
+  "association": "\"Advantaj\" — \"avans\" — oldinda bo'lish — AFZALLIK."
+ },
+ {
+  "en": "disadvantage",
+  "uz": "kamchilik",
+  "definition": "Something that makes success harder.",
+  "synonym": "Drawback",
+  "antonym": "Advantage",
+  "example": "The **disadvantage** of living near school: no excuses for being late.",
+  "association": "\"Dis + advantage\" — afzallik emas — KAMCHILIK."
+ },
+ {
+  "en": "privacy",
+  "uz": "maxfiylik",
+  "definition": "Being free from others watching you.",
+  "synonym": "Secrecy",
+  "antonym": "Publicity",
+  "example": "In my house, **privacy** doesn't exist; my mom has a key to everything.",
+  "association": "\"Prayvasi\" — \"private\" — shaxsiy — MAXFIYLIK."
+ },
+ {
+  "en": "security",
+  "uz": "xavfsizlik",
+  "definition": "Being safe from danger.",
+  "synonym": "Safety",
+  "antonym": "Danger",
+  "example": "My fridge needs **security**; my brother keeps robbing it.",
+  "association": "\"Sekyuriti\" — qo'riqchi — XAVFSIZLIK."
+ },
+ {
+  "en": "internet",
+  "uz": "internet",
+  "definition": "The global computer network.",
+  "synonym": "Web",
+  "antonym": "",
+  "example": "Without the **internet**, I had to talk to my family. They are nice people.",
+  "association": "\"Internet\" — INTERNET."
+ },
+ {
+  "en": "platform",
+  "uz": "platforma",
+  "definition": "A system for sharing content or services.",
+  "synonym": "Service",
+  "antonym": "",
+  "example": "This **platform** has more cat videos than educational ones.",
+  "association": "\"Platforma\" — PLATFORMA."
+ },
+ {
+  "en": "content",
+  "uz": "kontent, mazmun",
+  "definition": "Information or entertainment in media.",
+  "synonym": "Material",
+  "antonym": "",
+  "example": "My favourite **content**: videos of people cooking food I will never make.",
+  "association": "\"Kontent\" — MAZMUN."
+ },
+ {
+  "en": "social media",
+  "uz": "ijtimoiy tarmoqlar",
+  "definition": "Websites for sharing with others.",
+  "synonym": "Networking sites",
+  "antonym": "",
+  "example": "On **social media**, everyone is on holiday except me.",
+  "association": "\"Sotsial media\" — IJTIMOIY TARMOQLAR."
+ },
+ {
+  "en": "online",
+  "uz": "onlayn",
+  "definition": "Connected to the internet.",
+  "synonym": "Connected",
+  "antonym": "Offline",
+  "example": "My grandma is always **online** but never answers messages.",
+  "association": "\"On + line\" — liniyada — ONLAYN."
+ },
+ {
+  "en": "virtual",
+  "uz": "virtual",
+  "definition": "Existing on computers, not physically.",
+  "synonym": "Digital",
+  "antonym": "Real",
+  "example": "I have a **virtual** gym membership; I watch workout videos from the sofa.",
+  "association": "\"Virtual\" — VIRTUAL."
+ },
+ {
+  "en": "upload",
+  "uz": "yuklamoq",
+  "definition": "To send files to the internet.",
+  "synonym": "Post",
+  "antonym": "Download",
+  "example": "I **uploaded** 200 photos of my lunch. My followers are thrilled.",
+  "association": "\"Up + load\" — yuqoriga yuk — YUKLAMOQ."
+ },
+ {
+  "en": "download",
+  "uz": "yuklab olmoq",
+  "definition": "To copy files from the internet.",
+  "synonym": "Save",
+  "antonym": "Upload",
+  "example": "I **downloaded** a language app and forgot about it.",
+  "association": "\"Down + load\" — pastga yuk — YUKLAB OLMOQ."
+ },
+ {
+  "en": "update",
+  "uz": "yangilamoq",
+  "definition": "To make something newer.",
+  "synonym": "Upgrade",
+  "antonym": "",
+  "example": "My phone **updated** overnight and now I can't find anything.",
+  "association": "\"Ap-deyt\" — \"up + date\" — YANGILAMOQ."
+ },
+ {
+  "en": "connect",
+  "uz": "bog'lamoq",
+  "definition": "To join two things together.",
+  "synonym": "Link",
+  "antonym": "Disconnect",
+  "example": "My phone **connects** to every Wi-Fi except my own.",
+  "association": "\"Konnektor\" — BOG'LAMOQ."
+ },
+ {
+  "en": "browse",
+  "uz": "internetda ko'rib chiqmoq",
+  "definition": "To look at websites casually.",
+  "synonym": "Surf",
+  "antonym": "",
+  "example": "I **browsed** online shops for three hours and bought nothing.",
+  "association": "\"Brauzer\" — INTERNETDA KO'RIB CHIQMOQ."
+ },
+ {
+  "en": "search",
+  "uz": "qidirmoq",
+  "definition": "To look for something carefully.",
+  "synonym": "Look for",
+  "antonym": "Find",
+  "example": "I **searched** the whole house for my glasses; they were on my head.",
+  "association": "\"Serch\" — \"sirch\" — QIDIRMOQ."
+ },
+ {
+  "en": "install",
+  "uz": "o'rnatmoq",
+  "definition": "To put a program or machine in place.",
+  "synonym": "Set up",
+  "antonym": "Uninstall",
+  "example": "I **installed** a fitness app; that was my only exercise.",
+  "association": "\"Instal\" — \"istalgan\" dasturni O'RNATMOQ."
+ },
+ {
+  "en": "operate",
+  "uz": "ishlatmoq",
+  "definition": "To make a machine work.",
+  "synonym": "Run",
+  "antonym": "",
+  "example": "My grandpa **operates** the TV remote like a spaceship.",
+  "association": "\"Operator\" — ISHLATMOQ."
+ },
+ {
+  "en": "replace",
+  "uz": "almashtirmoq",
+  "definition": "To put something new instead of old.",
+  "synonym": "Substitute",
+  "antonym": "Keep",
+  "example": "I **replaced** my old phone because it was slower than a turtle.",
+  "association": "\"Re + place\" — qayta + joy — ALMASHTIRMOQ."
+ },
+ {
+  "en": "improve",
+  "uz": "yaxshilamoq",
+  "definition": "To make better.",
+  "synonym": "Enhance",
+  "antonym": "Worsen",
+  "example": "My English **improved** after I watched cartoons without subtitles.",
+  "association": "\"Im-pruv\" — \"prove\" — isbotlab YAXSHILAMOQ."
+ },
+ {
+  "en": "automate",
+  "uz": "avtomatlashtirmoq",
+  "definition": "To make a process work by machine.",
+  "synonym": "Mechanize",
+  "antonym": "",
+  "example": "I want to **automate** my homework. My teacher disagrees.",
+  "association": "\"Avtomat\" — AVTOMATLASHTIRMOQ."
+ },
+ {
+  "en": "transform",
+  "uz": "o'zgartirmoq",
+  "definition": "To change completely.",
+  "synonym": "Convert",
+  "antonym": "Preserve",
+  "example": "One cup of coffee **transforms** my mom into a happy person.",
+  "association": "\"Transformer\" — O'ZGARTIRMOQ."
+ },
+ {
+  "en": "health",
+  "uz": "sog'liq",
+  "definition": "The condition of your body and mind.",
+  "synonym": "Wellness",
+  "antonym": "Illness",
+  "example": "Laughing is good for your **health**; so I watch comedies all day.",
+  "association": "\"Helt\" — \"hel\" (butun) — SOG'LIQ."
+ },
+ {
+  "en": "disease",
+  "uz": "kasallik",
+  "definition": "An illness.",
+  "synonym": "Illness",
+  "antonym": "Health",
+  "example": "\"Monday-itis\" is the most common **disease** in schools.",
+  "association": "\"Dis-iiz\" — \"dis\" (yo'q) + \"ease\" (yengillik) — KASALLIK."
+ },
+ {
+  "en": "illness",
+  "uz": "xastalik",
+  "definition": "Poor health.",
+  "synonym": "Sickness",
+  "antonym": "Health",
+  "example": "My **illness** mysteriously disappears on Saturdays.",
+  "association": "\"Ill\" — kasal — XASTALIK."
+ },
+ {
+  "en": "treatment",
+  "uz": "davolash",
+  "definition": "Medical care for an illness.",
+  "synonym": "Therapy",
+  "antonym": "",
+  "example": "Grandma's **treatment** for everything: hot tea and a blanket.",
+  "association": "\"Treat\" — davolash — DAVOLASH."
+ },
+ {
+  "en": "symptom",
+  "uz": "alomat",
+  "definition": "A sign of illness.",
+  "synonym": "Sign",
+  "antonym": "",
+  "example": "A **symptom** of being hungry: I get angry at everyone.",
+  "association": "\"Simptom\" — ALOMAT."
+ },
+ {
+  "en": "diagnosis",
+  "uz": "tashxis",
+  "definition": "Identification of an illness.",
+  "synonym": "Identification",
+  "antonym": "",
+  "example": "The doctor's **diagnosis**: too much phone, not enough sleep.",
+  "association": "\"Diagnoz\" — TASHXIS."
+ },
+ {
+  "en": "prevention",
+  "uz": "oldini olish",
+  "definition": "Stopping something bad from happening.",
+  "synonym": "Avoidance",
+  "antonym": "",
+  "example": "**Prevention** of fights: buy two identical toys.",
+  "association": "\"Prevent\" — OLDINI OLISH."
+ },
+ {
+  "en": "medicine",
+  "uz": "dori",
+  "definition": "Something taken to treat illness.",
+  "synonym": "Drug",
+  "antonym": "Poison",
+  "example": "Laughter is the best **medicine**, unless you have a broken rib.",
+  "association": "\"Meditsina\" — DORI."
+ },
+ {
+  "en": "patient",
+  "uz": "bemor",
+  "definition": "A person receiving medical care.",
+  "synonym": "Case",
+  "antonym": "",
+  "example": "The **patient** said, \"Doctor, I feel like a pair of curtains.\" \"Pull yourself together!\"",
+  "association": "\"Patsient\" — BEMOR."
+ },
+ {
+  "en": "recovery",
+  "uz": "tiklanish",
+  "definition": "Getting better after illness.",
+  "synonym": "Healing",
+  "antonym": "Relapse",
+  "example": "My **recovery** from the weekend takes until Wednesday.",
+  "association": "\"Re-kaveri\" — \"cover\" — qayta qoplanish — TIKLANISH."
+ },
+ {
+  "en": "surgery",
+  "uz": "jarrohlik",
+  "definition": "A medical operation.",
+  "synonym": "Operation",
+  "antonym": "",
+  "example": "After **surgery**, my uncle told everyone about it for five years.",
+  "association": "\"Xirurgiya\" — JARROHLIK."
+ },
+ {
+  "en": "injury",
+  "uz": "jarohat",
+  "definition": "Physical harm to the body.",
+  "synonym": "Wound",
+  "antonym": "",
+  "example": "My worst **injury**: stepping on a LEGO barefoot.",
+  "association": "\"Injuri\" — \"in-jarohat\" — JAROHAT."
+ },
+ {
+  "en": "infection",
+  "uz": "infeksiya",
+  "definition": "A disease caused by germs.",
+  "synonym": "Contagion",
+  "antonym": "",
+  "example": "Laughter is an **infection**: once one starts, the whole class laughs.",
+  "association": "\"Infeksiya\" — INFEKSIYA."
+ },
+ {
+  "en": "stress",
+  "uz": "stress",
+  "definition": "Pressure and worry.",
+  "synonym": "Tension",
+  "antonym": "Relaxation",
+  "example": "Exam **stress** makes me eat everything in the fridge.",
+  "association": "\"Stress\" — STRESS."
+ },
+ {
+  "en": "anxiety",
+  "uz": "xavotir",
+  "definition": "A feeling of worry and fear.",
+  "synonym": "Worry",
+  "antonym": "Calm",
+  "example": "My **anxiety** level rises when mom says \"We need to talk.\"",
+  "association": "\"Angzayeti\" — \"anqo\" — XAVOTIR."
+ },
+ {
+  "en": "exercise",
+  "uz": "jismoniy mashq",
+  "definition": "Physical activity to stay healthy.",
+  "synonym": "Workout",
+  "antonym": "Rest",
+  "example": "My favourite **exercise**: running late.",
+  "association": "\"Eksersayz\" — JISMONIY MASHQ."
+ },
+ {
+  "en": "diet",
+  "uz": "parhez, ovqatlanish tartibi",
+  "definition": "The food you usually eat.",
+  "synonym": "Nutrition",
+  "antonym": "",
+  "example": "I'm on a seafood **diet**: I see food and I eat it.",
+  "association": "\"Dieta\" — PARHEZ."
+ },
+ {
+  "en": "nutrition",
+  "uz": "oziqlanish",
+  "definition": "Food needed for health and growth.",
+  "synonym": "Nourishment",
+  "antonym": "Malnutrition",
+  "example": "According to my **nutrition** plan, chips are vegetables.",
+  "association": "\"Nutri\" — oziq — OZIQLANISH."
+ },
+ {
+  "en": "obesity",
+  "uz": "semizlik",
+  "definition": "Being very overweight.",
+  "synonym": "Overweight",
+  "antonym": "Thinness",
+  "example": "Our cat is close to **obesity**; she eats three dinners a day.",
+  "association": "\"Obez\" — \"obi-non\" ko'p yesang — SEMIZLIK."
+ },
+ {
+  "en": "healthy",
+  "uz": "sog'lom",
+  "definition": "In good physical condition.",
+  "synonym": "Fit",
+  "antonym": "Unhealthy",
+  "example": "I'm very **healthy**; I eat salad once a year.",
+  "association": "\"Health\" — SOG'LOM."
+ },
+ {
+  "en": "harmful",
+  "uz": "zararli",
+  "definition": "Causing damage.",
+  "synonym": "Damaging",
+  "antonym": "Harmless",
+  "example": "Too much sugar is **harmful**, but so is no sugar for my mood.",
+  "association": "\"Harm\" — zarar — ZARARLI."
+ },
+ {
+  "en": "physical",
+  "uz": "jismoniy",
+  "definition": "Related to the body.",
+  "synonym": "Bodily",
+  "antonym": "Mental",
+  "example": "**Physical** education at school: running from the ball.",
+  "association": "\"Fizika\" — tana — JISMONIY."
+ },
+ {
+  "en": "mental",
+  "uz": "ruhiy",
+  "definition": "Related to the mind.",
+  "synonym": "Psychological",
+  "antonym": "Physical",
+  "example": "Doing math before breakfast is bad for my **mental** health.",
+  "association": "\"Mentalitet\" — fikr — RUHIY."
+ },
+ {
+  "en": "severe",
+  "uz": "og'ir",
+  "definition": "Very serious or bad.",
+  "synonym": "Serious",
+  "antonym": "Mild",
+  "example": "I have a **severe** allergy to waking up early.",
+  "association": "\"Si-viir\" — \"sivir\" (Sibir) sovug'i — OG'IR."
+ },
+ {
+  "en": "minor",
+  "uz": "yengil, kichik",
+  "definition": "Small, not important.",
+  "synonym": "Small",
+  "antonym": "Major",
+  "example": "A **minor** problem: I forgot my homework. A major problem: I forgot my lunch.",
+  "association": "\"Minor\" — \"mini\" — YENGIL, KICHIK."
+ },
+ {
+  "en": "chronic",
+  "uz": "surunkali",
+  "definition": "Lasting for a long time.",
+  "synonym": "Persistent",
+  "antonym": "Acute",
+  "example": "My brother has **chronic** laziness. Doctors can't help.",
+  "association": "\"Xronika\" — uzoq davom etgan — SURUNKALI."
+ },
+ {
+  "en": "medical",
+  "uz": "tibbiy",
+  "definition": "Related to medicine.",
+  "synonym": "Clinical",
+  "antonym": "",
+  "example": "My **medical** knowledge comes from TV series.",
+  "association": "\"Medik\" — TIBBIY."
+ },
+ {
+  "en": "suffer",
+  "uz": "aziyat chekmoq",
+  "definition": "To feel pain or problems.",
+  "synonym": "Endure",
+  "antonym": "Enjoy",
+  "example": "I **suffer** every morning when the alarm rings.",
+  "association": "\"Safar\" — uzoq safarda AZIYAT CHEKMOQ."
+ },
+ {
+  "en": "recover",
+  "uz": "tuzalmoq",
+  "definition": "To get better after illness.",
+  "synonym": "Heal",
+  "antonym": "Worsen",
+  "example": "I **recovered** from my cold, but not from my Netflix addiction.",
+  "association": "\"Re + cover\" — qayta qoplanmoq — TUZALMOQ."
+ },
+ {
+  "en": "diagnose",
+  "uz": "tashxis qo'ymoq",
+  "definition": "To identify an illness.",
+  "synonym": "Identify",
+  "antonym": "",
+  "example": "Google **diagnosed** my headache as something terrible. It was hunger.",
+  "association": "\"Diagnoz\" — TASHXIS QO'YMOQ."
+ },
+ {
+  "en": "argue",
+  "uz": "bahslashmoq, fikr bildirmoq",
+  "definition": "To disagree with words; to give reasons.",
+  "synonym": "Debate",
+  "antonym": "Agree",
+  "example": "My parents **argue** about who is better at parking.",
+  "association": "\"Argument\" — BAHSLASHMOQ."
+ },
+ {
+  "en": "argument",
+  "uz": "dalil, bahs",
+  "definition": "A reason or a disagreement.",
+  "synonym": "Debate",
+  "antonym": "Agreement",
+  "example": "We had an **argument** about whether a hot dog is a sandwich.",
+  "association": "\"Argument\" — DALIL, BAHS."
+ },
+ {
+  "en": "convince",
+  "uz": "ishontirmoq",
+  "definition": "To make someone believe something.",
+  "synonym": "Persuade",
+  "antonym": "Dissuade",
+  "example": "I **convinced** my mom that pizza is a healthy breakfast. Almost.",
+  "association": "\"Kon-vins\" — \"konvert\"dagi dalil bilan ISHONTIRMOQ."
+ },
+ {
+  "en": "persuade",
+  "uz": "ko'ndirmoq",
+  "definition": "To make someone agree to do something.",
+  "synonym": "Convince",
+  "antonym": "Discourage",
+  "example": "My little sister **persuaded** dad to buy a puppy in five minutes.",
+  "association": "\"Per-sveyd\" — \"persik\" berib KO'NDIRMOQ."
+ },
+ {
+  "en": "suggest",
+  "uz": "taklif qilmoq",
+  "definition": "To propose an idea.",
+  "synonym": "Propose",
+  "antonym": "",
+  "example": "I **suggest** we skip the meeting and go for ice cream.",
+  "association": "\"Sa-jest\" — \"jest\" (imo-ishora) bilan TAKLIF QILMOQ."
+ },
+ {
+  "en": "recommend",
+  "uz": "tavsiya qilmoq",
+  "definition": "To advise someone that something is good.",
+  "synonym": "Advise",
+  "antonym": "",
+  "example": "I **recommend** this restaurant; the food is bad but the Wi-Fi is fast.",
+  "association": "\"Rekomendatsiya\" — TAVSIYA QILMOQ."
+ },
+ {
+  "en": "mention",
+  "uz": "tilga olmoq",
+  "definition": "To say something briefly.",
+  "synonym": "Refer to",
+  "antonym": "Ignore",
+  "example": "Don't **mention** my haircut; it's a sensitive topic.",
+  "association": "\"Menshn\" — \"@mention\" — TILGA OLMOQ."
+ },
+ {
+  "en": "state",
+  "uz": "bayon qilmoq",
+  "definition": "To say something formally.",
+  "synonym": "Declare",
+  "antonym": "",
+  "example": "The teacher **stated** clearly: \"No phones.\" Then her phone rang.",
+  "association": "\"Steyt\" — \"stat'ya\" — BAYON QILMOQ."
+ },
+ {
+  "en": "express",
+  "uz": "ifoda etmoq",
+  "definition": "To show a feeling or idea.",
+  "synonym": "Convey",
+  "antonym": "Hide",
+  "example": "My cat **expresses** love by biting me.",
+  "association": "\"Ekspress\" — tez yetkazadi — IFODA ETMOQ."
+ },
+ {
+  "en": "respond",
+  "uz": "javob bermoq",
+  "definition": "To answer or react.",
+  "synonym": "Reply",
+  "antonym": "Ignore",
+  "example": "My friend **responds** to messages three days later.",
+  "association": "\"Response\" — JAVOB BERMOQ."
+ },
+ {
+  "en": "interpret",
+  "uz": "talqin qilmoq",
+  "definition": "To explain the meaning of something.",
+  "synonym": "Explain",
+  "antonym": "Misinterpret",
+  "example": "I **interpret** my teacher's silence as approval.",
+  "association": "\"Interpretator\" — tarjimon — TALQIN QILMOQ."
+ },
+ {
+  "en": "explain",
+  "uz": "tushuntirmoq",
+  "definition": "To make something clear.",
+  "synonym": "Clarify",
+  "antonym": "Confuse",
+  "example": "Please **explain** why the remote is in the fridge.",
+  "association": "\"Eks-pleyn\" — \"plan\"ni ochib — TUSHUNTIRMOQ."
+ },
+ {
+  "en": "clarify",
+  "uz": "aniqlashtirmoq",
+  "definition": "To make something easier to understand.",
+  "synonym": "Explain",
+  "antonym": "Confuse",
+  "example": "Can you **clarify** what \"later\" means, mom?",
+  "association": "\"Klar\" — \"clear\" (tiniq) — ANIQLASHTIRMOQ."
+ },
+ {
+  "en": "summarize",
+  "uz": "xulosa qilmoq",
+  "definition": "To give a short version of the main points.",
+  "synonym": "Sum up",
+  "antonym": "Expand",
+  "example": "To **summarize** my day: woke up, ate, slept.",
+  "association": "\"Summa\" — jamlab XULOSA QILMOQ."
+ },
+ {
+  "en": "describe",
+  "uz": "tasvirlamoq",
+  "definition": "To say what something is like.",
+  "synonym": "Portray",
+  "antonym": "",
+  "example": "Can you **describe** the suspect who ate your cake? \"Yes. It was me.\"",
+  "association": "\"Di-skrayb\" — \"skript\" yozib TASVIRLAMOQ."
+ },
+ {
+  "en": "compare",
+  "uz": "taqqoslamoq",
+  "definition": "To look at similarities and differences.",
+  "synonym": "Contrast",
+  "antonym": "",
+  "example": "Don't **compare** my cooking to my grandma's. It hurts.",
+  "association": "\"Kom-per\" — \"kompyuter\" narxlarini TAQQOSLAMOQ."
+ },
+ {
+  "en": "contrast",
+  "uz": "qarama-qarshi qo'ymoq",
+  "definition": "To show differences between things.",
+  "synonym": "Differentiate",
+  "antonym": "Compare",
+  "example": "My room is in sharp **contrast** to my sister's clean room.",
+  "association": "\"Kontrast\" — oq va qora — QARAMA-QARSHI QO'YMOQ."
+ },
+ {
+  "en": "define",
+  "uz": "ta'riflamoq",
+  "definition": "To explain the meaning of a word.",
+  "synonym": "Explain",
+  "antonym": "",
+  "example": "How do you **define** \"clean room\"? My mom and I disagree.",
+  "association": "\"Definitsiya\" — TA'RIFLAMOQ."
+ },
+ {
+  "en": "refer",
+  "uz": "murojaat qilmoq",
+  "definition": "To mention or direct to a source.",
+  "synonym": "Mention",
+  "antonym": "",
+  "example": "The teacher **referred** to my essay as \"creative\". I think it's bad.",
+  "association": "\"Referat\" — manbaga MUROJAAT QILMOQ."
+ },
+ {
+  "en": "conclude",
+  "uz": "xulosa qilmoq",
+  "definition": "To decide after thinking.",
+  "synonym": "Deduce",
+  "antonym": "Begin",
+  "example": "Scientists **concluded** that cats are liquid.",
+  "association": "\"Kon-kluud\" — \"klyuch\" (kalit) — XULOSA QILMOQ."
+ },
+ {
+  "en": "predict",
+  "uz": "bashorat qilmoq",
+  "definition": "To say what will happen.",
+  "synonym": "Forecast",
+  "antonym": "",
+  "example": "I **predict** that I will be hungry in 15 minutes.",
+  "association": "\"Pre + dict\" — oldindan aytmoq — BASHORAT QILMOQ."
+ },
+ {
+  "en": "prove",
+  "uz": "isbotlamoq",
+  "definition": "To show that something is true.",
+  "synonym": "Demonstrate",
+  "antonym": "Disprove",
+  "example": "Can you **prove** that you didn't eat the cake? Your face says otherwise.",
+  "association": "\"Pruv\" — \"proba\" — ISBOTLAMOQ."
+ },
+ {
+  "en": "justify",
+  "uz": "asoslamoq",
+  "definition": "To give a good reason for.",
+  "synonym": "Defend",
+  "antonym": "",
+  "example": "I can't **justify** buying another pair of sneakers, but I did.",
+  "association": "\"Jast\" — \"just\" (adolatli) — ASOSLAMOQ."
+ },
+ {
+  "en": "criticize",
+  "uz": "tanqid qilmoq",
+  "definition": "To say what is wrong with something.",
+  "synonym": "Condemn",
+  "antonym": "Praise",
+  "example": "My grandma **criticizes** my clothes and then buys me the same ones.",
+  "association": "\"Kritik\" — TANQID QILMOQ."
+ },
+ {
+  "en": "concept",
+  "uz": "tushuncha",
+  "definition": "An idea.",
+  "synonym": "Idea",
+  "antonym": "",
+  "example": "The **concept** of \"tidy room\" is foreign to my brother.",
+  "association": "\"Konsepsiya\" — TUSHUNCHA."
+ },
+ {
+  "en": "context",
+  "uz": "kontekst, sharoit",
+  "definition": "The situation around something.",
+  "synonym": "Background",
+  "antonym": "",
+  "example": "Out of **context**, \"I ate my family\" sounds terrible. (I ate WITH my family.)",
+  "association": "\"Kontekst\" — KONTEKST."
+ },
+ {
+  "en": "evidence",
+  "uz": "dalil",
+  "definition": "Facts that show something is true.",
+  "synonym": "Proof",
+  "antonym": "",
+  "example": "The chocolate on your face is the **evidence**.",
+  "association": "\"Evi-dens\" — \"video\" dalil — DALIL."
+ },
+ {
+  "en": "issue",
+  "uz": "masala, muammo",
+  "definition": "A problem or topic.",
+  "synonym": "Problem",
+  "antonym": "",
+  "example": "We have a serious **issue**: the Wi-Fi password has changed.",
+  "association": "\"Ishyu\" — \"ish\" — MASALA, MUAMMO."
+ },
+ {
+  "en": "method",
+  "uz": "usul",
+  "definition": "A way of doing something.",
+  "synonym": "Technique",
+  "antonym": "",
+  "example": "My study **method**: put the book under my pillow.",
+  "association": "\"Metod\" — USUL."
+ },
+ {
+  "en": "process",
+  "uz": "jarayon",
+  "definition": "A series of actions.",
+  "synonym": "Procedure",
+  "antonym": "",
+  "example": "Waking up is a slow **process**: it takes me an hour.",
+  "association": "\"Protsess\" — JARAYON."
+ },
+ {
+  "en": "principle",
+  "uz": "tamoyil",
+  "definition": "A basic rule or belief.",
+  "synonym": "Rule",
+  "antonym": "",
+  "example": "My life **principle**: never skip dessert.",
+  "association": "\"Printsip\" — TAMOYIL."
+ },
+ {
+  "en": "purpose",
+  "uz": "maqsad",
+  "definition": "The reason for doing something.",
+  "synonym": "Aim",
+  "antonym": "",
+  "example": "The **purpose** of my life: finding the TV remote.",
+  "association": "\"Pyor-pos\" — \"pors\" (maqsadga otish) — MAQSAD."
+ },
+ {
+  "en": "result",
+  "uz": "natija",
+  "definition": "The outcome of an action.",
+  "synonym": "Outcome",
+  "antonym": "Cause",
+  "example": "The **result** of my cooking experiment: the fire alarm.",
+  "association": "\"Rezultat\" — NATIJA."
+ },
+ {
+  "en": "solution",
+  "uz": "yechim",
+  "definition": "An answer to a problem.",
+  "synonym": "Answer",
+  "antonym": "Problem",
+  "example": "The **solution** to all my problems: a nap.",
+  "association": "\"Solyushn\" — \"sol\" (tuz) — eritma, YECHIM."
+ },
+ {
+  "en": "source",
+  "uz": "manba",
+  "definition": "Where something comes from.",
+  "synonym": "Origin",
+  "antonym": "",
+  "example": "My **source** of news: my neighbour.",
+  "association": "\"Sors\" — \"sous\" (sous) qayerdan kelgan — MANBA."
+ },
+ {
+  "en": "structure",
+  "uz": "tuzilma",
+  "definition": "The way parts are arranged.",
+  "synonym": "Framework",
+  "antonym": "Chaos",
+  "example": "The **structure** of my essay: introduction, panic, conclusion.",
+  "association": "\"Struktura\" — TUZILMA."
+ },
+ {
+  "en": "survey",
+  "uz": "so'rovnoma",
+  "definition": "Questions asked to many people.",
+  "synonym": "Poll",
+  "antonym": "",
+  "example": "A **survey** showed that 100% of cats prefer my keyboard to their bed.",
+  "association": "\"Ser-vey\" — \"servis\" haqida SO'ROVNOMA."
+ },
+ {
+  "en": "trend",
+  "uz": "tendensiya",
+  "definition": "A general direction of change.",
+  "synonym": "Tendency",
+  "antonym": "",
+  "example": "The new **trend**: pretending to work while scrolling TikTok.",
+  "association": "\"Trend\" — TENDENSIYA."
+ },
+ {
+  "en": "pattern",
+  "uz": "namuna, qonuniyat",
+  "definition": "A regular way things happen.",
+  "synonym": "Regularity",
+  "antonym": "Randomness",
+  "example": "There is a **pattern**: I get hungry whenever I start studying.",
+  "association": "\"Patern\" — \"patron\"ni takrorlanuvchi QONUNIYAT bilan joyla."
+ },
+ {
+  "en": "category",
+  "uz": "toifa",
+  "definition": "A group of similar things.",
+  "synonym": "Class",
+  "antonym": "",
+  "example": "My clothes have two **categories**: \"clean enough\" and \"not clean enough\".",
+  "association": "\"Kategoriya\" — TOIFA."
+ },
+ {
+  "en": "aspect",
+  "uz": "jihat",
+  "definition": "One part or side of something.",
+  "synonym": "Side",
+  "antonym": "",
+  "example": "The best **aspect** of school: the bell at the end.",
+  "association": "\"Aspekt\" — JIHAT."
+ },
+ {
+  "en": "role",
+  "uz": "rol, vazifa",
+  "definition": "The function or part someone plays.",
+  "synonym": "Part",
+  "antonym": "",
+  "example": "My **role** in the group project: moral support.",
+  "association": "\"Rol\" — ROL."
+ },
+ {
+  "en": "function",
+  "uz": "vazifa, funksiya",
+  "definition": "The purpose of a thing or person.",
+  "synonym": "Purpose",
+  "antonym": "",
+  "example": "The main **function** of my brother: to annoy me.",
+  "association": "\"Funksiya\" — VAZIFA."
+ },
+ {
+  "en": "outcome",
+  "uz": "yakuniy natija",
+  "definition": "The final result.",
+  "synonym": "Result",
+  "antonym": "Cause",
+  "example": "The **outcome** of the match: everyone blamed the goalkeeper.",
+  "association": "\"Out + come\" — tashqariga chiqqan — YAKUNIY NATIJA."
+ },
+ {
+  "en": "evidence-based",
+  "uz": "dalillarga asoslangan",
+  "definition": "Supported by facts.",
+  "synonym": "Proven",
+  "antonym": "Unfounded",
+  "example": "My mom's rules are not **evidence-based**; they are mom-based.",
+  "association": "\"Evidence + based\" — dalilga asoslangan — DALILLARGA ASOSLANGAN."
+ },
+ {
+  "en": "valid",
+  "uz": "asosli, haqiqiy",
+  "definition": "Based on truth; officially acceptable.",
+  "synonym": "Legitimate",
+  "antonym": "Invalid",
+  "example": "\"My dog ate it\" is not a **valid** excuse if you don't have a dog.",
+  "association": "\"Valid\" — \"valyuta\" haqiqiy — ASOSLI, HAQIQIY."
+ },
+ {
+  "en": "identity",
+  "uz": "o'zlik, shaxsiyat",
+  "definition": "Who or what a person is.",
+  "synonym": "Self",
+  "antonym": "",
+  "example": "I lost my **identity** card and my identity crisis started.",
+  "association": "\"Identifikatsiya\" — O'ZLIK."
+ },
+ {
+  "en": "individual",
+  "uz": "shaxs, individual",
+  "definition": "A single person.",
+  "synonym": "Person",
+  "antonym": "Group",
+  "example": "Every **individual** in my family has a favourite chair. Mine is taken.",
+  "association": "\"Individual\" — SHAXS."
+ },
+ {
+  "en": "resident",
+  "uz": "aholi, yashovchi",
+  "definition": "A person who lives in a place.",
+  "synonym": "Inhabitant",
+  "antonym": "Visitor",
+  "example": "The oldest **resident** of our building is a cat named Boss.",
+  "association": "\"Rezident\" — YASHOVCHI."
+ },
+ {
+  "en": "household",
+  "uz": "uy xo'jaligi",
+  "definition": "All the people living in a home.",
+  "synonym": "Family",
+  "antonym": "",
+  "example": "In our **household**, the cat makes all the decisions.",
+  "association": "\"House + hold\" — uyni ushlab turuvchilar — UY XO'JALIGI."
+ },
+ {
+  "en": "family",
+  "uz": "oila",
+  "definition": "Parents and children; relatives.",
+  "synonym": "Relatives",
+  "antonym": "Strangers",
+  "example": "My **family** is loud, but the food is great.",
+  "association": "\"Familiya\" — OILA."
+ },
+ {
+  "en": "parenting",
+  "uz": "farzand tarbiyasi",
+  "definition": "Raising children.",
+  "synonym": "Upbringing",
+  "antonym": "",
+  "example": "**Parenting** tip from my dad: \"Ask your mother.\"",
+  "association": "\"Parent\" — ota-ona — FARZAND TARBIYASI."
+ },
+ {
+  "en": "childhood",
+  "uz": "bolalik",
+  "definition": "The time of being a child.",
+  "synonym": "Youth",
+  "antonym": "Adulthood",
+  "example": "In my **childhood**, I thought the moon followed our car.",
+  "association": "\"Child + hood\" — bola davri — BOLALIK."
+ },
+ {
+  "en": "adulthood",
+  "uz": "voyaga yetganlik",
+  "definition": "The time of being an adult.",
+  "synonym": "Maturity",
+  "antonym": "Childhood",
+  "example": "**Adulthood** is mostly paying bills and looking for your keys.",
+  "association": "\"Adult + hood\" — katta davri — VOYAGA YETGANLIK."
+ },
+ {
+  "en": "elderly",
+  "uz": "keksalar",
+  "definition": "Old people.",
+  "synonym": "Aged",
+  "antonym": "Young",
+  "example": "The **elderly** in my neighbourhood know everything about everybody.",
+  "association": "\"Elder\" — katta — KEKSALAR."
+ },
+ {
+  "en": "gender",
+  "uz": "jins",
+  "definition": "Being male or female.",
+  "synonym": "Sex",
+  "antonym": "",
+  "example": "My cat doesn't care about my **gender**; only about my food.",
+  "association": "\"Jender\" — JINS."
+ },
+ {
+  "en": "marriage",
+  "uz": "nikoh",
+  "definition": "The legal union of two people.",
+  "synonym": "Wedding",
+  "antonym": "Divorce",
+  "example": "**Marriage** is when you argue about the thermostat for 50 years.",
+  "association": "\"Mariya\"ga uylanish — NIKOH."
+ },
+ {
+  "en": "divorce",
+  "uz": "ajralish",
+  "definition": "The legal end of a marriage.",
+  "synonym": "Separation",
+  "antonym": "Marriage",
+  "example": "My parents joke about **divorce** every time dad parks the car.",
+  "association": "\"Di-vors\" — \"ikki (di) yo'l\" — AJRALISH."
+ },
+ {
+  "en": "homelessness",
+  "uz": "uysizlik",
+  "definition": "Not having a home.",
+  "synonym": "Destitution",
+  "antonym": "",
+  "example": "Charities fight **homelessness** by building shelters.",
+  "association": "\"Home + less\" — uy yo'q — UYSIZLIK."
+ },
+ {
+  "en": "migration",
+  "uz": "migratsiya",
+  "definition": "Moving from one place to another.",
+  "synonym": "Movement",
+  "antonym": "",
+  "example": "The **migration** of birds is like my family going to grandma's in summer.",
+  "association": "\"Migratsiya\" — MIGRATSIYA."
+ },
+ {
+  "en": "immigration",
+  "uz": "immigratsiya",
+  "definition": "Coming to live in a new country.",
+  "synonym": "Settlement",
+  "antonym": "Emigration",
+  "example": "**Immigration** officers asked why I have ten kilos of dried fruit.",
+  "association": "\"Im\" (ichkari) + \"migratsiya\" — IMMIGRATSIYA."
+ },
+ {
+  "en": "integration",
+  "uz": "integratsiya",
+  "definition": "Joining into a whole group.",
+  "synonym": "Inclusion",
+  "antonym": "Separation",
+  "example": "My **integration** into the new class began when I shared my chips.",
+  "association": "\"Integratsiya\" — INTEGRATSIYA."
+ },
+ {
+  "en": "diversity",
+  "uz": "xilma-xillik",
+  "definition": "Being varied or different.",
+  "synonym": "Variety",
+  "antonym": "Uniformity",
+  "example": "Our fridge shows great **diversity**: from fresh fruit to ancient cheese.",
+  "association": "\"Diverse\" — XILMA-XILLIK."
+ },
+ {
+  "en": "volunteer",
+  "uz": "ko'ngilli",
+  "definition": "A person who works for free.",
+  "synonym": "Helper",
+  "antonym": "",
+  "example": "I became a **volunteer** at the animal shelter and came home with three cats.",
+  "association": "\"Volontyor\" — KO'NGILLI."
+ },
+ {
+  "en": "charity",
+  "uz": "xayriya",
+  "definition": "An organization that helps people.",
+  "synonym": "Donation",
+  "antonym": "Selfishness",
+  "example": "I gave my old jokes to **charity**; they returned them.",
+  "association": "\"Char-iti\" — \"chorak\" pulni berib — XAYRIYA."
+ },
+ {
+  "en": "donate",
+  "uz": "ehson qilmoq",
+  "definition": "To give money or things to help.",
+  "synonym": "Give",
+  "antonym": "Take",
+  "example": "I **donated** my old clothes; now I have nothing to wear.",
+  "association": "\"Donat\" — \"donater\" — EHSON QILMOQ."
+ },
+ {
+  "en": "economy",
+  "uz": "iqtisodiyot",
+  "definition": "The system of money and trade in a country.",
+  "synonym": "Financial system",
+  "antonym": "",
+  "example": "The **economy** of my wallet is in crisis.",
+  "association": "\"Ekonomika\" — IQTISODIYOT."
+ },
+ {
+  "en": "economic",
+  "uz": "iqtisodiy",
+  "definition": "Related to the economy.",
+  "synonym": "Financial",
+  "antonym": "",
+  "example": "My **economic** plan: spend less on snacks. It failed.",
+  "association": "\"Ekonomik\" — IQTISODIY."
+ },
+ {
+  "en": "finance",
+  "uz": "moliya",
+  "definition": "The management of money.",
+  "synonym": "Money matters",
+  "antonym": "",
+  "example": "My **finance** strategy: hope.",
+  "association": "\"Finans\" — MOLIYA."
+ },
+ {
+  "en": "financial",
+  "uz": "moliyaviy",
+  "definition": "Related to money.",
+  "synonym": "Monetary",
+  "antonym": "",
+  "example": "My **financial** advisor is my piggy bank.",
+  "association": "\"Finansoviy\" — MOLIYAVIY."
+ },
+ {
+  "en": "industry",
+  "uz": "sanoat",
+  "definition": "Businesses that produce goods.",
+  "synonym": "Manufacturing",
+  "antonym": "",
+  "example": "The snack **industry** survives because of me.",
+  "association": "\"Industriya\" — SANOAT."
+ },
+ {
+  "en": "market",
+  "uz": "bozor",
+  "definition": "A place or system where goods are sold.",
+  "synonym": "Bazaar",
+  "antonym": "",
+  "example": "At the **market**, grandma bargains like a professional fighter.",
+  "association": "\"Market\" — BOZOR."
+ },
+ {
+  "en": "customer",
+  "uz": "mijoz",
+  "definition": "A person who buys something.",
+  "synonym": "Client",
+  "antonym": "Seller",
+  "example": "The **customer** is always right, except when he wants pineapple on pizza.",
+  "association": "\"Kastomer\" — \"kasting\" — MIJOZ."
+ },
+ {
+  "en": "consumer",
+  "uz": "iste'molchi",
+  "definition": "A person who buys and uses goods.",
+  "synonym": "Buyer",
+  "antonym": "Producer",
+  "example": "As a **consumer**, I buy things I don't need with money I don't have.",
+  "association": "\"Konsum\" — ISTE'MOLCHI."
+ },
+ {
+  "en": "product",
+  "uz": "mahsulot",
+  "definition": "Something made to be sold.",
+  "synonym": "Goods",
+  "antonym": "",
+  "example": "This **product** promises to make you smarter. It's a pillow.",
+  "association": "\"Produkt\" — MAHSULOT."
+ },
+ {
+  "en": "service",
+  "uz": "xizmat",
+  "definition": "Work done for customers.",
+  "synonym": "Assistance",
+  "antonym": "",
+  "example": "The **service** was so slow that I grew a beard.",
+  "association": "\"Servis\" — XIZMAT."
+ },
+ {
+  "en": "demand",
+  "uz": "talab",
+  "definition": "The desire of people to buy something.",
+  "synonym": "Need",
+  "antonym": "Supply",
+  "example": "There's a big **demand** for air conditioners in July.",
+  "association": "\"Demand\" — \"diman\"(di-man) — TALAB."
+ },
+ {
+  "en": "supply",
+  "uz": "taklif",
+  "definition": "The amount available for sale.",
+  "synonym": "Stock",
+  "antonym": "Demand",
+  "example": "Our **supply** of chocolate ended mysteriously.",
+  "association": "\"Sap-lay\" — \"saplay\" ta'minot — TAKLIF."
+ },
+ {
+  "en": "price",
+  "uz": "narx",
+  "definition": "The money needed to buy something.",
+  "synonym": "Cost",
+  "antonym": "",
+  "example": "The **price** of popcorn at the cinema is bigger than the ticket.",
+  "association": "\"Prays\" — \"prays-list\" — NARX."
+ },
+ {
+  "en": "cost",
+  "uz": "xarajat",
+  "definition": "The amount of money needed.",
+  "synonym": "Expense",
+  "antonym": "Profit",
+  "example": "The **cost** of my hobby: all my money.",
+  "association": "\"Kost\" — \"kostyum\" qimmat — XARAJAT."
+ },
+ {
+  "en": "profit",
+  "uz": "foyda",
+  "definition": "Money gained in business.",
+  "synonym": "Gain",
+  "antonym": "Loss",
+  "example": "My lemonade stand made a **profit** of two coins and a cookie.",
+  "association": "\"Profit\" — \"profi\" ish qilsa — FOYDA."
+ },
+ {
+  "en": "loss",
+  "uz": "zarar",
+  "definition": "Money lost; losing something.",
+  "synonym": "Deficit",
+  "antonym": "Profit",
+  "example": "Losing my headphones was a great **loss**.",
+  "association": "\"Los\" — \"lost\" (yo'qolgan) — ZARAR."
+ },
+ {
+  "en": "investment",
+  "uz": "investitsiya",
+  "definition": "Money put in to get more later.",
+  "synonym": "Funding",
+  "antonym": "",
+  "example": "My best **investment**: a big sofa.",
+  "association": "\"Investitsiya\" — INVESTITSIYA."
+ },
+ {
+  "en": "business",
+  "uz": "biznes",
+  "definition": "Buying and selling; a company.",
+  "synonym": "Commerce",
+  "antonym": "",
+  "example": "My little brother runs a **business** selling my own toys back to me.",
+  "association": "\"Biznes\" — BIZNES."
+ },
+ {
+  "en": "company",
+  "uz": "kompaniya",
+  "definition": "An organization that makes money.",
+  "synonym": "Firm",
+  "antonym": "",
+  "example": "Our **company** has a coffee machine that works harder than us.",
+  "association": "\"Kompaniya\" — KOMPANIYA."
+ },
+ {
+  "en": "enterprise",
+  "uz": "korxona",
+  "definition": "A company or business.",
+  "synonym": "Firm",
+  "antonym": "",
+  "example": "Grandma's cookie **enterprise** is famous in the whole neighbourhood.",
+  "association": "\"Enterprayz\" — KORXONA."
+ },
+ {
+  "en": "trade",
+  "uz": "savdo",
+  "definition": "Buying and selling goods.",
+  "synonym": "Commerce",
+  "antonym": "",
+  "example": "At school, we **trade** snacks like stock brokers.",
+  "association": "\"Treyd\" — \"treyder\" — SAVDO."
+ },
+ {
+  "en": "export",
+  "uz": "eksport",
+  "definition": "To sell goods to other countries.",
+  "synonym": "Ship abroad",
+  "antonym": "Import",
+  "example": "Uzbekistan **exports** the best melons in the world. Fact.",
+  "association": "\"Eks\" (tashqariga) + \"port\" — EKSPORT."
+ },
+ {
+  "en": "import",
+  "uz": "import",
+  "definition": "To bring goods from other countries.",
+  "synonym": "Bring in",
+  "antonym": "Export",
+  "example": "We **import** phones, but grandma's advice is local.",
+  "association": "\"Im\" (ichkariga) + \"port\" — IMPORT."
+ },
+ {
+  "en": "tax",
+  "uz": "soliq",
+  "definition": "Money paid to the government.",
+  "synonym": "Duty",
+  "antonym": "",
+  "example": "My dad says I should pay **tax** for using his Wi-Fi.",
+  "association": "\"Taks\" — \"taksi\"ga to'lov — SOLIQ."
+ },
+ {
+  "en": "budget",
+  "uz": "byudjet",
+  "definition": "A plan for spending money.",
+  "synonym": "Financial plan",
+  "antonym": "",
+  "example": "My weekly **budget** disappears on Monday.",
+  "association": "\"Byudjet\" — BYUDJET."
+ },
+ {
+  "en": "natural",
+  "uz": "tabiiy",
+  "definition": "Existing in nature, not artificial.",
+  "synonym": "Organic",
+  "antonym": "Artificial",
+  "example": "My hair has a **natural** talent for looking terrible in the morning.",
+  "association": "\"Natura\" — TABIIY."
+ },
+ {
+  "en": "environmental",
+  "uz": "atrof-muhitga oid",
+  "definition": "Related to the natural world.",
+  "synonym": "Ecological",
+  "antonym": "",
+  "example": "My **environmental** contribution: I turn off the lights when mom yells.",
+  "association": "\"Environment\" — ATROF-MUHITGA OID."
+ },
+ {
+  "en": "agriculture",
+  "uz": "qishloq xo'jaligi",
+  "definition": "Farming.",
+  "synonym": "Farming",
+  "antonym": "Industry",
+  "example": "Grandpa's **agriculture** skills: he grows tomatoes and gossip.",
+  "association": "\"Agrar\" — \"agronom\" — QISHLOQ XO'JALIGI."
+ },
+ {
+  "en": "forest",
+  "uz": "o'rmon",
+  "definition": "A large area covered with trees.",
+  "synonym": "Woods",
+  "antonym": "Desert",
+  "example": "I got lost in the **forest** because I followed a squirrel.",
+  "association": "\"Forest\" — \"Forrest Gump\" o'rmonda yugurdi — O'RMON."
+ },
+ {
+  "en": "wildlife",
+  "uz": "yovvoyi tabiat",
+  "definition": "Wild animals and plants.",
+  "synonym": "Fauna",
+  "antonym": "",
+  "example": "The **wildlife** in my kitchen: one very brave cockroach.",
+  "association": "\"Wild + life\" — yovvoyi hayot — YOVVOYI TABIAT."
+ },
+ {
+  "en": "biodiversity",
+  "uz": "biologik xilma-xillik",
+  "definition": "The variety of living things.",
+  "synonym": "Variety of life",
+  "antonym": "",
+  "example": "My garden has great **biodiversity**: weeds of every kind.",
+  "association": "\"Bio + diversity\" — hayot xilma-xilligi — BIOLOGIK XILMA-XILLIK."
+ },
+ {
+  "en": "drought",
+  "uz": "qurg'oqchilik",
+  "definition": "A long period without rain.",
+  "synonym": "Dry spell",
+  "antonym": "Flood",
+  "example": "During the **drought**, even the cactus asked for water.",
+  "association": "\"Draut\" — \"dry\" (quruq) — QURG'OQCHILIK."
+ },
+ {
+  "en": "flood",
+  "uz": "toshqin",
+  "definition": "A lot of water covering land.",
+  "synonym": "Deluge",
+  "antonym": "Drought",
+  "example": "My little brother's bath time causes a **flood** in the bathroom.",
+  "association": "\"Flud\" — chatda \"flud\" — xabarlar TOSHQINi."
+ },
+ {
+  "en": "earthquake",
+  "uz": "zilzila",
+  "definition": "A sudden shaking of the ground.",
+  "synonym": "Tremor",
+  "antonym": "",
+  "example": "When my uncle snores, it feels like an **earthquake**.",
+  "association": "\"Earth + quake\" — yer + titramoq — ZILZILA."
+ },
+ {
+  "en": "disaster",
+  "uz": "ofat",
+  "definition": "A sudden terrible event.",
+  "synonym": "Catastrophe",
+  "antonym": "Success",
+  "example": "My first attempt at making plov was a **disaster**.",
+  "association": "\"Di-zaster\" — \"dizayner\" xatosi — OFAT."
+ },
+ {
+  "en": "temperature",
+  "uz": "harorat",
+  "definition": "How hot or cold something is.",
+  "synonym": "Heat level",
+  "antonym": "",
+  "example": "The **temperature** in our classroom: Arctic in winter, Sahara in summer.",
+  "association": "\"Temperatura\" — HARORAT."
+ },
+ {
+  "en": "forecast",
+  "uz": "prognoz",
+  "definition": "A prediction of future weather or events.",
+  "synonym": "Prediction",
+  "antonym": "",
+  "example": "The weather **forecast** said \"sunny\". I got wet.",
+  "association": "\"Fore + cast\" — oldindan — PROGNOZ."
+ },
+ {
+  "en": "carbon",
+  "uz": "uglerod",
+  "definition": "A chemical element found in coal and gas.",
+  "synonym": "",
+  "antonym": "",
+  "example": "Burnt toast is basically pure **carbon**.",
+  "association": "\"Karbon\" — \"karbonat\" — UGLEROD."
+ },
+ {
+  "en": "gas",
+  "uz": "gaz",
+  "definition": "A substance like air; fuel for cooking.",
+  "synonym": "Vapour",
+  "antonym": "Solid",
+  "example": "Our **gas** bill is high because mom boils tea all day.",
+  "association": "\"Gaz\" — GAZ."
+ },
+ {
+  "en": "solar",
+  "uz": "quyoshga oid",
+  "definition": "Related to the sun.",
+  "synonym": "Sun-powered",
+  "antonym": "Lunar",
+  "example": "My grandma's **solar** dryer is the balcony.",
+  "association": "\"Solyarka\" — \"sol\" = quyosh — QUYOSHGA OID."
+ },
+ {
+  "en": "wind",
+  "uz": "shamol",
+  "definition": "Moving air.",
+  "synonym": "Breeze",
+  "antonym": "Calm",
+  "example": "The **wind** stole my hat and my dignity.",
+  "association": "\"Vind\" — \"ventilyator\" — SHAMOL."
+ },
+ {
+  "en": "fuel",
+  "uz": "yoqilg'i",
+  "definition": "Material burned for energy.",
+  "synonym": "Petrol",
+  "antonym": "",
+  "example": "Coffee is my morning **fuel**.",
+  "association": "\"Fyuel\" — \"fil\" ko'p yoqilg'i yeydi — YOQILG'I."
+ },
+ {
+  "en": "vehicle",
+  "uz": "transport vositasi",
+  "definition": "A machine for transporting people or goods.",
+  "synonym": "Transport",
+  "antonym": "",
+  "example": "My dad talks to his **vehicle** like it's a family member.",
+  "association": "\"Viikl\" — \"velik\" — TRANSPORT VOSITASI."
+ },
+ {
+  "en": "scientific",
+  "uz": "ilmiy",
+  "definition": "Based on science.",
+  "synonym": "Research-based",
+  "antonym": "Unscientific",
+  "example": "My **scientific** discovery: toast always falls butter side down.",
+  "association": "\"Science\" — ILMIY."
+ },
+ {
+  "en": "experiment",
+  "uz": "tajriba",
+  "definition": "A scientific test.",
+  "synonym": "Test",
+  "antonym": "",
+  "example": "My kitchen **experiment**: mixing everything in the fridge. Result: regret.",
+  "association": "\"Eksperiment\" — TAJRIBA."
+ },
+ {
+  "en": "discover",
+  "uz": "kashf qilmoq",
+  "definition": "To find for the first time.",
+  "synonym": "Find",
+  "antonym": "Hide",
+  "example": "I **discovered** money in my old jacket. Best day ever.",
+  "association": "\"Dis + cover\" — qopqoqni ochmoq — KASHF QILMOQ."
+ },
+ {
+  "en": "researcher",
+  "uz": "tadqiqotchi",
+  "definition": "A person who does research.",
+  "synonym": "Scientist",
+  "antonym": "",
+  "example": "The **researcher** studied why cats sit on keyboards.",
+  "association": "\"Research + er\" — TADQIQOTCHI."
+ },
+ {
+  "en": "laboratory",
+  "uz": "laboratoriya",
+  "definition": "A room for scientific experiments.",
+  "synonym": "Lab",
+  "antonym": "",
+  "example": "My brother's room is a **laboratory** for new smells.",
+  "association": "\"Laboratoriya\" — LABORATORIYA."
+ },
+ {
+  "en": "destination",
+  "uz": "manzil",
+  "definition": "The place you are going to.",
+  "synonym": "Goal",
+  "antonym": "Origin",
+  "example": "My favourite travel **destination**: the fridge.",
+  "association": "\"Destinatsiya\" — \"des-tinch\" — tinch MANZIL."
+ },
+ {
+  "en": "journey",
+  "uz": "safar",
+  "definition": "Travelling from one place to another.",
+  "synonym": "Trip",
+  "antonym": "",
+  "example": "The **journey** to school is short, but I'm always late.",
+  "association": "\"Jurni\" — \"jurnal\"da yozilgan SAFAR."
+ },
+ {
+  "en": "accommodation",
+  "uz": "turar joy",
+  "definition": "A place to stay.",
+  "synonym": "Lodging",
+  "antonym": "",
+  "example": "The **accommodation** was cheap because the room had \"natural air conditioning\" — no window.",
+  "association": "\"Akkomodatsiya\" — \"komod\"li xona — TURAR JOY."
+ },
+ {
+  "en": "reservation",
+  "uz": "bron",
+  "definition": "Booking a place in advance.",
+  "synonym": "Booking",
+  "antonym": "Cancellation",
+  "example": "I made a **reservation** at the restaurant and forgot about it.",
+  "association": "\"Rezerv\" — zaxira — BRON."
+ },
+ {
+  "en": "departure",
+  "uz": "jo'nab ketish",
+  "definition": "Leaving a place.",
+  "synonym": "Leaving",
+  "antonym": "Arrival",
+  "example": "Our **departure** was delayed because dad lost the car keys.",
+  "association": "\"De-part\" — ajralib — JO'NAB KETISH."
+ },
+ {
+  "en": "arrival",
+  "uz": "yetib kelish",
+  "definition": "Reaching a place.",
+  "synonym": "Coming",
+  "antonym": "Departure",
+  "example": "The **arrival** of pizza is the happiest moment of the evening.",
+  "association": "\"Arrive\" — YETIB KELISH."
+ },
+ {
+  "en": "luggage",
+  "uz": "bagaj",
+  "definition": "Bags for travelling.",
+  "synonym": "Baggage",
+  "antonym": "",
+  "example": "Mom's **luggage** weighs more than me.",
+  "association": "\"Lagaj\" — \"bagaj\" — BAGAJ."
+ },
+ {
+  "en": "passport",
+  "uz": "pasport",
+  "definition": "An official document for travelling abroad.",
+  "synonym": "Travel document",
+  "antonym": "",
+  "example": "My **passport** photo looks like a criminal's.",
+  "association": "\"Pasport\" — PASPORT."
+ },
+ {
+  "en": "visa",
+  "uz": "viza",
+  "definition": "Official permission to enter a country.",
+  "synonym": "Permit",
+  "antonym": "",
+  "example": "I needed a **visa** to visit my friend's messy room.",
+  "association": "\"Viza\" — VIZA."
+ },
+ {
+  "en": "tourist",
+  "uz": "sayyoh",
+  "definition": "A person travelling for pleasure.",
+  "synonym": "Traveller",
+  "antonym": "Local",
+  "example": "The **tourist** took 500 photos of one pigeon.",
+  "association": "\"Turist\" — SAYYOH."
+ },
+ {
+  "en": "attraction",
+  "uz": "diqqatga sazovor joy",
+  "definition": "An interesting place to visit.",
+  "synonym": "Sight",
+  "antonym": "",
+  "example": "The main **attraction** in our town is the new supermarket.",
+  "association": "\"Attraksion\" — DIQQATGA SAZOVOR JOY."
+ },
+ {
+  "en": "sightseeing",
+  "uz": "diqqatga sazovor joylarni tomosha qilish",
+  "definition": "Visiting famous places.",
+  "synonym": "Touring",
+  "antonym": "",
+  "example": "**Sightseeing** with grandma: every church, every market, every bench.",
+  "association": "\"Sight + see\" — ko'rish — TOMOSHA QILISH."
+ },
+ {
+  "en": "adventure",
+  "uz": "sarguzasht",
+  "definition": "An exciting experience.",
+  "synonym": "Exploit",
+  "antonym": "Routine",
+  "example": "Taking the bus without Google Maps is my biggest **adventure**.",
+  "association": "\"Avantyura\" — SARGUZASHT."
+ },
+ {
+  "en": "abroad",
+  "uz": "chet elda",
+  "definition": "In or to another country.",
+  "synonym": "Overseas",
+  "antonym": "At home",
+  "example": "My cousin went **abroad** and now says \"we\" about another country.",
+  "association": "\"A-brod\" — \"broad\" (keng) dunyoda — CHET ELDA."
+ },
+ {
+  "en": "domestic",
+  "uz": "ichki, mamlakat ichidagi",
+  "definition": "Related to one's own country or home.",
+  "synonym": "Internal",
+  "antonym": "International",
+  "example": "**Domestic** flights are cheaper, but the food is the same.",
+  "association": "\"Domashniy\" — uy — ICHKI."
+ },
+ {
+  "en": "local",
+  "uz": "mahalliy",
+  "definition": "From the nearby area.",
+  "synonym": "Regional",
+  "antonym": "Foreign",
+  "example": "The **local** shop owner knows my snack habits better than my mom.",
+  "association": "\"Lokal\" — MAHALLIY."
+ },
+ {
+  "en": "route",
+  "uz": "yo'nalish",
+  "definition": "The way from one place to another.",
+  "synonym": "Path",
+  "antonym": "",
+  "example": "GPS chose the shortest **route**: through a river.",
+  "association": "\"Rut\" — \"marshrut\" — YO'NALISH."
+ },
+ {
+  "en": "transport",
+  "uz": "transport",
+  "definition": "Vehicles for moving people.",
+  "synonym": "Transportation",
+  "antonym": "",
+  "example": "Public **transport** in the morning is a free hug from strangers.",
+  "association": "\"Transport\" — TRANSPORT."
+ },
+ {
+  "en": "traffic",
+  "uz": "yo'l harakati",
+  "definition": "Vehicles moving on roads.",
+  "synonym": "Congestion",
+  "antonym": "",
+  "example": "I was stuck in **traffic** so long that I learned a new language.",
+  "association": "\"Trafik\" — \"tirband\" — YO'L HARAKATI."
+ },
+ {
+  "en": "neighbourhood",
+  "uz": "mahalla, hudud",
+  "definition": "The area around your home.",
+  "synonym": "District",
+  "antonym": "",
+  "example": "Our **neighbourhood** has a WhatsApp group that knows everything.",
+  "association": "\"Neighbour + hood\" — qo'shnilar hududi — MAHALLA."
+ },
+ {
+  "en": "neighbour",
+  "uz": "qo'shni",
+  "definition": "A person who lives near you.",
+  "synonym": "Next-door resident",
+  "antonym": "",
+  "example": "My **neighbour** practises the drum at 11 PM.",
+  "association": "\"Neybor\" — \"nay\" chalayotgan — QO'SHNI."
+ },
+ {
+  "en": "rent",
+  "uz": "ijara haqi",
+  "definition": "Money paid to use a property.",
+  "synonym": "Lease",
+  "antonym": "",
+  "example": "My **rent** is so high that I live on noodles.",
+  "association": "\"Rent\" — \"renta\" — IJARA HAQI."
+ },
+ {
+  "en": "property",
+  "uz": "mulk",
+  "definition": "Things that someone owns.",
+  "synonym": "Possessions",
+  "antonym": "",
+  "example": "That sandwich is my **property**!",
+  "association": "\"Proper-ti\" — \"proper\" (tegishli) — MULK."
+ },
+ {
+  "en": "apartment",
+  "uz": "kvartira",
+  "definition": "A set of rooms to live in.",
+  "synonym": "Flat",
+  "antonym": "House",
+  "example": "My **apartment** is so small that I can cook from bed.",
+  "association": "\"Apartament\" — KVARTIRA."
+ },
+ {
+  "en": "facility",
+  "uz": "inshoot, qulaylik",
+  "definition": "A place or equipment for a purpose.",
+  "synonym": "Amenity",
+  "antonym": "",
+  "example": "The gym has great **facilities**, but I only use the sauna.",
+  "association": "\"Fasiliti\" — \"fasil\" (qulay) — INSHOOT, QULAYLIK."
+ },
+ {
+  "en": "chore",
+  "uz": "uy yumushi",
+  "definition": "A routine household task.",
+  "synonym": "Task",
+  "antonym": "Leisure",
+  "example": "My least favourite **chore**: finding the other sock.",
+  "association": "\"Chor\" — \"chor\" (to'rt) devorni tozalash — UY YUMUSHI."
+ },
+ {
+  "en": "routine",
+  "uz": "kundalik tartib",
+  "definition": "A usual order of doing things.",
+  "synonym": "Habit",
+  "antonym": "Change",
+  "example": "My morning **routine**: alarm, snooze, alarm, snooze, panic.",
+  "association": "\"Rutina\" — KUNDALIK TARTIB."
+ },
+ {
+  "en": "habit",
+  "uz": "odat",
+  "definition": "Something you do regularly.",
+  "synonym": "Custom",
+  "antonym": "",
+  "example": "I have a bad **habit** of eating while cooking. Nothing reaches the table.",
+  "association": "\"Habit\" — \"hobbit\" har kuni ovqatlanish ODATi bor."
+ },
+ {
+  "en": "available",
+  "uz": "mavjud",
+  "definition": "Able to be used or obtained.",
+  "synonym": "Accessible",
+  "antonym": "Unavailable",
+  "example": "My mom is always **available** when I don't need her.",
+  "association": "\"Aveylabl\" — \"avail\" — MAVJUD."
+ },
+ {
+  "en": "necessary",
+  "uz": "zarur",
+  "definition": "Needed.",
+  "synonym": "Essential",
+  "antonym": "Unnecessary",
+  "example": "Is it **necessary** to wake up at 7? My body says no.",
+  "association": "\"Nesesari\" — \"nes\" (kerak) — ZARUR."
+ },
+ {
+  "en": "ordinary",
+  "uz": "oddiy, odatiy",
+  "definition": "Normal, not special.",
+  "synonym": "Common",
+  "antonym": "Extraordinary",
+  "example": "It was an **ordinary** day until the cat learned to open the fridge.",
+  "association": "\"Ordinar\" — ODDIY."
+ },
+ {
+  "en": "confident",
+  "uz": "o'ziga ishongan",
+  "definition": "Sure of yourself.",
+  "synonym": "Self-assured",
+  "antonym": "Insecure",
+  "example": "I'm very **confident** in the kitchen until something catches fire.",
+  "association": "\"Konfident\" — \"konfet\" yegan bola O'ZIGA ISHONGAN."
+ },
+ {
+  "en": "curious",
+  "uz": "qiziquvchan",
+  "definition": "Wanting to know things.",
+  "synonym": "Inquisitive",
+  "antonym": "Indifferent",
+  "example": "My **curious** cat opened the washing machine. Now she's clean.",
+  "association": "\"Kyurios\" — \"kurioz\" — QIZIQUVCHAN."
+ },
+ {
+  "en": "generous",
+  "uz": "saxiy",
+  "definition": "Happy to give.",
+  "synonym": "Giving",
+  "antonym": "Selfish",
+  "example": "My grandma is so **generous** that she feeds the whole street.",
+  "association": "\"Jeneros\" — \"general\" katta sovg'a beradi — SAXIY."
+ },
+ {
+  "en": "honest",
+  "uz": "halol",
+  "definition": "Telling the truth.",
+  "synonym": "Truthful",
+  "antonym": "Dishonest",
+  "example": "To be **honest**, I didn't read the book; I watched the movie.",
+  "association": "\"Onest\" — \"on\"(o'n)da o'n to'g'ri — HALOL."
+ },
+ {
+  "en": "polite",
+  "uz": "odobli",
+  "definition": "Having good manners.",
+  "synonym": "Courteous",
+  "antonym": "Rude",
+  "example": "My dog is more **polite** than my brother; he at least waits for food.",
+  "association": "\"Polayt\" — \"politsiya\" oldida ODOBLI bo'lamiz."
+ },
+ {
+  "en": "sensitive",
+  "uz": "ta'sirchan",
+  "definition": "Easily upset or affected.",
+  "synonym": "Emotional",
+  "antonym": "Insensitive",
+  "example": "My teeth are **sensitive** to cold, and I'm sensitive to criticism.",
+  "association": "\"Sensor\" — tez sezadi — TA'SIRCHAN."
+ },
+ {
+  "en": "serious",
+  "uz": "jiddiy",
+  "definition": "Important, not joking.",
+  "synonym": "Grave",
+  "antonym": "Funny",
+  "example": "My dad is very **serious** about the TV remote.",
+  "association": "\"Seriyal\" — seriyal JIDDIY ko'riladi."
+ },
+ {
+  "en": "anxious",
+  "uz": "xavotirlangan",
+  "definition": "Worried and nervous.",
+  "synonym": "Nervous",
+  "antonym": "Calm",
+  "example": "I get **anxious** when my phone battery is below 20%.",
+  "association": "\"Anksh-es\" — \"anqov\" bo'lib XAVOTIRLANGAN."
+ },
+ {
+  "en": "embarrassed",
+  "uz": "uyalgan",
+  "definition": "Feeling shy or ashamed.",
+  "synonym": "Ashamed",
+  "antonym": "Proud",
+  "example": "I was **embarrassed** when I waved at someone who wasn't waving at me.",
+  "association": "\"Embaras\" — \"emban\" qizarib — UYALGAN."
+ },
+ {
+  "en": "disappointed",
+  "uz": "hafsalasi pir bo'lgan",
+  "definition": "Sad because something was not as expected.",
+  "synonym": "Let down",
+  "antonym": "Pleased",
+  "example": "I was **disappointed**: the cookie jar had vegetables in it.",
+  "association": "\"Dis + appoint\" — uchrashuv (appointment) bo'lmadi — HAFSALASI PIR BO'LGAN."
+ },
+ {
+  "en": "satisfied",
+  "uz": "mamnun",
+  "definition": "Pleased with something.",
+  "synonym": "Content",
+  "antonym": "Dissatisfied",
+  "example": "After three plates of plov, I'm finally **satisfied**.",
+  "association": "\"Satisfaksiya\" — \"sati\"(to'q) — MAMNUN."
+ },
+ {
+  "en": "frustrated",
+  "uz": "hafsalasi pir bo'lgan",
+  "definition": "Annoyed because you can't do something.",
+  "synonym": "Irritated",
+  "antonym": "Content",
+  "example": "I get **frustrated** when my headphones tangle themselves.",
+  "association": "\"Frustratsiya\" — \"frust\" — asabi buzilib HAFSALASI PIR BO'LGAN."
+ },
+ {
+  "en": "motivated",
+  "uz": "rag'batlangan",
+  "definition": "Wanting to do something.",
+  "synonym": "Driven",
+  "antonym": "Unmotivated",
+  "example": "I'm very **motivated** to exercise... tomorrow.",
+  "association": "\"Motivatsiya\" — RAG'BATLANGAN."
+ },
+ {
+  "en": "creative",
+  "uz": "ijodkor",
+  "definition": "Good at making new things.",
+  "synonym": "Imaginative",
+  "antonym": "Unimaginative",
+  "example": "I'm **creative** with excuses for being late.",
+  "association": "\"Kreativ\" — IJODKOR."
+ },
+ {
+  "en": "determined",
+  "uz": "qat'iyatli",
+  "definition": "Having a strong decision to do something.",
+  "synonym": "Resolute",
+  "antonym": "Hesitant",
+  "example": "My cat is **determined** to sit on my laptop.",
+  "association": "\"Determinant\" — qat'iy aniqlangan — QAT'IYATLI."
+ },
+ {
+  "en": "avoid",
+  "uz": "chetlab o'tmoq",
+  "definition": "To stay away from.",
+  "synonym": "Evade",
+  "antonym": "Face",
+  "example": "I **avoid** my neighbour because he always talks about his car.",
+  "association": "\"A-void\" — \"void\" (bo'shliq) tomon — CHETLAB O'TMOQ."
+ },
+ {
+  "en": "admit",
+  "uz": "tan olmoq",
+  "definition": "To agree that something is true.",
+  "synonym": "Confess",
+  "antonym": "Deny",
+  "example": "I **admit** it: I ate the last piece of cake.",
+  "association": "\"Ad-mit\" — \"a, mitti xato\" ni TAN OLMOQ."
+ },
+ {
+  "en": "afford",
+  "uz": "qurbi yetmoq",
+  "definition": "To have enough money for.",
+  "synonym": "Manage",
+  "antonym": "",
+  "example": "I can't **afford** a car, but I can afford a bus ticket and dreams.",
+  "association": "\"A-ford\" — \"Ford\"ga QURBI YETMOQ."
+ },
+ {
+  "en": "allow",
+  "uz": "ruxsat bermoq",
+  "definition": "To let someone do something.",
+  "synonym": "Permit",
+  "antonym": "Forbid",
+  "example": "My mom doesn't **allow** phones at the dinner table. The cat is allowed.",
+  "association": "\"A-lau\" — \"allo\" deb qo'ng'iroqqa RUXSAT BERMOQ."
+ },
+ {
+  "en": "appear",
+  "uz": "ko'rinmoq",
+  "definition": "To come into view.",
+  "synonym": "Emerge",
+  "antonym": "Disappear",
+  "example": "My brother **appears** in the kitchen exactly when food is ready.",
+  "association": "\"A-piir\" — \"pir\" etib ko'rindi — KO'RINMOQ."
+ },
+ {
+  "en": "belong",
+  "uz": "tegishli bo'lmoq",
+  "definition": "To be owned by someone.",
+  "synonym": "Be owned by",
+  "antonym": "",
+  "example": "This remote **belongs** to dad. Touch it and you will regret it.",
+  "association": "\"Bi-long\" — \"long\" (uzoq) vaqt TEGISHLI BO'LMOQ."
+ },
+ {
+  "en": "consider",
+  "uz": "ko'rib chiqmoq",
+  "definition": "To think carefully about.",
+  "synonym": "Think about",
+  "antonym": "Ignore",
+  "example": "I **considered** doing my homework, then I took a nap.",
+  "association": "\"Konsider\" — \"konsul\" ko'rib chiqadi — KO'RIB CHIQMOQ."
+ },
+ {
+  "en": "consist",
+  "uz": "tashkil topmoq",
+  "definition": "To be made of.",
+  "synonym": "Comprise",
+  "antonym": "",
+  "example": "My diet **consists** of bread, bread and more bread.",
+  "association": "\"Kon-sist\" — \"sistema\" — TASHKIL TOPMOQ."
+ },
+ {
+  "en": "contain",
+  "uz": "o'z ichiga olmoq",
+  "definition": "To have something inside.",
+  "synonym": "Hold",
+  "antonym": "Exclude",
+  "example": "This box **contains** all my broken promises.",
+  "association": "\"Konteyner\" — O'Z ICHIGA OLMOQ."
+ },
+ {
+  "en": "depend",
+  "uz": "bog'liq bo'lmoq",
+  "definition": "To be controlled by.",
+  "synonym": "Rely",
+  "antonym": "",
+  "example": "My mood **depends** on how much sleep I got.",
+  "association": "\"Di-pend\" — \"pendant\"(osma) ipga BOG'LIQ."
+ },
+ {
+  "en": "deserve",
+  "uz": "loyiq bo'lmoq",
+  "definition": "To have earned something.",
+  "synonym": "Merit",
+  "antonym": "",
+  "example": "After cleaning my room, I **deserve** a medal.",
+  "association": "\"Di-zerv\" — \"zer\" (oltin) ga LOYIQ."
+ },
+ {
+  "en": "enable",
+  "uz": "imkon bermoq",
+  "definition": "To make something possible.",
+  "synonym": "Allow",
+  "antonym": "Prevent",
+  "example": "Coffee **enables** me to act like a human.",
+  "association": "\"En + able\" — qodir qilmoq — IMKON BERMOQ."
+ },
+ {
+  "en": "exist",
+  "uz": "mavjud bo'lmoq",
+  "definition": "To be real.",
+  "synonym": "Live",
+  "antonym": "",
+  "example": "Does a clean kitchen **exist** after a family dinner?",
+  "association": "\"Egzist\" — \"ekzistensializm\" — MAVJUD BO'LMOQ."
+ },
+ {
+  "en": "expect",
+  "uz": "kutmoq",
+  "definition": "To think something will happen.",
+  "synonym": "Anticipate",
+  "antonym": "",
+  "example": "I **expected** a surprise party. I got a surprise exam.",
+  "association": "\"Eks-pekt\" — \"perspektiva\" — KUTMOQ."
+ },
+ {
+  "en": "fail",
+  "uz": "muvaffaqiyatsizlikka uchramoq",
+  "definition": "To not succeed.",
+  "synonym": "Flop",
+  "antonym": "Succeed",
+  "example": "I **failed** my diet at breakfast.",
+  "association": "\"Feyl\" — \"fail\" — MUVAFFAQIYATSIZLIKKA UCHRAMOQ."
+ },
+ {
+  "en": "focus",
+  "uz": "diqqatni qaratmoq",
+  "definition": "To give attention to one thing.",
+  "synonym": "Concentrate",
+  "antonym": "Ignore",
+  "example": "I can't **focus** when I smell food.",
+  "association": "\"Fokus\" — DIQQATNI QARATMOQ."
+ },
+ {
+  "en": "handle",
+  "uz": "uddalamoq, boshqarmoq",
+  "definition": "To deal with something.",
+  "synonym": "Manage",
+  "antonym": "",
+  "example": "I can **handle** anything except spiders.",
+  "association": "\"Hand\" (qo'l) — qo'l bilan UDDALAMOQ."
+ },
+ {
+  "en": "involve",
+  "uz": "jalb qilmoq",
+  "definition": "To include as a part.",
+  "synonym": "Include",
+  "antonym": "Exclude",
+  "example": "My plans always **involve** food.",
+  "association": "\"In-volv\" — \"volvo\"ga hammani JALB QILMOQ."
+ },
+ {
+  "en": "lack",
+  "uz": "yetishmaslik",
+  "definition": "Not having enough of something.",
+  "synonym": "Shortage",
+  "antonym": "Abundance",
+  "example": "My **lack** of sleep turns me into a zombie.",
+  "association": "\"Lek\" — \"lek\" (ammo) yo'q — YETISHMASLIK."
+ },
+ {
+  "en": "lead",
+  "uz": "olib kelmoq, boshqarmoq",
+  "definition": "To guide; to cause a result.",
+  "synonym": "Guide",
+  "antonym": "Follow",
+  "example": "Eating late **leads** to strange dreams.",
+  "association": "\"Lid\" — \"lider\" — OLIB KELMOQ, BOSHQARMOQ."
+ },
+ {
+  "en": "limit",
+  "uz": "cheklamoq",
+  "definition": "To keep within a maximum.",
+  "synonym": "Restrict",
+  "antonym": "Expand",
+  "example": "My mom **limits** my screen time; my screen doesn't agree.",
+  "association": "\"Limit\" — CHEKLAMOQ."
+ },
+ {
+  "en": "obtain",
+  "uz": "qo'lga kiritmoq",
+  "definition": "To get something.",
+  "synonym": "Get",
+  "antonym": "Lose",
+  "example": "I **obtained** a driving licence and my dad's grey hair.",
+  "association": "\"Ob-teyn\" — \"obtainer\" — QO'LGA KIRITMOQ."
+ },
+ {
+  "en": "provide",
+  "uz": "ta'minlamoq",
+  "definition": "To give something needed.",
+  "synonym": "Supply",
+  "antonym": "Withhold",
+  "example": "My grandma **provides** food, advice and endless questions.",
+  "association": "\"Provayder\" — internet provayderi TA'MINLAYDI."
+ },
+ {
+  "en": "receive",
+  "uz": "qabul qilmoq",
+  "definition": "To get something given.",
+  "synonym": "Get",
+  "antonym": "Send",
+  "example": "I **received** a gift: socks. Again.",
+  "association": "\"Resiver\" — qabul qiluvchi — QABUL QILMOQ."
+ },
+ {
+  "en": "remain",
+  "uz": "qolmoq",
+  "definition": "To stay.",
+  "synonym": "Stay",
+  "antonym": "Leave",
+  "example": "Only one cookie **remains**, and we both know who will eat it.",
+  "association": "\"Ri-meyn\" — \"remont\"dan keyin ham QOLMOQ."
+ },
+ {
+  "en": "solve",
+  "uz": "hal qilmoq",
+  "definition": "To find an answer.",
+  "synonym": "Resolve",
+  "antonym": "",
+  "example": "I **solved** the puzzle; it only took three years.",
+  "association": "\"Solv\" — \"solvent\" (eritma) — HAL QILMOQ."
+ },
+ {
+  "en": "treat",
+  "uz": "davolamoq, muomala qilmoq",
+  "definition": "To give medical care; to behave towards.",
+  "synonym": "Cure",
+  "antonym": "Neglect",
+  "example": "My mom **treats** every illness with soup.",
+  "association": "\"Triit\" — \"treat\" — shirinlik bilan DAVOLAMOQ."
+ },
+ {
+  "en": "vary",
+  "uz": "farq qilmoq",
+  "definition": "To be different.",
+  "synonym": "Differ",
+  "antonym": "Stay the same",
+  "example": "My opinions **vary** depending on how hungry I am.",
+  "association": "\"Veri\" — \"variant\" — FARQ QILMOQ."
+ },
+ {
+  "en": "however",
+  "uz": "biroq",
+  "definition": "But; despite that.",
+  "synonym": "But",
+  "antonym": "",
+  "example": "I wanted to study; **however**, the sofa had other plans.",
+  "association": "\"Hau-ever\" — \"qanday bo'lsa ham\" — BIROQ."
+ },
+ {
+  "en": "therefore",
+  "uz": "shuning uchun",
+  "definition": "For that reason.",
+  "synonym": "So",
+  "antonym": "",
+  "example": "I'm hungry; **therefore**, I'm grumpy.",
+  "association": "\"Deafor\" — \"ther\" (u yer) + \"for\" — SHUNING UCHUN."
+ },
+ {
+  "en": "although",
+  "uz": "garchi",
+  "definition": "Even though.",
+  "synonym": "Though",
+  "antonym": "",
+  "example": "**Although** I set an alarm, I overslept.",
+  "association": "\"Ol-dou\" — \"all\" (hamma) + \"though\" — GARCHI."
+ },
+ {
+  "en": "whereas",
+  "uz": "holbuki",
+  "definition": "While on the other hand.",
+  "synonym": "While",
+  "antonym": "",
+  "example": "My sister loves mornings, **whereas** I love my bed.",
+  "association": "\"Veer-az\" — \"where\" (qayerda) ekan — HOLBUKI."
+ },
+ {
+  "en": "despite",
+  "uz": "qaramay",
+  "definition": "Without being affected by.",
+  "synonym": "In spite of",
+  "antonym": "",
+  "example": "**Despite** the rain, grandpa went to the market in slippers.",
+  "association": "\"Dis-payt\" — \"dispetcher\"ga qaramay — QARAMAY."
+ },
+ {
+  "en": "moreover",
+  "uz": "bundan tashqari",
+  "definition": "In addition.",
+  "synonym": "Furthermore",
+  "antonym": "",
+  "example": "The pizza was cold; **moreover**, it had pineapple.",
+  "association": "\"Mor + over\" — ko'proq — BUNDAN TASHQARI."
+ },
+ {
+  "en": "nevertheless",
+  "uz": "shunga qaramay",
+  "definition": "In spite of that.",
+  "synonym": "Nonetheless",
+  "antonym": "",
+  "example": "The movie was terrible; **nevertheless**, I watched it twice.",
+  "association": "\"Never + the + less\" — \"hech qachon kam emas\" — SHUNGA QARAMAY."
+ },
+ {
+  "en": "otherwise",
+  "uz": "aks holda",
+  "definition": "If not; or else.",
+  "synonym": "Or else",
+  "antonym": "",
+  "example": "Do your homework, **otherwise** no Wi-Fi.",
+  "association": "\"Other + wise\" — boshqa yo'l — AKS HOLDA."
+ },
+ {
+  "en": "eventually",
+  "uz": "oxir-oqibat",
+  "definition": "In the end, after a long time.",
+  "synonym": "Finally",
+  "antonym": "Immediately",
+  "example": "My brother **eventually** found his shoes: on his feet.",
+  "association": "\"Iventuali\" — \"event\" oxirida — OXIR-OQIBAT."
+ },
+ {
+  "en": "particularly",
+  "uz": "ayniqsa",
+  "definition": "Especially.",
+  "synonym": "Specifically",
+  "antonym": "Generally",
+  "example": "I like fruit, **particularly** when it's in a cake.",
+  "association": "\"Partikulyar\" — \"part\" (qism) — AYNIQSA."
+ },
+ {
+  "en": "approximately",
+  "uz": "taxminan",
+  "definition": "About; close to.",
+  "synonym": "Roughly",
+  "antonym": "Exactly",
+  "example": "I checked my phone **approximately** 300 times today.",
+  "association": "\"Approksimatsiya\" — TAXMINAN."
+ },
+ {
+  "en": "generally",
+  "uz": "umuman olganda",
+  "definition": "Usually; in most cases.",
+  "synonym": "Usually",
+  "antonym": "Rarely",
+  "example": "Cats **generally** hate baths and love keyboards.",
+  "association": "\"General\" — UMUMAN OLGANDA."
+ },
+ {
+  "en": "gradually",
+  "uz": "asta-sekin",
+  "definition": "Slowly, step by step.",
+  "synonym": "Step by step",
+  "antonym": "Suddenly",
+  "example": "My room **gradually** turned into a museum of dirty cups.",
+  "association": "\"Gradus\" — daraja-daraja — ASTA-SEKIN."
+ },
+ {
+  "en": "mainly",
+  "uz": "asosan",
+  "definition": "Mostly.",
+  "synonym": "Chiefly",
+  "antonym": "",
+  "example": "My conversations are **mainly** about food.",
+  "association": "\"Main\" — asosiy — ASOSAN."
+ },
+ {
+  "en": "significantly",
+  "uz": "sezilarli darajada",
+  "definition": "In a noticeable way.",
+  "synonym": "Considerably",
+  "antonym": "Slightly",
+  "example": "My grades improved **significantly**: from F to E.",
+  "association": "\"Significant\" — SEZILARLI DARAJADA."
+ },
+ {
+  "en": "frequently",
+  "uz": "tez-tez",
+  "definition": "Often.",
+  "synonym": "Often",
+  "antonym": "Rarely",
+  "example": "My dad **frequently** falls asleep while \"just resting his eyes\".",
+  "association": "\"Frikvent\" — \"chastota\" (frequency) — TEZ-TEZ."
+ },
+ {
+  "en": "rarely",
+  "uz": "kamdan-kam",
+  "definition": "Not often.",
+  "synonym": "Seldom",
+  "antonym": "Often",
+  "example": "My brother **rarely** cleans his room; the last time was 2019.",
+  "association": "\"Rare\" — noyob — KAMDAN-KAM."
+ },
+ {
+  "en": "nearly",
+  "uz": "deyarli",
+  "definition": "Almost.",
+  "synonym": "Almost",
+  "antonym": "Completely",
+  "example": "I **nearly** finished my homework. I wrote my name.",
+  "association": "\"Near\" — yaqin — DEYARLI."
+ },
+ {
+  "en": "especially",
+  "uz": "ayniqsa",
+  "definition": "Very much; more than usual.",
+  "synonym": "Particularly",
+  "antonym": "",
+  "example": "I love holidays, **especially** the food part.",
+  "association": "\"Spetsialno\" — AYNIQSA."
+ },
+ {
+  "en": "similarly",
+  "uz": "xuddi shunday tarzda",
+  "definition": "In the same way.",
+  "synonym": "Likewise",
+  "antonym": "Differently",
+  "example": "Cats sleep all day; **similarly**, teenagers sleep all weekend.",
+  "association": "\"Similar\" — o'xshash — XUDDI SHUNDAY TARZDA."
+ },
+ {
+  "en": "consequence",
+  "uz": "oqibat",
+  "definition": "A result of an action.",
+  "synonym": "Result",
+  "antonym": "Cause",
+  "example": "The **consequence** of eating ten pancakes: a long nap.",
+  "association": "\"Konsekvens\" — OQIBAT."
+ },
+ {
+  "en": "effect",
+  "uz": "ta'sir",
+  "definition": "A change caused by something.",
+  "synonym": "Result",
+  "antonym": "Cause",
+  "example": "Coffee has a strong **effect** on my ability to talk.",
+  "association": "\"Effekt\" — TA'SIR."
+ },
+ {
+  "en": "cause",
+  "uz": "sabab",
+  "definition": "The reason something happens.",
+  "synonym": "Reason",
+  "antonym": "Effect",
+  "example": "The main **cause** of my stress: group projects.",
+  "association": "\"Kouz\" — \"koz\" (ko'z) — ko'rmaslik SABAB."
+ },
+ {
+  "en": "reason",
+  "uz": "sabab",
+  "definition": "Why something happens.",
+  "synonym": "Cause",
+  "antonym": "",
+  "example": "The **reason** I'm late: my bed didn't let me go.",
+  "association": "\"Riizn\" — \"rezina\" cho'zildi — SABAB."
+ },
+ {
+  "en": "decision",
+  "uz": "qaror",
+  "definition": "A choice after thinking.",
+  "synonym": "Choice",
+  "antonym": "Indecision",
+  "example": "The hardest **decision** of the day: what to eat.",
+  "association": "\"Di-sijn\" — \"desert\" yeyishga QAROR."
+ },
+ {
+  "en": "choice",
+  "uz": "tanlov",
+  "definition": "The act of choosing.",
+  "synonym": "Option",
+  "antonym": "",
+  "example": "Tea or coffee? The **choice** is easy: both.",
+  "association": "\"Choys\" — \"choy\"mi yo'qmi — TANLOV."
+ },
+ {
+  "en": "option",
+  "uz": "variant",
+  "definition": "One possible choice.",
+  "synonym": "Alternative",
+  "antonym": "",
+  "example": "Sleeping in class is not an **option**, says the teacher.",
+  "association": "\"Optsiya\" — VARIANT."
+ },
+ {
+  "en": "possibility",
+  "uz": "imkoniyat",
+  "definition": "Something that may happen.",
+  "synonym": "Chance",
+  "antonym": "Impossibility",
+  "example": "There's a **possibility** that I'll finish my homework... in the next life.",
+  "association": "\"Possible\" — mumkin — IMKONIYAT."
+ },
+ {
+  "en": "priority",
+  "uz": "ustuvor vazifa",
+  "definition": "Something more important than others.",
+  "synonym": "Precedence",
+  "antonym": "",
+  "example": "My top **priority** on weekends: sleep.",
+  "association": "\"Prioritet\" — USTUVOR VAZIFA."
+ },
+ {
+  "en": "requirement",
+  "uz": "talab",
+  "definition": "Something that is needed.",
+  "synonym": "Need",
+  "antonym": "",
+  "example": "The only **requirement** for this job: a love of coffee.",
+  "association": "\"Require\" — TALAB."
+ },
+ {
+  "en": "condition",
+  "uz": "shart",
+  "definition": "A state; a rule that must be met.",
+  "synonym": "State",
+  "antonym": "",
+  "example": "My phone is in bad **condition**: the screen has more cracks than a desert.",
+  "association": "\"Konditsioner\" — sharoit, SHART."
+ },
+ {
+  "en": "situation",
+  "uz": "vaziyat",
+  "definition": "The things happening at a time.",
+  "synonym": "Circumstance",
+  "antonym": "",
+  "example": "The **situation** is serious: the Wi-Fi is down.",
+  "association": "\"Situatsiya\" — VAZIYAT."
+ },
+ {
+  "en": "progress",
+  "uz": "taraqqiyot",
+  "definition": "Movement towards a goal.",
+  "synonym": "Advance",
+  "antonym": "Regression",
+  "example": "My **progress** in the gym: I can now lift the water bottle.",
+  "association": "\"Progress\" — TARAQQIYOT."
+ },
+ {
+  "en": "success",
+  "uz": "muvaffaqiyat",
+  "definition": "Achieving what you want.",
+  "synonym": "Achievement",
+  "antonym": "Failure",
+  "example": "**Success** is waking up without the alarm.",
+  "association": "\"Sakses\" — \"saksovul\" o'sdi — MUVAFFAQIYAT."
+ },
+ {
+  "en": "failure",
+  "uz": "muvaffaqiyatsizlik",
+  "definition": "Lack of success.",
+  "synonym": "Defeat",
+  "antonym": "Success",
+  "example": "My cake was a **failure**, but the dog loved it.",
+  "association": "\"Fail\" — MUVAFFAQIYATSIZLIK."
+ },
+ {
+  "en": "quality",
+  "uz": "sifat",
+  "definition": "How good something is.",
+  "synonym": "Standard",
+  "antonym": "",
+  "example": "This phone has good camera **quality**; my face doesn't.",
+  "association": "\"Kvaliti\" — \"kachestvo\" — SIFAT."
+ },
+ {
+  "en": "quantity",
+  "uz": "miqdor",
+  "definition": "The amount of something.",
+  "synonym": "Amount",
+  "antonym": "Quality",
+  "example": "I prefer **quantity** when it comes to fries.",
+  "association": "\"Kvantiti\" — \"kvant\" miqdor — MIQDOR."
+ },
+ {
+  "en": "value",
+  "uz": "qiymat",
+  "definition": "How much something is worth.",
+  "synonym": "Worth",
+  "antonym": "",
+  "example": "The **value** of my old toys went up. My mom threw them away.",
+  "association": "\"Valyu\" — \"valyuta\" — QIYMAT."
+ },
+ {
+  "en": "level",
+  "uz": "daraja",
+  "definition": "A position on a scale.",
+  "synonym": "Grade",
+  "antonym": "",
+  "example": "My English **level**: I understand song lyrics but not my teacher.",
+  "association": "\"Level\" — o'yinda level — DARAJA."
+ },
+ {
+  "en": "increase",
+  "uz": "oshish, oshirmoq",
+  "definition": "To become bigger.",
+  "synonym": "Rise",
+  "antonym": "Decrease",
+  "example": "My appetite **increases** during exams.",
+  "association": "\"In-kriiz\" — \"kreslo\" balandlashdi — OSHISH."
+ },
+ {
+  "en": "decrease",
+  "uz": "kamayish, kamaytirmoq",
+  "definition": "To become smaller.",
+  "synonym": "Reduce",
+  "antonym": "Increase",
+  "example": "My pocket money **decreased**, but my prices didn't.",
+  "association": "\"De-kriiz\" — \"de\" (pastga) — KAMAYISH."
+ },
+ {
+  "en": "change",
+  "uz": "o'zgarish",
+  "definition": "To become different.",
+  "synonym": "Alter",
+  "antonym": "Keep",
+  "example": "I wanted to **change** the world, but mom said to change my socks first.",
+  "association": "\"Cheynj\" — \"chaynash\" usulini O'ZGARTIRDIM."
+ },
+ {
+  "en": "growth",
+  "uz": "o'sish",
+  "definition": "The process of getting bigger.",
+  "synonym": "Development",
+  "antonym": "Decline",
+  "example": "My hair's **growth** is faster than my savings.",
+  "association": "\"Grow\" — o'smoq — O'SISH."
+ },
+ {
+  "en": "accessibility",
+  "uz": "foydalanish imkoniyati",
+  "definition": "How easy something is to reach or use.",
+  "synonym": "Availability",
+  "antonym": "Inaccessibility",
+  "example": "The **accessibility** of snacks in my room is too good.",
+  "association": "\"Access\" — FOYDALANISH IMKONIYATI."
+ },
+ {
+  "en": "awareness",
+  "uz": "xabardorlik",
+  "definition": "Knowing about something.",
+  "synonym": "Consciousness",
+  "antonym": "Ignorance",
+  "example": "My **awareness** of time disappears when I watch videos.",
+  "association": "\"Aware\" — XABARDORLIK."
+ },
+ {
+  "en": "achievement",
+  "uz": "yutuq",
+  "definition": "Something you succeeded in doing.",
+  "synonym": "Accomplishment",
+  "antonym": "Failure",
+  "example": "My greatest **achievement**: 100 days without losing my keys.",
+  "association": "\"Achieve\" — YUTUQ."
+ },
+ {
+  "en": "announcement",
+  "uz": "e'lon",
+  "definition": "A public statement.",
+  "synonym": "Declaration",
+  "antonym": "",
+  "example": "The teacher's **announcement**: \"Surprise test!\" Nobody was happy.",
+  "association": "\"Anons\" — E'LON."
+ },
+ {
+  "en": "approval",
+  "uz": "ma'qullash",
+  "definition": "Agreeing that something is good.",
+  "synonym": "Permission",
+  "antonym": "Disapproval",
+  "example": "I need my cat's **approval** before I sit on the sofa.",
+  "association": "\"Approve\" — MA'QULLASH."
+ },
+ {
+  "en": "background",
+  "uz": "kelib chiqish, ma'lumot",
+  "definition": "A person's past experience; the back part.",
+  "synonym": "History",
+  "antonym": "Foreground",
+  "example": "My cooking **background**: two years of instant noodles.",
+  "association": "\"Back + ground\" — orqa fon — KELIB CHIQISH."
+ },
+ {
+  "en": "capacity",
+  "uz": "salohiyat, sig'im",
+  "definition": "The amount something can hold; ability.",
+  "synonym": "Volume",
+  "antonym": "",
+  "example": "My stomach's **capacity** grows at weddings.",
+  "association": "\"Kapasiti\" — \"kapsula\" sig'imi — SIG'IM."
+ },
+ {
+  "en": "competition",
+  "uz": "raqobat",
+  "definition": "A contest between people.",
+  "synonym": "Contest",
+  "antonym": "Cooperation",
+  "example": "There's a **competition** in my family: who can talk loudest.",
+  "association": "\"Konkurs\" — RAQOBAT."
+ },
+ {
+  "en": "complaint",
+  "uz": "shikoyat",
+  "definition": "A statement that something is wrong.",
+  "synonym": "Grievance",
+  "antonym": "Praise",
+  "example": "My neighbour's **complaint**: my singing in the shower.",
+  "association": "\"Kompleynt\" — \"kompliment\"ning teskarisi — SHIKOYAT."
+ },
+ {
+  "en": "complex",
+  "uz": "murakkab",
+  "definition": "Having many parts; complicated.",
+  "synonym": "Complicated",
+  "antonym": "Simple",
+  "example": "Choosing a movie with friends is a **complex** process.",
+  "association": "\"Kompleks\" — MURAKKAB."
+ },
+ {
+  "en": "conclusion",
+  "uz": "xulosa",
+  "definition": "The end or final decision.",
+  "synonym": "End",
+  "antonym": "Beginning",
+  "example": "My **conclusion** after a long day: I need a nap.",
+  "association": "\"Konklyuziya\" — \"klyuch\" (kalit) fikr — XULOSA."
+ }
+]

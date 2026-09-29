@@ -10,6 +10,11 @@ MODE_UZ_EN = "uz_en"
 MODE_SENTENCE = "sent"
 MODE_MIXED = "mix"
 MODE_MISTAKES = "mistakes"
+# Kunlik test savollari uchun qo'shimcha turlar
+MODE_DEFINITION = "def"
+MODE_SYNONYM = "syn"
+# Kunlik test rejimi: "day1" … "day10"
+MODE_DAY = "day"
 
 MODE_TITLES = {
     MODE_EN_UZ: "🇬🇧 → 🇺🇿 Inglizcha → O'zbekcha",
@@ -18,6 +23,13 @@ MODE_TITLES = {
     MODE_MIXED: "🔀 Aralash",
     MODE_MISTAKES: "🧠 Xatolar ustida ishlash",
 }
+
+
+def mode_title(mode: str) -> str:
+    if mode.startswith(MODE_DAY):
+        return f"📅 Day {mode[len(MODE_DAY):]} testi"
+    return MODE_TITLES[mode]
+
 
 def load_words() -> list[dict]:
     with open(WORDS_PATH, encoding="utf-8") as f:
@@ -41,7 +53,7 @@ DIRECTIONS = (MODE_EN_UZ, MODE_UZ_EN, MODE_SENTENCE)
 class Question:
     word_id: int
     prompt: str
-    direction: str  # MODE_EN_UZ, MODE_UZ_EN yoki MODE_SENTENCE
+    direction: str  # MODE_EN_UZ, MODE_UZ_EN, MODE_SENTENCE, MODE_DEFINITION yoki MODE_SYNONYM
     options: list[str]
     correct_index: int
 
