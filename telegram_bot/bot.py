@@ -7,17 +7,29 @@ from html import escape
 from aiogram import Bot, Dispatcher, F
 from aiogram.client.default import DefaultBotProperties
 from aiogram.client.session.aiohttp import AiohttpSession
-from aiogram.enums import ParseMode
-from aiogram.exceptions import TelegramBadRequest
+from aiogram.enums import ChatType, ParseMode
+from aiogram.exceptions import TelegramAPIError, TelegramBadRequest
 from aiogram.filters import Command, CommandStart
 from aiogram.types import BotCommand, CallbackQuery, InlineKeyboardMarkup, Message, User
 
 import database as db
 import keyboards as kb
-from config import BRAND_NAME, BRAND_SLOGAN, LEADERBOARD_SIZE, MISTAKES_QUIZ_SIZE, TOKEN
+import poll_handlers
+from branding import BRAND_FOOTER, BRAND_HEADER, DIVIDER, MEDALS, short_name
+from config import (
+    BRAND_NAME,
+    LEADERBOARD_SIZE,
+    MISTAKES_QUIZ_SIZE,
+    POINTS_MAX,
+    POINTS_MIN,
+    POLL_IDLE_LIMIT,
+    QUESTION_TIME,
+    TOKEN,
+)
 from quiz import (
     MODE_EN_UZ,
     MODE_MISTAKES,
+    MODE_SENTENCE,
     MODE_TITLES,
     WORDS,
     QuizSession,
@@ -27,23 +39,17 @@ from quiz import (
 )
 
 dp = Dispatcher()
+dp.include_router(poll_handlers.router)
+PRIVATE = F.chat.type == ChatType.PRIVATE
 
 # Faol test sessiyalari: user_id -> QuizSession
 sessions: dict[int, QuizSession] = {}
-
-MEDALS = {1: "🥇", 2: "🥈", 3: "🥉"}
-DIVIDER = "━━━━━━━━━━━━━━━━━━"
-BRAND_HEADER = f"🏫 <b>{BRAND_NAME.upper()}</b> · <i>English Quiz</i>"
-BRAND_FOOTER = f"<i>🏫 {BRAND_NAME} — {BRAND_SLOGAN}</i>"
+# Joriy savol taymerlari: user_id -> Task (QUESTION_TIME soniyadan keyin keyingi savolga o'tkazadi)
+timers: dict[int, asyncio.Task] = {}
 
 
 def register(user: User) -> None:
     db.upsert_user(user.id, user.full_name, user.username)
-
-
-def short_name(name: str, limit: int = 18) -> str:
-    name = name.strip() or "Foydalanuvchi"
-    return escape(name if len(name) <= limit else name[: limit - 1] + "…")
 
 
 async def edit_or_send(query: CallbackQuery, text: str, markup: InlineKeyboardMarkup) -> None:
@@ -64,8 +70,8 @@ def welcome_text(user: User) -> str:
         f"📚 <b>{BRAND_NAME}</b> o'quv markazining quiz botiga xush kelibsiz — B2 darajadagi "
         f"<b>{len(WORDS)} ta</b> inglizcha so'zni o'yin orqali o'rganing!\n\n"
         f"{DIVIDER}\n"
-        f"🎯 Savollarga javob bering va ball to'plang\n"
-        f"🔥 Ketma-ket to'g'ri javoblar uchun bonus oling\n"
+        f"⏱ Har bir savolga {QUESTION_TIME} soniya — tez javob bering, ko'p ball oling\n"
+        f"👥 Guruhda jamoa bo'lib bellashing\n"
         f"🏆 Reytingda boshqa o'quvchilar bilan bellashing\n"
         f"🧠 Xato qilgan so'zlaringizni qayta mashq qiling\n"
         f"{DIVIDER}\n\n"
@@ -78,20 +84,25 @@ HELP_TEXT = (
     f"{BRAND_HEADER}\n\n"
     "ℹ️ <b>Qanday o'ynaladi?</b>\n\n"
     "1️⃣ <b>Testni boshlash</b> tugmasini bosing\n"
-    "2️⃣ Yo'nalishni tanlang: 🇬🇧→🇺🇿, 🇺🇿→🇬🇧 yoki aralash\n"
-    "3️⃣ Savollar sonini tanlang\n"
-    "4️⃣ Har bir savolda 4 ta variantdan to'g'risini tanlang\n\n"
+    "2️⃣ Yo'nalishni tanlang: ✍️ gap to'ldirish, 🇬🇧→🇺🇿, 🇺🇿→🇬🇧 yoki aralash\n"
+    "3️⃣ Savollar sonini tanlang (50, 75 yoki 100)\n"
+    f"4️⃣ Har bir savolga <b>{QUESTION_TIME} soniya</b> — vaqt tugasa keyingi savolga o'tiladi\n\n"
     f"{DIVIDER}\n"
-    "⭐ <b>Ball tizimi</b>\n"
-    "• To'g'ri javob — <b>10 ball</b>\n"
-    "• Ketma-ket to'g'ri javoblar — <b>+2, +4 … +10</b> bonus 🔥\n"
-    "• Xato javob — 0 ball, seriya nolga tushadi\n\n"
+    "⚡ <b>Ball tizimi — tezlikka qarab</b>\n"
+    f"• Darhol to'g'ri javob — <b>{POINTS_MAX} ball</b>\n"
+    f"• Oxirgi soniyada to'g'ri javob — <b>{POINTS_MIN} ball</b>\n"
+    "• Xato javob yoki vaqt tugasa — 0 ball\n\n"
     "🧠 <b>Xatolarim</b> bo'limida xato qilgan so'zlaringiz saqlanadi. "
     "To'g'ri topsangiz, ro'yxatdan o'chadi.\n"
+    f"{DIVIDER}\n"
+    "⏱ <b>Vaqtli quiz</b> — savollar Telegram poll ko'rinishida chiqadi.\n"
+    "👥 <b>Jamoaviy quiz</b> — botni guruhga qo'shing, <b>/quiz</b> yozing, o'quvchilar jamoalarga "
+    "bo'linadi. Har bir a'zoning bali jamoasiga qo'shiladi, oxirida g'olib jamoa e'lon qilinadi!\n"
     f"{DIVIDER}\n\n"
     "⌨️ <b>Buyruqlar</b>\n"
     "/start — bosh menyu\n"
     "/quiz — yangi test\n"
+    "/stop — vaqtli quizni to'xtatish\n"
     "/top — reyting\n"
     "/me — profilim\n"
     "/help — yordam\n\n"
@@ -103,7 +114,9 @@ def question_text(session: QuizSession) -> str:
     q = session.current
     number = session.index + 1
     total = len(session.questions)
-    if q.direction == MODE_EN_UZ:
+    if q.direction == MODE_SENTENCE:
+        prompt = f"✍️ <b>{escape(q.prompt)}</b>\n\n<i>Bo'sh joyga mos so'zni tanlang 👇</i>"
+    elif q.direction == MODE_EN_UZ:
         prompt = f"🇬🇧 <b>{escape(q.prompt)}</b>\n\n<i>O'zbekcha tarjimasini tanlang 👇</i>"
     else:
         prompt = f"🇺🇿 <b>{escape(q.prompt)}</b>\n\n<i>Inglizcha tarjimasini tanlang 👇</i>"
@@ -119,6 +132,7 @@ def question_text(session: QuizSession) -> str:
         DIVIDER,
         prompt,
         DIVIDER,
+        f"⏳ <b>{QUESTION_TIME} soniya</b> · ⚡ tez javob — ko'p ball",
         f"⭐ Ball: <b>{session.score}</b>    🔥 Seriya: <b>{session.streak}</b>",
     ]
     return "\n".join(parts)
@@ -204,13 +218,18 @@ def leaderboard_text(user: User, period: str) -> str:
 
 # ─────────────────────────── Buyruqlar ───────────────────────────
 
-@dp.message(CommandStart())
+async def main_menu(bot: Bot) -> InlineKeyboardMarkup:
+    me = await bot.me()
+    return kb.main_menu(me.username)
+
+
+@dp.message(CommandStart(), PRIVATE)
 async def cmd_start(message: Message) -> None:
     register(message.from_user)
-    await message.answer(welcome_text(message.from_user), reply_markup=kb.main_menu())
+    await message.answer(welcome_text(message.from_user), reply_markup=await main_menu(message.bot))
 
 
-@dp.message(Command("quiz"))
+@dp.message(Command("quiz"), PRIVATE)
 async def cmd_quiz(message: Message) -> None:
     register(message.from_user)
     await message.answer("🎯 <b>Test yo'nalishini tanlang:</b>", reply_markup=kb.modes())
@@ -240,7 +259,7 @@ async def on_menu(query: CallbackQuery) -> None:
     register(query.from_user)
     action = query.data.split(":", 1)[1]
     if action == "home":
-        await edit_or_send(query, welcome_text(query.from_user), kb.main_menu())
+        await edit_or_send(query, welcome_text(query.from_user), await main_menu(query.bot))
     elif action == "quiz":
         await edit_or_send(query, "🎯 <b>Test yo'nalishini tanlang:</b>", kb.modes())
     elif action == "me":
@@ -284,31 +303,99 @@ async def on_mode(query: CallbackQuery) -> None:
 @dp.callback_query(F.data.startswith("start:"))
 async def on_start_quiz(query: CallbackQuery) -> None:
     register(query.from_user)
-    _, mode, count = query.data.split(":")
-    await start_quiz(query, mode, int(count))
+    parts = query.data.split(":")
+    if len(parts) != 3 or parts[1] not in MODE_TITLES or not parts[2].isdigit():
+        await query.answer()
+        return
+    await start_quiz(query, parts[1], int(parts[2]))
+
+
+async def edit_message(bot: Bot, chat_id: int, message_id: int, text: str, markup: InlineKeyboardMarkup) -> int:
+    """Xabarni tahrirlaydi, bo'lmasa yangisini yuboradi. Ko'rsatilgan xabar id sini qaytaradi."""
+    try:
+        await bot.edit_message_text(text, chat_id=chat_id, message_id=message_id, reply_markup=markup)
+    except TelegramBadRequest as e:
+        if "not modified" not in str(e):
+            sent = await bot.send_message(chat_id, text, reply_markup=markup)
+            return sent.message_id
+    return message_id
+
+
+def cancel_timer(user_id: int) -> None:
+    task = timers.pop(user_id, None)
+    if task:
+        task.cancel()
+
+
+async def show_question(bot: Bot, chat_id: int, message_id: int, user: User, session: QuizSession) -> None:
+    """Savolni ko'rsatadi va QUESTION_TIME soniyalik taymerni ishga tushiradi."""
+    cancel_timer(user.id)
+    message_id = await edit_message(
+        bot, chat_id, message_id, question_text(session), kb.question(session.current, session.index)
+    )
+    session.asked_at = asyncio.get_running_loop().time()
+    index = session.index
+
+    async def expire() -> None:
+        await asyncio.sleep(QUESTION_TIME)
+        # Shu orada javob berilgan yoki test tugagan bo'lsa — hech narsa qilinmaydi
+        if sessions.get(user.id) is not session or session.index != index:
+            return
+        timers.pop(user.id, None)
+        question = session.current
+        session.timeout()
+        db.add_mistake(user.id, question.word_id)
+        session.last_feedback = (
+            f"⏰ <b>Vaqt tugadi!</b> To'g'ri javob:\n<i>{escape(question.word_hint)}</i>"
+        )
+        try:
+            if session.timeouts_in_row >= POLL_IDLE_LIMIT:
+                session.last_feedback += (
+                    f"\n\n😴 Ketma-ket {POLL_IDLE_LIMIT} ta savolga javob bo'lmadi — test to'xtatildi."
+                )
+                await finish_quiz(bot, chat_id, message_id, user, session)
+            else:
+                await advance(bot, chat_id, message_id, user, session)
+        except TelegramAPIError:
+            logging.exception("Savol vaqti tugaganda xabarni yangilab bo'lmadi (user %s)", user.id)
+
+    timers[user.id] = asyncio.create_task(expire())
+
+
+async def advance(bot: Bot, chat_id: int, message_id: int, user: User, session: QuizSession) -> None:
+    if session.finished:
+        await finish_quiz(bot, chat_id, message_id, user, session)
+    else:
+        await show_question(bot, chat_id, message_id, user, session)
 
 
 async def start_quiz(query: CallbackQuery, mode: str, count: int, word_ids: list[int] | None = None) -> None:
     session = build_session(mode, count, word_ids)
     sessions[query.from_user.id] = session
-    await edit_or_send(query, question_text(session), kb.question(session.current, session.index))
-    await query.answer(f"🚀 {len(session.questions)} ta savol. Omad!")
+    await query.answer(f"🚀 {len(session.questions)} ta savol, har biriga {QUESTION_TIME} soniya. Omad!")
+    await show_question(query.bot, query.message.chat.id, query.message.message_id, query.from_user, session)
 
 
 @dp.callback_query(F.data.startswith("ans:"))
 async def on_answer(query: CallbackQuery) -> None:
+    now = asyncio.get_running_loop().time()
     user_id = query.from_user.id
     session = sessions.get(user_id)
-    _, number, option = query.data.split(":")
+    parts = query.data.split(":")
+    if len(parts) != 3 or not parts[1].isdigit() or not parts[2].isdigit():
+        await query.answer()
+        return
+    number, option = int(parts[1]), int(parts[2])
 
-    # Eski xabardagi yoki allaqachon javob berilgan savol tugmasi bosilgan bo'lsa
-    if session is None or session.finished or int(number) != session.index:
+    # Eski xabardagi, vaqti tugagan yoki allaqachon javob berilgan savol tugmasi bosilgan bo'lsa
+    if session is None or session.finished or number != session.index:
         await query.answer("⏳ Bu savol allaqachon yopilgan.")
         return
 
+    cancel_timer(user_id)
     question = session.current
-    is_correct, gained = session.answer(int(option))
-    pair = f"<i>{escape(question.prompt)} — {escape(question.correct_answer)}</i>"
+    is_correct, gained = session.answer(option, now - session.asked_at)
+    pair = f"<i>{escape(question.word_hint)}</i>"
     if is_correct:
         db.remove_mistake(user_id, question.word_id)
         session.last_feedback = f"✅ <b>To'g'ri!</b> +{gained} ⭐\n{pair}"
@@ -318,37 +405,34 @@ async def on_answer(query: CallbackQuery) -> None:
         session.last_feedback = f"❌ <b>Xato!</b> To'g'ri javob:\n{pair}"
         toast = f"❌ Xato! To'g'ri javob: {question.correct_answer}"
     await query.answer(toast)
-
-    if session.finished:
-        await finish_quiz(query, session)
-    else:
-        await edit_or_send(query, question_text(session), kb.question(session.current, session.index))
+    await advance(query.bot, query.message.chat.id, query.message.message_id, query.from_user, session)
 
 
 @dp.callback_query(F.data == "quiz:stop")
 async def on_stop(query: CallbackQuery) -> None:
     session = sessions.get(query.from_user.id)
     if session is None:
-        await edit_or_send(query, welcome_text(query.from_user), kb.main_menu())
+        await edit_or_send(query, welcome_text(query.from_user), await main_menu(query.bot))
         await query.answer()
         return
     if session.index == 0:
+        cancel_timer(query.from_user.id)
         sessions.pop(query.from_user.id, None)
         await edit_or_send(query, "⛔ Test bekor qilindi.", kb.after_quiz())
         await query.answer()
         return
     await query.answer("⛔ Test to'xtatildi")
-    await finish_quiz(query, session)
+    await finish_quiz(query.bot, query.message.chat.id, query.message.message_id, query.from_user, session)
 
 
-async def finish_quiz(query: CallbackQuery, session: QuizSession) -> None:
-    user = query.from_user
+async def finish_quiz(bot: Bot, chat_id: int, message_id: int, user: User, session: QuizSession) -> None:
+    cancel_timer(user.id)
     sessions.pop(user.id, None)
     db.save_result(user.id, session.score, session.correct, session.index, session.best_streak)
     text = result_text(user, session)
     if session.last_feedback:
         text = f"{session.last_feedback}\n\n{text}"
-    await edit_or_send(query, text, kb.after_quiz())
+    await edit_message(bot, chat_id, message_id, text, kb.after_quiz())
 
 
 # ─────────────────────────── Ishga tushirish ───────────────────────────
@@ -374,6 +458,7 @@ async def main() -> None:
         [
             BotCommand(command="start", description="🏠 Bosh menyu"),
             BotCommand(command="quiz", description="🎯 Yangi test"),
+            BotCommand(command="stop", description="⛔ Vaqtli quizni to'xtatish"),
             BotCommand(command="top", description="🏆 Reyting"),
             BotCommand(command="me", description="👤 Profilim"),
             BotCommand(command="help", description="ℹ️ Yordam"),
@@ -390,7 +475,7 @@ async def main() -> None:
         "Boshlash uchun /start bosing!"
     )
     logging.info("%s boti ishga tushdi. So'zlar soni: %d", BRAND_NAME, len(WORDS))
-    await dp.start_polling(bot)
+    await dp.start_polling(bot, allowed_updates=dp.resolve_used_update_types())
 
 
 if __name__ == "__main__":

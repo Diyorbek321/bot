@@ -6,9 +6,12 @@ bo'yicha test savollari, ball tizimi va reyting.
 ## ✨ Imkoniyatlar
 
 - 🎯 **Test savollari** — har bir savolda 4 ta variant (A, B, C, D)
-- 🔀 **3 xil yo'nalish** — 🇬🇧→🇺🇿, 🇺🇿→🇬🇧 yoki aralash
-- 📊 **10 / 20 / 30** ta savoldan iborat testlar
-- ⭐ **Ball tizimi** — to'g'ri javob 10 ball, ketma-ket to'g'ri javoblar uchun +2 … +10 bonus 🔥
+- ✍️ **Gap to'ldirish** — har bir so'z uchun tayyor gaplar: `After sitting for hours, I went outside to ____.`
+- 🔀 **4 xil yo'nalish** — gap to'ldirish, 🇬🇧→🇺🇿, 🇺🇿→🇬🇧 yoki aralash
+- ⏱ **Har bir savolga 20 soniya** — vaqt tugasa avtomatik keyingi savolga o'tiladi (poll quizda ham, tugmali testda ham)
+- 👥 **Jamoaviy quiz** — guruhda o'quvchilar jamoalarga (🔴 🔵 🟢 🟡) bo'linadi, a'zolar bali jamoaga yig'iladi, oxirida g'olib jamoa e'lon qilinadi
+- 📊 **50 / 75 / 100** ta savoldan iborat testlar
+- ⚡ **Ball tizimi — tezlikka qarab** — darhol to'g'ri javob 100 ball, 20-soniyada 50 ball, xato yoki vaqt tugasa 0
 - 🏆 **Reyting** — umumiy va haftalik (so'nggi 7 kun) TOP-10
 - 👤 **Profil** — ball, aniqlik foizi, eng uzun seriya, reytingdagi o'rin
 - 🧠 **Xatolarim** — xato qilingan so'zlar saqlanadi va alohida mashq qilinadi
@@ -80,10 +83,38 @@ to'xtaganda avtomatik qayta ishga tushadi.
 | Buyruq  | Vazifasi        |
 |---------|-----------------|
 | `/start` | Bosh menyu     |
-| `/quiz`  | Yangi test     |
+| `/quiz`  | Yangi test (guruhda — vaqtli quiz) |
+| `/stop`  | Vaqtli quizni to'xtatish (boshlagan odam yoki admin) |
 | `/top`   | Reyting        |
 | `/me`    | Profilim       |
 | `/help`  | Yordam         |
+
+## 👥 Guruhda ishlatish
+
+1. Bosh menyudagi **➕ Guruhga qo'shish** tugmasi orqali botni guruhga qo'shing.
+2. Guruhda `/quiz` yozing → savol turi → savollar soni.
+3. Chiqqan xabarda o'quvchilar jamoasini tanlaydi (jamoani almashtirish ham mumkin).
+   Kamida 2 ta jamoada o'yinchi bo'lgach, quizni ochgan odam yoki admin **▶️ Boshlash** ni bosadi.
+4. Savollar birin-ketin poll bo'lib chiqadi, har biriga 20 soniya; vaqt tugagach keyingisi yuboriladi.
+5. Oxirida g'olib jamoa va eng yaxshi o'yinchilar e'lon qilinadi, har bir qatnashchining bali umumiy reytingga ham qo'shiladi.
+
+Jamoa bali — a'zolar ballari yig'indisi. Jamoa tanlamay javob bergan o'quvchi avtomatik eng kam a'zoli jamoaga qo'shiladi.
+Jamoalar ro'yxati `config.py` dagi `TEAMS` da.
+
+Ketma-ket 3 ta savolga hech kim javob bermasa, quiz o'zi to'xtaydi.
+Shaxsiy chatda javob berishingiz bilan keyingi savolga o'tiladi (yakka o'yin).
+
+## ✍️ Gaplar banki
+
+`sentences.json` — har bir so'z uchun 2 ta gap, to'g'ri javob (so'zning gapdagi shakli) va 3 ta xato variant:
+
+```json
+{"word": "achieve", "sentences": [
+  {"text": "She worked hard every day to ____ her goal.", "answer": "achieve", "wrong": ["avoid", "refuse", "delay"]}
+]}
+```
+
+Yangi gap qo'shgach, `python -m pytest tests` bilan bank to'g'riligini tekshiring.
 
 ## 📖 Lug'atni yangilash
 
@@ -108,10 +139,15 @@ Yoki `words.json` faylini qo'lda tahrirlang:
 telegram_bot/
 ├── bot.py            # Handlerlar va ishga tushirish
 ├── quiz.py           # Savollar tuzish, ball hisoblash
+├── poll_game.py      # Vaqtli quiz mantiqi (jamoalar, tezlik bo'yicha ball, reyting)
+├── poll_handlers.py  # Vaqtli quiz va guruh handlerlari
+├── branding.py       # Umumiy matn bezaklari
 ├── keyboards.py      # Inline tugmalar
 ├── database.py       # SQLite: foydalanuvchilar, natijalar, xatolar
 ├── config.py         # Sozlamalar
 ├── extract_words.py  # PDF → words.json
 ├── deploy/           # systemd servis + o'rnatish skripti
+├── tests/            # pytest testlari
+├── sentences.json    # 1000 ta gap (har so'zga 2 ta)
 └── words.json        # 500 ta so'z
 ```

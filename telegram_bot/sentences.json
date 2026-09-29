@@ -1,0 +1,11502 @@
+[
+ {
+  "word": "achieve",
+  "sentences": [
+   {
+    "text": "She worked hard every day to ____ her goal of studying abroad.",
+    "answer": "achieve",
+    "wrong": [
+     "avoid",
+     "refuse",
+     "delay"
+    ]
+   },
+   {
+    "text": "After years of training, he finally ____ his dream of becoming a pilot.",
+    "answer": "achieved",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "existed"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "acquire",
+  "sentences": [
+   {
+    "text": "Children ____ new languages much faster than adults.",
+    "answer": "acquire",
+    "wrong": [
+     "forget",
+     "ignore",
+     "reject"
+    ]
+   },
+   {
+    "text": "The museum recently ____ a rare painting from a private collector.",
+    "answer": "acquired",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "existed"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "adapt",
+  "sentences": [
+   {
+    "text": "It took her a few months to ____ to life in a new country.",
+    "answer": "adapt",
+    "wrong": [
+     "object",
+     "surrender",
+     "refer"
+    ]
+   },
+   {
+    "text": "Animals that cannot ____ to climate change may disappear.",
+    "answer": "adapt",
+    "wrong": [
+     "belong",
+     "consist",
+     "apologise"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "adequate",
+  "sentences": [
+   {
+    "text": "The room was small, but it was ____ for our needs.",
+    "answer": "adequate",
+    "wrong": [
+     "useless",
+     "absent",
+     "hostile"
+    ]
+   },
+   {
+    "text": "Many schools still lack ____ funding for new books.",
+    "answer": "adequate",
+    "wrong": [
+     "guilty",
+     "curious",
+     "polite"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "alternative",
+  "sentences": [
+   {
+    "text": "If the bridge is closed, we will need an ____ route.",
+    "answer": "alternative",
+    "wrong": [
+     "ancient",
+     "honest",
+     "anxious"
+    ]
+   },
+   {
+    "text": "Solar power is a clean ____ to coal.",
+    "answer": "alternative",
+    "wrong": [
+     "obstacle",
+     "argument",
+     "accident"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "analyse",
+  "sentences": [
+   {
+    "text": "Scientists need several weeks to ____ the data from the experiment.",
+    "answer": "analyse",
+    "wrong": [
+     "decorate",
+     "ignore",
+     "celebrate"
+    ]
+   },
+   {
+    "text": "The teacher asked us to ____ the main character's behaviour.",
+    "answer": "analyse",
+    "wrong": [
+     "borrow",
+     "deliver",
+     "rent"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "approach",
+  "sentences": [
+   {
+    "text": "Our teacher uses a creative ____ to grammar lessons.",
+    "answer": "approach",
+    "wrong": [
+     "departure",
+     "injury",
+     "luggage"
+    ]
+   },
+   {
+    "text": "As winter ____, the days get shorter.",
+    "answer": "approaches",
+    "wrong": [
+     "decides",
+     "borrows",
+     "admits"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "assess",
+  "sentences": [
+   {
+    "text": "The exam is designed to ____ students' speaking skills.",
+    "answer": "assess",
+    "wrong": [
+     "decorate",
+     "abandon",
+     "borrow"
+    ]
+   },
+   {
+    "text": "Experts arrived to ____ the damage caused by the flood.",
+    "answer": "assess",
+    "wrong": [
+     "celebrate",
+     "enjoy",
+     "rent"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "assume",
+  "sentences": [
+   {
+    "text": "Don't ____ that everyone understands English.",
+    "answer": "assume",
+    "wrong": [
+     "borrow",
+     "deliver",
+     "decorate"
+    ]
+   },
+   {
+    "text": "I ____ you've already had lunch, so I didn't cook.",
+    "answer": "assumed",
+    "wrong": [
+     "delivered",
+     "borrowed",
+     "repaired"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "aware",
+  "sentences": [
+   {
+    "text": "Are you ____ of the risks of smoking?",
+    "answer": "aware",
+    "wrong": [
+     "fond",
+     "proud",
+     "afraid"
+    ]
+   },
+   {
+    "text": "Most drivers are not ____ how tired they really are.",
+    "answer": "aware",
+    "wrong": [
+     "generous",
+     "empty",
+     "polite"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "benefit",
+  "sentences": [
+   {
+    "text": "Regular exercise has many health ____.",
+    "answer": "benefits",
+    "wrong": [
+     "damages",
+     "injuries",
+     "complaints"
+    ]
+   },
+   {
+    "text": "Students will ____ from smaller class sizes.",
+    "answer": "benefit",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "challenge",
+  "sentences": [
+   {
+    "text": "Learning to play the violin was a real ____ for him.",
+    "answer": "challenge",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "The new manager decided to ____ the old way of doing things.",
+    "answer": "challenge",
+    "wrong": [
+     "memorize",
+     "decorate",
+     "celebrate"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "circumstance",
+  "sentences": [
+   {
+    "text": "Under no ____ should you open this door.",
+    "answer": "circumstances",
+    "wrong": [
+     "neighbours",
+     "passports",
+     "vehicles"
+    ]
+   },
+   {
+    "text": "He was forced to leave the job due to personal ____.",
+    "answer": "circumstances",
+    "wrong": [
+     "attractions",
+     "destinations",
+     "harvests"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "claim",
+  "sentences": [
+   {
+    "text": "The company ____ that its product is the best on the market.",
+    "answer": "claims",
+    "wrong": [
+     "hides",
+     "forgets",
+     "borrows"
+    ]
+   },
+   {
+    "text": "You can ____ your lost luggage at the airport office.",
+    "answer": "claim",
+    "wrong": [
+     "throw",
+     "lend",
+     "spend"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "contribute",
+  "sentences": [
+   {
+    "text": "Everyone in the team should ____ ideas to the project.",
+    "answer": "contribute",
+    "wrong": [
+     "steal",
+     "hide",
+     "ignore"
+    ]
+   },
+   {
+    "text": "Air pollution ____ to many breathing problems.",
+    "answer": "contributes",
+    "wrong": [
+     "belongs",
+     "objects",
+     "apologises"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "crucial",
+  "sentences": [
+   {
+    "text": "Sleep is ____ for good memory and learning.",
+    "answer": "crucial",
+    "wrong": [
+     "curious",
+     "polite",
+     "ancient"
+    ]
+   },
+   {
+    "text": "The goalkeeper made a ____ save in the last minute.",
+    "answer": "crucial",
+    "wrong": [
+     "boring",
+     "minor",
+     "lazy"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "decline",
+  "sentences": [
+   {
+    "text": "The number of birds in the area has ____ sharply.",
+    "answer": "declined",
+    "wrong": [
+     "celebrated",
+     "invented",
+     "apologised"
+    ]
+   },
+   {
+    "text": "She had to ____ the invitation because she was ill.",
+    "answer": "decline",
+    "wrong": [
+     "accept",
+     "attend",
+     "organize"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "demonstrate",
+  "sentences": [
+   {
+    "text": "The chef will ____ how to make fresh pasta.",
+    "answer": "demonstrate",
+    "wrong": [
+     "hide",
+     "forget",
+     "doubt"
+    ]
+   },
+   {
+    "text": "The study ____ a clear link between diet and health.",
+    "answer": "demonstrated",
+    "wrong": [
+     "concealed",
+     "prevented",
+     "borrowed"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "distinguish",
+  "sentences": [
+   {
+    "text": "Some people can't ____ between red and green.",
+    "answer": "distinguish",
+    "wrong": [
+     "borrow",
+     "apologise",
+     "relax"
+    ]
+   },
+   {
+    "text": "It is hard to ____ the twins from each other.",
+    "answer": "distinguish",
+    "wrong": [
+     "invite",
+     "rent",
+     "teach"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "encounter",
+  "sentences": [
+   {
+    "text": "We ____ many problems during our first year in business.",
+    "answer": "encountered",
+    "wrong": [
+     "invented",
+     "ordered",
+     "rented"
+    ]
+   },
+   {
+    "text": "Travellers often ____ unexpected delays at the border.",
+    "answer": "encounter",
+    "wrong": [
+     "prefer",
+     "enjoy",
+     "order"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "expand",
+  "sentences": [
+   {
+    "text": "The company plans to ____ into Asian markets next year.",
+    "answer": "expand",
+    "wrong": [
+     "shrink",
+     "resign",
+     "escape"
+    ]
+   },
+   {
+    "text": "Metal ____ when it is heated.",
+    "answer": "expands",
+    "wrong": [
+     "shrinks",
+     "sleeps",
+     "whispers"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "emphasize",
+  "sentences": [
+   {
+    "text": "The doctor ____ the importance of drinking enough water.",
+    "answer": "emphasized",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "existed"
+    ]
+   },
+   {
+    "text": "In your essay, try to ____ your main argument.",
+    "answer": "emphasize",
+    "wrong": [
+     "hide",
+     "delete",
+     "forget"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "enhance",
+  "sentences": [
+   {
+    "text": "Good lighting can ____ the beauty of a room.",
+    "answer": "enhance",
+    "wrong": [
+     "destroy",
+     "reduce",
+     "ruin"
+    ]
+   },
+   {
+    "text": "Reading every day will ____ your vocabulary.",
+    "answer": "enhance",
+    "wrong": [
+     "shrink",
+     "damage",
+     "weaken"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "ensure",
+  "sentences": [
+   {
+    "text": "Please ____ that all windows are closed before you leave.",
+    "answer": "ensure",
+    "wrong": [
+     "doubt",
+     "forget",
+     "deny"
+    ]
+   },
+   {
+    "text": "Seat belts help ____ the safety of passengers.",
+    "answer": "ensure",
+    "wrong": [
+     "threaten",
+     "damage",
+     "reduce"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "estimate",
+  "sentences": [
+   {
+    "text": "Experts ____ that the project will cost two million dollars.",
+    "answer": "estimate",
+    "wrong": [
+     "refuse",
+     "apologise",
+     "forbid"
+    ]
+   },
+   {
+    "text": "Can you give me a rough ____ of the repair cost?",
+    "answer": "estimate",
+    "wrong": [
+     "complaint",
+     "apology",
+     "argument"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "evident",
+  "sentences": [
+   {
+    "text": "It was ____ from her smile that she had passed the exam.",
+    "answer": "evident",
+    "wrong": [
+     "hidden",
+     "doubtful",
+     "unknown"
+    ]
+   },
+   {
+    "text": "His lack of experience was ____ during the interview.",
+    "answer": "evident",
+    "wrong": [
+     "invisible",
+     "secret",
+     "absent"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "factor",
+  "sentences": [
+   {
+    "text": "Price is an important ____ when choosing a phone.",
+    "answer": "factor",
+    "wrong": [
+     "neighbour",
+     "passenger",
+     "journey"
+    ]
+   },
+   {
+    "text": "Stress can be a major ____ in heart disease.",
+    "answer": "factor",
+    "wrong": [
+     "cure",
+     "recipe",
+     "holiday"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "feature",
+  "sentences": [
+   {
+    "text": "The new phone has several useful ____, like face recognition.",
+    "answer": "features",
+    "wrong": [
+     "diseases",
+     "complaints",
+     "accidents"
+    ]
+   },
+   {
+    "text": "The festival will ____ bands from all over the world.",
+    "answer": "feature",
+    "wrong": [
+     "ban",
+     "reject",
+     "forbid"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "flexible",
+  "sentences": [
+   {
+    "text": "My job has ____ hours, so I can start late on Mondays.",
+    "answer": "flexible",
+    "wrong": [
+     "fixed",
+     "rigid",
+     "strict"
+    ]
+   },
+   {
+    "text": "Yoga helps keep your body strong and ____.",
+    "answer": "flexible",
+    "wrong": [
+     "stiff",
+     "fragile",
+     "rigid"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "furthermore",
+  "sentences": [
+   {
+    "text": "The hotel was cheap. ____, it was close to the beach.",
+    "answer": "Furthermore",
+    "wrong": [
+     "However",
+     "Otherwise",
+     "Nevertheless"
+    ]
+   },
+   {
+    "text": "The plan is too expensive. ____, it would take years to finish.",
+    "answer": "Furthermore",
+    "wrong": [
+     "Although",
+     "Whereas",
+     "Despite"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "generate",
+  "sentences": [
+   {
+    "text": "Wind turbines ____ electricity without burning fuel.",
+    "answer": "generate",
+    "wrong": [
+     "waste",
+     "absorb",
+     "destroy"
+    ]
+   },
+   {
+    "text": "The new factory will ____ hundreds of jobs for local people.",
+    "answer": "generate",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "impact",
+  "sentences": [
+   {
+    "text": "Social media has a huge ____ on young people's lives.",
+    "answer": "impact",
+    "wrong": [
+     "exit",
+     "shelter",
+     "absence"
+    ]
+   },
+   {
+    "text": "The new law will have a positive ____ on the environment.",
+    "answer": "impact",
+    "wrong": [
+     "departure",
+     "salary",
+     "delay"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "imply",
+  "sentences": [
+   {
+    "text": "Are you trying to ____ that I'm lying?",
+    "answer": "imply",
+    "wrong": [
+     "deliver",
+     "borrow",
+     "decorate"
+    ]
+   },
+   {
+    "text": "His silence seemed to ____ that he agreed.",
+    "answer": "imply",
+    "wrong": [
+     "deny",
+     "reject",
+     "refuse"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "indicate",
+  "sentences": [
+   {
+    "text": "Dark clouds usually ____ that rain is coming.",
+    "answer": "indicate",
+    "wrong": [
+     "prevent",
+     "delay",
+     "forbid"
+    ]
+   },
+   {
+    "text": "The results ____ that the medicine is effective.",
+    "answer": "indicate",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "inevitable",
+  "sentences": [
+   {
+    "text": "With so little preparation, failure was ____.",
+    "answer": "inevitable",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   },
+   {
+    "text": "Change is ____ in any growing company.",
+    "answer": "inevitable",
+    "wrong": [
+     "forbidden",
+     "rare",
+     "avoidable"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "influence",
+  "sentences": [
+   {
+    "text": "Parents have a strong ____ on their children's habits.",
+    "answer": "influence",
+    "wrong": [
+     "departure",
+     "vacation",
+     "luggage"
+    ]
+   },
+   {
+    "text": "Advertising can ____ what we decide to buy.",
+    "answer": "influence",
+    "wrong": [
+     "digest",
+     "rent",
+     "whisper"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "maintain",
+  "sentences": [
+   {
+    "text": "It is important to ____ a healthy weight.",
+    "answer": "maintain",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   },
+   {
+    "text": "The old castle is expensive to ____.",
+    "answer": "maintain",
+    "wrong": [
+     "celebrate",
+     "whisper",
+     "borrow"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "occur",
+  "sentences": [
+   {
+    "text": "Earthquakes often ____ in this part of the world.",
+    "answer": "occur",
+    "wrong": [
+     "apologise",
+     "object",
+     "belong"
+    ]
+   },
+   {
+    "text": "The accident ____ late last night on the main road.",
+    "answer": "occurred",
+    "wrong": [
+     "apologised",
+     "decided",
+     "belonged"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "perceive",
+  "sentences": [
+   {
+    "text": "Many people ____ teachers as role models.",
+    "answer": "perceive",
+    "wrong": [
+     "borrow",
+     "rent",
+     "deliver"
+    ]
+   },
+   {
+    "text": "Dogs can ____ sounds that humans cannot hear.",
+    "answer": "perceive",
+    "wrong": [
+     "produce",
+     "invent",
+     "record"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "potential",
+  "sentences": [
+   {
+    "text": "She has the ____ to become a great writer.",
+    "answer": "potential",
+    "wrong": [
+     "departure",
+     "complaint",
+     "luggage"
+    ]
+   },
+   {
+    "text": "We should consider all the ____ risks before we start.",
+    "answer": "potential",
+    "wrong": [
+     "ancient",
+     "ordinary",
+     "polite"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "prevent",
+  "sentences": [
+   {
+    "text": "Washing your hands helps ____ the spread of disease.",
+    "answer": "prevent",
+    "wrong": [
+     "encourage",
+     "increase",
+     "cause"
+    ]
+   },
+   {
+    "text": "Heavy snow ____ us from leaving the house.",
+    "answer": "prevented",
+    "wrong": [
+     "allowed",
+     "invited",
+     "helped"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "promote",
+  "sentences": [
+   {
+    "text": "The campaign aims to ____ healthy eating in schools.",
+    "answer": "promote",
+    "wrong": [
+     "ban",
+     "forbid",
+     "reject"
+    ]
+   },
+   {
+    "text": "After three years, she was ____ to senior manager.",
+    "answer": "promoted",
+    "wrong": [
+     "fired",
+     "dismissed",
+     "punished"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "require",
+  "sentences": [
+   {
+    "text": "This job ____ at least two years of experience.",
+    "answer": "requires",
+    "wrong": [
+     "refuses",
+     "forgets",
+     "borrows"
+    ]
+   },
+   {
+    "text": "All passengers are ____ to wear a seat belt.",
+    "answer": "required",
+    "wrong": [
+     "forbidden",
+     "prevented",
+     "banned"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "significant",
+  "sentences": [
+   {
+    "text": "There has been a ____ increase in house prices this year.",
+    "answer": "significant",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   },
+   {
+    "text": "Meeting her was a ____ moment in my life.",
+    "answer": "significant",
+    "wrong": [
+     "trivial",
+     "boring",
+     "minor"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "sufficient",
+  "sentences": [
+   {
+    "text": "We don't have ____ time to finish the project today.",
+    "answer": "sufficient",
+    "wrong": [
+     "empty",
+     "absent",
+     "guilty"
+    ]
+   },
+   {
+    "text": "Is one bottle of water ____ for a long walk?",
+    "answer": "sufficient",
+    "wrong": [
+     "curious",
+     "polite",
+     "anxious"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "accomplish",
+  "sentences": [
+   {
+    "text": "We ____ a lot in the first week of the project.",
+    "answer": "accomplished",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "existed"
+    ]
+   },
+   {
+    "text": "You can ____ anything if you work hard enough.",
+    "answer": "accomplish",
+    "wrong": [
+     "abandon",
+     "forget",
+     "avoid"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "accurate",
+  "sentences": [
+   {
+    "text": "Make sure your measurements are ____ before cutting the wood.",
+    "answer": "accurate",
+    "wrong": [
+     "careless",
+     "wrong",
+     "vague"
+    ]
+   },
+   {
+    "text": "The weather forecast was surprisingly ____ this week.",
+    "answer": "accurate",
+    "wrong": [
+     "generous",
+     "polite",
+     "lazy"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "affordable",
+  "sentences": [
+   {
+    "text": "The city needs more ____ housing for young families.",
+    "answer": "affordable",
+    "wrong": [
+     "expensive",
+     "luxurious",
+     "costly"
+    ]
+   },
+   {
+    "text": "This laptop is powerful but still ____ for students.",
+    "answer": "affordable",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "ambitious",
+  "sentences": [
+   {
+    "text": "She is very ____ and wants to run her own company one day.",
+    "answer": "ambitious",
+    "wrong": [
+     "lazy",
+     "shy",
+     "careless"
+    ]
+   },
+   {
+    "text": "Building a new city in ten years is an ____ plan.",
+    "answer": "ambitious",
+    "wrong": [
+     "ordinary",
+     "honest",
+     "idle"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "beneficial",
+  "sentences": [
+   {
+    "text": "A short walk after dinner is ____ for digestion.",
+    "answer": "beneficial",
+    "wrong": [
+     "harmful",
+     "dangerous",
+     "useless"
+    ]
+   },
+   {
+    "text": "The new trade deal is ____ to both countries.",
+    "answer": "beneficial",
+    "wrong": [
+     "hungry",
+     "curious",
+     "polite"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "capable",
+  "sentences": [
+   {
+    "text": "He is ____ of running ten kilometres without stopping.",
+    "answer": "capable",
+    "wrong": [
+     "afraid",
+     "tired",
+     "jealous"
+    ]
+   },
+   {
+    "text": "We need a ____ person to lead the new team.",
+    "answer": "capable",
+    "wrong": [
+     "clumsy",
+     "careless",
+     "helpless"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "competitive",
+  "sentences": [
+   {
+    "text": "The job market is very ____ these days.",
+    "answer": "competitive",
+    "wrong": [
+     "generous",
+     "polite",
+     "sleepy"
+    ]
+   },
+   {
+    "text": "Our shop offers ____ prices on all electronics.",
+    "answer": "competitive",
+    "wrong": [
+     "ancient",
+     "anxious",
+     "guilty"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "complicated",
+  "sentences": [
+   {
+    "text": "The instructions were too ____ for me to understand.",
+    "answer": "complicated",
+    "wrong": [
+     "simple",
+     "obvious",
+     "easy"
+    ]
+   },
+   {
+    "text": "Their relationship is quite ____.",
+    "answer": "complicated",
+    "wrong": [
+     "delicious",
+     "punctual",
+     "rectangular"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "comprehensive",
+  "sentences": [
+   {
+    "text": "The guide gives a ____ overview of the city's history.",
+    "answer": "comprehensive",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   },
+   {
+    "text": "All workers receive ____ health insurance.",
+    "answer": "comprehensive",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "consistent",
+  "sentences": [
+   {
+    "text": "Her work has been ____ excellent throughout the year.",
+    "answer": "consistently",
+    "wrong": [
+     "rarely",
+     "hardly",
+     "barely"
+    ]
+   },
+   {
+    "text": "To lose weight, you need to be ____ with your diet.",
+    "answer": "consistent",
+    "wrong": [
+     "careless",
+     "random",
+     "lazy"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "convenient",
+  "sentences": [
+   {
+    "text": "Is Monday morning ____ for the meeting?",
+    "answer": "convenient",
+    "wrong": [
+     "punctual",
+     "generous",
+     "anxious"
+    ]
+   },
+   {
+    "text": "Living near the metro is very ____.",
+    "answer": "convenient",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "efficient",
+  "sentences": [
+   {
+    "text": "This new heater is much more ____ than the old one.",
+    "answer": "efficient",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   },
+   {
+    "text": "She is an ____ worker who never wastes time.",
+    "answer": "efficient",
+    "wrong": [
+     "idle",
+     "clumsy",
+     "lazy"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "essential",
+  "sentences": [
+   {
+    "text": "Water is ____ for all living things.",
+    "answer": "essential",
+    "wrong": [
+     "optional",
+     "harmful",
+     "useless"
+    ]
+   },
+   {
+    "text": "Good communication skills are ____ in this job.",
+    "answer": "essential",
+    "wrong": [
+     "hungry",
+     "curious",
+     "sleepy"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "exceptional",
+  "sentences": [
+   {
+    "text": "She showed ____ talent as a pianist from a young age.",
+    "answer": "exceptional",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   },
+   {
+    "text": "The hotel offers ____ service to all its guests.",
+    "answer": "exceptional",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "familiar",
+  "sentences": [
+   {
+    "text": "That song sounds ____. Have I heard it before?",
+    "answer": "familiar",
+    "wrong": [
+     "strange",
+     "silent",
+     "unknown"
+    ]
+   },
+   {
+    "text": "Are you ____ with this software?",
+    "answer": "familiar",
+    "wrong": [
+     "angry",
+     "bored",
+     "pleased"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "independent",
+  "sentences": [
+   {
+    "text": "After university, she became financially ____ from her parents.",
+    "answer": "independent",
+    "wrong": [
+     "dependent",
+     "reliant",
+     "attached"
+    ]
+   },
+   {
+    "text": "An ____ expert was asked to check the report.",
+    "answer": "independent",
+    "wrong": [
+     "anxious",
+     "hungry",
+     "sleepy"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "innovative",
+  "sentences": [
+   {
+    "text": "The company is known for its ____ designs.",
+    "answer": "innovative",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   },
+   {
+    "text": "We need ____ solutions to reduce traffic in the city.",
+    "answer": "innovative",
+    "wrong": [
+     "ancient",
+     "lazy",
+     "useless"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "practical",
+  "sentences": [
+   {
+    "text": "Learning to cook is a very ____ skill.",
+    "answer": "practical",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   },
+   {
+    "text": "These shoes are ____ for walking but not very stylish.",
+    "answer": "practical",
+    "wrong": [
+     "dangerous",
+     "painful",
+     "noisy"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "reliable",
+  "sentences": [
+   {
+    "text": "I need a ____ car that won't break down.",
+    "answer": "reliable",
+    "wrong": [
+     "unreliable",
+     "broken",
+     "careless"
+    ]
+   },
+   {
+    "text": "Wikipedia is not always a ____ source of information.",
+    "answer": "reliable",
+    "wrong": [
+     "generous",
+     "brave",
+     "curious"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "relevant",
+  "sentences": [
+   {
+    "text": "Please include only ____ information in your CV.",
+    "answer": "relevant",
+    "wrong": [
+     "irrelevant",
+     "useless",
+     "random"
+    ]
+   },
+   {
+    "text": "His comments were not ____ to our discussion.",
+    "answer": "relevant",
+    "wrong": [
+     "delicious",
+     "punctual",
+     "generous"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "responsible",
+  "sentences": [
+   {
+    "text": "Who is ____ for cleaning the kitchen this week?",
+    "answer": "responsible",
+    "wrong": [
+     "grateful",
+     "jealous",
+     "afraid"
+    ]
+   },
+   {
+    "text": "Parents should teach children to be ____ with money.",
+    "answer": "responsible",
+    "wrong": [
+     "careless",
+     "wasteful",
+     "reckless"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "sophisticated",
+  "sentences": [
+   {
+    "text": "The bank uses ____ software to detect fraud.",
+    "answer": "sophisticated",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   },
+   {
+    "text": "She has very ____ taste in art and music.",
+    "answer": "sophisticated",
+    "wrong": [
+     "crude",
+     "rough",
+     "childish"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "temporary",
+  "sentences": [
+   {
+    "text": "He found a ____ job during the summer holidays.",
+    "answer": "temporary",
+    "wrong": [
+     "permanent",
+     "lifelong",
+     "eternal"
+    ]
+   },
+   {
+    "text": "The road is closed, but it's only ____.",
+    "answer": "temporary",
+    "wrong": [
+     "permanent",
+     "forever",
+     "endless"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "traditional",
+  "sentences": [
+   {
+    "text": "We ate ____ Uzbek plov at the wedding.",
+    "answer": "traditional",
+    "wrong": [
+     "futuristic",
+     "artificial",
+     "digital"
+    ]
+   },
+   {
+    "text": "Many young people prefer online shopping to ____ shops.",
+    "answer": "traditional",
+    "wrong": [
+     "virtual",
+     "futuristic",
+     "imaginary"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "valuable",
+  "sentences": [
+   {
+    "text": "Thank you for your ____ advice.",
+    "answer": "valuable",
+    "wrong": [
+     "worthless",
+     "useless",
+     "harmful"
+    ]
+   },
+   {
+    "text": "The thieves stole several ____ paintings.",
+    "answer": "valuable",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "appropriate",
+  "sentences": [
+   {
+    "text": "Jeans are not ____ for a job interview.",
+    "answer": "appropriate",
+    "wrong": [
+     "delicious",
+     "generous",
+     "curious"
+    ]
+   },
+   {
+    "text": "Please wait for an ____ moment to ask your question.",
+    "answer": "appropriate",
+    "wrong": [
+     "hungry",
+     "generous",
+     "curious"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "controversial",
+  "sentences": [
+   {
+    "text": "The new tax law is highly ____ and many people oppose it.",
+    "answer": "controversial",
+    "wrong": [
+     "popular",
+     "harmless",
+     "boring"
+    ]
+   },
+   {
+    "text": "The film's ____ ending divided the audience.",
+    "answer": "controversial",
+    "wrong": [
+     "punctual",
+     "tiny",
+     "polite"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "diverse",
+  "sentences": [
+   {
+    "text": "London is one of the most culturally ____ cities in the world.",
+    "answer": "diverse",
+    "wrong": [
+     "identical",
+     "uniform",
+     "similar"
+    ]
+   },
+   {
+    "text": "The course covers a ____ range of topics.",
+    "answer": "diverse",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "effective",
+  "sentences": [
+   {
+    "text": "This medicine is very ____ against headaches.",
+    "answer": "effective",
+    "wrong": [
+     "useless",
+     "harmful",
+     "weak"
+    ]
+   },
+   {
+    "text": "What is the most ____ way to learn new words?",
+    "answer": "effective",
+    "wrong": [
+     "useless",
+     "boring",
+     "rude"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "realistic",
+  "sentences": [
+   {
+    "text": "Set ____ goals that you can actually achieve.",
+    "answer": "realistic",
+    "wrong": [
+     "impossible",
+     "imaginary",
+     "silly"
+    ]
+   },
+   {
+    "text": "The painting of the fruit looks very ____.",
+    "answer": "realistic",
+    "wrong": [
+     "invisible",
+     "abstract",
+     "blurry"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "education",
+  "sentences": [
+   {
+    "text": "Every child has the right to a good ____.",
+    "answer": "education",
+    "wrong": [
+     "punishment",
+     "injury",
+     "luggage"
+    ]
+   },
+   {
+    "text": "She continued her ____ at a university in Seoul.",
+    "answer": "education",
+    "wrong": [
+     "retirement",
+     "divorce",
+     "vacation"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "curriculum",
+  "sentences": [
+   {
+    "text": "Computer programming is now part of the school ____.",
+    "answer": "curriculum",
+    "wrong": [
+     "cafeteria",
+     "playground",
+     "uniform"
+    ]
+   },
+   {
+    "text": "The ministry plans to update the national ____.",
+    "answer": "curriculum",
+    "wrong": [
+     "weather",
+     "traffic",
+     "harvest"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "assignment",
+  "sentences": [
+   {
+    "text": "The teacher gave us a writing ____ for the weekend.",
+    "answer": "assignment",
+    "wrong": [
+     "vacation",
+     "salary",
+     "injury"
+    ]
+   },
+   {
+    "text": "I have to submit this ____ before Friday.",
+    "answer": "assignment",
+    "wrong": [
+     "holiday",
+     "passport",
+     "breakfast"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "assessment",
+  "sentences": [
+   {
+    "text": "The final ____ includes a written exam and a presentation.",
+    "answer": "assessment",
+    "wrong": [
+     "celebration",
+     "vacation",
+     "decoration"
+    ]
+   },
+   {
+    "text": "A doctor made an ____ of his injuries.",
+    "answer": "assessment",
+    "wrong": [
+     "apology",
+     "invitation",
+     "excursion"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "qualification",
+  "sentences": [
+   {
+    "text": "You need a teaching ____ to work in state schools.",
+    "answer": "qualification",
+    "wrong": [
+     "vacation",
+     "punishment",
+     "complaint"
+    ]
+   },
+   {
+    "text": "She has excellent ____ for this position.",
+    "answer": "qualifications",
+    "wrong": [
+     "injuries",
+     "debts",
+     "fears"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "scholarship",
+  "sentences": [
+   {
+    "text": "He won a ____ to study at Oxford for free.",
+    "answer": "scholarship",
+    "wrong": [
+     "fine",
+     "debt",
+     "loan"
+    ]
+   },
+   {
+    "text": "The university offers ____ to talented students from poor families.",
+    "answer": "scholarships",
+    "wrong": [
+     "punishments",
+     "taxes",
+     "fines"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "lecture",
+  "sentences": [
+   {
+    "text": "The professor gave a ____ on modern history.",
+    "answer": "lecture",
+    "wrong": [
+     "haircut",
+     "receipt",
+     "recipe"
+    ]
+   },
+   {
+    "text": "I fell asleep during the two-hour ____.",
+    "answer": "lecture",
+    "wrong": [
+     "breakfast",
+     "passport",
+     "umbrella"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "research",
+  "sentences": [
+   {
+    "text": "Recent ____ shows that coffee may protect the brain.",
+    "answer": "research",
+    "wrong": [
+     "rumour",
+     "gossip",
+     "luggage"
+    ]
+   },
+   {
+    "text": "Scientists are doing ____ into new cancer treatments.",
+    "answer": "research",
+    "wrong": [
+     "shopping",
+     "gardening",
+     "sightseeing"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "knowledge",
+  "sentences": [
+   {
+    "text": "He has a deep ____ of Asian history.",
+    "answer": "knowledge",
+    "wrong": [
+     "fear",
+     "hatred",
+     "boredom"
+    ]
+   },
+   {
+    "text": "You can test your ____ with this online quiz.",
+    "answer": "knowledge",
+    "wrong": [
+     "luggage",
+     "appetite",
+     "salary"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "literacy",
+  "sentences": [
+   {
+    "text": "The government launched a program to improve adult ____.",
+    "answer": "literacy",
+    "wrong": [
+     "obesity",
+     "poverty",
+     "pollution"
+    ]
+   },
+   {
+    "text": "Digital ____ is essential in the modern workplace.",
+    "answer": "literacy",
+    "wrong": [
+     "hunger",
+     "laziness",
+     "illness"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "discipline",
+  "sentences": [
+   {
+    "text": "Learning a language requires a lot of self-____.",
+    "answer": "discipline",
+    "wrong": [
+     "pity",
+     "doubt",
+     "destruction"
+    ]
+   },
+   {
+    "text": "The school is famous for its strict ____.",
+    "answer": "discipline",
+    "wrong": [
+     "cafeteria",
+     "garden",
+     "weather"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "graduate",
+  "sentences": [
+   {
+    "text": "She will ____ from university next June.",
+    "answer": "graduate",
+    "wrong": [
+     "resign",
+     "retire",
+     "escape"
+    ]
+   },
+   {
+    "text": "The company hires many young ____ every year.",
+    "answer": "graduates",
+    "wrong": [
+     "patients",
+     "tourists",
+     "criminals"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "revise",
+  "sentences": [
+   {
+    "text": "I need to ____ for my English exam tomorrow.",
+    "answer": "revise",
+    "wrong": [
+     "resign",
+     "retire",
+     "rescue"
+    ]
+   },
+   {
+    "text": "The author ____ the book several times before publishing it.",
+    "answer": "revised",
+    "wrong": [
+     "burned",
+     "stole",
+     "hid"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "memorize",
+  "sentences": [
+   {
+    "text": "Actors must ____ long scripts.",
+    "answer": "memorize",
+    "wrong": [
+     "forget",
+     "ignore",
+     "delete"
+    ]
+   },
+   {
+    "text": "I ____ twenty new words before the test.",
+    "answer": "memorized",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "existed"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "concentrate",
+  "sentences": [
+   {
+    "text": "I can't ____ with all this noise.",
+    "answer": "concentrate",
+    "wrong": [
+     "apologise",
+     "resign",
+     "invest"
+    ]
+   },
+   {
+    "text": "Please ____ on your own work and don't look at others.",
+    "answer": "concentrate",
+    "wrong": [
+     "depend",
+     "insist",
+     "rely"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "participate",
+  "sentences": [
+   {
+    "text": "All students are encouraged to ____ in class discussions.",
+    "answer": "participate",
+    "wrong": [
+     "resign",
+     "retire",
+     "complain"
+    ]
+   },
+   {
+    "text": "More than 200 runners ____ in the marathon.",
+    "answer": "participated",
+    "wrong": [
+     "disappeared",
+     "retired",
+     "resigned"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "specialize",
+  "sentences": [
+   {
+    "text": "This clinic ____ in treating sports injuries.",
+    "answer": "specializes",
+    "wrong": [
+     "insists",
+     "depends",
+     "believes"
+    ]
+   },
+   {
+    "text": "After medical school, she decided to ____ in children's health.",
+    "answer": "specialize",
+    "wrong": [
+     "resign",
+     "insist",
+     "retire"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "theory",
+  "sentences": [
+   {
+    "text": "Einstein's ____ of relativity changed physics forever.",
+    "answer": "theory",
+    "wrong": [
+     "recipe",
+     "salary",
+     "passport"
+    ]
+   },
+   {
+    "text": "The idea works in ____, but not in practice.",
+    "answer": "theory",
+    "wrong": [
+     "luggage",
+     "traffic",
+     "harvest"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "tuition",
+  "sentences": [
+   {
+    "text": "University ____ fees have risen sharply this year.",
+    "answer": "tuition",
+    "wrong": [
+     "parking",
+     "luggage",
+     "harvest"
+    ]
+   },
+   {
+    "text": "He pays for his own ____ by working at night.",
+    "answer": "tuition",
+    "wrong": [
+     "retirement",
+     "punishment",
+     "illness"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "academic",
+  "sentences": [
+   {
+    "text": "Her ____ results were excellent this year.",
+    "answer": "academic",
+    "wrong": [
+     "athletic",
+     "culinary",
+     "medical"
+    ]
+   },
+   {
+    "text": "Writing an ____ essay requires formal language.",
+    "answer": "academic",
+    "wrong": [
+     "angry",
+     "hungry",
+     "empty"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "career",
+  "sentences": [
+   {
+    "text": "She started her ____ as a journalist in 2010.",
+    "answer": "career",
+    "wrong": [
+     "breakfast",
+     "holiday",
+     "illness"
+    ]
+   },
+   {
+    "text": "Choosing a ____ is one of the biggest decisions in life.",
+    "answer": "career",
+    "wrong": [
+     "haircut",
+     "sandwich",
+     "umbrella"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "occupation",
+  "sentences": [
+   {
+    "text": "Please write your name and ____ on the form.",
+    "answer": "occupation",
+    "wrong": [
+     "appetite",
+     "hobby",
+     "mood"
+    ]
+   },
+   {
+    "text": "Farming was the main ____ in the village.",
+    "answer": "occupation",
+    "wrong": [
+     "disease",
+     "weather",
+     "holiday"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "profession",
+  "sentences": [
+   {
+    "text": "Teaching is a very rewarding ____.",
+    "answer": "profession",
+    "wrong": [
+     "illness",
+     "weather",
+     "punishment"
+    ]
+   },
+   {
+    "text": "He is a lawyer by ____.",
+    "answer": "profession",
+    "wrong": [
+     "accident",
+     "chance",
+     "mistake"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "employee",
+  "sentences": [
+   {
+    "text": "The company has more than 500 ____.",
+    "answer": "employees",
+    "wrong": [
+     "customers",
+     "tourists",
+     "patients"
+    ]
+   },
+   {
+    "text": "Each ____ gets 20 days of paid holiday a year.",
+    "answer": "employee",
+    "wrong": [
+     "customer",
+     "visitor",
+     "passenger"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "employer",
+  "sentences": [
+   {
+    "text": "My ____ pays for my English lessons.",
+    "answer": "employer",
+    "wrong": [
+     "employee",
+     "neighbour",
+     "patient"
+    ]
+   },
+   {
+    "text": "The factory is the biggest ____ in the town.",
+    "answer": "employer",
+    "wrong": [
+     "tourist",
+     "criminal",
+     "patient"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "colleague",
+  "sentences": [
+   {
+    "text": "I often have lunch with my ____ from the office.",
+    "answer": "colleagues",
+    "wrong": [
+     "enemies",
+     "strangers",
+     "customers"
+    ]
+   },
+   {
+    "text": "A ____ helped me finish the report on time.",
+    "answer": "colleague",
+    "wrong": [
+     "thief",
+     "stranger",
+     "rival"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "position",
+  "sentences": [
+   {
+    "text": "She applied for the ____ of marketing manager.",
+    "answer": "position",
+    "wrong": [
+     "punishment",
+     "illness",
+     "weather"
+    ]
+   },
+   {
+    "text": "Put the chair back in its original ____.",
+    "answer": "position",
+    "wrong": [
+     "salary",
+     "decision",
+     "recipe"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "responsibility",
+  "sentences": [
+   {
+    "text": "Looking after a pet is a big ____.",
+    "answer": "responsibility",
+    "wrong": [
+     "holiday",
+     "coincidence",
+     "mistake"
+    ]
+   },
+   {
+    "text": "Nobody took ____ for the mistake.",
+    "answer": "responsibility",
+    "wrong": [
+     "breakfast",
+     "luggage",
+     "vacation"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "opportunity",
+  "sentences": [
+   {
+    "text": "This job is a great ____ to gain experience.",
+    "answer": "opportunity",
+    "wrong": [
+     "obstacle",
+     "punishment",
+     "disaster"
+    ]
+   },
+   {
+    "text": "Don't miss the ____ to travel while you're young.",
+    "answer": "opportunity",
+    "wrong": [
+     "illness",
+     "accident",
+     "danger"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "experience",
+  "sentences": [
+   {
+    "text": "Do you have any ____ working with children?",
+    "answer": "experience",
+    "wrong": [
+     "appetite",
+     "luggage",
+     "weather"
+    ]
+   },
+   {
+    "text": "Visiting Japan was an amazing ____.",
+    "answer": "experience",
+    "wrong": [
+     "illness",
+     "punishment",
+     "failure"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "salary",
+  "sentences": [
+   {
+    "text": "He earns a good ____ as an engineer.",
+    "answer": "salary",
+    "wrong": [
+     "fine",
+     "debt",
+     "tax"
+    ]
+   },
+   {
+    "text": "Nurses are asking for a higher ____.",
+    "answer": "salary",
+    "wrong": [
+     "punishment",
+     "illness",
+     "workload"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "income",
+  "sentences": [
+   {
+    "text": "Tourism is the main source of ____ for the island.",
+    "answer": "income",
+    "wrong": [
+     "pollution",
+     "disease",
+     "crime"
+    ]
+   },
+   {
+    "text": "Families on a low ____ can get free school meals.",
+    "answer": "income",
+    "wrong": [
+     "diet",
+     "mood",
+     "weather"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "promotion",
+  "sentences": [
+   {
+    "text": "After two years, she got a ____ to team leader.",
+    "answer": "promotion",
+    "wrong": [
+     "punishment",
+     "warning",
+     "demotion"
+    ]
+   },
+   {
+    "text": "The shop is running a special ____ this weekend.",
+    "answer": "promotion",
+    "wrong": [
+     "funeral",
+     "injury",
+     "illness"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "retirement",
+  "sentences": [
+   {
+    "text": "My grandfather enjoys gardening in his ____.",
+    "answer": "retirement",
+    "wrong": [
+     "childhood",
+     "infancy",
+     "pregnancy"
+    ]
+   },
+   {
+    "text": "She is saving money for her ____.",
+    "answer": "retirement",
+    "wrong": [
+     "childhood",
+     "breakfast",
+     "haircut"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "resign",
+  "sentences": [
+   {
+    "text": "The minister was forced to ____ after the scandal.",
+    "answer": "resign",
+    "wrong": [
+     "celebrate",
+     "invest",
+     "graduate"
+    ]
+   },
+   {
+    "text": "He ____ from his job to start his own business.",
+    "answer": "resigned",
+    "wrong": [
+     "graduated",
+     "recovered",
+     "benefited"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "recruit",
+  "sentences": [
+   {
+    "text": "The company plans to ____ fifty new staff this year.",
+    "answer": "recruit",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   },
+   {
+    "text": "The army ____ young people from rural areas.",
+    "answer": "recruits",
+    "wrong": [
+     "dismisses",
+     "punishes",
+     "abandons"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "apply",
+  "sentences": [
+   {
+    "text": "I'm going to ____ for a job at the bank.",
+    "answer": "apply",
+    "wrong": [
+     "resign",
+     "retire",
+     "complain"
+    ]
+   },
+   {
+    "text": "____ the cream to your skin twice a day.",
+    "answer": "Apply",
+    "wrong": [
+     "Swallow",
+     "Drink",
+     "Chew"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "interview",
+  "sentences": [
+   {
+    "text": "I have a job ____ tomorrow at 10 a.m.",
+    "answer": "interview",
+    "wrong": [
+     "illness",
+     "funeral",
+     "accident"
+    ]
+   },
+   {
+    "text": "The journalist ____ the president about the economy.",
+    "answer": "interviewed",
+    "wrong": [
+     "arrested",
+     "punished",
+     "ignored"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "deadline",
+  "sentences": [
+   {
+    "text": "The ____ for applications is 31 March.",
+    "answer": "deadline",
+    "wrong": [
+     "weekend",
+     "birthday",
+     "holiday"
+    ]
+   },
+   {
+    "text": "We worked all night to meet the ____.",
+    "answer": "deadline",
+    "wrong": [
+     "neighbour",
+     "stranger",
+     "weather"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "workload",
+  "sentences": [
+   {
+    "text": "Teachers complain about their heavy ____.",
+    "answer": "workload",
+    "wrong": [
+     "holiday",
+     "salary",
+     "breakfast"
+    ]
+   },
+   {
+    "text": "Hiring an assistant will reduce your ____.",
+    "answer": "workload",
+    "wrong": [
+     "income",
+     "salary",
+     "reputation"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "workplace",
+  "sentences": [
+   {
+    "text": "Smoking is not allowed in the ____.",
+    "answer": "workplace",
+    "wrong": [
+     "desert",
+     "ocean",
+     "sky"
+    ]
+   },
+   {
+    "text": "A friendly ____ makes employees happier.",
+    "answer": "workplace",
+    "wrong": [
+     "disease",
+     "storm",
+     "accident"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "contract",
+  "sentences": [
+   {
+    "text": "Read the ____ carefully before you sign it.",
+    "answer": "contract",
+    "wrong": [
+     "menu",
+     "novel",
+     "poem"
+    ]
+   },
+   {
+    "text": "She has a two-year ____ with the company.",
+    "answer": "contract",
+    "wrong": [
+     "illness",
+     "haircut",
+     "holiday"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "schedule",
+  "sentences": [
+   {
+    "text": "The train left on ____ at 8:15.",
+    "answer": "schedule",
+    "wrong": [
+     "purpose",
+     "average",
+     "fire"
+    ]
+   },
+   {
+    "text": "I have a very busy ____ this week.",
+    "answer": "schedule",
+    "wrong": [
+     "appetite",
+     "weather",
+     "neighbour"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "shift",
+  "sentences": [
+   {
+    "text": "Nurses often work the night ____.",
+    "answer": "shift",
+    "wrong": [
+     "salary",
+     "menu",
+     "gift"
+    ]
+   },
+   {
+    "text": "There has been a ____ in public opinion on this issue.",
+    "answer": "shift",
+    "wrong": [
+     "salary",
+     "receipt",
+     "recipe"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "demanding",
+  "sentences": [
+   {
+    "text": "Being a doctor is a very ____ job.",
+    "answer": "demanding",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   },
+   {
+    "text": "Our new boss is extremely ____ and expects perfect work.",
+    "answer": "demanding",
+    "wrong": [
+     "lazy",
+     "careless",
+     "relaxed"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "rewarding",
+  "sentences": [
+   {
+    "text": "Helping others can be very ____.",
+    "answer": "rewarding",
+    "wrong": [
+     "pointless",
+     "harmful",
+     "boring"
+    ]
+   },
+   {
+    "text": "Teaching is hard work but ____.",
+    "answer": "rewarding",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "stressful",
+  "sentences": [
+   {
+    "text": "Moving house can be a ____ experience.",
+    "answer": "stressful",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   },
+   {
+    "text": "Exams are ____ for most students.",
+    "answer": "stressful",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "supervise",
+  "sentences": [
+   {
+    "text": "Two teachers ____ the students during the trip.",
+    "answer": "supervise",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   },
+   {
+    "text": "She ____ a team of ten engineers.",
+    "answer": "supervises",
+    "wrong": [
+     "ignores",
+     "avoids",
+     "fears"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "negotiate",
+  "sentences": [
+   {
+    "text": "The union is trying to ____ better pay for workers.",
+    "answer": "negotiate",
+    "wrong": [
+     "refuse",
+     "reduce",
+     "destroy"
+    ]
+   },
+   {
+    "text": "We ____ a lower price for the car.",
+    "answer": "negotiated",
+    "wrong": [
+     "increased",
+     "doubled",
+     "forgot"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "cooperate",
+  "sentences": [
+   {
+    "text": "The two countries agreed to ____ on climate issues.",
+    "answer": "cooperate",
+    "wrong": [
+     "resign",
+     "retire",
+     "suffer"
+    ]
+   },
+   {
+    "text": "The witness refused to ____ with the police.",
+    "answer": "cooperate",
+    "wrong": [
+     "resign",
+     "retire",
+     "belong"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "communicate",
+  "sentences": [
+   {
+    "text": "Dolphins ____ with each other using sounds.",
+    "answer": "communicate",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   },
+   {
+    "text": "It's important to ____ clearly with your team.",
+    "answer": "communicate",
+    "wrong": [
+     "compete",
+     "fight",
+     "struggle"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "manage",
+  "sentences": [
+   {
+    "text": "Did you ____ to finish the report on time?",
+    "answer": "manage",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   },
+   {
+    "text": "She ____ a small hotel near the sea.",
+    "answer": "manages",
+    "wrong": [
+     "destroys",
+     "avoids",
+     "fears"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "organize",
+  "sentences": [
+   {
+    "text": "We need to ____ a party for her birthday.",
+    "answer": "organize",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   },
+   {
+    "text": "The files are ____ in alphabetical order.",
+    "answer": "organized",
+    "wrong": [
+     "destroyed",
+     "lost",
+     "burned"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "earn",
+  "sentences": [
+   {
+    "text": "How much do you ____ a month?",
+    "answer": "earn",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   },
+   {
+    "text": "She ____ enough money to buy her own car.",
+    "answer": "earned",
+    "wrong": [
+     "wasted",
+     "lost",
+     "spent"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "employ",
+  "sentences": [
+   {
+    "text": "The factory ____ about 300 local people.",
+    "answer": "employs",
+    "wrong": [
+     "belongs",
+     "consists",
+     "exists"
+    ]
+   },
+   {
+    "text": "He has been ____ as a driver for ten years.",
+    "answer": "employed",
+    "wrong": [
+     "dismissed",
+     "arrested",
+     "retired"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "establish",
+  "sentences": [
+   {
+    "text": "The university was ____ in 1850.",
+    "answer": "established",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "existed"
+    ]
+   },
+   {
+    "text": "Police are trying to ____ the cause of the fire.",
+    "answer": "establish",
+    "wrong": [
+     "hide",
+     "ignore",
+     "forget"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "develop",
+  "sentences": [
+   {
+    "text": "The company is ____ a new electric car.",
+    "answer": "developing",
+    "wrong": [
+     "destroying",
+     "abandoning",
+     "forgetting"
+    ]
+   },
+   {
+    "text": "Reading helps children ____ their imagination.",
+    "answer": "develop",
+    "wrong": [
+     "lose",
+     "destroy",
+     "limit"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "society",
+  "sentences": [
+   {
+    "text": "Teachers play an important role in ____.",
+    "answer": "society",
+    "wrong": [
+     "weather",
+     "geology",
+     "grammar"
+    ]
+   },
+   {
+    "text": "Our ____ is becoming more and more digital.",
+    "answer": "society",
+    "wrong": [
+     "breakfast",
+     "weather",
+     "luggage"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "community",
+  "sentences": [
+   {
+    "text": "The local ____ worked together to clean the park.",
+    "answer": "community",
+    "wrong": [
+     "weather",
+     "traffic",
+     "pollution"
+    ]
+   },
+   {
+    "text": "He is a respected member of the ____.",
+    "answer": "community",
+    "wrong": [
+     "furniture",
+     "weather",
+     "atmosphere"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "population",
+  "sentences": [
+   {
+    "text": "The ____ of Tashkent is over three million.",
+    "answer": "population",
+    "wrong": [
+     "temperature",
+     "weather",
+     "salary"
+    ]
+   },
+   {
+    "text": "Most of the ____ lives in cities.",
+    "answer": "population",
+    "wrong": [
+     "furniture",
+     "luggage",
+     "weather"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "generation",
+  "sentences": [
+   {
+    "text": "The younger ____ spends a lot of time online.",
+    "answer": "generation",
+    "wrong": [
+     "temperature",
+     "furniture",
+     "weather"
+    ]
+   },
+   {
+    "text": "This ring has been in our family for three ____.",
+    "answer": "generations",
+    "wrong": [
+     "kilometres",
+     "temperatures",
+     "salaries"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "minority",
+  "sentences": [
+   {
+    "text": "Only a small ____ of students failed the exam.",
+    "answer": "minority",
+    "wrong": [
+     "majority",
+     "totality",
+     "entirety"
+    ]
+   },
+   {
+    "text": "The law protects the rights of ethnic ____.",
+    "answer": "minorities",
+    "wrong": [
+     "majorities",
+     "temperatures",
+     "salaries"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "majority",
+  "sentences": [
+   {
+    "text": "The ____ of people voted for the new plan.",
+    "answer": "majority",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "salary"
+    ]
+   },
+   {
+    "text": "A large ____ of students use smartphones in class.",
+    "answer": "majority",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "salary"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "citizen",
+  "sentences": [
+   {
+    "text": "Every ____ has the right to vote.",
+    "answer": "citizen",
+    "wrong": [
+     "tourist",
+     "visitor",
+     "stranger"
+    ]
+   },
+   {
+    "text": "She became a British ____ last year.",
+    "answer": "citizen",
+    "wrong": [
+     "tourist",
+     "patient",
+     "customer"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "government",
+  "sentences": [
+   {
+    "text": "The ____ plans to build more hospitals.",
+    "answer": "government",
+    "wrong": [
+     "weather",
+     "pollution",
+     "traffic"
+    ]
+   },
+   {
+    "text": "The ____ has promised to lower taxes.",
+    "answer": "government",
+    "wrong": [
+     "patient",
+     "tourist",
+     "criminal"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "authority",
+  "sentences": [
+   {
+    "text": "The local ____ decided to close the road.",
+    "answer": "authority",
+    "wrong": [
+     "weather",
+     "traffic",
+     "forest"
+    ]
+   },
+   {
+    "text": "Only the manager has the ____ to sign this contract.",
+    "answer": "authority",
+    "wrong": [
+     "appetite",
+     "luggage",
+     "illness"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "policy",
+  "sentences": [
+   {
+    "text": "The company has a strict no-smoking ____.",
+    "answer": "policy",
+    "wrong": [
+     "recipe",
+     "salary",
+     "menu"
+    ]
+   },
+   {
+    "text": "The new energy ____ focuses on renewable sources.",
+    "answer": "policy",
+    "wrong": [
+     "weather",
+     "furniture",
+     "disease"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "law",
+  "sentences": [
+   {
+    "text": "It is against the ____ to drive without a licence.",
+    "answer": "law",
+    "wrong": [
+     "weather",
+     "menu",
+     "tradition"
+    ]
+   },
+   {
+    "text": "She studied ____ at university and became a lawyer.",
+    "answer": "law",
+    "wrong": [
+     "cooking",
+     "dancing",
+     "gardening"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "crime",
+  "sentences": [
+   {
+    "text": "Street ____ has fallen in the city centre.",
+    "answer": "crime",
+    "wrong": [
+     "weather",
+     "education",
+     "traffic light"
+    ]
+   },
+   {
+    "text": "Stealing a car is a serious ____.",
+    "answer": "crime",
+    "wrong": [
+     "hobby",
+     "habit",
+     "joke"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "criminal",
+  "sentences": [
+   {
+    "text": "The police finally caught the ____.",
+    "answer": "criminal",
+    "wrong": [
+     "victim",
+     "witness",
+     "judge"
+    ]
+   },
+   {
+    "text": "Hacking into bank accounts is a ____ offence.",
+    "answer": "criminal",
+    "wrong": [
+     "polite",
+     "generous",
+     "healthy"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "justice",
+  "sentences": [
+   {
+    "text": "The victims' families want ____.",
+    "answer": "justice",
+    "wrong": [
+     "luggage",
+     "weather",
+     "furniture"
+    ]
+   },
+   {
+    "text": "Everyone should be equal before the ____ system.",
+    "answer": "justice",
+    "wrong": [
+     "weather",
+     "digestive",
+     "solar"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "equality",
+  "sentences": [
+   {
+    "text": "Women are still fighting for ____ in the workplace.",
+    "answer": "equality",
+    "wrong": [
+     "poverty",
+     "pollution",
+     "illness"
+    ]
+   },
+   {
+    "text": "The law promotes racial ____.",
+    "answer": "equality",
+    "wrong": [
+     "violence",
+     "hatred",
+     "poverty"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "poverty",
+  "sentences": [
+   {
+    "text": "Millions of people around the world live in ____.",
+    "answer": "poverty",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "Education is one of the best ways to fight ____.",
+    "answer": "poverty",
+    "wrong": [
+     "wealth",
+     "success",
+     "happiness"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "wealth",
+  "sentences": [
+   {
+    "text": "He made his ____ in the oil industry.",
+    "answer": "wealth",
+    "wrong": [
+     "poverty",
+     "illness",
+     "debt"
+    ]
+   },
+   {
+    "text": "The country's ____ comes mainly from tourism.",
+    "answer": "wealth",
+    "wrong": [
+     "poverty",
+     "pollution",
+     "illness"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "unemployment",
+  "sentences": [
+   {
+    "text": "____ has risen to 8% this year.",
+    "answer": "Unemployment",
+    "wrong": [
+     "Temperature",
+     "Happiness",
+     "Politeness"
+    ]
+   },
+   {
+    "text": "Many young people face ____ after graduating.",
+    "answer": "unemployment",
+    "wrong": [
+     "promotion",
+     "retirement",
+     "success"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "discrimination",
+  "sentences": [
+   {
+    "text": "It is illegal to pay women less — that's ____.",
+    "answer": "discrimination",
+    "wrong": [
+     "celebration",
+     "cooperation",
+     "education"
+    ]
+   },
+   {
+    "text": "The organization fights against racial ____.",
+    "answer": "discrimination",
+    "wrong": [
+     "equality",
+     "harmony",
+     "education"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "freedom",
+  "sentences": [
+   {
+    "text": "People in a democracy have ____ of speech.",
+    "answer": "freedom",
+    "wrong": [
+     "prison",
+     "slavery",
+     "poverty"
+    ]
+   },
+   {
+    "text": "Teenagers often want more ____ from their parents.",
+    "answer": "freedom",
+    "wrong": [
+     "punishment",
+     "control",
+     "rules"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "rights",
+  "sentences": [
+   {
+    "text": "Every child has the ____ to education.",
+    "answer": "right",
+    "wrong": [
+     "wrong",
+     "debt",
+     "fine"
+    ]
+   },
+   {
+    "text": "The organization defends human ____ around the world.",
+    "answer": "rights",
+    "wrong": [
+     "diseases",
+     "crimes",
+     "taxes"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "relationship",
+  "sentences": [
+   {
+    "text": "She has a good ____ with her colleagues.",
+    "answer": "relationship",
+    "wrong": [
+     "salary",
+     "appetite",
+     "weather"
+    ]
+   },
+   {
+    "text": "There is a clear ____ between smoking and cancer.",
+    "answer": "relationship",
+    "wrong": [
+     "holiday",
+     "invitation",
+     "apology"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "behaviour",
+  "sentences": [
+   {
+    "text": "The teacher praised the children's good ____.",
+    "answer": "behaviour",
+    "wrong": [
+     "weather",
+     "furniture",
+     "luggage"
+    ]
+   },
+   {
+    "text": "Scientists study the ____ of wild animals.",
+    "answer": "behaviour",
+    "wrong": [
+     "furniture",
+     "luggage",
+     "salary"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "attitude",
+  "sentences": [
+   {
+    "text": "She has a very positive ____ towards life.",
+    "answer": "attitude",
+    "wrong": [
+     "altitude",
+     "appetite",
+     "aptitude"
+    ]
+   },
+   {
+    "text": "His ____ to work has improved a lot.",
+    "answer": "attitude",
+    "wrong": [
+     "salary",
+     "luggage",
+     "weather"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "tradition",
+  "sentences": [
+   {
+    "text": "It's a family ____ to eat together on Sundays.",
+    "answer": "tradition",
+    "wrong": [
+     "accident",
+     "illness",
+     "punishment"
+    ]
+   },
+   {
+    "text": "Navruz is an ancient ____ in Central Asia.",
+    "answer": "tradition",
+    "wrong": [
+     "invention",
+     "disease",
+     "technology"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "culture",
+  "sentences": [
+   {
+    "text": "I love learning about Japanese ____.",
+    "answer": "culture",
+    "wrong": [
+     "weather",
+     "pollution",
+     "traffic"
+    ]
+   },
+   {
+    "text": "Every ____ has its own traditions.",
+    "answer": "culture",
+    "wrong": [
+     "vehicle",
+     "device",
+     "disease"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "custom",
+  "sentences": [
+   {
+    "text": "It is a ____ in Uzbekistan to offer guests tea.",
+    "answer": "custom",
+    "wrong": [
+     "crime",
+     "disease",
+     "accident"
+    ]
+   },
+   {
+    "text": "Shaking hands is a common ____ in many countries.",
+    "answer": "custom",
+    "wrong": [
+     "illness",
+     "crime",
+     "injury"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "lifestyle",
+  "sentences": [
+   {
+    "text": "A healthy ____ includes regular exercise and good food.",
+    "answer": "lifestyle",
+    "wrong": [
+     "illness",
+     "disease",
+     "injury"
+    ]
+   },
+   {
+    "text": "Moving to the village changed our whole ____.",
+    "answer": "lifestyle",
+    "wrong": [
+     "passport",
+     "salary",
+     "surname"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "reputation",
+  "sentences": [
+   {
+    "text": "The restaurant has a good ____ for fresh food.",
+    "answer": "reputation",
+    "wrong": [
+     "appetite",
+     "salary",
+     "weather"
+    ]
+   },
+   {
+    "text": "The scandal damaged the politician's ____.",
+    "answer": "reputation",
+    "wrong": [
+     "furniture",
+     "luggage",
+     "vehicle"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "environment",
+  "sentences": [
+   {
+    "text": "We must protect the ____ for future generations.",
+    "answer": "environment",
+    "wrong": [
+     "pollution",
+     "damage",
+     "waste"
+    ]
+   },
+   {
+    "text": "Children learn best in a safe and friendly ____.",
+    "answer": "environment",
+    "wrong": [
+     "disease",
+     "accident",
+     "punishment"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "pollution",
+  "sentences": [
+   {
+    "text": "Air ____ is a big problem in large cities.",
+    "answer": "pollution",
+    "wrong": [
+     "education",
+     "freedom",
+     "celebration"
+    ]
+   },
+   {
+    "text": "Factories are a major cause of water ____.",
+    "answer": "pollution",
+    "wrong": [
+     "conservation",
+     "education",
+     "protection"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "climate",
+  "sentences": [
+   {
+    "text": "Uzbekistan has a dry, continental ____.",
+    "answer": "climate",
+    "wrong": [
+     "population",
+     "salary",
+     "tradition"
+    ]
+   },
+   {
+    "text": "The ____ in this region is too cold for oranges.",
+    "answer": "climate",
+    "wrong": [
+     "furniture",
+     "salary",
+     "curriculum"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "climate change",
+  "sentences": [
+   {
+    "text": "____ is causing sea levels to rise.",
+    "answer": "Climate change",
+    "wrong": [
+     "Recycling",
+     "Conservation",
+     "Education"
+    ]
+   },
+   {
+    "text": "Many scientists warn that ____ will lead to more droughts.",
+    "answer": "climate change",
+    "wrong": [
+     "tree planting",
+     "recycling",
+     "conservation"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "global warming",
+  "sentences": [
+   {
+    "text": "____ is melting the ice in the Arctic.",
+    "answer": "Global warming",
+    "wrong": [
+     "Tree planting",
+     "Recycling",
+     "Conservation"
+    ]
+   },
+   {
+    "text": "Burning fossil fuels contributes to ____.",
+    "answer": "global warming",
+    "wrong": [
+     "conservation",
+     "recycling",
+     "biodiversity"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "greenhouse",
+  "sentences": [
+   {
+    "text": "We grow tomatoes in a ____ all year round.",
+    "answer": "greenhouse",
+    "wrong": [
+     "garage",
+     "basement",
+     "library"
+    ]
+   },
+   {
+    "text": "Carbon dioxide is a ____ gas.",
+    "answer": "greenhouse",
+    "wrong": [
+     "noble",
+     "cooking",
+     "laughing"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "emission",
+  "sentences": [
+   {
+    "text": "The government wants to cut carbon ____ by 50%.",
+    "answer": "emissions",
+    "wrong": [
+     "donations",
+     "salaries",
+     "holidays"
+    ]
+   },
+   {
+    "text": "Electric cars have zero ____.",
+    "answer": "emissions",
+    "wrong": [
+     "wheels",
+     "passengers",
+     "seats"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "waste",
+  "sentences": [
+   {
+    "text": "Don't ____ water — turn off the tap.",
+    "answer": "waste",
+    "wrong": [
+     "save",
+     "protect",
+     "preserve"
+    ]
+   },
+   {
+    "text": "Tons of plastic ____ end up in the ocean every year.",
+    "answer": "waste",
+    "wrong": [
+     "furniture",
+     "salary",
+     "wildlife"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "recycling",
+  "sentences": [
+   {
+    "text": "____ paper helps to save trees.",
+    "answer": "Recycling",
+    "wrong": [
+     "Burning",
+     "Wasting",
+     "Throwing"
+    ]
+   },
+   {
+    "text": "Put the bottles in the ____ bin.",
+    "answer": "recycling",
+    "wrong": [
+     "cooking",
+     "sleeping",
+     "dining"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "renewable",
+  "sentences": [
+   {
+    "text": "Wind and solar power are ____ sources of energy.",
+    "answer": "renewable",
+    "wrong": [
+     "limited",
+     "fossil",
+     "dirty"
+    ]
+   },
+   {
+    "text": "Coal is not a ____ resource.",
+    "answer": "renewable",
+    "wrong": [
+     "black",
+     "heavy",
+     "solid"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "resource",
+  "sentences": [
+   {
+    "text": "Water is a precious natural ____.",
+    "answer": "resource",
+    "wrong": [
+     "disaster",
+     "disease",
+     "punishment"
+    ]
+   },
+   {
+    "text": "The library has many online ____ for students.",
+    "answer": "resources",
+    "wrong": [
+     "diseases",
+     "crimes",
+     "injuries"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "energy",
+  "sentences": [
+   {
+    "text": "After a good sleep, I'm full of ____.",
+    "answer": "energy",
+    "wrong": [
+     "anger",
+     "hunger",
+     "pollution"
+    ]
+   },
+   {
+    "text": "Solar ____ is becoming cheaper every year.",
+    "answer": "energy",
+    "wrong": [
+     "system",
+     "day",
+     "eclipse"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "electricity",
+  "sentences": [
+   {
+    "text": "The storm cut off the ____ for hours.",
+    "answer": "electricity",
+    "wrong": [
+     "salary",
+     "weather",
+     "tradition"
+    ]
+   },
+   {
+    "text": "Wind farms produce ____ without pollution.",
+    "answer": "electricity",
+    "wrong": [
+     "smoke",
+     "waste",
+     "noise"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "consumption",
+  "sentences": [
+   {
+    "text": "We should reduce our ____ of meat and sugar.",
+    "answer": "consumption",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "celebration"
+    ]
+   },
+   {
+    "text": "Energy ____ is highest in winter.",
+    "answer": "consumption",
+    "wrong": [
+     "tradition",
+     "education",
+     "decoration"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "conservation",
+  "sentences": [
+   {
+    "text": "The organization works for the ____ of rare animals.",
+    "answer": "conservation",
+    "wrong": [
+     "destruction",
+     "pollution",
+     "hunting"
+    ]
+   },
+   {
+    "text": "Water ____ is important in dry countries.",
+    "answer": "conservation",
+    "wrong": [
+     "pollution",
+     "waste",
+     "destruction"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "endangered",
+  "sentences": [
+   {
+    "text": "The snow leopard is an ____ species.",
+    "answer": "endangered",
+    "wrong": [
+     "ordinary",
+     "common",
+     "tame"
+    ]
+   },
+   {
+    "text": "Many ____ animals live in this national park.",
+    "answer": "endangered",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "species",
+  "sentences": [
+   {
+    "text": "There are thousands of ____ of birds in the world.",
+    "answer": "species",
+    "wrong": [
+     "salaries",
+     "passports",
+     "vehicles"
+    ]
+   },
+   {
+    "text": "Pandas are a protected ____ in China.",
+    "answer": "species",
+    "wrong": [
+     "salary",
+     "vehicle",
+     "disease"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "habitat",
+  "sentences": [
+   {
+    "text": "The forest is the natural ____ of the brown bear.",
+    "answer": "habitat",
+    "wrong": [
+     "habit",
+     "salary",
+     "tradition"
+    ]
+   },
+   {
+    "text": "Cutting down trees destroys the ____ of many animals.",
+    "answer": "habitat",
+    "wrong": [
+     "diet",
+     "passport",
+     "luggage"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "ecosystem",
+  "sentences": [
+   {
+    "text": "Pollution can damage the whole ____ of a lake.",
+    "answer": "ecosystem",
+    "wrong": [
+     "passport",
+     "curriculum",
+     "schedule"
+    ]
+   },
+   {
+    "text": "Coral reefs are a very fragile ____.",
+    "answer": "ecosystem",
+    "wrong": [
+     "vehicle",
+     "salary",
+     "curriculum"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "sustainable",
+  "sentences": [
+   {
+    "text": "We need ____ ways of producing food.",
+    "answer": "sustainable",
+    "wrong": [
+     "wasteful",
+     "harmful",
+     "destructive"
+    ]
+   },
+   {
+    "text": "The hotel uses ____ materials like bamboo.",
+    "answer": "sustainable",
+    "wrong": [
+     "toxic",
+     "harmful",
+     "wasteful"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "protect",
+  "sentences": [
+   {
+    "text": "Sunscreen will ____ your skin from the sun.",
+    "answer": "protect",
+    "wrong": [
+     "damage",
+     "burn",
+     "destroy"
+    ]
+   },
+   {
+    "text": "The police are there to ____ citizens.",
+    "answer": "protect",
+    "wrong": [
+     "attack",
+     "threaten",
+     "harm"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "preserve",
+  "sentences": [
+   {
+    "text": "The city is trying to ____ its old buildings.",
+    "answer": "preserve",
+    "wrong": [
+     "destroy",
+     "demolish",
+     "abandon"
+    ]
+   },
+   {
+    "text": "Salt is used to ____ fish and meat.",
+    "answer": "preserve",
+    "wrong": [
+     "spoil",
+     "rot",
+     "waste"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "reduce",
+  "sentences": [
+   {
+    "text": "Try to ____ the amount of sugar you eat.",
+    "answer": "reduce",
+    "wrong": [
+     "increase",
+     "double",
+     "raise"
+    ]
+   },
+   {
+    "text": "The shop ____ its prices by 30% for the sale.",
+    "answer": "reduced",
+    "wrong": [
+     "raised",
+     "doubled",
+     "increased"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "reuse",
+  "sentences": [
+   {
+    "text": "You can ____ glass jars to store spices.",
+    "answer": "reuse",
+    "wrong": [
+     "break",
+     "burn",
+     "swallow"
+    ]
+   },
+   {
+    "text": "Try to ____ plastic bags instead of throwing them away.",
+    "answer": "reuse",
+    "wrong": [
+     "burn",
+     "bury",
+     "break"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "recycle",
+  "sentences": [
+   {
+    "text": "Most paper and cardboard can be ____.",
+    "answer": "recycled",
+    "wrong": [
+     "eaten",
+     "burned",
+     "drunk"
+    ]
+   },
+   {
+    "text": "Our town ____ over half of its household waste.",
+    "answer": "recycles",
+    "wrong": [
+     "burns",
+     "buries",
+     "wastes"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "damage",
+  "sentences": [
+   {
+    "text": "The storm caused serious ____ to the roof.",
+    "answer": "damage",
+    "wrong": [
+     "benefit",
+     "improvement",
+     "repair"
+    ]
+   },
+   {
+    "text": "Too much sun can ____ your eyes.",
+    "answer": "damage",
+    "wrong": [
+     "improve",
+     "protect",
+     "heal"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "destroy",
+  "sentences": [
+   {
+    "text": "The fire ____ the whole building.",
+    "answer": "destroyed",
+    "wrong": [
+     "built",
+     "repaired",
+     "created"
+    ]
+   },
+   {
+    "text": "Plastic can ____ the life of the ocean.",
+    "answer": "destroy",
+    "wrong": [
+     "protect",
+     "improve",
+     "save"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "threaten",
+  "sentences": [
+   {
+    "text": "Pollution ____ many species of fish.",
+    "answer": "threatens",
+    "wrong": [
+     "protects",
+     "feeds",
+     "helps"
+    ]
+   },
+   {
+    "text": "Rising seas ____ coastal cities.",
+    "answer": "threaten",
+    "wrong": [
+     "protect",
+     "support",
+     "benefit"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "consume",
+  "sentences": [
+   {
+    "text": "Americans ____ a lot of fast food.",
+    "answer": "consume",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   },
+   {
+    "text": "Old cars ____ more fuel than new ones.",
+    "answer": "consume",
+    "wrong": [
+     "produce",
+     "save",
+     "generate"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "conserve",
+  "sentences": [
+   {
+    "text": "Turn off the lights to ____ energy.",
+    "answer": "conserve",
+    "wrong": [
+     "waste",
+     "consume",
+     "spend"
+    ]
+   },
+   {
+    "text": "Farmers must ____ water during the dry season.",
+    "answer": "conserve",
+    "wrong": [
+     "waste",
+     "pollute",
+     "spill"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "technology",
+  "sentences": [
+   {
+    "text": "Modern ____ has changed the way we communicate.",
+    "answer": "technology",
+    "wrong": [
+     "poverty",
+     "agriculture",
+     "pollution"
+    ]
+   },
+   {
+    "text": "The school invested in new ____ for its classrooms.",
+    "answer": "technology",
+    "wrong": [
+     "illness",
+     "tradition",
+     "punishment"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "device",
+  "sentences": [
+   {
+    "text": "Please switch off all electronic ____ during the flight.",
+    "answer": "devices",
+    "wrong": [
+     "passengers",
+     "tickets",
+     "seats"
+    ]
+   },
+   {
+    "text": "A smartwatch is a small ____ you wear on your wrist.",
+    "answer": "device",
+    "wrong": [
+     "disease",
+     "salary",
+     "tradition"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "digital",
+  "sentences": [
+   {
+    "text": "Most photos today are taken with ____ cameras.",
+    "answer": "digital",
+    "wrong": [
+     "wooden",
+     "ancient",
+     "handmade"
+    ]
+   },
+   {
+    "text": "We live in the ____ age.",
+    "answer": "digital",
+    "wrong": [
+     "stone",
+     "ice",
+     "bronze"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "software",
+  "sentences": [
+   {
+    "text": "You need to install new ____ to open this file.",
+    "answer": "software",
+    "wrong": [
+     "furniture",
+     "luggage",
+     "weather"
+    ]
+   },
+   {
+    "text": "She works as a ____ developer at a tech company.",
+    "answer": "software",
+    "wrong": [
+     "furniture",
+     "fashion",
+     "wedding"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "hardware",
+  "sentences": [
+   {
+    "text": "The problem isn't the program — it's the ____.",
+    "answer": "hardware",
+    "wrong": [
+     "weather",
+     "breakfast",
+     "salary"
+    ]
+   },
+   {
+    "text": "Keyboards and hard drives are types of computer ____.",
+    "answer": "hardware",
+    "wrong": [
+     "software",
+     "illness",
+     "tradition"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "application",
+  "sentences": [
+   {
+    "text": "I sent my job ____ last week.",
+    "answer": "application",
+    "wrong": [
+     "punishment",
+     "illness",
+     "decoration"
+    ]
+   },
+   {
+    "text": "This ____ helps you learn new words every day.",
+    "answer": "application",
+    "wrong": [
+     "disease",
+     "accident",
+     "punishment"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "access",
+  "sentences": [
+   {
+    "text": "All students have free ____ to the library.",
+    "answer": "access",
+    "wrong": [
+     "damage",
+     "punishment",
+     "illness"
+    ]
+   },
+   {
+    "text": "You need a password to ____ your account.",
+    "answer": "access",
+    "wrong": [
+     "destroy",
+     "forget",
+     "ignore"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "data",
+  "sentences": [
+   {
+    "text": "The researchers collected ____ from 2,000 people.",
+    "answer": "data",
+    "wrong": [
+     "furniture",
+     "weather",
+     "luggage"
+    ]
+   },
+   {
+    "text": "Never share your personal ____ with strangers online.",
+    "answer": "data",
+    "wrong": [
+     "breakfast",
+     "weather",
+     "furniture"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "information",
+  "sentences": [
+   {
+    "text": "For more ____, please visit our website.",
+    "answer": "information",
+    "wrong": [
+     "pollution",
+     "punishment",
+     "poverty"
+    ]
+   },
+   {
+    "text": "The police are asking for ____ about the accident.",
+    "answer": "information",
+    "wrong": [
+     "furniture",
+     "luggage",
+     "weather"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "network",
+  "sentences": [
+   {
+    "text": "The mobile ____ is very weak in the mountains.",
+    "answer": "network",
+    "wrong": [
+     "salary",
+     "diet",
+     "furniture"
+    ]
+   },
+   {
+    "text": "She has a large ____ of friends all over the world.",
+    "answer": "network",
+    "wrong": [
+     "illness",
+     "salary",
+     "weather"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "artificial",
+  "sentences": [
+   {
+    "text": "These flowers aren't real — they're ____.",
+    "answer": "artificial",
+    "wrong": [
+     "natural",
+     "fresh",
+     "wild"
+    ]
+   },
+   {
+    "text": "The drink contains no ____ colours.",
+    "answer": "artificial",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "intelligence",
+  "sentences": [
+   {
+    "text": "Artificial ____ is changing many industries.",
+    "answer": "intelligence",
+    "wrong": [
+     "furniture",
+     "weather",
+     "poverty"
+    ]
+   },
+   {
+    "text": "Dolphins are known for their high ____.",
+    "answer": "intelligence",
+    "wrong": [
+     "salary",
+     "pollution",
+     "luggage"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "invention",
+  "sentences": [
+   {
+    "text": "The ____ of the printing press changed the world.",
+    "answer": "invention",
+    "wrong": [
+     "destruction",
+     "punishment",
+     "illness"
+    ]
+   },
+   {
+    "text": "The telephone was a great ____.",
+    "answer": "invention",
+    "wrong": [
+     "disease",
+     "disaster",
+     "crime"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "innovation",
+  "sentences": [
+   {
+    "text": "The company is famous for its ____ in design.",
+    "answer": "innovation",
+    "wrong": [
+     "pollution",
+     "poverty",
+     "laziness"
+    ]
+   },
+   {
+    "text": "Technological ____ drives economic growth.",
+    "answer": "innovation",
+    "wrong": [
+     "illness",
+     "punishment",
+     "poverty"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "development",
+  "sentences": [
+   {
+    "text": "The city is planning the ____ of a new airport.",
+    "answer": "development",
+    "wrong": [
+     "illness",
+     "punishment",
+     "retirement"
+    ]
+   },
+   {
+    "text": "Play is important for a child's ____.",
+    "answer": "development",
+    "wrong": [
+     "salary",
+     "retirement",
+     "pollution"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "advantage",
+  "sentences": [
+   {
+    "text": "One ____ of living in the city is good public transport.",
+    "answer": "advantage",
+    "wrong": [
+     "disadvantage",
+     "problem",
+     "drawback"
+    ]
+   },
+   {
+    "text": "Being tall is an ____ in basketball.",
+    "answer": "advantage",
+    "wrong": [
+     "illness",
+     "injury",
+     "obstacle"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "disadvantage",
+  "sentences": [
+   {
+    "text": "The main ____ of this job is the long hours.",
+    "answer": "disadvantage",
+    "wrong": [
+     "advantage",
+     "benefit",
+     "bonus"
+    ]
+   },
+   {
+    "text": "Poor children are often at a ____ at school.",
+    "answer": "disadvantage",
+    "wrong": [
+     "celebration",
+     "concert",
+     "wedding"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "privacy",
+  "sentences": [
+   {
+    "text": "Celebrities often complain about a lack of ____.",
+    "answer": "privacy",
+    "wrong": [
+     "salary",
+     "pollution",
+     "traffic"
+    ]
+   },
+   {
+    "text": "Social media apps should respect users' ____.",
+    "answer": "privacy",
+    "wrong": [
+     "illnesses",
+     "luggage",
+     "weather"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "security",
+  "sentences": [
+   {
+    "text": "Airport ____ checked all our bags.",
+    "answer": "security",
+    "wrong": [
+     "furniture",
+     "weather",
+     "tradition"
+    ]
+   },
+   {
+    "text": "Use a strong password to improve your online ____.",
+    "answer": "security",
+    "wrong": [
+     "appetite",
+     "weather",
+     "salary"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "internet",
+  "sentences": [
+   {
+    "text": "You can find almost anything on the ____ nowadays.",
+    "answer": "internet",
+    "wrong": [
+     "weather",
+     "furniture",
+     "breakfast"
+    ]
+   },
+   {
+    "text": "Our village finally got fast ____ last year.",
+    "answer": "internet",
+    "wrong": [
+     "weather",
+     "tradition",
+     "illness"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "platform",
+  "sentences": [
+   {
+    "text": "The train to Samarkand leaves from ____ 3.",
+    "answer": "platform",
+    "wrong": [
+     "passport",
+     "salary",
+     "menu"
+    ]
+   },
+   {
+    "text": "YouTube is a popular ____ for sharing videos.",
+    "answer": "platform",
+    "wrong": [
+     "disease",
+     "weather",
+     "furniture"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "content",
+  "sentences": [
+   {
+    "text": "The ____ of this website is updated daily.",
+    "answer": "content",
+    "wrong": [
+     "weather",
+     "salary",
+     "tradition"
+    ]
+   },
+   {
+    "text": "Many teenagers create video ____ for TikTok.",
+    "answer": "content",
+    "wrong": [
+     "furniture",
+     "weather",
+     "luggage"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "social media",
+  "sentences": [
+   {
+    "text": "She spends three hours a day on ____.",
+    "answer": "social media",
+    "wrong": [
+     "public transport",
+     "breakfast",
+     "homework"
+    ]
+   },
+   {
+    "text": "The news spread quickly on ____.",
+    "answer": "social media",
+    "wrong": [
+     "furniture",
+     "weather",
+     "luggage"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "online",
+  "sentences": [
+   {
+    "text": "I bought these shoes ____ and they arrived in two days.",
+    "answer": "online",
+    "wrong": [
+     "hungrily",
+     "politely",
+     "sleepily"
+    ]
+   },
+   {
+    "text": "Many universities now offer ____ courses.",
+    "answer": "online",
+    "wrong": [
+     "ancient",
+     "wooden",
+     "hungry"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "virtual",
+  "sentences": [
+   {
+    "text": "With a ____ reality headset, you can explore Mars.",
+    "answer": "virtual",
+    "wrong": [
+     "wooden",
+     "ancient",
+     "hungry"
+    ]
+   },
+   {
+    "text": "The museum offers ____ tours for people at home.",
+    "answer": "virtual",
+    "wrong": [
+     "physical",
+     "wooden",
+     "hungry"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "upload",
+  "sentences": [
+   {
+    "text": "I'll ____ the photos to Instagram tonight.",
+    "answer": "upload",
+    "wrong": [
+     "swallow",
+     "cook",
+     "wash"
+    ]
+   },
+   {
+    "text": "She ____ her homework to the school website.",
+    "answer": "uploaded",
+    "wrong": [
+     "ate",
+     "washed",
+     "cooked"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "download",
+  "sentences": [
+   {
+    "text": "You can ____ the app for free.",
+    "answer": "download",
+    "wrong": [
+     "cook",
+     "wash",
+     "swallow"
+    ]
+   },
+   {
+    "text": "I ____ three films to watch on the plane.",
+    "answer": "downloaded",
+    "wrong": [
+     "cooked",
+     "washed",
+     "painted"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "update",
+  "sentences": [
+   {
+    "text": "Please ____ your phone to the latest version.",
+    "answer": "update",
+    "wrong": [
+     "break",
+     "drop",
+     "swallow"
+    ]
+   },
+   {
+    "text": "The website is ____ every morning.",
+    "answer": "updated",
+    "wrong": [
+     "eaten",
+     "washed",
+     "cooked"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "connect",
+  "sentences": [
+   {
+    "text": "I can't ____ to the Wi-Fi.",
+    "answer": "connect",
+    "wrong": [
+     "belong",
+     "apologise",
+     "arrive"
+    ]
+   },
+   {
+    "text": "A new bridge will ____ the two islands.",
+    "answer": "connect",
+    "wrong": [
+     "separate",
+     "divide",
+     "destroy"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "browse",
+  "sentences": [
+   {
+    "text": "I like to ____ in bookshops on Sundays.",
+    "answer": "browse",
+    "wrong": [
+     "swim",
+     "sleep",
+     "cook"
+    ]
+   },
+   {
+    "text": "He spent the evening ____ the internet.",
+    "answer": "browsing",
+    "wrong": [
+     "cooking",
+     "washing",
+     "painting"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "search",
+  "sentences": [
+   {
+    "text": "The police ____ the house for evidence.",
+    "answer": "searched",
+    "wrong": [
+     "painted",
+     "cooked",
+     "decorated"
+    ]
+   },
+   {
+    "text": "Use Google to ____ for cheap flights.",
+    "answer": "search",
+    "wrong": [
+     "cook",
+     "swallow",
+     "wash"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "install",
+  "sentences": [
+   {
+    "text": "We need to ____ a new heating system.",
+    "answer": "install",
+    "wrong": [
+     "swallow",
+     "cook",
+     "forget"
+    ]
+   },
+   {
+    "text": "The technician ____ the software on all computers.",
+    "answer": "installed",
+    "wrong": [
+     "ate",
+     "cooked",
+     "swallowed"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "operate",
+  "sentences": [
+   {
+    "text": "Can you ____ this machine?",
+    "answer": "operate",
+    "wrong": [
+     "swallow",
+     "digest",
+     "marry"
+    ]
+   },
+   {
+    "text": "The surgeon will ____ on her knee tomorrow.",
+    "answer": "operate",
+    "wrong": [
+     "cook",
+     "dance",
+     "sing"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "replace",
+  "sentences": [
+   {
+    "text": "I need to ____ the battery in my watch.",
+    "answer": "replace",
+    "wrong": [
+     "swallow",
+     "digest",
+     "marry"
+    ]
+   },
+   {
+    "text": "Robots may ____ many factory workers in the future.",
+    "answer": "replace",
+    "wrong": [
+     "marry",
+     "feed",
+     "hire"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "improve",
+  "sentences": [
+   {
+    "text": "Practice will ____ your English.",
+    "answer": "improve",
+    "wrong": [
+     "worsen",
+     "damage",
+     "destroy"
+    ]
+   },
+   {
+    "text": "His health has ____ since he stopped smoking.",
+    "answer": "improved",
+    "wrong": [
+     "worsened",
+     "declined",
+     "suffered"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "automate",
+  "sentences": [
+   {
+    "text": "Banks use computers to ____ many simple tasks.",
+    "answer": "automate",
+    "wrong": [
+     "swallow",
+     "marry",
+     "digest"
+    ]
+   },
+   {
+    "text": "The factory ____ its production line last year.",
+    "answer": "automated",
+    "wrong": [
+     "married",
+     "swallowed",
+     "digested"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "transform",
+  "sentences": [
+   {
+    "text": "The internet has ____ the way we shop.",
+    "answer": "transformed",
+    "wrong": [
+     "swallowed",
+     "married",
+     "digested"
+    ]
+   },
+   {
+    "text": "They plan to ____ the old factory into a museum.",
+    "answer": "transform",
+    "wrong": [
+     "swallow",
+     "marry",
+     "digest"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "health",
+  "sentences": [
+   {
+    "text": "Smoking is bad for your ____.",
+    "answer": "health",
+    "wrong": [
+     "salary",
+     "luggage",
+     "furniture"
+    ]
+   },
+   {
+    "text": "The government spends a lot on public ____.",
+    "answer": "health",
+    "wrong": [
+     "weather",
+     "luggage",
+     "hobby"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "disease",
+  "sentences": [
+   {
+    "text": "Malaria is a ____ spread by mosquitoes.",
+    "answer": "disease",
+    "wrong": [
+     "vitamin",
+     "medicine",
+     "treatment"
+    ]
+   },
+   {
+    "text": "Heart ____ is a leading cause of death.",
+    "answer": "disease",
+    "wrong": [
+     "surgery",
+     "health",
+     "exercise"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "illness",
+  "sentences": [
+   {
+    "text": "She missed school because of ____.",
+    "answer": "illness",
+    "wrong": [
+     "wealth",
+     "success",
+     "happiness"
+    ]
+   },
+   {
+    "text": "He recovered quickly from his ____.",
+    "answer": "illness",
+    "wrong": [
+     "salary",
+     "promotion",
+     "holiday"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "treatment",
+  "sentences": [
+   {
+    "text": "The patient is receiving ____ for cancer.",
+    "answer": "treatment",
+    "wrong": [
+     "punishment",
+     "salary",
+     "promotion"
+    ]
+   },
+   {
+    "text": "There is no ____ for the common cold.",
+    "answer": "treatment",
+    "wrong": [
+     "infection",
+     "symptom",
+     "disease"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "symptom",
+  "sentences": [
+   {
+    "text": "A high temperature is a common ____ of flu.",
+    "answer": "symptom",
+    "wrong": [
+     "cure",
+     "treatment",
+     "medicine"
+    ]
+   },
+   {
+    "text": "If ____ continue, see a doctor.",
+    "answer": "symptoms",
+    "wrong": [
+     "salaries",
+     "holidays",
+     "vitamins"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "diagnosis",
+  "sentences": [
+   {
+    "text": "The doctor made a quick ____ of the problem.",
+    "answer": "diagnosis",
+    "wrong": [
+     "salary",
+     "decoration",
+     "celebration"
+    ]
+   },
+   {
+    "text": "An early ____ can save lives.",
+    "answer": "diagnosis",
+    "wrong": [
+     "funeral",
+     "vacation",
+     "punishment"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "prevention",
+  "sentences": [
+   {
+    "text": "____ is better than cure.",
+    "answer": "Prevention",
+    "wrong": [
+     "Infection",
+     "Illness",
+     "Injury"
+    ]
+   },
+   {
+    "text": "The campaign focuses on the ____ of heart disease.",
+    "answer": "prevention",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "medicine",
+  "sentences": [
+   {
+    "text": "Take this ____ three times a day after meals.",
+    "answer": "medicine",
+    "wrong": [
+     "salary",
+     "furniture",
+     "luggage"
+    ]
+   },
+   {
+    "text": "She wants to study ____ and become a doctor.",
+    "answer": "medicine",
+    "wrong": [
+     "cooking",
+     "dancing",
+     "fashion"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "patient",
+  "sentences": [
+   {
+    "text": "The doctor has twenty ____ to see today.",
+    "answer": "patients",
+    "wrong": [
+     "tourists",
+     "customers",
+     "criminals"
+    ]
+   },
+   {
+    "text": "Be ____ — the bus will come soon.",
+    "answer": "patient",
+    "wrong": [
+     "rude",
+     "noisy",
+     "angry"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "recovery",
+  "sentences": [
+   {
+    "text": "We wish you a quick ____!",
+    "answer": "recovery",
+    "wrong": [
+     "illness",
+     "injury",
+     "funeral"
+    ]
+   },
+   {
+    "text": "The economy is showing signs of ____.",
+    "answer": "recovery",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "surgery",
+  "sentences": [
+   {
+    "text": "He needs ____ on his broken leg.",
+    "answer": "surgery",
+    "wrong": [
+     "salary",
+     "homework",
+     "recipe"
+    ]
+   },
+   {
+    "text": "The ____ lasted five hours.",
+    "answer": "surgery",
+    "wrong": [
+     "breakfast",
+     "holiday",
+     "weekend"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "injury",
+  "sentences": [
+   {
+    "text": "The footballer missed the game because of a knee ____.",
+    "answer": "injury",
+    "wrong": [
+     "promotion",
+     "salary",
+     "victory"
+    ]
+   },
+   {
+    "text": "Wearing a helmet reduces the risk of head ____.",
+    "answer": "injury",
+    "wrong": [
+     "salary",
+     "happiness",
+     "wealth"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "infection",
+  "sentences": [
+   {
+    "text": "Wash the cut to avoid ____.",
+    "answer": "infection",
+    "wrong": [
+     "recovery",
+     "treatment",
+     "medicine"
+    ]
+   },
+   {
+    "text": "She was given antibiotics for an ear ____.",
+    "answer": "infection",
+    "wrong": [
+     "ring",
+     "salary",
+     "promotion"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "stress",
+  "sentences": [
+   {
+    "text": "Exams can cause a lot of ____.",
+    "answer": "stress",
+    "wrong": [
+     "joy",
+     "relaxation",
+     "comfort"
+    ]
+   },
+   {
+    "text": "Yoga helps reduce ____.",
+    "answer": "stress",
+    "wrong": [
+     "health",
+     "happiness",
+     "energy"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "anxiety",
+  "sentences": [
+   {
+    "text": "Many students feel ____ before exams.",
+    "answer": "anxiety",
+    "wrong": [
+     "happiness",
+     "boredom",
+     "hunger"
+    ]
+   },
+   {
+    "text": "Deep breathing can help with ____.",
+    "answer": "anxiety",
+    "wrong": [
+     "hunger",
+     "salary",
+     "promotion"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "exercise",
+  "sentences": [
+   {
+    "text": "Doctors recommend 30 minutes of ____ a day.",
+    "answer": "exercise",
+    "wrong": [
+     "sugar",
+     "stress",
+     "television"
+    ]
+   },
+   {
+    "text": "Complete ____ 5 on page 20 for homework.",
+    "answer": "exercise",
+    "wrong": [
+     "illness",
+     "salary",
+     "weather"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "diet",
+  "sentences": [
+   {
+    "text": "A balanced ____ includes fruit and vegetables.",
+    "answer": "diet",
+    "wrong": [
+     "salary",
+     "luggage",
+     "furniture"
+    ]
+   },
+   {
+    "text": "She's on a ____ because she wants to lose weight.",
+    "answer": "diet",
+    "wrong": [
+     "holiday",
+     "salary",
+     "bus"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "nutrition",
+  "sentences": [
+   {
+    "text": "Good ____ is essential for children's growth.",
+    "answer": "nutrition",
+    "wrong": [
+     "pollution",
+     "punishment",
+     "stress"
+    ]
+   },
+   {
+    "text": "The label gives ____ information about the food.",
+    "answer": "nutrition",
+    "wrong": [
+     "weather",
+     "furniture",
+     "salary"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "obesity",
+  "sentences": [
+   {
+    "text": "Fast food is a major cause of ____.",
+    "answer": "obesity",
+    "wrong": [
+     "literacy",
+     "wealth",
+     "honesty"
+    ]
+   },
+   {
+    "text": "Childhood ____ is rising in many countries.",
+    "answer": "obesity",
+    "wrong": [
+     "literacy",
+     "honesty",
+     "politeness"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "healthy",
+  "sentences": [
+   {
+    "text": "Eating fruit every day is ____.",
+    "answer": "healthy",
+    "wrong": [
+     "harmful",
+     "dangerous",
+     "illegal"
+    ]
+   },
+   {
+    "text": "She had a ____ baby girl.",
+    "answer": "healthy",
+    "wrong": [
+     "harmful",
+     "rude",
+     "boring"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "harmful",
+  "sentences": [
+   {
+    "text": "Smoking is ____ to your health.",
+    "answer": "harmful",
+    "wrong": [
+     "beneficial",
+     "healthy",
+     "useful"
+    ]
+   },
+   {
+    "text": "Some cleaning products contain ____ chemicals.",
+    "answer": "harmful",
+    "wrong": [
+     "hungry",
+     "polite",
+     "curious"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "physical",
+  "sentences": [
+   {
+    "text": "Running is a good form of ____ exercise.",
+    "answer": "physical",
+    "wrong": [
+     "hungry",
+     "polite",
+     "wooden"
+    ]
+   },
+   {
+    "text": "The job requires a lot of ____ strength.",
+    "answer": "physical",
+    "wrong": [
+     "digital",
+     "virtual",
+     "financial"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "mental",
+  "sentences": [
+   {
+    "text": "Meditation is good for your ____ health.",
+    "answer": "mental",
+    "wrong": [
+     "hungry",
+     "polite",
+     "wooden"
+    ]
+   },
+   {
+    "text": "Chess is a game of ____ skill.",
+    "answer": "mental",
+    "wrong": [
+     "physical",
+     "financial",
+     "wooden"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "severe",
+  "sentences": [
+   {
+    "text": "There was a ____ storm last night that damaged many houses.",
+    "answer": "severe",
+    "wrong": [
+     "mild",
+     "gentle",
+     "slight"
+    ]
+   },
+   {
+    "text": "He suffered ____ injuries in the crash.",
+    "answer": "severe",
+    "wrong": [
+     "generous",
+     "polite",
+     "curious"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "minor",
+  "sentences": [
+   {
+    "text": "It's only a ____ problem — don't worry.",
+    "answer": "minor",
+    "wrong": [
+     "major",
+     "serious",
+     "severe"
+    ]
+   },
+   {
+    "text": "She had a ____ accident, but nobody was hurt.",
+    "answer": "minor",
+    "wrong": [
+     "fatal",
+     "generous",
+     "curious"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "chronic",
+  "sentences": [
+   {
+    "text": "He suffers from ____ back pain.",
+    "answer": "chronic",
+    "wrong": [
+     "generous",
+     "polite",
+     "curious"
+    ]
+   },
+   {
+    "text": "The city has a ____ shortage of housing.",
+    "answer": "chronic",
+    "wrong": [
+     "generous",
+     "polite",
+     "hungry"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "medical",
+  "sentences": [
+   {
+    "text": "She has a ____ appointment on Friday.",
+    "answer": "medical",
+    "wrong": [
+     "musical",
+     "financial",
+     "legal"
+    ]
+   },
+   {
+    "text": "He's a ____ student at Tashkent university.",
+    "answer": "medical",
+    "wrong": [
+     "sleepy",
+     "hungry",
+     "rude"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "suffer",
+  "sentences": [
+   {
+    "text": "Many people ____ from back pain.",
+    "answer": "suffer",
+    "wrong": [
+     "benefit",
+     "recover",
+     "escape"
+    ]
+   },
+   {
+    "text": "The company ____ big losses last year.",
+    "answer": "suffered",
+    "wrong": [
+     "enjoyed",
+     "earned",
+     "celebrated"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "recover",
+  "sentences": [
+   {
+    "text": "It took her weeks to ____ from the flu.",
+    "answer": "recover",
+    "wrong": [
+     "suffer",
+     "catch",
+     "spread"
+    ]
+   },
+   {
+    "text": "The police ____ the stolen car.",
+    "answer": "recovered",
+    "wrong": [
+     "stole",
+     "lost",
+     "crashed"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "diagnose",
+  "sentences": [
+   {
+    "text": "Doctors ____ him with diabetes last year.",
+    "answer": "diagnosed",
+    "wrong": [
+     "cured",
+     "punished",
+     "married"
+    ]
+   },
+   {
+    "text": "It is difficult to ____ this illness early.",
+    "answer": "diagnose",
+    "wrong": [
+     "celebrate",
+     "marry",
+     "decorate"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "argue",
+  "sentences": [
+   {
+    "text": "My brother and I often ____ about money.",
+    "answer": "argue",
+    "wrong": [
+     "agree",
+     "celebrate",
+     "apologise"
+    ]
+   },
+   {
+    "text": "Scientists ____ that climate change is caused by humans.",
+    "answer": "argue",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "argument",
+  "sentences": [
+   {
+    "text": "They had an ____ about who should wash the dishes.",
+    "answer": "argument",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "The writer presents a strong ____ for free education.",
+    "answer": "argument",
+    "wrong": [
+     "apology",
+     "illness",
+     "salary"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "convince",
+  "sentences": [
+   {
+    "text": "I couldn't ____ him to come to the party.",
+    "answer": "convince",
+    "wrong": [
+     "prevent",
+     "forbid",
+     "avoid"
+    ]
+   },
+   {
+    "text": "She ____ me that she was telling the truth.",
+    "answer": "convinced",
+    "wrong": [
+     "forbade",
+     "prevented",
+     "doubted"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "persuade",
+  "sentences": [
+   {
+    "text": "Can you ____ your parents to let you come?",
+    "answer": "persuade",
+    "wrong": [
+     "prevent",
+     "forbid",
+     "stop"
+    ]
+   },
+   {
+    "text": "The salesman ____ us to buy the more expensive model.",
+    "answer": "persuaded",
+    "wrong": [
+     "prevented",
+     "forbade",
+     "stopped"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "suggest",
+  "sentences": [
+   {
+    "text": "I ____ we take a taxi — it's raining.",
+    "answer": "suggest",
+    "wrong": [
+     "forbid",
+     "deny",
+     "refuse"
+    ]
+   },
+   {
+    "text": "The doctor ____ that I get more sleep.",
+    "answer": "suggested",
+    "wrong": [
+     "denied",
+     "refused",
+     "forbade"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "recommend",
+  "sentences": [
+   {
+    "text": "Can you ____ a good restaurant nearby?",
+    "answer": "recommend",
+    "wrong": [
+     "forbid",
+     "deny",
+     "refuse"
+    ]
+   },
+   {
+    "text": "I highly ____ this book to all students.",
+    "answer": "recommend",
+    "wrong": [
+     "forbid",
+     "deny",
+     "refuse"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "mention",
+  "sentences": [
+   {
+    "text": "Did she ____ where she was going?",
+    "answer": "mention",
+    "wrong": [
+     "swallow",
+     "digest",
+     "marry"
+    ]
+   },
+   {
+    "text": "He didn't ____ that he was married.",
+    "answer": "mention",
+    "wrong": [
+     "swallow",
+     "celebrate",
+     "digest"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "state",
+  "sentences": [
+   {
+    "text": "Please ____ your name and address clearly.",
+    "answer": "state",
+    "wrong": [
+     "swallow",
+     "hide",
+     "forget"
+    ]
+   },
+   {
+    "text": "The report ____ that crime has fallen.",
+    "answer": "states",
+    "wrong": [
+     "swallows",
+     "hides",
+     "forgets"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "express",
+  "sentences": [
+   {
+    "text": "It's hard to ____ my feelings in English.",
+    "answer": "express",
+    "wrong": [
+     "swallow",
+     "digest",
+     "rent"
+    ]
+   },
+   {
+    "text": "She ____ her thanks to all the volunteers.",
+    "answer": "expressed",
+    "wrong": [
+     "swallowed",
+     "hid",
+     "rented"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "respond",
+  "sentences": [
+   {
+    "text": "He didn't ____ to my email.",
+    "answer": "respond",
+    "wrong": [
+     "belong",
+     "apologise",
+     "arrive"
+    ]
+   },
+   {
+    "text": "The patient is ____ well to treatment.",
+    "answer": "responding",
+    "wrong": [
+     "belonging",
+     "apologising",
+     "arriving"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "interpret",
+  "sentences": [
+   {
+    "text": "How do you ____ this poem?",
+    "answer": "interpret",
+    "wrong": [
+     "swallow",
+     "rent",
+     "marry"
+    ]
+   },
+   {
+    "text": "She ____ for the president during his visit to China.",
+    "answer": "interpreted",
+    "wrong": [
+     "swallowed",
+     "rented",
+     "married"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "explain",
+  "sentences": [
+   {
+    "text": "Can you ____ this grammar rule again?",
+    "answer": "explain",
+    "wrong": [
+     "swallow",
+     "hide",
+     "forget"
+    ]
+   },
+   {
+    "text": "The teacher ____ the lesson very clearly.",
+    "answer": "explained",
+    "wrong": [
+     "swallowed",
+     "hid",
+     "forgot"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "clarify",
+  "sentences": [
+   {
+    "text": "Could you ____ what you mean?",
+    "answer": "clarify",
+    "wrong": [
+     "confuse",
+     "hide",
+     "forget"
+    ]
+   },
+   {
+    "text": "The manager ____ the new rules at the meeting.",
+    "answer": "clarified",
+    "wrong": [
+     "confused",
+     "hid",
+     "forgot"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "summarize",
+  "sentences": [
+   {
+    "text": "____ the article in 100 words.",
+    "answer": "Summarize",
+    "wrong": [
+     "Swallow",
+     "Decorate",
+     "Marry"
+    ]
+   },
+   {
+    "text": "At the end, she ____ the main points of her talk.",
+    "answer": "summarized",
+    "wrong": [
+     "swallowed",
+     "married",
+     "decorated"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "describe",
+  "sentences": [
+   {
+    "text": "Can you ____ the man you saw?",
+    "answer": "describe",
+    "wrong": [
+     "swallow",
+     "marry",
+     "digest"
+    ]
+   },
+   {
+    "text": "She ____ her holiday as the best week of her life.",
+    "answer": "described",
+    "wrong": [
+     "swallowed",
+     "married",
+     "digested"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "compare",
+  "sentences": [
+   {
+    "text": "It's not fair to ____ yourself with others.",
+    "answer": "compare",
+    "wrong": [
+     "swallow",
+     "marry",
+     "digest"
+    ]
+   },
+   {
+    "text": "Prices here are low ____ to the capital.",
+    "answer": "compared",
+    "wrong": [
+     "swallowed",
+     "married",
+     "digested"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "contrast",
+  "sentences": [
+   {
+    "text": "The essay ____ life in the city and the countryside.",
+    "answer": "contrasts",
+    "wrong": [
+     "swallows",
+     "marries",
+     "digests"
+    ]
+   },
+   {
+    "text": "In ____ to her sister, she is very quiet.",
+    "answer": "contrast",
+    "wrong": [
+     "salary",
+     "luggage",
+     "weather"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "define",
+  "sentences": [
+   {
+    "text": "How would you ____ the word 'freedom'?",
+    "answer": "define",
+    "wrong": [
+     "swallow",
+     "marry",
+     "digest"
+    ]
+   },
+   {
+    "text": "Success is ____ differently by different people.",
+    "answer": "defined",
+    "wrong": [
+     "swallowed",
+     "married",
+     "digested"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "refer",
+  "sentences": [
+   {
+    "text": "Please ____ to page 12 for more details.",
+    "answer": "refer",
+    "wrong": [
+     "belong",
+     "apologise",
+     "arrive"
+    ]
+   },
+   {
+    "text": "When I say 'the boss', I'm ____ to Mr Karimov.",
+    "answer": "referring",
+    "wrong": [
+     "belonging",
+     "apologising",
+     "arriving"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "conclude",
+  "sentences": [
+   {
+    "text": "The report ____ that the plan is too expensive.",
+    "answer": "concludes",
+    "wrong": [
+     "swallows",
+     "marries",
+     "digests"
+    ]
+   },
+   {
+    "text": "Let me ____ by thanking everyone for coming.",
+    "answer": "conclude",
+    "wrong": [
+     "swallow",
+     "marry",
+     "digest"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "predict",
+  "sentences": [
+   {
+    "text": "Nobody can ____ the future.",
+    "answer": "predict",
+    "wrong": [
+     "swallow",
+     "marry",
+     "digest"
+    ]
+   },
+   {
+    "text": "Experts ____ that prices will rise next year.",
+    "answer": "predict",
+    "wrong": [
+     "swallow",
+     "marry",
+     "digest"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "prove",
+  "sentences": [
+   {
+    "text": "Can you ____ that you were at home last night?",
+    "answer": "prove",
+    "wrong": [
+     "swallow",
+     "marry",
+     "digest"
+    ]
+   },
+   {
+    "text": "The theory was ____ wrong by later research.",
+    "answer": "proved",
+    "wrong": [
+     "swallowed",
+     "married",
+     "digested"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "justify",
+  "sentences": [
+   {
+    "text": "How can you ____ spending so much money?",
+    "answer": "justify",
+    "wrong": [
+     "swallow",
+     "marry",
+     "digest"
+    ]
+   },
+   {
+    "text": "The results ____ all our hard work.",
+    "answer": "justify",
+    "wrong": [
+     "swallow",
+     "marry",
+     "digest"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "criticize",
+  "sentences": [
+   {
+    "text": "The film was ____ for being too violent.",
+    "answer": "criticized",
+    "wrong": [
+     "praised",
+     "rewarded",
+     "admired"
+    ]
+   },
+   {
+    "text": "Don't ____ others if you can't do better.",
+    "answer": "criticize",
+    "wrong": [
+     "praise",
+     "admire",
+     "reward"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "concept",
+  "sentences": [
+   {
+    "text": "The ____ of time travel is fascinating.",
+    "answer": "concept",
+    "wrong": [
+     "salary",
+     "luggage",
+     "furniture"
+    ]
+   },
+   {
+    "text": "Children find the ____ of zero difficult.",
+    "answer": "concept",
+    "wrong": [
+     "breakfast",
+     "weather",
+     "luggage"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "context",
+  "sentences": [
+   {
+    "text": "Try to guess the meaning of the word from the ____.",
+    "answer": "context",
+    "wrong": [
+     "weather",
+     "salary",
+     "furniture"
+    ]
+   },
+   {
+    "text": "His words were taken out of ____.",
+    "answer": "context",
+    "wrong": [
+     "salary",
+     "luggage",
+     "breakfast"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "evidence",
+  "sentences": [
+   {
+    "text": "There is no ____ that the man stole the money.",
+    "answer": "evidence",
+    "wrong": [
+     "luggage",
+     "appetite",
+     "tuition"
+    ]
+   },
+   {
+    "text": "Scientists found ____ of water on Mars.",
+    "answer": "evidence",
+    "wrong": [
+     "salary",
+     "tuition",
+     "retirement"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "issue",
+  "sentences": [
+   {
+    "text": "Climate change is a global ____.",
+    "answer": "issue",
+    "wrong": [
+     "salary",
+     "breakfast",
+     "vehicle"
+    ]
+   },
+   {
+    "text": "The school will ____ new ID cards next week.",
+    "answer": "issue",
+    "wrong": [
+     "swallow",
+     "resign",
+     "retire"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "method",
+  "sentences": [
+   {
+    "text": "What's the best ____ for learning vocabulary?",
+    "answer": "method",
+    "wrong": [
+     "salary",
+     "luggage",
+     "habitat"
+    ]
+   },
+   {
+    "text": "Cash is still a popular payment ____ here.",
+    "answer": "method",
+    "wrong": [
+     "habitat",
+     "disease",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "process",
+  "sentences": [
+   {
+    "text": "Applying for a visa is a long ____.",
+    "answer": "process",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "Learning a language is a slow ____.",
+    "answer": "process",
+    "wrong": [
+     "vehicle",
+     "salary",
+     "passport"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "principle",
+  "sentences": [
+   {
+    "text": "He refused to lie — it was a matter of ____.",
+    "answer": "principle",
+    "wrong": [
+     "principal",
+     "luggage",
+     "salary"
+    ]
+   },
+   {
+    "text": "The ____ of equality is in our constitution.",
+    "answer": "principle",
+    "wrong": [
+     "vehicle",
+     "luggage",
+     "habitat"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "purpose",
+  "sentences": [
+   {
+    "text": "What is the ____ of your visit?",
+    "answer": "purpose",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "He broke the window on ____.",
+    "answer": "purpose",
+    "wrong": [
+     "salary",
+     "luggage",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "result",
+  "sentences": [
+   {
+    "text": "The exam ____ will be announced on Monday.",
+    "answer": "results",
+    "wrong": [
+     "salaries",
+     "habitats",
+     "passports"
+    ]
+   },
+   {
+    "text": "The accident was the ____ of careless driving.",
+    "answer": "result",
+    "wrong": [
+     "salary",
+     "passport",
+     "habitat"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "solution",
+  "sentences": [
+   {
+    "text": "We need to find a ____ to the traffic problem.",
+    "answer": "solution",
+    "wrong": [
+     "symptom",
+     "obstacle",
+     "cause"
+    ]
+   },
+   {
+    "text": "There is no easy ____ to poverty.",
+    "answer": "solution",
+    "wrong": [
+     "cause",
+     "reason",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "source",
+  "sentences": [
+   {
+    "text": "The sun is our main ____ of energy.",
+    "answer": "source",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "salary"
+    ]
+   },
+   {
+    "text": "Journalists must check their ____ carefully.",
+    "answer": "sources",
+    "wrong": [
+     "salaries",
+     "habitats",
+     "symptoms"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "structure",
+  "sentences": [
+   {
+    "text": "The essay has a clear ____: introduction, body and conclusion.",
+    "answer": "structure",
+    "wrong": [
+     "salary",
+     "symptom",
+     "habitat"
+    ]
+   },
+   {
+    "text": "The Eiffel Tower is a famous metal ____.",
+    "answer": "structure",
+    "wrong": [
+     "symptom",
+     "salary",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "survey",
+  "sentences": [
+   {
+    "text": "A ____ showed that most people prefer working from home.",
+    "answer": "survey",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "We did a ____ of 500 students about their study habits.",
+    "answer": "survey",
+    "wrong": [
+     "salary",
+     "passport",
+     "habitat"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "trend",
+  "sentences": [
+   {
+    "text": "There is a growing ____ towards online shopping.",
+    "answer": "trend",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "Oversized jackets are the latest fashion ____.",
+    "answer": "trend",
+    "wrong": [
+     "symptom",
+     "salary",
+     "habitat"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "pattern",
+  "sentences": [
+   {
+    "text": "Scientists noticed a ____ in the data.",
+    "answer": "pattern",
+    "wrong": [
+     "salary",
+     "passport",
+     "luggage"
+    ]
+   },
+   {
+    "text": "Her dress has a flower ____.",
+    "answer": "pattern",
+    "wrong": [
+     "symptom",
+     "salary",
+     "habitat"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "category",
+  "sentences": [
+   {
+    "text": "The films are divided into three ____.",
+    "answer": "categories",
+    "wrong": [
+     "salaries",
+     "symptoms",
+     "passports"
+    ]
+   },
+   {
+    "text": "She won the prize in the best actress ____.",
+    "answer": "category",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "aspect",
+  "sentences": [
+   {
+    "text": "Money is only one ____ of the problem.",
+    "answer": "aspect",
+    "wrong": [
+     "salary",
+     "habitat",
+     "passport"
+    ]
+   },
+   {
+    "text": "We discussed every ____ of the plan.",
+    "answer": "aspect",
+    "wrong": [
+     "passport",
+     "luggage",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "role",
+  "sentences": [
+   {
+    "text": "Parents play an important ____ in education.",
+    "answer": "role",
+    "wrong": [
+     "salary",
+     "habitat",
+     "passport"
+    ]
+   },
+   {
+    "text": "She got the main ____ in the school play.",
+    "answer": "role",
+    "wrong": [
+     "salary",
+     "symptom",
+     "habitat"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "function",
+  "sentences": [
+   {
+    "text": "The main ____ of the heart is to pump blood.",
+    "answer": "function",
+    "wrong": [
+     "salary",
+     "passport",
+     "habitat"
+    ]
+   },
+   {
+    "text": "This phone doesn't ____ properly.",
+    "answer": "function",
+    "wrong": [
+     "resign",
+     "retire",
+     "graduate"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "outcome",
+  "sentences": [
+   {
+    "text": "Nobody could predict the ____ of the election.",
+    "answer": "outcome",
+    "wrong": [
+     "salary",
+     "habitat",
+     "passport"
+    ]
+   },
+   {
+    "text": "We are waiting for the ____ of the meeting.",
+    "answer": "outcome",
+    "wrong": [
+     "luggage",
+     "salary",
+     "habitat"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "evidence-based",
+  "sentences": [
+   {
+    "text": "Doctors should use ____ treatments proven by research.",
+    "answer": "evidence-based",
+    "wrong": [
+     "guilty",
+     "careless",
+     "hungry"
+    ]
+   },
+   {
+    "text": "The school follows an ____ approach to teaching reading.",
+    "answer": "evidence-based",
+    "wrong": [
+     "anxious",
+     "hungry",
+     "careless"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "valid",
+  "sentences": [
+   {
+    "text": "Your passport is ____ for ten years.",
+    "answer": "valid",
+    "wrong": [
+     "invalid",
+     "expired",
+     "useless"
+    ]
+   },
+   {
+    "text": "That's a ____ point — I hadn't thought of it.",
+    "answer": "valid",
+    "wrong": [
+     "hungry",
+     "sleepy",
+     "rude"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "identity",
+  "sentences": [
+   {
+    "text": "The police are trying to discover the ____ of the victim.",
+    "answer": "identity",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "Language is an important part of cultural ____.",
+    "answer": "identity",
+    "wrong": [
+     "salary",
+     "luggage",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "individual",
+  "sentences": [
+   {
+    "text": "Each ____ has different needs.",
+    "answer": "individual",
+    "wrong": [
+     "salary",
+     "vehicle",
+     "passport"
+    ]
+   },
+   {
+    "text": "The teacher gives ____ attention to every student.",
+    "answer": "individual",
+    "wrong": [
+     "hungry",
+     "sleepy",
+     "rude"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "resident",
+  "sentences": [
+   {
+    "text": "Local ____ complained about the noise.",
+    "answer": "residents",
+    "wrong": [
+     "salaries",
+     "vehicles",
+     "habitats"
+    ]
+   },
+   {
+    "text": "You must be a ____ of the city to get a library card.",
+    "answer": "resident",
+    "wrong": [
+     "salary",
+     "vehicle",
+     "habitat"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "household",
+  "sentences": [
+   {
+    "text": "The average ____ has two cars.",
+    "answer": "household",
+    "wrong": [
+     "habitat",
+     "salary",
+     "symptom"
+    ]
+   },
+   {
+    "text": "Washing and cleaning are ____ chores.",
+    "answer": "household",
+    "wrong": [
+     "medical",
+     "academic",
+     "financial"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "family",
+  "sentences": [
+   {
+    "text": "I have a big ____ — four brothers and three sisters.",
+    "answer": "family",
+    "wrong": [
+     "salary",
+     "habitat",
+     "passport"
+    ]
+   },
+   {
+    "text": "We have a ____ dinner every Friday.",
+    "answer": "family",
+    "wrong": [
+     "medical",
+     "legal",
+     "financial"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "parenting",
+  "sentences": [
+   {
+    "text": "Good ____ takes a lot of patience.",
+    "answer": "parenting",
+    "wrong": [
+     "gardening",
+     "sightseeing",
+     "shopping"
+    ]
+   },
+   {
+    "text": "She reads many books about ____.",
+    "answer": "parenting",
+    "wrong": [
+     "surgery",
+     "farming",
+     "mining"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "childhood",
+  "sentences": [
+   {
+    "text": "I spent my ____ in a small village.",
+    "answer": "childhood",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "She has happy memories of her ____.",
+    "answer": "childhood",
+    "wrong": [
+     "salary",
+     "luggage",
+     "passport"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "adulthood",
+  "sentences": [
+   {
+    "text": "The move from childhood to ____ can be difficult.",
+    "answer": "adulthood",
+    "wrong": [
+     "infancy",
+     "salary",
+     "luggage"
+    ]
+   },
+   {
+    "text": "Many habits we form as teenagers continue into ____.",
+    "answer": "adulthood",
+    "wrong": [
+     "childhood",
+     "infancy",
+     "breakfast"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "elderly",
+  "sentences": [
+   {
+    "text": "We should give our seats to ____ people on the bus.",
+    "answer": "elderly",
+    "wrong": [
+     "young",
+     "teenage",
+     "infant"
+    ]
+   },
+   {
+    "text": "She visits her ____ grandmother every weekend.",
+    "answer": "elderly",
+    "wrong": [
+     "teenage",
+     "infant",
+     "young"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "gender",
+  "sentences": [
+   {
+    "text": "Jobs should not be given based on ____.",
+    "answer": "gender",
+    "wrong": [
+     "weather",
+     "luggage",
+     "habitat"
+    ]
+   },
+   {
+    "text": "The survey asks about your age and ____.",
+    "answer": "gender",
+    "wrong": [
+     "luggage",
+     "habitat",
+     "breakfast"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "marriage",
+  "sentences": [
+   {
+    "text": "Their ____ lasted for fifty years.",
+    "answer": "marriage",
+    "wrong": [
+     "divorce",
+     "salary",
+     "illness"
+    ]
+   },
+   {
+    "text": "He proposed ____ to her on the beach.",
+    "answer": "marriage",
+    "wrong": [
+     "divorce",
+     "retirement",
+     "salary"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "divorce",
+  "sentences": [
+   {
+    "text": "After ten years of marriage, they decided to get a ____.",
+    "answer": "divorce",
+    "wrong": [
+     "wedding",
+     "promotion",
+     "salary"
+    ]
+   },
+   {
+    "text": "The ____ rate has increased in many countries.",
+    "answer": "divorce",
+    "wrong": [
+     "birth",
+     "literacy",
+     "salary"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "homelessness",
+  "sentences": [
+   {
+    "text": "The charity helps people affected by ____.",
+    "answer": "homelessness",
+    "wrong": [
+     "wealth",
+     "luxury",
+     "success"
+    ]
+   },
+   {
+    "text": "Rising rents have led to an increase in ____.",
+    "answer": "homelessness",
+    "wrong": [
+     "wealth",
+     "happiness",
+     "literacy"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "migration",
+  "sentences": [
+   {
+    "text": "Bird ____ happens every autumn.",
+    "answer": "migration",
+    "wrong": [
+     "salary",
+     "literacy",
+     "recipe"
+    ]
+   },
+   {
+    "text": "There has been a large ____ of people from villages to cities.",
+    "answer": "migration",
+    "wrong": [
+     "salary",
+     "literacy",
+     "recipe"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "immigration",
+  "sentences": [
+   {
+    "text": "The country has strict ____ laws.",
+    "answer": "immigration",
+    "wrong": [
+     "cooking",
+     "fashion",
+     "weather"
+    ]
+   },
+   {
+    "text": "You must show your passport at ____ control.",
+    "answer": "immigration",
+    "wrong": [
+     "cooking",
+     "fashion",
+     "weather"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "integration",
+  "sentences": [
+   {
+    "text": "Learning the language helps the ____ of newcomers.",
+    "answer": "integration",
+    "wrong": [
+     "salary",
+     "habitat",
+     "recipe"
+    ]
+   },
+   {
+    "text": "The ____ of technology into schools is increasing.",
+    "answer": "integration",
+    "wrong": [
+     "salary",
+     "habitat",
+     "recipe"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "diversity",
+  "sentences": [
+   {
+    "text": "The city is famous for its cultural ____.",
+    "answer": "diversity",
+    "wrong": [
+     "salary",
+     "poverty",
+     "pollution"
+    ]
+   },
+   {
+    "text": "The company values ____ in its workforce.",
+    "answer": "diversity",
+    "wrong": [
+     "pollution",
+     "poverty",
+     "obesity"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "volunteer",
+  "sentences": [
+   {
+    "text": "She works as a ____ at the animal shelter.",
+    "answer": "volunteer",
+    "wrong": [
+     "criminal",
+     "patient",
+     "tourist"
+    ]
+   },
+   {
+    "text": "Many students ____ to help clean the park.",
+    "answer": "volunteer",
+    "wrong": [
+     "resign",
+     "retire",
+     "suffer"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "charity",
+  "sentences": [
+   {
+    "text": "He gave all his money to ____.",
+    "answer": "charity",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "The ____ raises money for children's hospitals.",
+    "answer": "charity",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "salary"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "donate",
+  "sentences": [
+   {
+    "text": "You can ____ blood at the local hospital.",
+    "answer": "donate",
+    "wrong": [
+     "steal",
+     "waste",
+     "borrow"
+    ]
+   },
+   {
+    "text": "She ____ her old clothes to the poor.",
+    "answer": "donated",
+    "wrong": [
+     "stole",
+     "borrowed",
+     "wasted"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "economy",
+  "sentences": [
+   {
+    "text": "Tourism is important for the country's ____.",
+    "answer": "economy",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "The ____ grew by 5% last year.",
+    "answer": "economy",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "economic",
+  "sentences": [
+   {
+    "text": "The country is facing an ____ crisis.",
+    "answer": "economic",
+    "wrong": [
+     "medical",
+     "hungry",
+     "sleepy"
+    ]
+   },
+   {
+    "text": "There has been strong ____ growth this year.",
+    "answer": "economic",
+    "wrong": [
+     "medical",
+     "sleepy",
+     "rude"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "finance",
+  "sentences": [
+   {
+    "text": "She studied ____ and now works in a bank.",
+    "answer": "finance",
+    "wrong": [
+     "medicine",
+     "biology",
+     "cooking"
+    ]
+   },
+   {
+    "text": "The minister of ____ announced a new budget.",
+    "answer": "finance",
+    "wrong": [
+     "curious",
+     "hungry",
+     "polite"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "financial",
+  "sentences": [
+   {
+    "text": "Many students have ____ problems.",
+    "answer": "financial",
+    "wrong": [
+     "medical",
+     "physical",
+     "digital"
+    ]
+   },
+   {
+    "text": "London is a major ____ centre.",
+    "answer": "financial",
+    "wrong": [
+     "medical",
+     "rural",
+     "agricultural"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "industry",
+  "sentences": [
+   {
+    "text": "The tourism ____ employs millions of people.",
+    "answer": "industry",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "The car ____ is growing fast in Uzbekistan.",
+    "answer": "industry",
+    "wrong": [
+     "symptom",
+     "habitat",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "market",
+  "sentences": [
+   {
+    "text": "I buy fresh vegetables at the local ____.",
+    "answer": "market",
+    "wrong": [
+     "library",
+     "hospital",
+     "prison"
+    ]
+   },
+   {
+    "text": "The company wants to enter the Chinese ____.",
+    "answer": "market",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "customer",
+  "sentences": [
+   {
+    "text": "The shop gives a discount to regular ____.",
+    "answer": "customers",
+    "wrong": [
+     "employees",
+     "criminals",
+     "patients"
+    ]
+   },
+   {
+    "text": "The ____ is always right.",
+    "answer": "customer",
+    "wrong": [
+     "criminal",
+     "patient",
+     "suspect"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "consumer",
+  "sentences": [
+   {
+    "text": "____ are spending less because of high prices.",
+    "answer": "Consumers",
+    "wrong": [
+     "Symptoms",
+     "Habitats",
+     "Vehicles"
+    ]
+   },
+   {
+    "text": "The law protects ____ rights.",
+    "answer": "consumer",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "weather"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "product",
+  "sentences": [
+   {
+    "text": "This shop sells organic ____.",
+    "answer": "products",
+    "wrong": [
+     "habitats",
+     "symptoms",
+     "salaries"
+    ]
+   },
+   {
+    "text": "The company is launching a new ____ next month.",
+    "answer": "product",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "service",
+  "sentences": [
+   {
+    "text": "The ____ at this restaurant is excellent.",
+    "answer": "service",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "The bus ____ runs every ten minutes.",
+    "answer": "service",
+    "wrong": [
+     "habitat",
+     "diet",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "demand",
+  "sentences": [
+   {
+    "text": "There is high ____ for English teachers.",
+    "answer": "demand",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "The workers ____ higher wages.",
+    "answer": "demand",
+    "wrong": [
+     "refuse",
+     "reject",
+     "ignore"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "supply",
+  "sentences": [
+   {
+    "text": "The hospital has a limited ____ of medicine.",
+    "answer": "supply",
+    "wrong": [
+     "demand",
+     "consumption",
+     "request"
+    ]
+   },
+   {
+    "text": "The farm ____ vegetables to local shops.",
+    "answer": "supplies",
+    "wrong": [
+     "consumes",
+     "demands",
+     "buys"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "price",
+  "sentences": [
+   {
+    "text": "The ____ of petrol has gone up again.",
+    "answer": "price",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "What's the ____ of this jacket?",
+    "answer": "price",
+    "wrong": [
+     "habitat",
+     "diet",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "cost",
+  "sentences": [
+   {
+    "text": "The ____ of living in the capital is very high.",
+    "answer": "cost",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "How much does it ____ to fly to Dubai?",
+    "answer": "cost",
+    "wrong": [
+     "earn",
+     "save",
+     "lend"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "profit",
+  "sentences": [
+   {
+    "text": "The company made a ____ of $2 million.",
+    "answer": "profit",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "We sold the house at a small ____.",
+    "answer": "profit",
+    "wrong": [
+     "debt",
+     "habitat",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "loss",
+  "sentences": [
+   {
+    "text": "The company reported a ____ of $1 million this year.",
+    "answer": "loss",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "Weight ____ is easier with exercise.",
+    "answer": "loss",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "investment",
+  "sentences": [
+   {
+    "text": "Buying a house can be a good ____.",
+    "answer": "investment",
+    "wrong": [
+     "illness",
+     "symptom",
+     "habitat"
+    ]
+   },
+   {
+    "text": "The country needs more foreign ____.",
+    "answer": "investment",
+    "wrong": [
+     "pollution",
+     "poverty",
+     "illness"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "business",
+  "sentences": [
+   {
+    "text": "He runs a small ____ selling phones.",
+    "answer": "business",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "She's in Dubai on ____.",
+    "answer": "business",
+    "wrong": [
+     "salary",
+     "diet",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "company",
+  "sentences": [
+   {
+    "text": "She works for a large IT ____.",
+    "answer": "company",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "I enjoy his ____ — he's very funny.",
+    "answer": "company",
+    "wrong": [
+     "salary",
+     "symptom",
+     "habitat"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "enterprise",
+  "sentences": [
+   {
+    "text": "The government supports small and medium ____.",
+    "answer": "enterprises",
+    "wrong": [
+     "habitats",
+     "symptoms",
+     "diets"
+    ]
+   },
+   {
+    "text": "Starting a new ____ requires courage.",
+    "answer": "enterprise",
+    "wrong": [
+     "symptom",
+     "habitat",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "trade",
+  "sentences": [
+   {
+    "text": "International ____ between the two countries has grown.",
+    "answer": "trade",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "The Silk Road was an ancient ____ route.",
+    "answer": "trade",
+    "wrong": [
+     "medical",
+     "hungry",
+     "sleepy"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "export",
+  "sentences": [
+   {
+    "text": "Uzbekistan ____ cotton to many countries.",
+    "answer": "exports",
+    "wrong": [
+     "imports",
+     "consumes",
+     "buys"
+    ]
+   },
+   {
+    "text": "Gold is the country's main ____.",
+    "answer": "export",
+    "wrong": [
+     "import",
+     "symptom",
+     "habitat"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "import",
+  "sentences": [
+   {
+    "text": "The country ____ most of its oil.",
+    "answer": "imports",
+    "wrong": [
+     "belongs",
+     "consists",
+     "exists"
+    ]
+   },
+   {
+    "text": "The government put a tax on car ____.",
+    "answer": "imports",
+    "wrong": [
+     "symptoms",
+     "habitats",
+     "diets"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "tax",
+  "sentences": [
+   {
+    "text": "Everyone who works must pay ____.",
+    "answer": "tax",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "The government plans to raise ____ on cigarettes.",
+    "answer": "taxes",
+    "wrong": [
+     "salaries",
+     "habitats",
+     "symptoms"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "budget",
+  "sentences": [
+   {
+    "text": "We're on a tight ____ this month.",
+    "answer": "budget",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "The school's ____ for books has been cut.",
+    "answer": "budget",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "natural",
+  "sentences": [
+   {
+    "text": "This juice contains only ____ ingredients.",
+    "answer": "natural",
+    "wrong": [
+     "artificial",
+     "fake",
+     "chemical"
+    ]
+   },
+   {
+    "text": "It's ____ to feel nervous before an exam.",
+    "answer": "natural",
+    "wrong": [
+     "illegal",
+     "impossible",
+     "forbidden"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "environmental",
+  "sentences": [
+   {
+    "text": "Plastic waste is a serious ____ problem.",
+    "answer": "environmental",
+    "wrong": [
+     "financial",
+     "medical",
+     "musical"
+    ]
+   },
+   {
+    "text": "She works for an ____ organization that protects forests.",
+    "answer": "environmental",
+    "wrong": [
+     "military",
+     "financial",
+     "musical"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "agriculture",
+  "sentences": [
+   {
+    "text": "Most people in the village work in ____.",
+    "answer": "agriculture",
+    "wrong": [
+     "finance",
+     "fashion",
+     "software"
+    ]
+   },
+   {
+    "text": "____ uses a lot of water in dry regions.",
+    "answer": "Agriculture",
+    "wrong": [
+     "Literacy",
+     "Fashion",
+     "Poetry"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "forest",
+  "sentences": [
+   {
+    "text": "Bears and wolves live in the ____.",
+    "answer": "forest",
+    "wrong": [
+     "desert",
+     "ocean",
+     "city"
+    ]
+   },
+   {
+    "text": "The ____ was destroyed by a huge fire.",
+    "answer": "forest",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "wildlife",
+  "sentences": [
+   {
+    "text": "The national park is full of ____.",
+    "answer": "wildlife",
+    "wrong": [
+     "traffic",
+     "furniture",
+     "pollution"
+    ]
+   },
+   {
+    "text": "Pollution is a threat to local ____.",
+    "answer": "wildlife",
+    "wrong": [
+     "traffic",
+     "furniture",
+     "salary"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "biodiversity",
+  "sentences": [
+   {
+    "text": "Rainforests have the highest ____ on Earth.",
+    "answer": "biodiversity",
+    "wrong": [
+     "unemployment",
+     "pollution",
+     "traffic"
+    ]
+   },
+   {
+    "text": "Cutting down forests reduces ____.",
+    "answer": "biodiversity",
+    "wrong": [
+     "pollution",
+     "traffic",
+     "unemployment"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "drought",
+  "sentences": [
+   {
+    "text": "The long ____ destroyed the crops.",
+    "answer": "drought",
+    "wrong": [
+     "flood",
+     "harvest",
+     "rain"
+    ]
+   },
+   {
+    "text": "Farmers are worried because there has been no rain — it's a ____.",
+    "answer": "drought",
+    "wrong": [
+     "flood",
+     "harvest",
+     "festival"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "flood",
+  "sentences": [
+   {
+    "text": "Heavy rain caused a ____ in the town.",
+    "answer": "flood",
+    "wrong": [
+     "drought",
+     "fire",
+     "harvest"
+    ]
+   },
+   {
+    "text": "The river ____ the fields after the storm.",
+    "answer": "flooded",
+    "wrong": [
+     "dried",
+     "burned",
+     "froze"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "earthquake",
+  "sentences": [
+   {
+    "text": "The ____ shook buildings across the city.",
+    "answer": "earthquake",
+    "wrong": [
+     "drought",
+     "harvest",
+     "festival"
+    ]
+   },
+   {
+    "text": "Japan experiences many ____ every year.",
+    "answer": "earthquakes",
+    "wrong": [
+     "droughts",
+     "harvests",
+     "festivals"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "disaster",
+  "sentences": [
+   {
+    "text": "The flood was a natural ____.",
+    "answer": "disaster",
+    "wrong": [
+     "success",
+     "celebration",
+     "victory"
+    ]
+   },
+   {
+    "text": "The party was a complete ____ — nobody came.",
+    "answer": "disaster",
+    "wrong": [
+     "success",
+     "triumph",
+     "victory"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "temperature",
+  "sentences": [
+   {
+    "text": "The ____ dropped below zero last night.",
+    "answer": "temperature",
+    "wrong": [
+     "population",
+     "salary",
+     "budget"
+    ]
+   },
+   {
+    "text": "The nurse took my ____.",
+    "answer": "temperature",
+    "wrong": [
+     "salary",
+     "passport",
+     "budget"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "forecast",
+  "sentences": [
+   {
+    "text": "The weather ____ says it will rain tomorrow.",
+    "answer": "forecast",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "salary"
+    ]
+   },
+   {
+    "text": "Experts ____ strong economic growth next year.",
+    "answer": "forecast",
+    "wrong": [
+     "swallow",
+     "resign",
+     "retire"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "carbon",
+  "sentences": [
+   {
+    "text": "Trees absorb ____ dioxide from the air.",
+    "answer": "carbon",
+    "wrong": [
+     "salt",
+     "sugar",
+     "water"
+    ]
+   },
+   {
+    "text": "We should reduce our ____ footprint.",
+    "answer": "carbon",
+    "wrong": [
+     "salt",
+     "sugar",
+     "shoe"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "gas",
+  "sentences": [
+   {
+    "text": "We cook with ____, not electricity.",
+    "answer": "gas",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "The car ran out of ____ on the motorway.",
+    "answer": "gas",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "salary"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "solar",
+  "sentences": [
+   {
+    "text": "We put ____ panels on the roof to make electricity.",
+    "answer": "solar",
+    "wrong": [
+     "wooden",
+     "musical",
+     "medical"
+    ]
+   },
+   {
+    "text": "____ energy comes from the sun.",
+    "answer": "Solar",
+    "wrong": [
+     "Wooden",
+     "Hungry",
+     "Polite"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "wind",
+  "sentences": [
+   {
+    "text": "The strong ____ blew the roof off.",
+    "answer": "wind",
+    "wrong": [
+     "salary",
+     "symptom",
+     "habitat"
+    ]
+   },
+   {
+    "text": "____ turbines are common along the coast.",
+    "answer": "Wind",
+    "wrong": [
+     "Salary",
+     "Symptom",
+     "Habitat"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "fuel",
+  "sentences": [
+   {
+    "text": "The car is running low on ____.",
+    "answer": "fuel",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "Coal and oil are fossil ____.",
+    "answer": "fuels",
+    "wrong": [
+     "salaries",
+     "habitats",
+     "symptoms"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "vehicle",
+  "sentences": [
+   {
+    "text": "Electric ____ are becoming more popular.",
+    "answer": "vehicles",
+    "wrong": [
+     "habitats",
+     "symptoms",
+     "salaries"
+    ]
+   },
+   {
+    "text": "No ____ are allowed in the park.",
+    "answer": "vehicles",
+    "wrong": [
+     "habitats",
+     "symptoms",
+     "salaries"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "scientific",
+  "sentences": [
+   {
+    "text": "There is ____ evidence that exercise improves mood.",
+    "answer": "scientific",
+    "wrong": [
+     "hungry",
+     "sleepy",
+     "rude"
+    ]
+   },
+   {
+    "text": "He read a ____ article about black holes.",
+    "answer": "scientific",
+    "wrong": [
+     "hungry",
+     "sleepy",
+     "rude"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "experiment",
+  "sentences": [
+   {
+    "text": "We did an ____ with magnets in the science lesson.",
+    "answer": "experiment",
+    "wrong": [
+     "habitat",
+     "salary",
+     "symptom"
+    ]
+   },
+   {
+    "text": "Scientists ____ on mice to test new drugs.",
+    "answer": "experiment",
+    "wrong": [
+     "resign",
+     "retire",
+     "graduate"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "discover",
+  "sentences": [
+   {
+    "text": "Scientists have ____ a new species of frog.",
+    "answer": "discovered",
+    "wrong": [
+     "destroyed",
+     "hidden",
+     "forgotten"
+    ]
+   },
+   {
+    "text": "Columbus hoped to ____ a new route to India.",
+    "answer": "discover",
+    "wrong": [
+     "destroy",
+     "hide",
+     "forget"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "researcher",
+  "sentences": [
+   {
+    "text": "A team of ____ is studying the virus.",
+    "answer": "researchers",
+    "wrong": [
+     "criminals",
+     "tourists",
+     "customers"
+    ]
+   },
+   {
+    "text": "She works as a ____ at the university.",
+    "answer": "researcher",
+    "wrong": [
+     "criminal",
+     "tourist",
+     "customer"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "laboratory",
+  "sentences": [
+   {
+    "text": "The samples were tested in a ____.",
+    "answer": "laboratory",
+    "wrong": [
+     "kitchen",
+     "cinema",
+     "stadium"
+    ]
+   },
+   {
+    "text": "Students must wear goggles in the ____.",
+    "answer": "laboratory",
+    "wrong": [
+     "cinema",
+     "stadium",
+     "canteen"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "destination",
+  "sentences": [
+   {
+    "text": "Samarkand is a popular tourist ____.",
+    "answer": "destination",
+    "wrong": [
+     "symptom",
+     "salary",
+     "diet"
+    ]
+   },
+   {
+    "text": "We reached our ____ after a ten-hour drive.",
+    "answer": "destination",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "journey",
+  "sentences": [
+   {
+    "text": "The ____ from Tashkent to Bukhara takes six hours by car.",
+    "answer": "journey",
+    "wrong": [
+     "salary",
+     "symptom",
+     "habitat"
+    ]
+   },
+   {
+    "text": "Have a safe ____!",
+    "answer": "journey",
+    "wrong": [
+     "symptom",
+     "salary",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "accommodation",
+  "sentences": [
+   {
+    "text": "The price includes flights and ____.",
+    "answer": "accommodation",
+    "wrong": [
+     "symptoms",
+     "salary",
+     "diet"
+    ]
+   },
+   {
+    "text": "Finding cheap ____ in London is difficult.",
+    "answer": "accommodation",
+    "wrong": [
+     "symptom",
+     "salary",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "reservation",
+  "sentences": [
+   {
+    "text": "I made a ____ for two at the restaurant.",
+    "answer": "reservation",
+    "wrong": [
+     "symptom",
+     "salary",
+     "diagnosis"
+    ]
+   },
+   {
+    "text": "Do you have a ____? — Yes, under the name Karimov.",
+    "answer": "reservation",
+    "wrong": [
+     "symptom",
+     "diagnosis",
+     "salary"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "departure",
+  "sentences": [
+   {
+    "text": "Our ____ was delayed by two hours because of fog.",
+    "answer": "departure",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "Please arrive two hours before ____.",
+    "answer": "departure",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "arrival",
+  "sentences": [
+   {
+    "text": "The ____ of the train was announced over the speakers.",
+    "answer": "arrival",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "On ____ at the hotel, we were given free drinks.",
+    "answer": "arrival",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "luggage",
+  "sentences": [
+   {
+    "text": "You can take one piece of hand ____ on the plane.",
+    "answer": "luggage",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "My ____ was lost at the airport.",
+    "answer": "luggage",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "passport",
+  "sentences": [
+   {
+    "text": "You need a valid ____ to travel abroad.",
+    "answer": "passport",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "Show your ____ at the border.",
+    "answer": "passport",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "visa",
+  "sentences": [
+   {
+    "text": "Do I need a ____ to visit Turkey?",
+    "answer": "visa",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "Her student ____ expires next year.",
+    "answer": "visa",
+    "wrong": [
+     "symptom",
+     "diet",
+     "salary"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "tourist",
+  "sentences": [
+   {
+    "text": "The old city is always full of ____ in summer.",
+    "answer": "tourists",
+    "wrong": [
+     "criminals",
+     "patients",
+     "employees"
+    ]
+   },
+   {
+    "text": "The ____ information centre is next to the station.",
+    "answer": "tourist",
+    "wrong": [
+     "criminal",
+     "patient",
+     "medical"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "attraction",
+  "sentences": [
+   {
+    "text": "The Registan is the main ____ in Samarkand.",
+    "answer": "attraction",
+    "wrong": [
+     "symptom",
+     "salary",
+     "diet"
+    ]
+   },
+   {
+    "text": "The theme park has more than fifty ____.",
+    "answer": "attractions",
+    "wrong": [
+     "symptoms",
+     "salaries",
+     "diets"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "sightseeing",
+  "sentences": [
+   {
+    "text": "We spent the day ____ in Istanbul.",
+    "answer": "sightseeing",
+    "wrong": [
+     "resigning",
+     "suffering",
+     "retiring"
+    ]
+   },
+   {
+    "text": "We didn't have much time for ____.",
+    "answer": "sightseeing",
+    "wrong": [
+     "salary",
+     "symptoms",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "adventure",
+  "sentences": [
+   {
+    "text": "Travelling alone through Asia was a real ____.",
+    "answer": "adventure",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "The children love ____ stories about pirates.",
+    "answer": "adventure",
+    "wrong": [
+     "medical",
+     "financial",
+     "legal"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "abroad",
+  "sentences": [
+   {
+    "text": "She wants to study ____ next year.",
+    "answer": "abroad",
+    "wrong": [
+     "inside",
+     "downstairs",
+     "underground"
+    ]
+   },
+   {
+    "text": "Have you ever been ____?",
+    "answer": "abroad",
+    "wrong": [
+     "hungry",
+     "sleepy",
+     "rude"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "domestic",
+  "sentences": [
+   {
+    "text": "This terminal is for ____ flights only.",
+    "answer": "domestic",
+    "wrong": [
+     "hungry",
+     "sleepy",
+     "rude"
+    ]
+   },
+   {
+    "text": "Cats and dogs are ____ animals.",
+    "answer": "domestic",
+    "wrong": [
+     "wild",
+     "endangered",
+     "extinct"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "local",
+  "sentences": [
+   {
+    "text": "We ate at a small ____ restaurant.",
+    "answer": "local",
+    "wrong": [
+     "hungry",
+     "sleepy",
+     "rude"
+    ]
+   },
+   {
+    "text": "Buy ____ products to support farmers in your area.",
+    "answer": "local",
+    "wrong": [
+     "imported",
+     "foreign",
+     "artificial"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "route",
+  "sentences": [
+   {
+    "text": "What's the quickest ____ to the airport?",
+    "answer": "route",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "The bus ____ goes through the city centre.",
+    "answer": "route",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "transport",
+  "sentences": [
+   {
+    "text": "Public ____ in Tashkent is cheap.",
+    "answer": "transport",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "Trucks ____ goods across the country.",
+    "answer": "transport",
+    "wrong": [
+     "swallow",
+     "resign",
+     "digest"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "traffic",
+  "sentences": [
+   {
+    "text": "We were stuck in ____ for an hour.",
+    "answer": "traffic",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "The ____ is always heavy at 6 p.m.",
+    "answer": "traffic",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "neighbourhood",
+  "sentences": [
+   {
+    "text": "We live in a quiet ____ near the park.",
+    "answer": "neighbourhood",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "There are many good schools in this ____.",
+    "answer": "neighbourhood",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "neighbour",
+  "sentences": [
+   {
+    "text": "Our ____ has a noisy dog.",
+    "answer": "neighbour",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "Kazakhstan is Uzbekistan's northern ____.",
+    "answer": "neighbour",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "rent",
+  "sentences": [
+   {
+    "text": "The ____ for this flat is $400 a month.",
+    "answer": "rent",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "We ____ a car for the weekend.",
+    "answer": "rented",
+    "wrong": [
+     "swallowed",
+     "resigned",
+     "retired"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "property",
+  "sentences": [
+   {
+    "text": "House prices are rising — it's a good time to sell ____.",
+    "answer": "property",
+    "wrong": [
+     "symptoms",
+     "diet",
+     "salary"
+    ]
+   },
+   {
+    "text": "This bag is my ____ — please don't touch it.",
+    "answer": "property",
+    "wrong": [
+     "symptom",
+     "diet",
+     "salary"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "apartment",
+  "sentences": [
+   {
+    "text": "They live in a two-room ____ on the fifth floor.",
+    "answer": "apartment",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "The ____ has a balcony with a view of the park.",
+    "answer": "apartment",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "facility",
+  "sentences": [
+   {
+    "text": "The hotel has excellent sports ____.",
+    "answer": "facilities",
+    "wrong": [
+     "symptoms",
+     "salaries",
+     "diets"
+    ]
+   },
+   {
+    "text": "The new medical ____ will open next year.",
+    "answer": "facility",
+    "wrong": [
+     "symptom",
+     "salary",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "chore",
+  "sentences": [
+   {
+    "text": "Washing dishes is my least favourite ____.",
+    "answer": "chore",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diagnosis"
+    ]
+   },
+   {
+    "text": "Children should help with household ____.",
+    "answer": "chores",
+    "wrong": [
+     "salaries",
+     "symptoms",
+     "diagnoses"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "routine",
+  "sentences": [
+   {
+    "text": "Exercise is part of my daily ____.",
+    "answer": "routine",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diagnosis"
+    ]
+   },
+   {
+    "text": "It was just a ____ check — nothing serious.",
+    "answer": "routine",
+    "wrong": [
+     "hungry",
+     "sleepy",
+     "rude"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "habit",
+  "sentences": [
+   {
+    "text": "Biting your nails is a bad ____.",
+    "answer": "habit",
+    "wrong": [
+     "habitat",
+     "salary",
+     "symptom"
+    ]
+   },
+   {
+    "text": "Reading before bed is a good ____.",
+    "answer": "habit",
+    "wrong": [
+     "habitat",
+     "salary",
+     "diagnosis"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "available",
+  "sentences": [
+   {
+    "text": "Is this room ____ for tonight?",
+    "answer": "available",
+    "wrong": [
+     "hungry",
+     "sleepy",
+     "rude"
+    ]
+   },
+   {
+    "text": "The book is ____ in all good bookshops.",
+    "answer": "available",
+    "wrong": [
+     "hungry",
+     "sleepy",
+     "rude"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "necessary",
+  "sentences": [
+   {
+    "text": "Is it ____ to book tickets in advance?",
+    "answer": "necessary",
+    "wrong": [
+     "hungry",
+     "sleepy",
+     "rude"
+    ]
+   },
+   {
+    "text": "Take only what is ____ for the trip.",
+    "answer": "necessary",
+    "wrong": [
+     "hungry",
+     "sleepy",
+     "rude"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "ordinary",
+  "sentences": [
+   {
+    "text": "It was just an ____ day — nothing special happened.",
+    "answer": "ordinary",
+    "wrong": [
+     "extraordinary",
+     "unusual",
+     "exceptional"
+    ]
+   },
+   {
+    "text": "He's an ____ man with an extraordinary story.",
+    "answer": "ordinary",
+    "wrong": [
+     "hungry",
+     "sleepy",
+     "rude"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "confident",
+  "sentences": [
+   {
+    "text": "She felt ____ before the exam because she had studied hard.",
+    "answer": "confident",
+    "wrong": [
+     "anxious",
+     "nervous",
+     "frightened"
+    ]
+   },
+   {
+    "text": "I'm ____ that we will win.",
+    "answer": "confident",
+    "wrong": [
+     "hungry",
+     "sleepy",
+     "rude"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "curious",
+  "sentences": [
+   {
+    "text": "Children are naturally ____ about the world.",
+    "answer": "curious",
+    "wrong": [
+     "embarrassed",
+     "frustrated",
+     "disappointed"
+    ]
+   },
+   {
+    "text": "I'm ____ to know what happens next.",
+    "answer": "curious",
+    "wrong": [
+     "embarrassed",
+     "frustrated",
+     "disappointed"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "generous",
+  "sentences": [
+   {
+    "text": "He's very ____ — he always pays for everyone.",
+    "answer": "generous",
+    "wrong": [
+     "mean",
+     "selfish",
+     "greedy"
+    ]
+   },
+   {
+    "text": "Thank you for your ____ donation.",
+    "answer": "generous",
+    "wrong": [
+     "selfish",
+     "greedy",
+     "mean"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "honest",
+  "sentences": [
+   {
+    "text": "To be ____, I didn't like the film.",
+    "answer": "honest",
+    "wrong": [
+     "hungry",
+     "sleepy",
+     "curious"
+    ]
+   },
+   {
+    "text": "An ____ man returned the wallet he found.",
+    "answer": "honest",
+    "wrong": [
+     "dishonest",
+     "greedy",
+     "selfish"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "polite",
+  "sentences": [
+   {
+    "text": "It's ____ to say 'thank you'.",
+    "answer": "polite",
+    "wrong": [
+     "rude",
+     "selfish",
+     "greedy"
+    ]
+   },
+   {
+    "text": "The waiter was very ____ to us.",
+    "answer": "polite",
+    "wrong": [
+     "hungry",
+     "sleepy",
+     "ancient"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "sensitive",
+  "sentences": [
+   {
+    "text": "She has ____ skin, so she uses special cream.",
+    "answer": "sensitive",
+    "wrong": [
+     "generous",
+     "honest",
+     "curious"
+    ]
+   },
+   {
+    "text": "Be careful what you say — he's very ____ about his weight.",
+    "answer": "sensitive",
+    "wrong": [
+     "generous",
+     "honest",
+     "polite"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "serious",
+  "sentences": [
+   {
+    "text": "Smoking can cause ____ health problems.",
+    "answer": "serious",
+    "wrong": [
+     "generous",
+     "curious",
+     "polite"
+    ]
+   },
+   {
+    "text": "Are you ____? I thought you were joking.",
+    "answer": "serious",
+    "wrong": [
+     "hungry",
+     "generous",
+     "curious"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "anxious",
+  "sentences": [
+   {
+    "text": "She was ____ about her exam results.",
+    "answer": "anxious",
+    "wrong": [
+     "generous",
+     "honest",
+     "polite"
+    ]
+   },
+   {
+    "text": "Parents often feel ____ when their children travel alone.",
+    "answer": "anxious",
+    "wrong": [
+     "generous",
+     "polite",
+     "honest"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "embarrassed",
+  "sentences": [
+   {
+    "text": "I was ____ when I forgot her name.",
+    "answer": "embarrassed",
+    "wrong": [
+     "generous",
+     "motivated",
+     "determined"
+    ]
+   },
+   {
+    "text": "He felt ____ after falling in front of everyone.",
+    "answer": "embarrassed",
+    "wrong": [
+     "motivated",
+     "determined",
+     "generous"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "disappointed",
+  "sentences": [
+   {
+    "text": "I was ____ with my exam results.",
+    "answer": "disappointed",
+    "wrong": [
+     "generous",
+     "honest",
+     "curious"
+    ]
+   },
+   {
+    "text": "The fans were ____ when their team lost.",
+    "answer": "disappointed",
+    "wrong": [
+     "delighted",
+     "thrilled",
+     "satisfied"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "satisfied",
+  "sentences": [
+   {
+    "text": "Are you ____ with the service?",
+    "answer": "satisfied",
+    "wrong": [
+     "generous",
+     "polite",
+     "curious"
+    ]
+   },
+   {
+    "text": "The boss was ____ with our work.",
+    "answer": "satisfied",
+    "wrong": [
+     "hungry",
+     "sleepy",
+     "ancient"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "frustrated",
+  "sentences": [
+   {
+    "text": "I get ____ when my computer is slow.",
+    "answer": "frustrated",
+    "wrong": [
+     "satisfied",
+     "generous",
+     "honest"
+    ]
+   },
+   {
+    "text": "She felt ____ because nobody listened to her.",
+    "answer": "frustrated",
+    "wrong": [
+     "satisfied",
+     "delighted",
+     "generous"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "motivated",
+  "sentences": [
+   {
+    "text": "Good teachers keep students ____.",
+    "answer": "motivated",
+    "wrong": [
+     "embarrassed",
+     "disappointed",
+     "frustrated"
+    ]
+   },
+   {
+    "text": "He's highly ____ to learn English for his career.",
+    "answer": "motivated",
+    "wrong": [
+     "embarrassed",
+     "disappointed",
+     "frustrated"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "creative",
+  "sentences": [
+   {
+    "text": "She's very ____ — she paints, writes and designs clothes.",
+    "answer": "creative",
+    "wrong": [
+     "anxious",
+     "embarrassed",
+     "frustrated"
+    ]
+   },
+   {
+    "text": "We need a ____ solution to this problem.",
+    "answer": "creative",
+    "wrong": [
+     "anxious",
+     "embarrassed",
+     "disappointed"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "determined",
+  "sentences": [
+   {
+    "text": "She was ____ to finish the marathon.",
+    "answer": "determined",
+    "wrong": [
+     "embarrassed",
+     "disappointed",
+     "frustrated"
+    ]
+   },
+   {
+    "text": "He's a very ____ young man who never gives up.",
+    "answer": "determined",
+    "wrong": [
+     "embarrassed",
+     "disappointed",
+     "anxious"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "avoid",
+  "sentences": [
+   {
+    "text": "Try to ____ eating too much sugar.",
+    "answer": "avoid",
+    "wrong": [
+     "enjoy",
+     "prefer",
+     "love"
+    ]
+   },
+   {
+    "text": "We left early to ____ the traffic.",
+    "answer": "avoid",
+    "wrong": [
+     "enjoy",
+     "join",
+     "create"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "admit",
+  "sentences": [
+   {
+    "text": "He refused to ____ his mistake.",
+    "answer": "admit",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   },
+   {
+    "text": "She ____ that she had broken the vase.",
+    "answer": "admitted",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "existed"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "afford",
+  "sentences": [
+   {
+    "text": "I can't ____ a new car right now.",
+    "answer": "afford",
+    "wrong": [
+     "admit",
+     "avoid",
+     "deserve"
+    ]
+   },
+   {
+    "text": "Can we ____ to go on holiday this year?",
+    "answer": "afford",
+    "wrong": [
+     "admit",
+     "belong",
+     "consist"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "allow",
+  "sentences": [
+   {
+    "text": "My parents don't ____ me to stay out late.",
+    "answer": "allow",
+    "wrong": [
+     "prevent",
+     "forbid",
+     "stop"
+    ]
+   },
+   {
+    "text": "Smoking is not ____ in this building.",
+    "answer": "allowed",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "existed"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "appear",
+  "sentences": [
+   {
+    "text": "A strange man suddenly ____ at the door.",
+    "answer": "appeared",
+    "wrong": [
+     "disappeared",
+     "vanished",
+     "belonged"
+    ]
+   },
+   {
+    "text": "She ____ to be very tired today.",
+    "answer": "appears",
+    "wrong": [
+     "belongs",
+     "consists",
+     "depends"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "belong",
+  "sentences": [
+   {
+    "text": "Who does this bag ____ to?",
+    "answer": "belong",
+    "wrong": [
+     "appear",
+     "consist",
+     "depend"
+    ]
+   },
+   {
+    "text": "Those books ____ to the library.",
+    "answer": "belong",
+    "wrong": [
+     "consist",
+     "appear",
+     "remain"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "consider",
+  "sentences": [
+   {
+    "text": "Have you ever ____ studying abroad?",
+    "answer": "considered",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "depended"
+    ]
+   },
+   {
+    "text": "Please ____ my offer carefully.",
+    "answer": "consider",
+    "wrong": [
+     "belong",
+     "consist",
+     "depend"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "consist",
+  "sentences": [
+   {
+    "text": "The team ____ of five players.",
+    "answer": "consists",
+    "wrong": [
+     "belongs",
+     "depends",
+     "appears"
+    ]
+   },
+   {
+    "text": "The test will ____ of three parts.",
+    "answer": "consist",
+    "wrong": [
+     "belong",
+     "depend",
+     "appear"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "contain",
+  "sentences": [
+   {
+    "text": "This drink ____ a lot of sugar.",
+    "answer": "contains",
+    "wrong": [
+     "consists",
+     "belongs",
+     "depends"
+    ]
+   },
+   {
+    "text": "The box ____ old photos and letters.",
+    "answer": "contained",
+    "wrong": [
+     "consisted",
+     "belonged",
+     "depended"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "depend",
+  "sentences": [
+   {
+    "text": "Whether we go or not will ____ on the weather.",
+    "answer": "depend",
+    "wrong": [
+     "belong",
+     "consist",
+     "contain"
+    ]
+   },
+   {
+    "text": "Many families ____ on tourism for their income.",
+    "answer": "depend",
+    "wrong": [
+     "belong",
+     "consist",
+     "contain"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "deserve",
+  "sentences": [
+   {
+    "text": "You worked hard — you ____ a holiday.",
+    "answer": "deserve",
+    "wrong": [
+     "belong",
+     "consist",
+     "depend"
+    ]
+   },
+   {
+    "text": "The team ____ to win the match.",
+    "answer": "deserved",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "depended"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "enable",
+  "sentences": [
+   {
+    "text": "The scholarship will ____ her to study abroad.",
+    "answer": "enable",
+    "wrong": [
+     "prevent",
+     "forbid",
+     "stop"
+    ]
+   },
+   {
+    "text": "Smartphones ____ us to work from anywhere.",
+    "answer": "enable",
+    "wrong": [
+     "prevent",
+     "forbid",
+     "stop"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "exist",
+  "sentences": [
+   {
+    "text": "Do ghosts really ____?",
+    "answer": "exist",
+    "wrong": [
+     "belong",
+     "consist",
+     "depend"
+    ]
+   },
+   {
+    "text": "This problem has ____ for many years.",
+    "answer": "existed",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "depended"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "expect",
+  "sentences": [
+   {
+    "text": "I ____ the parcel to arrive tomorrow.",
+    "answer": "expect",
+    "wrong": [
+     "belong",
+     "consist",
+     "depend"
+    ]
+   },
+   {
+    "text": "The exam was harder than I ____.",
+    "answer": "expected",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "depended"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "fail",
+  "sentences": [
+   {
+    "text": "If you don't study, you might ____ the exam.",
+    "answer": "fail",
+    "wrong": [
+     "pass",
+     "win",
+     "succeed in"
+    ]
+   },
+   {
+    "text": "The engine ____ to start this morning.",
+    "answer": "failed",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "depended"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "focus",
+  "sentences": [
+   {
+    "text": "It's hard to ____ when you're tired.",
+    "answer": "focus",
+    "wrong": [
+     "belong",
+     "consist",
+     "depend"
+    ]
+   },
+   {
+    "text": "The lesson will ____ on past tenses.",
+    "answer": "focus",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "handle",
+  "sentences": [
+   {
+    "text": "She ____ the difficult customer very calmly.",
+    "answer": "handled",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "existed"
+    ]
+   },
+   {
+    "text": "I can't ____ so much stress.",
+    "answer": "handle",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "involve",
+  "sentences": [
+   {
+    "text": "The job will ____ a lot of travelling.",
+    "answer": "involve",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   },
+   {
+    "text": "How many people were ____ in the accident?",
+    "answer": "involved",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "existed"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "lack",
+  "sentences": [
+   {
+    "text": "The project failed because of a ____ of money.",
+    "answer": "lack",
+    "wrong": [
+     "surplus",
+     "plenty",
+     "wealth"
+    ]
+   },
+   {
+    "text": "He ____ confidence when speaking in public.",
+    "answer": "lacks",
+    "wrong": [
+     "belongs",
+     "consists",
+     "exists"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "lead",
+  "sentences": [
+   {
+    "text": "This road will ____ you to the city centre.",
+    "answer": "lead",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   },
+   {
+    "text": "Smoking can ____ to serious diseases.",
+    "answer": "lead",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "limit",
+  "sentences": [
+   {
+    "text": "There is a speed ____ of 60 km/h in the city.",
+    "answer": "limit",
+    "wrong": [
+     "habitat",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "Try to ____ your screen time to two hours a day.",
+    "answer": "limit",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "obtain",
+  "sentences": [
+   {
+    "text": "You must ____ a visa before you travel.",
+    "answer": "obtain",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   },
+   {
+    "text": "She ____ a degree in economics.",
+    "answer": "obtained",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "existed"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "provide",
+  "sentences": [
+   {
+    "text": "The hotel ____ free breakfast for all guests.",
+    "answer": "provides",
+    "wrong": [
+     "belongs",
+     "consists",
+     "exists"
+    ]
+   },
+   {
+    "text": "Cows ____ us with milk.",
+    "answer": "provide",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "receive",
+  "sentences": [
+   {
+    "text": "Did you ____ my email?",
+    "answer": "receive",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   },
+   {
+    "text": "She ____ a prize for her excellent work.",
+    "answer": "received",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "existed"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "remain",
+  "sentences": [
+   {
+    "text": "Please ____ seated until the plane stops.",
+    "answer": "remain",
+    "wrong": [
+     "belong",
+     "consist",
+     "depend"
+    ]
+   },
+   {
+    "text": "Only a few old buildings ____ in the town.",
+    "answer": "remain",
+    "wrong": [
+     "belong",
+     "consist",
+     "depend"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "solve",
+  "sentences": [
+   {
+    "text": "Can you ____ this maths problem?",
+    "answer": "solve",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   },
+   {
+    "text": "The police finally ____ the mystery.",
+    "answer": "solved",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "existed"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "treat",
+  "sentences": [
+   {
+    "text": "Doctors ____ the patient with antibiotics.",
+    "answer": "treated",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "existed"
+    ]
+   },
+   {
+    "text": "Always ____ other people with respect.",
+    "answer": "treat",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "vary",
+  "sentences": [
+   {
+    "text": "Prices ____ from shop to shop.",
+    "answer": "vary",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   },
+   {
+    "text": "The weather here ____ a lot between seasons.",
+    "answer": "varies",
+    "wrong": [
+     "belongs",
+     "consists",
+     "exists"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "however",
+  "sentences": [
+   {
+    "text": "The hotel was expensive. ____, the service was excellent.",
+    "answer": "However",
+    "wrong": [
+     "Furthermore",
+     "Therefore",
+     "Moreover"
+    ]
+   },
+   {
+    "text": "I wanted to go out. ____, it started raining.",
+    "answer": "However",
+    "wrong": [
+     "Therefore",
+     "Moreover",
+     "Furthermore"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "therefore",
+  "sentences": [
+   {
+    "text": "He didn't study; ____, he failed the exam.",
+    "answer": "therefore",
+    "wrong": [
+     "however",
+     "although",
+     "whereas"
+    ]
+   },
+   {
+    "text": "The road was icy and ____ very dangerous.",
+    "answer": "therefore",
+    "wrong": [
+     "although",
+     "whereas",
+     "despite"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "although",
+  "sentences": [
+   {
+    "text": "____ it was raining, we went for a walk.",
+    "answer": "Although",
+    "wrong": [
+     "Despite",
+     "However",
+     "Therefore"
+    ]
+   },
+   {
+    "text": "She passed the test, ____ she didn't study much.",
+    "answer": "although",
+    "wrong": [
+     "despite",
+     "therefore",
+     "moreover"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "whereas",
+  "sentences": [
+   {
+    "text": "My sister loves sport, ____ I prefer reading.",
+    "answer": "whereas",
+    "wrong": [
+     "therefore",
+     "moreover",
+     "despite"
+    ]
+   },
+   {
+    "text": "Some students learn fast, ____ others need more time.",
+    "answer": "whereas",
+    "wrong": [
+     "therefore",
+     "furthermore",
+     "despite"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "despite",
+  "sentences": [
+   {
+    "text": "They played football ____ the rain.",
+    "answer": "despite",
+    "wrong": [
+     "although",
+     "however",
+     "whereas"
+    ]
+   },
+   {
+    "text": "____ being tired, she finished her homework.",
+    "answer": "Despite",
+    "wrong": [
+     "Although",
+     "However",
+     "Whereas"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "moreover",
+  "sentences": [
+   {
+    "text": "The flat is cheap. ____, it's close to the metro.",
+    "answer": "Moreover",
+    "wrong": [
+     "However",
+     "Nevertheless",
+     "Otherwise"
+    ]
+   },
+   {
+    "text": "He is talented. ____, he works very hard.",
+    "answer": "Moreover",
+    "wrong": [
+     "However",
+     "Nevertheless",
+     "Otherwise"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "nevertheless",
+  "sentences": [
+   {
+    "text": "The task was difficult. ____, we finished it on time.",
+    "answer": "Nevertheless",
+    "wrong": [
+     "Therefore",
+     "Moreover",
+     "Furthermore"
+    ]
+   },
+   {
+    "text": "She was ill; ____, she came to work.",
+    "answer": "nevertheless",
+    "wrong": [
+     "therefore",
+     "moreover",
+     "furthermore"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "otherwise",
+  "sentences": [
+   {
+    "text": "Hurry up, ____ we'll miss the bus.",
+    "answer": "otherwise",
+    "wrong": [
+     "therefore",
+     "moreover",
+     "although"
+    ]
+   },
+   {
+    "text": "Take an umbrella; ____ you'll get wet.",
+    "answer": "otherwise",
+    "wrong": [
+     "moreover",
+     "although",
+     "whereas"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "eventually",
+  "sentences": [
+   {
+    "text": "After many attempts, he ____ passed his driving test.",
+    "answer": "eventually",
+    "wrong": [
+     "rarely",
+     "approximately",
+     "hungrily"
+    ]
+   },
+   {
+    "text": "We waited for hours, and the bus ____ arrived.",
+    "answer": "eventually",
+    "wrong": [
+     "rarely",
+     "never",
+     "approximately"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "particularly",
+  "sentences": [
+   {
+    "text": "I love fruit, ____ apples.",
+    "answer": "particularly",
+    "wrong": [
+     "rarely",
+     "approximately",
+     "gradually"
+    ]
+   },
+   {
+    "text": "The exam was ____ difficult this year.",
+    "answer": "particularly",
+    "wrong": [
+     "approximately",
+     "gradually",
+     "eventually"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "approximately",
+  "sentences": [
+   {
+    "text": "The flight takes ____ three hours.",
+    "answer": "approximately",
+    "wrong": [
+     "rarely",
+     "gradually",
+     "eventually"
+    ]
+   },
+   {
+    "text": "____ 500 people attended the concert.",
+    "answer": "Approximately",
+    "wrong": [
+     "Rarely",
+     "Gradually",
+     "Eventually"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "generally",
+  "sentences": [
+   {
+    "text": "I ____ get up at seven o'clock.",
+    "answer": "generally",
+    "wrong": [
+     "approximately",
+     "significantly",
+     "hungrily"
+    ]
+   },
+   {
+    "text": "____ speaking, people here are very friendly.",
+    "answer": "Generally",
+    "wrong": [
+     "Nearly",
+     "Approximately",
+     "Rarely"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "gradually",
+  "sentences": [
+   {
+    "text": "The weather ____ got warmer as spring came.",
+    "answer": "gradually",
+    "wrong": [
+     "rarely",
+     "approximately",
+     "never"
+    ]
+   },
+   {
+    "text": "Her English improved ____ over the year.",
+    "answer": "gradually",
+    "wrong": [
+     "rarely",
+     "approximately",
+     "nearly"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "mainly",
+  "sentences": [
+   {
+    "text": "The students are ____ from Tashkent.",
+    "answer": "mainly",
+    "wrong": [
+     "rarely",
+     "approximately",
+     "eventually"
+    ]
+   },
+   {
+    "text": "We eat ____ vegetables and rice.",
+    "answer": "mainly",
+    "wrong": [
+     "rarely",
+     "eventually",
+     "gradually"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "significantly",
+  "sentences": [
+   {
+    "text": "Prices have increased ____ this year.",
+    "answer": "significantly",
+    "wrong": [
+     "rarely",
+     "nearly",
+     "hardly ever"
+    ]
+   },
+   {
+    "text": "Exercise can ____ reduce the risk of heart disease.",
+    "answer": "significantly",
+    "wrong": [
+     "rarely",
+     "hardly ever",
+     "never"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "frequently",
+  "sentences": [
+   {
+    "text": "He ____ travels to Moscow for work.",
+    "answer": "frequently",
+    "wrong": [
+     "approximately",
+     "nearly",
+     "gradually"
+    ]
+   },
+   {
+    "text": "This is one of the most ____ asked questions.",
+    "answer": "frequently",
+    "wrong": [
+     "approximately",
+     "nearly",
+     "eventually"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "rarely",
+  "sentences": [
+   {
+    "text": "It ____ snows here — maybe once every five years.",
+    "answer": "rarely",
+    "wrong": [
+     "frequently",
+     "always",
+     "usually"
+    ]
+   },
+   {
+    "text": "She ____ eats meat; she's almost vegetarian.",
+    "answer": "rarely",
+    "wrong": [
+     "frequently",
+     "always",
+     "usually"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "nearly",
+  "sentences": [
+   {
+    "text": "I ____ missed the train this morning!",
+    "answer": "nearly",
+    "wrong": [
+     "rarely",
+     "frequently",
+     "generally"
+    ]
+   },
+   {
+    "text": "It's ____ midnight — time for bed.",
+    "answer": "nearly",
+    "wrong": [
+     "rarely",
+     "frequently",
+     "mainly"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "especially",
+  "sentences": [
+   {
+    "text": "I love Uzbek food, ____ plov.",
+    "answer": "especially",
+    "wrong": [
+     "rarely",
+     "approximately",
+     "eventually"
+    ]
+   },
+   {
+    "text": "This book is written ____ for beginners.",
+    "answer": "especially",
+    "wrong": [
+     "approximately",
+     "rarely",
+     "nearly"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "similarly",
+  "sentences": [
+   {
+    "text": "Boys enjoy the game; ____, girls find it fun too.",
+    "answer": "similarly",
+    "wrong": [
+     "otherwise",
+     "whereas",
+     "despite"
+    ]
+   },
+   {
+    "text": "The two brothers dress ____.",
+    "answer": "similarly",
+    "wrong": [
+     "approximately",
+     "nearly",
+     "eventually"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "consequence",
+  "sentences": [
+   {
+    "text": "Pollution is a ____ of heavy traffic.",
+    "answer": "consequence",
+    "wrong": [
+     "salary",
+     "symptom",
+     "diet"
+    ]
+   },
+   {
+    "text": "If you break the rules, you must accept the ____.",
+    "answer": "consequences",
+    "wrong": [
+     "salaries",
+     "diets",
+     "habitats"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "effect",
+  "sentences": [
+   {
+    "text": "The medicine had no ____ on the pain.",
+    "answer": "effect",
+    "wrong": [
+     "salary",
+     "habitat",
+     "diet"
+    ]
+   },
+   {
+    "text": "Global warming has a serious ____ on sea levels.",
+    "answer": "effect",
+    "wrong": [
+     "affect",
+     "salary",
+     "habitat"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "cause",
+  "sentences": [
+   {
+    "text": "What was the ____ of the fire?",
+    "answer": "cause",
+    "wrong": [
+     "salary",
+     "habitat",
+     "diet"
+    ]
+   },
+   {
+    "text": "Too much sun can ____ skin cancer.",
+    "answer": "cause",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "reason",
+  "sentences": [
+   {
+    "text": "What's the ____ for your visit?",
+    "answer": "reason",
+    "wrong": [
+     "salary",
+     "habitat",
+     "diet"
+    ]
+   },
+   {
+    "text": "There's no ____ to be afraid.",
+    "answer": "reason",
+    "wrong": [
+     "salary",
+     "habitat",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "decision",
+  "sentences": [
+   {
+    "text": "Moving abroad was a difficult ____.",
+    "answer": "decision",
+    "wrong": [
+     "salary",
+     "habitat",
+     "diet"
+    ]
+   },
+   {
+    "text": "The judge will make a ____ tomorrow.",
+    "answer": "decision",
+    "wrong": [
+     "salary",
+     "habitat",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "choice",
+  "sentences": [
+   {
+    "text": "You have a ____ between tea and coffee.",
+    "answer": "choice",
+    "wrong": [
+     "salary",
+     "habitat",
+     "diet"
+    ]
+   },
+   {
+    "text": "I had no ____ but to wait.",
+    "answer": "choice",
+    "wrong": [
+     "salary",
+     "habitat",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "option",
+  "sentences": [
+   {
+    "text": "We have two ____: stay here or go home.",
+    "answer": "options",
+    "wrong": [
+     "salaries",
+     "habitats",
+     "diets"
+    ]
+   },
+   {
+    "text": "Taking the train is the cheapest ____.",
+    "answer": "option",
+    "wrong": [
+     "salary",
+     "habitat",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "possibility",
+  "sentences": [
+   {
+    "text": "Is there any ____ of getting a ticket?",
+    "answer": "possibility",
+    "wrong": [
+     "salary",
+     "habitat",
+     "diet"
+    ]
+   },
+   {
+    "text": "We can't rule out the ____ of rain.",
+    "answer": "possibility",
+    "wrong": [
+     "salary",
+     "habitat",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "priority",
+  "sentences": [
+   {
+    "text": "My family is my top ____.",
+    "answer": "priority",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "Safety should be the first ____.",
+    "answer": "priority",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "requirement",
+  "sentences": [
+   {
+    "text": "A university degree is a ____ for this job.",
+    "answer": "requirement",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "What are the entry ____ for the course?",
+    "answer": "requirements",
+    "wrong": [
+     "salaries",
+     "habitats",
+     "symptoms"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "condition",
+  "sentences": [
+   {
+    "text": "The car is old but in good ____.",
+    "answer": "condition",
+    "wrong": [
+     "salary",
+     "habitat",
+     "diet"
+    ]
+   },
+   {
+    "text": "You can go on one ____: be home by ten.",
+    "answer": "condition",
+    "wrong": [
+     "salary",
+     "habitat",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "situation",
+  "sentences": [
+   {
+    "text": "The economic ____ is getting worse.",
+    "answer": "situation",
+    "wrong": [
+     "salary",
+     "habitat",
+     "diet"
+    ]
+   },
+   {
+    "text": "What would you do in my ____?",
+    "answer": "situation",
+    "wrong": [
+     "salary",
+     "habitat",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "progress",
+  "sentences": [
+   {
+    "text": "Your English is making good ____.",
+    "answer": "progress",
+    "wrong": [
+     "salary",
+     "habitat",
+     "diet"
+    ]
+   },
+   {
+    "text": "Scientists have made great ____ in fighting cancer.",
+    "answer": "progress",
+    "wrong": [
+     "salary",
+     "habitat",
+     "diet"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "success",
+  "sentences": [
+   {
+    "text": "Hard work is the key to ____.",
+    "answer": "success",
+    "wrong": [
+     "failure",
+     "poverty",
+     "illness"
+    ]
+   },
+   {
+    "text": "The concert was a great ____.",
+    "answer": "success",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "failure",
+  "sentences": [
+   {
+    "text": "The project was a complete ____.",
+    "answer": "failure",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "Don't be afraid of ____ — learn from it.",
+    "answer": "failure",
+    "wrong": [
+     "success",
+     "victory",
+     "salary"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "quality",
+  "sentences": [
+   {
+    "text": "This shop sells high-____ clothes.",
+    "answer": "quality",
+    "wrong": [
+     "quantity",
+     "salary",
+     "habitat"
+    ]
+   },
+   {
+    "text": "The ____ of the air in the city is poor.",
+    "answer": "quality",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "quantity",
+  "sentences": [
+   {
+    "text": "The recipe needs a small ____ of salt.",
+    "answer": "quantity",
+    "wrong": [
+     "quality",
+     "salary",
+     "habitat"
+    ]
+   },
+   {
+    "text": "It's about quality, not ____.",
+    "answer": "quantity",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "value",
+  "sentences": [
+   {
+    "text": "The ____ of the house has doubled.",
+    "answer": "value",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "I ____ your opinion very much.",
+    "answer": "value",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "level",
+  "sentences": [
+   {
+    "text": "What ____ of English do you have — B1 or B2?",
+    "answer": "level",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "The water ____ in the river is rising.",
+    "answer": "level",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "increase",
+  "sentences": [
+   {
+    "text": "There has been an ____ in the number of tourists.",
+    "answer": "increase",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "The company plans to ____ salaries next year.",
+    "answer": "increase",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "decrease",
+  "sentences": [
+   {
+    "text": "Crime rates have ____ by 10%.",
+    "answer": "decreased",
+    "wrong": [
+     "belonged",
+     "consisted",
+     "existed"
+    ]
+   },
+   {
+    "text": "There was a sharp ____ in sales last month.",
+    "answer": "decrease",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "change",
+  "sentences": [
+   {
+    "text": "Moving to a new city was a big ____ for us.",
+    "answer": "change",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "You can't ____ the past.",
+    "answer": "change",
+    "wrong": [
+     "belong",
+     "consist",
+     "exist"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "growth",
+  "sentences": [
+   {
+    "text": "The country has seen rapid economic ____.",
+    "answer": "growth",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "Vitamins are important for children's ____.",
+    "answer": "growth",
+    "wrong": [
+     "salary",
+     "habitat",
+     "passport"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "accessibility",
+  "sentences": [
+   {
+    "text": "The new building improves ____ for wheelchair users.",
+    "answer": "accessibility",
+    "wrong": [
+     "obesity",
+     "poverty",
+     "pollution"
+    ]
+   },
+   {
+    "text": "Website ____ helps blind people use the internet.",
+    "answer": "accessibility",
+    "wrong": [
+     "obesity",
+     "pollution",
+     "poverty"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "awareness",
+  "sentences": [
+   {
+    "text": "The campaign aims to raise ____ of cancer.",
+    "answer": "awareness",
+    "wrong": [
+     "obesity",
+     "poverty",
+     "salary"
+    ]
+   },
+   {
+    "text": "There is growing public ____ of environmental issues.",
+    "answer": "awareness",
+    "wrong": [
+     "obesity",
+     "salary",
+     "poverty"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "achievement",
+  "sentences": [
+   {
+    "text": "Winning the Olympic medal was his greatest ____.",
+    "answer": "achievement",
+    "wrong": [
+     "failure",
+     "illness",
+     "injury"
+    ]
+   },
+   {
+    "text": "Graduating from university is a big ____.",
+    "answer": "achievement",
+    "wrong": [
+     "failure",
+     "illness",
+     "salary"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "announcement",
+  "sentences": [
+   {
+    "text": "The company made an important ____ this morning.",
+    "answer": "announcement",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "Listen to the ____ for your flight number.",
+    "answer": "announcement",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "approval",
+  "sentences": [
+   {
+    "text": "The plan needs the manager's ____.",
+    "answer": "approval",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "She looked at her parents for ____.",
+    "answer": "approval",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "background",
+  "sentences": [
+   {
+    "text": "She comes from a poor family ____.",
+    "answer": "background",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "In the ____ of the photo you can see the mountains.",
+    "answer": "background",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "capacity",
+  "sentences": [
+   {
+    "text": "The stadium has a ____ of 40,000 people.",
+    "answer": "capacity",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "The hotel is full to ____.",
+    "answer": "capacity",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "competition",
+  "sentences": [
+   {
+    "text": "She won first prize in a singing ____.",
+    "answer": "competition",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "There is strong ____ for jobs in this field.",
+    "answer": "competition",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "complaint",
+  "sentences": [
+   {
+    "text": "We made a ____ about the noisy neighbours.",
+    "answer": "complaint",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "The manager received many ____ about the food.",
+    "answer": "complaints",
+    "wrong": [
+     "salaries",
+     "habitats",
+     "symptoms"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "complex",
+  "sentences": [
+   {
+    "text": "The human brain is extremely ____.",
+    "answer": "complex",
+    "wrong": [
+     "hungry",
+     "sleepy",
+     "rude"
+    ]
+   },
+   {
+    "text": "They live in a large apartment ____.",
+    "answer": "complex",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   }
+  ]
+ },
+ {
+  "word": "conclusion",
+  "sentences": [
+   {
+    "text": "In ____, exercise is good for both body and mind.",
+    "answer": "conclusion",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   },
+   {
+    "text": "What ____ did you reach after the discussion?",
+    "answer": "conclusion",
+    "wrong": [
+     "salary",
+     "habitat",
+     "symptom"
+    ]
+   }
+  ]
+ }
+]
