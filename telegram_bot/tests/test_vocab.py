@@ -43,7 +43,7 @@ def test_day_mode_round_trip():
     assert parse_day_mode(day_mode(7)) == 7
     assert parse_day_mode("sent") is None
     assert parse_day_mode("day99") is None
-    assert mode_title(day_mode(7)) == "📅 Day 7 testi"
+    assert mode_title(day_mode(7)) == "📝 Test 7"
     assert mode_title("sent") == MODE_TITLES["sent"]
 
 

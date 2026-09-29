@@ -60,3 +60,24 @@ def test_day_test_launches_fifty_questions(monkeypatch):
     asyncio.run(day_handlers.on_day_test(query))
     _, mode, questions = launch.await_args.args
     assert mode == day_mode(4) and len(questions) == 50
+
+
+def run_test_command(args: str | None, chat_type: str = "supergroup"):
+    message = MagicMock()
+    message.chat.type = chat_type
+    message.answer = AsyncMock()
+    asyncio.run(day_handlers.cmd_test(message, MagicMock(args=args)))
+    return message.answer.await_args
+
+
+def test_test_command_with_number_opens_that_test():
+    call = run_test_command("3")
+    assert "Test 3" in call.args[0]
+    assert "day:t:3" in callbacks(call.kwargs["reply_markup"])
+
+
+def test_test_command_without_number_lists_all_tests():
+    for args in (None, "", "99", "abc"):
+        call = run_test_command(args)
+        assert "Test 10" in call.args[0]
+        assert "day:open:1" in callbacks(call.kwargs["reply_markup"])

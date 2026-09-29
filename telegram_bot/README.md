@@ -9,7 +9,7 @@ bo'yicha test savollari, ball tizimi va reyting.
 - ✍️ **Gap to'ldirish** — har bir so'z uchun tayyor gaplar: `After sitting for hours, I went outside to ____.`
 - 🔀 **4 xil yo'nalish** — gap to'ldirish, 🇬🇧→🇺🇿, 🇺🇿→🇬🇧 yoki aralash
 - ⏱ **Har bir savolga 20 soniya** — vaqt tugasa avtomatik keyingi savolga o'tiladi
-- 📚 **Kunlik lug'at (10 kun × 50 so'z)** — har bir so'z: definition, tarjima, sinonim, antonim, kulgili misol va 💡 assotsiatsiya; kartochkalar, PDF jadval va har kunga 50 savollik test
+- 📝 **10 ta test × 50 savol** — 500 so'z 10 ta testga bo'lingan; har bir so'z: definition, tarjima, sinonim, antonim, kulgili misol va 💡 assotsiatsiya; kartochkalar va PDF jadval
 - 👥 **Jamoaviy quiz** — guruhda o'quvchilar jamoalarga (🔴 🔵 🟢 🟡) bo'linadi, a'zolar bali jamoaga yig'iladi, oxirida g'olib jamoa e'lon qilinadi
 - 📊 **50 / 75 / 100** ta savoldan iborat testlar
 - ⚡ **Ball tizimi — tezlikka qarab** — darhol to'g'ri javob 100 ball, 20-soniyada 50 ball, xato yoki vaqt tugasa 0
@@ -84,7 +84,7 @@ to'xtaganda avtomatik qayta ishga tushadi.
 |---------|-----------------|
 | `/start` | Bosh menyu     |
 | `/quiz`  | Yangi quiz (guruhda — jamoaviy) |
-| `/lugat` | Kunlik lug'at: kartochkalar, PDF, Day 1–10 testlari |
+| `/test`  | 10 ta test (`/test 3` — 3-testni ochadi): test, kartochkalar, PDF |
 | `/stop`  | Quizni to'xtatish (boshlagan odam yoki admin) |
 | `/top`   | Reyting        |
 | `/me`    | Profilim       |
@@ -102,8 +102,10 @@ to'xtaganda avtomatik qayta ishga tushadi.
 Jamoa bali — a'zolar ballari yig'indisi. Jamoa tanlamay javob bergan o'quvchi avtomatik eng kam a'zoli jamoaga qo'shiladi.
 Jamoalar ro'yxati `config.py` dagi `TEAMS` da.
 
-**Kunlik test guruhda:** `/lugat` → **Day N** → **🎯 Testni boshlash** — yoki `/quiz` → **📅 Kunlik testlar**.
-Jamoa tanlash va o'yin xuddi yuqoridagidek, faqat savollar o'sha kunning 50 ta so'zidan.
+**50 savollik test guruhda:** `/test 3` → **🎯 Testni boshlash** (yoki `/quiz` → **📝 10 ta test**).
+Jamoa tanlash va o'yin xuddi yuqoridagidek, savollar shu testning 50 ta so'zidan.
+
+Testni istalgan o'quvchi ochishi mumkin; **▶️ Boshlash** va to'xtatishni testni ochgan odam yoki guruh admini bosadi.
 
 Ketma-ket 3 ta savolga hech kim javob bermasa, quiz o'zi to'xtaydi.
 Shaxsiy chatda javob berishingiz bilan keyingi savolga o'tiladi (yakka o'yin).
@@ -120,7 +122,7 @@ Shaxsiy chatda javob berishingiz bilan keyingi savolga o'tiladi (yakka o'yin).
 
 Yangi gap qo'shgach, `python -m pytest tests` bilan bank to'g'riligini tekshiring.
 
-## 📚 Kunlik lug'at
+## 📝 10 ta test va lug'at
 
 `vocab.json` — 500 ta so'z (`words.json` bilan bir xil tartibda), har biri PDF andozasi bo'yicha:
 
@@ -131,8 +133,8 @@ Yangi gap qo'shgach, `python -m pytest tests` bilan bank to'g'riligini tekshirin
  "association": "\"A-chiv\" — jo'ja \"chiv-chiv\" deb tinmay urinib, oxiri donga ERISHDI."}
 ```
 
-So'zlar tartib bo'yicha 10 kunga bo'linadi (1–50 → Day 1, 51–100 → Day 2, …). Kunlik test — kunning
-har bir so'zidan bittadan savol, 5 xil tur navbat bilan: gap to'ldirish, definition, sinonim, 🇬🇧→🇺🇿, 🇺🇿→🇬🇧.
+So'zlar tartib bo'yicha 10 ta testga bo'linadi (1–50 → Test 1, 51–100 → Test 2, …). Har bir test — shu 50
+so'zning har biridan bittadan savol, 5 xil tur navbat bilan: gap to'ldirish, definition, sinonim, 🇬🇧→🇺🇿, 🇺🇿→🇬🇧.
 Javobdan keyin poll izohida so'z tarjimasi va assotsiatsiyasi chiqadi.
 
 `vocab.json` o'zgargach PDF'larni qayta yarating (`fpdf2` va DejaVu shrifti kerak, serverda shart emas):
@@ -167,8 +169,8 @@ telegram_bot/
 ├── quiz.py           # Savollar tuzish, ball hisoblash
 ├── poll_game.py      # Quiz mantiqi (jamoalar, tezlik bo'yicha ball, reyting)
 ├── poll_handlers.py  # Quiz, jamoa tanlash va javob handlerlari
-├── vocab.py          # Kunlik lug'at: kartochkalar, kunlik test savollari
-├── day_handlers.py   # /lugat: kunlar, kartochkalar, PDF, kunlik test
+├── vocab.py          # 10 ta test: so'z kartochkalari va test savollari
+├── day_handlers.py   # /test: testlar ro'yxati, kartochkalar, PDF, 50 savollik test
 ├── build_pdfs.py     # vocab.json → pdf/dayNN.pdf
 ├── branding.py       # Umumiy matn bezaklari
 ├── keyboards.py      # Inline tugmalar
@@ -179,6 +181,6 @@ telegram_bot/
 ├── tests/            # pytest testlari
 ├── sentences.json    # 1000 ta gap (har so'zga 2 ta)
 ├── vocab.json        # 500 ta so'z kartochkasi (definition, sinonim, antonim, misol, assotsiatsiya)
-├── pdf/              # Kunlik lug'at PDF'lari (Day 1–10)
+├── pdf/              # Test 1–10 so'zlari PDF'da
 └── words.json        # 500 ta so'z
 ```

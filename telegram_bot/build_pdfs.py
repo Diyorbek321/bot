@@ -1,4 +1,4 @@
-"""vocab.json dan har bir kun uchun PDF lug'at yaratadi (pdf/day01.pdf … pdf/day10.pdf).
+"""vocab.json dan har bir test (50 so'z) uchun PDF lug'at yaratadi (pdf/day01.pdf … pdf/day10.pdf).
 
 Andoza: "Day 26 intermediate" jadvali + Association ustuni.
 Foydalanish (fpdf2 va DejaVu shrifti kerak, faqat PDF'larni qayta yaratishda):
@@ -33,14 +33,14 @@ def build_day(day: int) -> Path:
     pdf.add_font("DejaVu", "", FONT_DIR / "DejaVuSans.ttf")
     pdf.add_font("DejaVu", "B", FONT_DIR / "DejaVuSans-Bold.ttf")
     pdf.add_font("DejaVu", "I", FONT_DIR / "DejaVuSans-Oblique.ttf")
-    pdf.set_title(f"{BRAND_NAME} — Day {day} vocabulary")
+    pdf.set_title(f"{BRAND_NAME} — Test {day} vocabulary")
     pdf.add_page()
 
     ids = day_word_ids(day)
     pdf.set_font("DejaVu", "B", 15)
-    pdf.cell(0, 9, f"{BRAND_NAME} · Day {day} · Vocabulary", new_x="LMARGIN", new_y="NEXT")
+    pdf.cell(0, 9, f"{BRAND_NAME} · Test {day} · Vocabulary", new_x="LMARGIN", new_y="NEXT")
     pdf.set_font("DejaVu", "I", 9)
-    pdf.cell(0, 6, f"So'zlar {ids[0] + 1}–{ids[-1] + 1} · 50 ta so'z · Test: botda \"Day {day} testi\"",
+    pdf.cell(0, 6, f"So'zlar {ids[0] + 1}–{ids[-1] + 1} · 50 ta so'z · Testni botda boshlash: /test {day}",
              new_x="LMARGIN", new_y="NEXT")
     pdf.ln(2)
 

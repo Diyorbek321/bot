@@ -13,7 +13,7 @@ MODE_MISTAKES = "mistakes"
 # Kunlik test savollari uchun qo'shimcha turlar
 MODE_DEFINITION = "def"
 MODE_SYNONYM = "syn"
-# Kunlik test rejimi: "day1" … "day10"
+# 50 savollik test rejimi: "day1" … "day10" (Test 1 … Test 10)
 MODE_DAY = "day"
 
 MODE_TITLES = {
@@ -27,7 +27,7 @@ MODE_TITLES = {
 
 def mode_title(mode: str) -> str:
     if mode.startswith(MODE_DAY):
-        return f"📅 Day {mode[len(MODE_DAY):]} testi"
+        return f"📝 Test {mode[len(MODE_DAY):]}"
     return MODE_TITLES[mode]
 
 

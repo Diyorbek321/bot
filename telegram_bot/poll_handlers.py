@@ -54,8 +54,8 @@ GROUP_WELCOME = (
     f"⚡ Tez javob — ko'p ball ({POINTS_MAX} → {POINTS_MIN})\n"
     "🏆 Oxirida g'olib jamoa va eng yaxshi o'yinchilar e'lon qilinadi\n"
     f"{DIVIDER}\n\n"
-    "📚 Kunlik lug'at: 10 kun × 50 so'z — PDF, kartochkalar va 50 savollik test\n\n"
-    "Boshlash: /quiz · Lug'at: /lugat · To'xtatish: /stop\n\n"
+    "📝 10 ta test, har biri 50 savol — so'zlari PDF va kartochkalarda\n\n"
+    "Test: /test · Quiz: /quiz · To'xtatish: /stop\n\n"
     f"{BRAND_FOOTER}"
 )
 

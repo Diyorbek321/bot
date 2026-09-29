@@ -1,11 +1,14 @@
-"""Kunlik lug'at: 10 kun × 50 so'z — kartochkalar, PDF va har kunga 50 savollik test."""
+"""10 ta test × 50 so'z: har bir testning so'z kartochkalari, PDF jadvali va 50 savollik testi.
+
+Ichki nomlarda "day" = test raqami (Test 1 … Test 10).
+"""
 
 import logging
 
 from aiogram import F, Router
 from aiogram.enums import ChatType
 from aiogram.exceptions import TelegramAPIError
-from aiogram.filters import Command
+from aiogram.filters import Command, CommandObject
 from aiogram.types import CallbackQuery, FSInputFile, Message
 
 import keyboards as kb
@@ -29,28 +32,28 @@ def day_list_text(is_group: bool) -> str:
     lines = [
         BRAND_HEADER,
         "",
-        f"📚 <b>Kunlik lug'at</b> — {DAY_COUNT} kun × {DAY_SIZE} so'z",
+        f"📝 <b>{DAY_COUNT} ta test</b> — har biri {DAY_SIZE} savol",
         "",
         DIVIDER,
     ]
     for day in range(1, DAY_COUNT + 1):
-        lines.append(f"📅 <b>Day {day}</b> · {day_range_label(day)}")
+        lines.append(f"📝 <b>Test {day}</b> · {day_range_label(day)}")
     lines += [
         DIVIDER,
         "",
-        "Har bir kunda: 📖 so'z kartochkalari, 📄 PDF jadval va 🎯 50 savollik test.",
+        f"Har bir testda: 🎯 {DAY_SIZE} savol, 📖 so'z kartochkalari va 📄 PDF jadval.",
     ]
     if is_group:
-        lines.append("👥 Guruhda test jamoaviy o'tadi — kunni tanlang 👇")
+        lines.append("👥 Guruhda test jamoaviy o'tadi — testni tanlang 👇")
     else:
-        lines.append("Kunni tanlang 👇")
+        lines.append("Testni tanlang 👇")
     return "\n".join(lines)
 
 
 def day_text(day: int) -> str:
     return (
         f"{BRAND_HEADER}\n\n"
-        f"📅 <b>Day {day}</b> · {DAY_SIZE} ta so'z\n"
+        f"📝 <b>Test {day}</b> · {DAY_SIZE} ta savol\n"
         f"<i>{day_range_label(day)}</i>\n\n"
         f"{DIVIDER}\n"
         "📖 <b>So'zlar</b> — definition, 🇺🇿 tarjima, 🔁 sinonim, ↔️ antonim, 😂 kulgili misol "
@@ -59,7 +62,7 @@ def day_text(day: int) -> str:
         f"🎯 <b>Test</b> — {DAY_SIZE} ta savol (gap to'ldirish, definition, sinonim, tarjima), "
         f"har biriga {QUESTION_TIME} soniya\n"
         f"{DIVIDER}\n\n"
-        "💡 Avval so'zlarni o'qing, keyin test ishlang!\n\n"
+        "💡 Avval so'zlarni o'qing, keyin testni ishlang!\n\n"
         f"{BRAND_FOOTER}"
     )
 
@@ -67,7 +70,7 @@ def day_text(day: int) -> str:
 def cards_text(day: int, page: int) -> str:
     ids = day_word_ids(day)[page * CARDS_PER_PAGE:(page + 1) * CARDS_PER_PAGE]
     cards = "\n\n".join(card_text(word_id) for word_id in ids)
-    return f"📅 <b>Day {day}</b> · So'zlar {page + 1}/{PAGES}\n\n{cards}"
+    return f"📝 <b>Test {day}</b> · So'zlar {page + 1}/{PAGES}\n\n{cards}"
 
 
 # ─────────────────────────── Yordamchilar ───────────────────────────
@@ -82,8 +85,13 @@ def is_group(chat_type: str) -> bool:
 
 # ─────────────────────────── Buyruq va tugmalar ───────────────────────────
 
-@router.message(Command("lugat"))
-async def cmd_lugat(message: Message) -> None:
+@router.message(Command("test", "lugat"))
+async def cmd_test(message: Message, command: CommandObject) -> None:
+    """/test — testlar ro'yxati, /test 3 — 3-testni darhol ochadi."""
+    day = parse_day((command.args or "").strip())
+    if day is not None:
+        await message.answer(day_text(day), reply_markup=kb.day_menu(day))
+        return
     group = is_group(message.chat.type)
     await message.answer(day_list_text(group), reply_markup=kb.day_list(group))
 
@@ -129,8 +137,8 @@ async def on_day_pdf(query: CallbackQuery) -> None:
         await query.answer("📄 PDF hozircha mavjud emas.", show_alert=True)
         return
     await query.answer("📄 Yuborilmoqda…")
-    document = pdf_file_ids.get(day) or FSInputFile(path, filename=f"{BRAND_NAME} - Day {day:02d}.pdf")
-    caption = f"📅 <b>Day {day}</b> · {day_range_label(day)}\n🎯 Test: /lugat → Day {day} → Testni boshlash"
+    document = pdf_file_ids.get(day) or FSInputFile(path, filename=f"{BRAND_NAME} - Test {day:02d}.pdf")
+    caption = f"📝 <b>Test {day}</b> so'zlari · {day_range_label(day)}\n🎯 Testni boshlash: /test {day}"
     try:
         sent = await query.message.answer_document(document, caption=caption)
     except TelegramAPIError:

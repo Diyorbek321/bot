@@ -48,7 +48,7 @@ def welcome_text(user: User) -> str:
         f"📚 <b>{BRAND_NAME}</b> o'quv markazining quiz botiga xush kelibsiz — B2 darajadagi "
         f"<b>{len(WORDS)} ta</b> inglizcha so'zni o'yin orqali o'rganing!\n\n"
         f"{DIVIDER}\n"
-        f"📚 {DAY_COUNT} kunlik lug'at: har kuni {DAY_SIZE} so'z — kartochka, PDF va test\n"
+        f"📝 {DAY_COUNT} ta test, har biri {DAY_SIZE} savol — so'zlari kartochka va PDF bilan\n"
         f"⏱ Har bir savolga {QUESTION_TIME} soniya — tez javob bering, ko'p ball oling\n"
         f"👥 Guruhda jamoa bo'lib bellashing\n"
         f"🏆 Reytingda boshqa o'quvchilar bilan bellashing\n"
@@ -72,8 +72,8 @@ HELP_TEXT = (
     f"• Darhol to'g'ri javob — <b>{POINTS_MAX} ball</b>\n"
     f"• Oxirgi soniyada to'g'ri javob — <b>{POINTS_MIN} ball</b>\n"
     "• Xato javob yoki vaqt tugasa — 0 ball\n\n"
-    f"📚 <b>Lug'at va kunlik testlar</b> — {DAY_COUNT} kun, har kunda {DAY_SIZE} so'z. Har bir so'z: "
-    "definition, tarjima, sinonim, antonim, kulgili misol va 💡 assotsiatsiya. Kunning PDF jadvalini "
+    f"📝 <b>{DAY_COUNT} ta test</b> — har biri {DAY_SIZE} ta so'zdan {DAY_SIZE} savol. Har bir so'z: "
+    "definition, tarjima, sinonim, antonim, kulgili misol va 💡 assotsiatsiya. Testning PDF jadvalini "
     f"yuklab oling va {DAY_SIZE} savollik testni ishlang.\n\n"
     "🧠 <b>Xatolarim</b> bo'limida xato qilgan so'zlaringiz saqlanadi. "
     "To'g'ri topsangiz, ro'yxatdan o'chadi.\n"
@@ -84,7 +84,7 @@ HELP_TEXT = (
     "⌨️ <b>Buyruqlar</b>\n"
     "/start — bosh menyu\n"
     "/quiz — yangi test\n"
-    "/lugat — kunlik lug'at va testlar\n"
+    "/test — 10 ta test va ularning so'zlari (/test 3 — 3-test)\n"
     "/stop — quizni to'xtatish\n"
     "/top — reyting\n"
     "/me — profilim\n"
@@ -227,7 +227,7 @@ async def main() -> None:
         [
             BotCommand(command="start", description="🏠 Bosh menyu"),
             BotCommand(command="quiz", description="🎯 Yangi test"),
-            BotCommand(command="lugat", description="📚 Kunlik lug'at va testlar"),
+            BotCommand(command="test", description="📝 10 ta test (50 savoldan)"),
             BotCommand(command="stop", description="⛔ Quizni to'xtatish"),
             BotCommand(command="top", description="🏆 Reyting"),
             BotCommand(command="me", description="👤 Profilim"),
