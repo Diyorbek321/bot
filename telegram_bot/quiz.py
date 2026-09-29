@@ -1,6 +1,6 @@
 import json
 import random
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
 from config import POINTS_MAX, POINTS_MIN, QUESTION_TIME, SENTENCES_PATH, WORDS_PATH
 
@@ -18,9 +18,6 @@ MODE_TITLES = {
     MODE_MIXED: "🔀 Aralash",
     MODE_MISTAKES: "🧠 Xatolar ustida ishlash",
 }
-
-OPTION_LETTERS = ("A", "B", "C", "D")
-
 
 def load_words() -> list[dict]:
     with open(WORDS_PATH, encoding="utf-8") as f:
@@ -63,58 +60,6 @@ def speed_points(elapsed: float, limit: float = QUESTION_TIME) -> int:
     """To'g'ri javob uchun ball: qancha tez javob berilsa, shuncha ko'p (POINTS_MAX → POINTS_MIN)."""
     share = min(max(elapsed / limit, 0.0), 1.0)
     return round(POINTS_MAX - (POINTS_MAX - POINTS_MIN) * share)
-
-
-@dataclass
-class QuizSession:
-    mode: str
-    questions: list[Question]
-    index: int = 0
-    score: int = 0
-    correct: int = 0
-    streak: int = 0
-    best_streak: int = 0
-    last_feedback: str = ""
-    # Joriy savol ko'rsatilgan vaqt (event loop vaqti)
-    asked_at: float = 0.0
-    # Ketma-ket vaqti tugagan savollar (foydalanuvchi ketib qolgan bo'lsa testni to'xtatish uchun)
-    timeouts_in_row: int = 0
-    wrong_words: list[int] = field(default_factory=list)
-
-    @property
-    def current(self) -> Question:
-        return self.questions[self.index]
-
-    @property
-    def finished(self) -> bool:
-        return self.index >= len(self.questions)
-
-    def answer(self, option_index: int, elapsed: float) -> tuple[bool, int]:
-        """Javobni tekshiradi. (to'g'rimi, olingan ball) qaytaradi."""
-        question = self.current
-        is_correct = option_index == question.correct_index
-        gained = 0
-        self.timeouts_in_row = 0
-        if is_correct:
-            self.streak += 1
-            self.best_streak = max(self.best_streak, self.streak)
-            gained = speed_points(elapsed)
-            self.score += gained
-            self.correct += 1
-        else:
-            self._miss()
-        self.index += 1
-        return is_correct, gained
-
-    def timeout(self) -> None:
-        """Vaqt tugadi — savol javobsiz qoldi, keyingisiga o'tiladi."""
-        self.timeouts_in_row += 1
-        self._miss()
-        self.index += 1
-
-    def _miss(self) -> None:
-        self.streak = 0
-        self.wrong_words.append(self.current.word_id)
 
 
 def _make_sentence_question(word_id: int) -> Question:
@@ -172,16 +117,6 @@ def make_question(word_id: int, direction: str) -> Question:
     )
 
 
-def build_session(mode: str, count: int, word_ids: list[int] | None = None) -> QuizSession:
-    """Yangi test sessiyasini yaratadi.
-
-    word_ids berilsa (masalan, xatolar rejimida) savollar faqat shu so'zlardan tuziladi.
-    """
-    pool = word_ids if word_ids else list(range(len(WORDS)))
-    chosen = random.sample(pool, k=min(count, len(pool)))
-    return QuizSession(mode=mode, questions=build_questions(mode, chosen))
-
-
 def build_questions(mode: str, word_ids: list[int]) -> list[Question]:
     """Rejimga qarab savollar: aniq yo'nalish yoki aralash (xatolar rejimi ham aralash)."""
     return [
@@ -192,11 +127,6 @@ def build_questions(mode: str, word_ids: list[int]) -> list[Question]:
 
 def pick_words(count: int) -> list[int]:
     return random.sample(range(len(WORDS)), k=min(count, len(WORDS)))
-
-
-def progress_bar(done: int, total: int, width: int = 10) -> str:
-    filled = round(width * done / total) if total else 0
-    return "🟩" * filled + "⬜" * (width - filled)
 
 
 def level_for(percent: float) -> tuple[str, str]:

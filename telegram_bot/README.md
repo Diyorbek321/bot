@@ -5,17 +5,15 @@ bo'yicha test savollari, ball tizimi va reyting.
 
 ## ✨ Imkoniyatlar
 
-- 🎯 **Test savollari** — har bir savolda 4 ta variant (A, B, C, D)
+- 🗳 **Ovoz berish ko'rinishida** — har bir savol Telegram quiz poll: 4 ta variantdan biriga ovoz beriladi, javobdan keyin to'g'risi va izoh ko'rinadi
 - ✍️ **Gap to'ldirish** — har bir so'z uchun tayyor gaplar: `After sitting for hours, I went outside to ____.`
 - 🔀 **4 xil yo'nalish** — gap to'ldirish, 🇬🇧→🇺🇿, 🇺🇿→🇬🇧 yoki aralash
-- ⏱ **Har bir savolga 20 soniya** — vaqt tugasa avtomatik keyingi savolga o'tiladi (poll quizda ham, tugmali testda ham)
-- 👥 **Jamoaviy quiz** — guruhda o'quvchilar jamoalarga (🔴 🔵 🟢 🟡) bo'linadi, a'zolar bali jamoaga yig'iladi, oxirida g'olib jamoa e'lon qilinadi
+- ⏱ **Har bir savolga 20 soniya** — vaqt tugasa avtomatik keyingi savolga o'tiladi- 👥 **Jamoaviy quiz** — guruhda o'quvchilar jamoalarga (🔴 🔵 🟢 🟡) bo'linadi, a'zolar bali jamoaga yig'iladi, oxirida g'olib jamoa e'lon qilinadi
 - 📊 **50 / 75 / 100** ta savoldan iborat testlar
 - ⚡ **Ball tizimi — tezlikka qarab** — darhol to'g'ri javob 100 ball, 20-soniyada 50 ball, xato yoki vaqt tugasa 0
 - 🏆 **Reyting** — umumiy va haftalik (so'nggi 7 kun) TOP-10
 - 👤 **Profil** — ball, aniqlik foizi, eng uzun seriya, reytingdagi o'rin
 - 🧠 **Xatolarim** — xato qilingan so'zlar saqlanadi va alohida mashq qilinadi
-- 🟩 Progress bar, har bir javobdan keyin darhol natija ko'rsatiladi
 
 ## 🏷 Brend
 
@@ -83,8 +81,8 @@ to'xtaganda avtomatik qayta ishga tushadi.
 | Buyruq  | Vazifasi        |
 |---------|-----------------|
 | `/start` | Bosh menyu     |
-| `/quiz`  | Yangi test (guruhda — vaqtli quiz) |
-| `/stop`  | Vaqtli quizni to'xtatish (boshlagan odam yoki admin) |
+| `/quiz`  | Yangi quiz (guruhda — jamoaviy) |
+| `/stop`  | Quizni to'xtatish (boshlagan odam yoki admin) |
 | `/top`   | Reyting        |
 | `/me`    | Profilim       |
 | `/help`  | Yordam         |
@@ -139,8 +137,8 @@ Yoki `words.json` faylini qo'lda tahrirlang:
 telegram_bot/
 ├── bot.py            # Handlerlar va ishga tushirish
 ├── quiz.py           # Savollar tuzish, ball hisoblash
-├── poll_game.py      # Vaqtli quiz mantiqi (jamoalar, tezlik bo'yicha ball, reyting)
-├── poll_handlers.py  # Vaqtli quiz va guruh handlerlari
+├── poll_game.py      # Quiz mantiqi (jamoalar, tezlik bo'yicha ball, reyting)
+├── poll_handlers.py  # Quiz, jamoa tanlash va javob handlerlari
 ├── branding.py       # Umumiy matn bezaklari
 ├── keyboards.py      # Inline tugmalar
 ├── database.py       # SQLite: foydalanuvchilar, natijalar, xatolar

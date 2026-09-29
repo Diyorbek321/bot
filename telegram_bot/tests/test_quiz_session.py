@@ -1,5 +1,5 @@
 from config import MISTAKES_QUIZ_SIZE, POINTS_MAX, POINTS_MIN, QUESTION_COUNTS
-from quiz import MODE_EN_UZ, build_session, speed_points
+from quiz import MODE_MISTAKES, build_questions, pick_words, speed_points
 
 
 def test_question_counts_start_from_fifty():
@@ -15,30 +15,12 @@ def test_speed_points_range():
     assert speed_points(-1) == POINTS_MAX
 
 
-def test_session_has_requested_count():
-    assert len(build_session(MODE_EN_UZ, 50).questions) == 50
+def test_pick_words_gives_requested_count():
+    words = pick_words(50)
+    assert len(words) == len(set(words)) == 50
 
 
-def test_answer_uses_speed():
-    session = build_session(MODE_EN_UZ, 50)
-    correct = session.current.correct_index
-    assert session.answer(correct, elapsed=0) == (True, POINTS_MAX)
-    correct = session.current.correct_index
-    assert session.answer(correct, elapsed=20) == (True, POINTS_MIN)
-    assert session.score == POINTS_MAX + POINTS_MIN
-    assert session.index == 2
-
-
-def test_timeout_moves_to_next_question():
-    session = build_session(MODE_EN_UZ, 50)
-    first_word = session.current.word_id
-    session.answer(session.current.correct_index, elapsed=1)
-    session.timeout()
-    session.timeout()
-    assert session.index == 3
-    assert session.streak == 0
-    assert session.timeouts_in_row == 2
-    assert session.score == speed_points(1)
-    assert first_word not in session.wrong_words and len(session.wrong_words) == 2
-    session.answer(0, elapsed=1)
-    assert session.timeouts_in_row == 0
+def test_mistakes_mode_builds_mixed_poll_questions():
+    questions = build_questions(MODE_MISTAKES, [0, 1, 2, 3])
+    assert [q.word_id for q in questions] == [0, 1, 2, 3]
+    assert all(len(q.options) == 4 and 0 <= q.correct_index < 4 for q in questions)

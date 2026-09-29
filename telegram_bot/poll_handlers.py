@@ -1,7 +1,8 @@
-"""Vaqtli quiz (Telegram quiz poll) va guruhdagi jamoaviy rejim."""
+"""Quiz (savollar Telegram ovoz berish — quiz poll ko'rinishida): shaxsiy chatda yakka, guruhda jamoaviy."""
 
 import asyncio
 import logging
+import random
 
 from aiogram import Bot, F, Router
 from aiogram.enums import ChatMemberStatus, ChatType, PollType
@@ -12,9 +13,19 @@ from aiogram.types import CallbackQuery, Chat, ChatMemberUpdated, InlineKeyboard
 import database as db
 import keyboards as kb
 from branding import BRAND_FOOTER, BRAND_HEADER, DIVIDER, MEDALS, short_name
-from config import BRAND_NAME, LEADERBOARD_SIZE, POINTS_MAX, POINTS_MIN, POLL_IDLE_LIMIT, POLL_PAUSE, QUESTION_COUNTS, TEAMS
+from config import (
+    BRAND_NAME,
+    LEADERBOARD_SIZE,
+    MISTAKES_QUIZ_SIZE,
+    POINTS_MAX,
+    POINTS_MIN,
+    POLL_IDLE_LIMIT,
+    POLL_PAUSE,
+    QUESTION_COUNTS,
+    TEAMS,
+)
 from poll_game import PollGame, poll_explanation, poll_question
-from quiz import MODE_TITLES, build_questions, pick_words
+from quiz import MODE_MISTAKES, MODE_TITLES, build_questions, level_for, pick_words
 
 router = Router()
 GROUP_CHATS = {ChatType.GROUP, ChatType.SUPERGROUP}
@@ -47,11 +58,11 @@ GROUP_WELCOME = (
     f"{BRAND_FOOTER}"
 )
 
-SETUP_MODE_TEXT = "⏱ <b>Vaqtli quiz</b>\n\nSavol turini tanlang 👇"
+SETUP_MODE_TEXT = "🎯 <b>Quiz</b>\n\nSavol turini tanlang 👇"
 
 
 def setup_count_text(mode: str) -> str:
-    return f"⏱ <b>Vaqtli quiz</b> · {MODE_TITLES[mode]}\n\n📊 <b>Nechta savol?</b>"
+    return f"🎯 <b>Quiz</b> · {MODE_TITLES[mode]}\n\n📊 <b>Nechta savol?</b>"
 
 
 def rules_line(game: PollGame) -> str:
@@ -100,9 +111,9 @@ def intro_text(game: PollGame) -> str:
     )
 
 
-def player_line(place: int, player, asked: int, with_team: bool) -> str:
+def player_line(place: int, player, asked: int) -> str:
     badge = MEDALS.get(place, f"<b>{place}.</b>")
-    team = f" {TEAMS[player.team].split()[0]}" if with_team and player.team else ""
+    team = f" {TEAMS[player.team].split()[0]}" if player.team else ""
     return f"{badge}{team} {short_name(player.name)} — <b>{player.score}</b> ⭐ · ✅ {player.correct}/{asked}"
 
 
@@ -123,6 +134,18 @@ def team_results(game: PollGame) -> list[str]:
     return lines + [DIVIDER, "⚡ <b>Eng yaxshi o'yinchilar</b>"]
 
 
+def private_summary(player, asked: int) -> list[str]:
+    percent = player.correct * 100 / asked if asked else 0
+    level, comment = level_for(percent)
+    return [
+        f"{level}\n<i>{comment}</i>",
+        "",
+        f"✅ To'g'ri javoblar: <b>{player.correct} / {asked}</b>",
+        f"🎯 Aniqlik: <b>{percent:.0f}%</b>",
+        f"⭐ Olingan ball: <b>+{player.score}</b>",
+    ]
+
+
 def results_text(game: PollGame, asked: int) -> str:
     lines = [
         BRAND_HEADER,
@@ -135,11 +158,12 @@ def results_text(game: PollGame, asked: int) -> str:
     ranking = [p for p in game.ranking() if p.answered]
     if not ranking:
         lines.append("Hech kim javob bermadi 🤷")
-    else:
-        if game.is_group:
-            lines += team_results(game)
+    elif game.is_group:
+        lines += team_results(game)
         for place, player in enumerate(ranking[:LEADERBOARD_SIZE], start=1):
-            lines.append(player_line(place, player, asked, game.is_group))
+            lines.append(player_line(place, player, asked))
+    else:
+        lines += private_summary(ranking[0], asked)
     lines += [DIVIDER, "", BRAND_FOOTER]
     return "\n".join(lines)
 
@@ -259,7 +283,7 @@ async def finish_game(bot: Bot, game: PollGame, asked: int, open_poll: int | Non
         if open_poll is not None:
             await bot.stop_poll(game.chat_id, open_poll)
         if asked:
-            await bot.send_message(game.chat_id, results_text(game, asked), reply_markup=kb.after_poll_quiz())
+            await bot.send_message(game.chat_id, results_text(game, asked), reply_markup=kb.after_poll_quiz(game.is_group))
     except TelegramAPIError:
         log.exception("Quiz natijasini yuborib bo'lmadi (chat %s)", game.chat_id)
 
@@ -336,12 +360,13 @@ async def cmd_start_group(message: Message) -> None:
     await message.answer(GROUP_WELCOME, reply_markup=kb.group_menu())
 
 
-@router.message(Command("quiz"), F.chat.type.in_(GROUP_CHATS))
-async def cmd_quiz_group(message: Message) -> None:
+@router.message(Command("quiz"))
+async def cmd_quiz(message: Message) -> None:
     if message.chat.id in games:
         await message.reply("⏳ Bu guruhda quiz allaqachon davom etmoqda. To'xtatish: /stop")
         return
-    await message.answer(SETUP_MODE_TEXT, reply_markup=kb.poll_modes())
+    db.upsert_user(message.from_user.id, message.from_user.full_name, message.from_user.username)
+    await message.answer(SETUP_MODE_TEXT, reply_markup=kb.poll_modes(message.chat.type in GROUP_CHATS))
 
 
 @router.message(Command("stop"))
@@ -360,7 +385,7 @@ async def cmd_stop(message: Message) -> None:
 
 @router.callback_query(F.data == "pq:menu")
 async def on_poll_menu(query: CallbackQuery) -> None:
-    await edit_or_send(query, SETUP_MODE_TEXT, kb.poll_modes())
+    await edit_or_send(query, SETUP_MODE_TEXT, kb.poll_modes(query.message.chat.type in GROUP_CHATS))
     await query.answer()
 
 
@@ -384,6 +409,24 @@ async def on_poll_count(query: CallbackQuery) -> None:
     if count not in QUESTION_COUNTS:
         await query.answer()
         return
+    await launch(query, mode, pick_words(count))
+
+
+@router.callback_query(F.data == "pq:mistakes")
+async def on_poll_mistakes(query: CallbackQuery) -> None:
+    if query.message.chat.type in GROUP_CHATS:
+        await query.answer("🧠 Xatolar ustida ishlash — bot bilan shaxsiy chatda.", show_alert=True)
+        return
+    mistakes = db.get_mistakes(query.from_user.id)
+    if not mistakes:
+        await query.answer("🎉 Sizda hozircha xato qilingan so'zlar yo'q!", show_alert=True)
+        return
+    word_ids = random.sample(mistakes, k=min(MISTAKES_QUIZ_SIZE, len(mistakes)))
+    await launch(query, MODE_MISTAKES, word_ids)
+
+
+async def launch(query: CallbackQuery, mode: str, word_ids: list[int]) -> None:
+    """Shaxsiy chatda quizni darhol boshlaydi, guruhda jamoa tanlashni ochadi."""
     chat = query.message.chat
     if chat.id in games:
         await query.answer("⏳ Bu chatda quiz allaqachon davom etmoqda.", show_alert=True)
@@ -395,7 +438,7 @@ async def on_poll_count(query: CallbackQuery) -> None:
         chat_id=chat.id,
         is_group=chat.type in GROUP_CHATS,
         mode=mode,
-        questions=build_questions(mode, pick_words(count)),
+        questions=build_questions(mode, word_ids),
         started_by=user.id,
     )
     games[chat.id] = game
@@ -406,7 +449,7 @@ async def on_poll_count(query: CallbackQuery) -> None:
         await query.answer("👥 Jamoalarni tanlang")
         return
 
-    await query.answer("🚀 Boshladik!")
+    await query.answer(f"🚀 {game.total} ta savol. Omad!")
     try:
         await query.message.delete()
     except TelegramBadRequest:
