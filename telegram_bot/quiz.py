@@ -13,6 +13,7 @@ MODE_MISTAKES = "mistakes"
 # Kunlik test savollari uchun qo'shimcha turlar
 MODE_DEFINITION = "def"
 MODE_SYNONYM = "syn"
+MODE_ANTONYM = "ant"
 # 50 savollik test rejimi: "day1" … "day10" (Test 1 … Test 10)
 MODE_DAY = "day"
 
@@ -53,7 +54,7 @@ DIRECTIONS = (MODE_EN_UZ, MODE_UZ_EN, MODE_SENTENCE)
 class Question:
     word_id: int
     prompt: str
-    direction: str  # MODE_EN_UZ, MODE_UZ_EN, MODE_SENTENCE, MODE_DEFINITION yoki MODE_SYNONYM
+    direction: str  # MODE_EN_UZ, MODE_UZ_EN, MODE_SENTENCE, MODE_DEFINITION, MODE_SYNONYM yoki MODE_ANTONYM
     options: list[str]
     correct_index: int
 

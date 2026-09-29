@@ -12,6 +12,7 @@ from aiogram.exceptions import TelegramBadRequest
 from aiogram.filters import Command, CommandStart
 from aiogram.types import BotCommand, CallbackQuery, InlineKeyboardMarkup, Message, User
 
+import admin
 import database as db
 import day_handlers
 import keyboards as kb
@@ -23,6 +24,7 @@ from quiz import WORDS
 dp = Dispatcher()
 dp.include_router(poll_handlers.router)
 dp.include_router(day_handlers.router)
+dp.include_router(admin.router)
 PRIVATE = F.chat.type == ChatType.PRIVATE
 
 

@@ -10,6 +10,7 @@ bo'yicha test savollari, ball tizimi va reyting.
 - 🔀 **4 xil yo'nalish** — gap to'ldirish, 🇬🇧→🇺🇿, 🇺🇿→🇬🇧 yoki aralash
 - ⏱ **Har bir savolga 20 soniya** — vaqt tugasa avtomatik keyingi savolga o'tiladi
 - 📝 **10 ta test × 50 savol** — 500 so'z 10 ta testga bo'lingan; har bir so'z: definition, tarjima, sinonim, antonim, kulgili misol va 💡 assotsiatsiya; kartochkalar va PDF jadval
+- 🛠 **Admin panel** — o'quvchilar reytingi, har bir test bo'yicha natijalar, Excel'ga eksport
 - 👥 **Jamoaviy quiz** — guruhda o'quvchilar jamoalarga (🔴 🔵 🟢 🟡) bo'linadi, a'zolar bali jamoaga yig'iladi, oxirida g'olib jamoa e'lon qilinadi
 - 📊 **50 / 75 / 100** ta savoldan iborat testlar
 - ⚡ **Ball tizimi — tezlikka qarab** — darhol to'g'ri javob 100 ball, 20-soniyada 50 ball, xato yoki vaqt tugasa 0
@@ -84,11 +85,31 @@ to'xtaganda avtomatik qayta ishga tushadi.
 |---------|-----------------|
 | `/start` | Bosh menyu     |
 | `/quiz`  | Yangi quiz (guruhda — jamoaviy) |
+| `/admin` | Admin panel: o'quvchilar reytingi, testlar bo'yicha natijalar, Excel (faqat `ADMIN_IDS`) |
+| `/myid`  | O'z Telegram ID'ingizni bilish |
 | `/test`  | 10 ta test (`/test 3` — 3-testni ochadi): test, kartochkalar, PDF |
 | `/stop`  | Quizni to'xtatish (boshlagan odam yoki admin) |
 | `/top`   | Reyting        |
 | `/me`    | Profilim       |
 | `/help`  | Yordam         |
+
+## 🛠 Admin panel
+
+`.env` ga admin(lar)ning Telegram ID'sini yozing (ID'ni bilish uchun botga `/myid` yuboring):
+
+```
+ADMIN_IDS=123456789,987654321
+```
+
+Keyin bot bilan shaxsiy chatda `/admin`:
+
+- 📊 umumiy statistika — foydalanuvchilar, test ishlaganlar, haftalik faollar
+- 👥 o'quvchilar reytingi — ball, testlar soni, aniqlik, oxirgi faollik; o'quvchini bossangiz Test 1–10
+  bo'yicha eng yaxshi natijasi, urinishlar soni va so'nggi natijalari chiqadi
+- 📝 har bir test bo'yicha reyting (eng yaxshi natija)
+- 📥 Excel (CSV) — barcha o'quvchilar va Test 1–10 natijalari bitta jadvalda
+
+Admin panel guruhda ochilmaydi — o'quvchilar ma'lumoti faqat adminga ko'rinadi.
 
 ## 👥 Guruhda ishlatish
 
@@ -134,7 +155,7 @@ Yangi gap qo'shgach, `python -m pytest tests` bilan bank to'g'riligini tekshirin
 ```
 
 So'zlar tartib bo'yicha 10 ta testga bo'linadi (1–50 → Test 1, 51–100 → Test 2, …). Har bir test — shu 50
-so'zning har biridan bittadan savol, 5 xil tur navbat bilan: gap to'ldirish, definition, sinonim, 🇬🇧→🇺🇿, 🇺🇿→🇬🇧.
+so'zning har biridan bittadan savol, 6 xil tur teng aralash (har biridan 8–9 ta): gap to'ldirish, definition, sinonim, antonim, 🇬🇧→🇺🇿, 🇺🇿→🇬🇧.
 Javobdan keyin poll izohida so'z tarjimasi va assotsiatsiyasi chiqadi.
 
 `vocab.json` o'zgargach PDF'larni qayta yarating (`fpdf2` va DejaVu shrifti kerak, serverda shart emas):
@@ -170,6 +191,7 @@ telegram_bot/
 ├── poll_game.py      # Quiz mantiqi (jamoalar, tezlik bo'yicha ball, reyting)
 ├── poll_handlers.py  # Quiz, jamoa tanlash va javob handlerlari
 ├── vocab.py          # 10 ta test: so'z kartochkalari va test savollari
+├── admin.py          # /admin: o'quvchilar reytingi, test natijalari, CSV
 ├── day_handlers.py   # /test: testlar ro'yxati, kartochkalar, PDF, 50 savollik test
 ├── build_pdfs.py     # vocab.json → pdf/dayNN.pdf
 ├── branding.py       # Umumiy matn bezaklari

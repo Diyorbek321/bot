@@ -7,6 +7,8 @@ BASE_DIR = Path(__file__).resolve().parent
 load_dotenv(BASE_DIR / ".env")
 
 TOKEN = getenv("TOKEN")
+# Admin panel (/admin) — Telegram ID'lar vergul bilan: ADMIN_IDS=123456789,987654321
+ADMIN_IDS = frozenset(int(x) for x in getenv("ADMIN_IDS", "").replace(" ", "").split(",") if x.isdigit())
 DB_PATH = getenv("DB_PATH", str(BASE_DIR / "quiz.db"))
 WORDS_PATH = BASE_DIR / "words.json"
 SENTENCES_PATH = BASE_DIR / "sentences.json"

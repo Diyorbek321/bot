@@ -1,9 +1,10 @@
 import re
+from collections import Counter
 
 import pytest
 
 from poll_game import POLL_EXPLANATION_LIMIT, POLL_QUESTION_LIMIT, poll_explanation, poll_question
-from quiz import MODE_DEFINITION, MODE_SYNONYM, MODE_TITLES, WORDS, mode_title
+from quiz import MODE_ANTONYM, MODE_DEFINITION, MODE_SYNONYM, MODE_TITLES, WORDS, mode_title
 from vocab import (
     DAY_COUNT,
     DAY_SIZE,
@@ -59,8 +60,8 @@ def test_day_test_asks_every_word_once(day):
 
 def test_day_test_mixes_question_types():
     directions = {q.direction for day in range(1, 4) for q in build_day_questions(day)}
-    assert {MODE_DEFINITION, MODE_SYNONYM} <= directions
-    assert len(directions) >= 4
+    assert {MODE_DEFINITION, MODE_SYNONYM, MODE_ANTONYM} <= directions
+    assert len(directions) == 6
 
 
 def test_distractors_never_repeat_the_answer_meaning():
@@ -69,13 +70,17 @@ def test_distractors_never_repeat_the_answer_meaning():
             for q in build_day_questions(day):
                 target = VOCAB[q.word_id]
                 wrong = [o for i, o in enumerate(q.options) if i != q.correct_index]
-                if q.direction in (MODE_DEFINITION, MODE_SYNONYM):
+                if q.direction in (MODE_DEFINITION, MODE_SYNONYM, MODE_ANTONYM):
                     assert q.correct_answer == target["en"]
                     others = [e for e in VOCAB if e["en"] in wrong]
                     # bir xil tarjimali yoki sinonimli so'z noto'g'ri variant bo'lmasligi kerak
                     assert all(e["uz"].lower() != target["uz"].lower() for e in others)
                     if q.direction == MODE_SYNONYM:
                         assert all(e["synonym"].lower() != target["synonym"].lower() for e in others)
+                    if q.direction == MODE_ANTONYM:
+                        assert q.prompt == target["antonym"]
+                        # "Increase" ga teskari: decline to'g'ri, decrease ham teskari — variant bo'lmasligi kerak
+                        assert all(e["antonym"].lower() != target["antonym"].lower() for e in others)
                     for option in wrong:
                         assert not re.search(rf"\b{re.escape(option.lower())}\b", q.prompt.lower())
 
@@ -101,3 +106,15 @@ def test_card_text_has_all_columns_and_bold_word():
 
 def test_card_text_escapes_html():
     assert "<" not in card_text(0).replace("<b>", "").replace("</b>", "").replace("<i>", "").replace("</i>", "")
+
+
+def test_antonym_question_text():
+    q = next(q for day in range(1, 3) for q in build_day_questions(day) if q.direction == MODE_ANTONYM)
+    assert "opposite" in poll_question(q, 1, 50) and q.prompt in poll_question(q, 1, 50)
+
+
+@pytest.mark.parametrize("day", range(1, DAY_COUNT + 1))
+def test_question_types_are_balanced(day):
+    counts = Counter(q.direction for q in build_day_questions(day))
+    assert len(counts) == 6
+    assert min(counts.values()) >= 7 and max(counts.values()) <= 10

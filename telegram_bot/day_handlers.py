@@ -59,7 +59,7 @@ def day_text(day: int) -> str:
         "📖 <b>So'zlar</b> — definition, 🇺🇿 tarjima, 🔁 sinonim, ↔️ antonim, 😂 kulgili misol "
         "va 💡 assotsiatsiya\n"
         "📄 <b>PDF</b> — hammasi bitta jadvalda, chop etish uchun\n"
-        f"🎯 <b>Test</b> — {DAY_SIZE} ta savol (gap to'ldirish, definition, sinonim, tarjima), "
+        f"🎯 <b>Test</b> — {DAY_SIZE} ta savol (gap to'ldirish, definition, sinonim, antonim, tarjima), "
         f"har biriga {QUESTION_TIME} soniya\n"
         f"{DIVIDER}\n\n"
         "💡 Avval so'zlarni o'qing, keyin testni ishlang!\n\n"

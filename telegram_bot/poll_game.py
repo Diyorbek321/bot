@@ -8,7 +8,7 @@ import asyncio
 from dataclasses import dataclass, field
 
 from config import QUESTION_TIME, TEAMS
-from quiz import MODE_DEFINITION, MODE_EN_UZ, MODE_SENTENCE, MODE_SYNONYM, Question, speed_points
+from quiz import MODE_ANTONYM, MODE_DEFINITION, MODE_EN_UZ, MODE_SENTENCE, MODE_SYNONYM, Question, speed_points
 from vocab import VOCAB
 
 # Telegram cheklovlari
@@ -158,6 +158,8 @@ def poll_question(question: Question, number: int, total: int) -> str:
         body = f"📘 Which word means: \"{question.prompt}\""
     elif question.direction == MODE_SYNONYM:
         body = f"🔁 Which word is a synonym of \"{question.prompt}\"?"
+    elif question.direction == MODE_ANTONYM:
+        body = f"↔️ Which word is the opposite of \"{question.prompt}\"?"
     else:
         body = f"🇺🇿 {question.prompt} — inglizcha tarjimasi?"
     return f"[{number}/{total}] {body}"[:POLL_QUESTION_LIMIT]

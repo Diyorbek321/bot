@@ -23,7 +23,9 @@ CREATE TABLE IF NOT EXISTS results (
     score       INTEGER NOT NULL,
     correct     INTEGER NOT NULL,
     total       INTEGER NOT NULL,
-    finished_at TEXT NOT NULL
+    finished_at TEXT NOT NULL,
+    mode        TEXT,     -- test turi: "day3" = Test 3, "sent", "mix", …
+    chat_id     INTEGER   -- qaysi chatda (guruh yoki shaxsiy) ishlangan
 );
 
 CREATE TABLE IF NOT EXISTS mistakes (
@@ -47,9 +49,19 @@ def _connect() -> sqlite3.Connection:
     return conn
 
 
+# Eski bazalarga qo'shiladigan ustunlar (ALTER TABLE — ma'lumotlar saqlanib qoladi)
+MIGRATIONS = {"results": {"mode": "TEXT", "chat_id": "INTEGER"}}
+
+
 def init_db() -> None:
     with closing(_connect()) as conn, conn:
         conn.executescript(SCHEMA)
+        for table, columns in MIGRATIONS.items():
+            existing = {row["name"] for row in conn.execute(f"PRAGMA table_info({table})")}
+            for column, kind in columns.items():
+                if column not in existing:
+                    conn.execute(f"ALTER TABLE {table} ADD COLUMN {column} {kind}")
+        conn.execute("CREATE INDEX IF NOT EXISTS idx_results_user_mode ON results (user_id, mode)")
 
 
 def upsert_user(user_id: int, full_name: str, username: str | None) -> None:
@@ -66,11 +78,20 @@ def upsert_user(user_id: int, full_name: str, username: str | None) -> None:
         )
 
 
-def save_result(user_id: int, score: int, correct: int, total: int, best_streak: int) -> None:
+def save_result(
+    user_id: int,
+    score: int,
+    correct: int,
+    total: int,
+    best_streak: int,
+    mode: str | None = None,
+    chat_id: int | None = None,
+) -> None:
     with closing(_connect()) as conn, conn:
         conn.execute(
-            "INSERT INTO results (user_id, score, correct, total, finished_at) VALUES (?, ?, ?, ?, ?)",
-            (user_id, score, correct, total, _now()),
+            "INSERT INTO results (user_id, score, correct, total, finished_at, mode, chat_id) "
+            "VALUES (?, ?, ?, ?, ?, ?, ?)",
+            (user_id, score, correct, total, _now(), mode, chat_id),
         )
         conn.execute(
             """
@@ -159,4 +180,91 @@ def top_weekly(limit: int) -> list[sqlite3.Row]:
             LIMIT ?
             """,
             (since, limit),
+        ).fetchall()
+
+
+# ─────────────────────────── Admin panel ───────────────────────────
+
+def admin_stats() -> dict[str, int]:
+    since = (datetime.now(timezone.utc) - timedelta(days=7)).isoformat()
+    with closing(_connect()) as conn:
+        users, students = conn.execute(
+            "SELECT COUNT(*), COALESCE(SUM(quizzes > 0), 0) FROM users"
+        ).fetchone()
+        active_week, tests = conn.execute(
+            "SELECT COUNT(DISTINCT CASE WHEN finished_at >= ? THEN user_id END), COUNT(*) FROM results",
+            (since,),
+        ).fetchone()
+    return {"users": users, "students": students, "active_week": active_week, "tests": tests}
+
+
+def count_students() -> int:
+    with closing(_connect()) as conn:
+        return conn.execute("SELECT COUNT(*) FROM users WHERE quizzes > 0").fetchone()[0]
+
+
+def list_students(limit: int, offset: int) -> list[sqlite3.Row]:
+    """Test ishlagan o'quvchilar — umumiy ball bo'yicha, oxirgi faollik vaqti bilan."""
+    with closing(_connect()) as conn:
+        return conn.execute(
+            """
+            SELECT u.user_id, u.full_name, u.username, u.total_score, u.quizzes, u.correct, u.answered,
+                   (SELECT MAX(r.finished_at) FROM results r WHERE r.user_id = u.user_id) AS last_active
+            FROM users u
+            WHERE u.quizzes > 0
+            ORDER BY u.total_score DESC, u.correct DESC
+            LIMIT ? OFFSET ?
+            """,
+            (limit, offset),
+        ).fetchall()
+
+
+def student_tests(user_id: int) -> list[sqlite3.Row]:
+    """O'quvchining har bir test turi bo'yicha eng yaxshi natijasi va urinishlar soni."""
+    with closing(_connect()) as conn:
+        return conn.execute(
+            """
+            SELECT mode, COUNT(*) AS attempts, MAX(correct) AS best_correct, MAX(total) AS total,
+                   MAX(score) AS best_score, MAX(finished_at) AS last_at
+            FROM results
+            WHERE user_id = ?
+            GROUP BY mode
+            """,
+            (user_id,),
+        ).fetchall()
+
+
+def recent_results(user_id: int, limit: int) -> list[sqlite3.Row]:
+    with closing(_connect()) as conn:
+        return conn.execute(
+            "SELECT mode, score, correct, total, finished_at FROM results "
+            "WHERE user_id = ? ORDER BY finished_at DESC LIMIT ?",
+            (user_id, limit),
+        ).fetchall()
+
+
+def ranking_for_test(mode: str, limit: int) -> list[sqlite3.Row]:
+    """Bitta test bo'yicha reyting: har bir o'quvchining eng yaxshi natijasi."""
+    with closing(_connect()) as conn:
+        return conn.execute(
+            """
+            SELECT u.user_id, u.full_name, u.username, MAX(r.correct) AS best_correct,
+                   MAX(r.total) AS total, MAX(r.score) AS best_score, COUNT(*) AS attempts
+            FROM results r
+            JOIN users u ON u.user_id = r.user_id
+            WHERE r.mode = ?
+            GROUP BY r.user_id
+            ORDER BY best_correct DESC, best_score DESC
+            LIMIT ?
+            """,
+            (mode, limit),
+        ).fetchall()
+
+
+def best_by_mode() -> list[sqlite3.Row]:
+    """Excel eksporti uchun: (o'quvchi, test) juftligi bo'yicha eng yaxshi to'g'ri javoblar."""
+    with closing(_connect()) as conn:
+        return conn.execute(
+            "SELECT user_id, mode, MAX(correct) AS best_correct, MAX(total) AS total "
+            "FROM results WHERE mode IS NOT NULL GROUP BY user_id, mode"
         ).fetchall()

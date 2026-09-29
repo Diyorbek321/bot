@@ -13,6 +13,7 @@ from pathlib import Path
 
 from config import DAY_COUNT, DAY_SIZE, PDF_DIR, VOCAB_PATH
 from quiz import (
+    MODE_ANTONYM,
     MODE_DAY,
     MODE_DEFINITION,
     MODE_EN_UZ,
@@ -25,7 +26,8 @@ from quiz import (
 )
 
 # Kunlik testda savol turlari navbat bilan beriladi — har biridan taxminan teng miqdorda
-DAY_DIRECTIONS = (MODE_SENTENCE, MODE_DEFINITION, MODE_SYNONYM, MODE_EN_UZ, MODE_UZ_EN)
+DAY_DIRECTIONS = (MODE_SENTENCE, MODE_DEFINITION, MODE_SYNONYM, MODE_ANTONYM, MODE_EN_UZ, MODE_UZ_EN)
+FIELD_OF = {MODE_SYNONYM: "synonym", MODE_ANTONYM: "antonym"}
 BOLD = re.compile(r"\*\*(.+?)\*\*")
 # Telegram HTML uchun faqat <, > va & almashtiriladi — qo'shtirnoqlar o'z holicha qoladi
 escape = partial(html_escape, quote=False)
@@ -106,6 +108,8 @@ def _confusable(target: dict, other: dict) -> bool:
     synonyms = {target["synonym"].lower(), other["synonym"].lower()} - {""}
     if target["synonym"] and target["synonym"].lower() == other["synonym"].lower():
         return True
+    if target["antonym"] and target["antonym"].lower() == other["antonym"].lower():
+        return True  # decline va decrease — ikkalasi ham "Increase" ga teskari
     return target["en"].lower() in synonyms or other["en"].lower() in synonyms
 
 
@@ -139,6 +143,7 @@ def _choice_question(word_id: int, direction: str, pool: list[int]) -> Question:
     prompt_key, answer_key = {
         MODE_DEFINITION: ("definition", "en"),
         MODE_SYNONYM: ("synonym", "en"),
+        MODE_ANTONYM: ("antonym", "en"),
         MODE_EN_UZ: ("en", "uz"),
         MODE_UZ_EN: ("uz", "en"),
     }[direction]
@@ -162,16 +167,36 @@ def make_day_question(word_id: int, direction: str, pool: list[int]) -> Question
         if word_id in SENTENCES:
             return make_question(word_id, MODE_SENTENCE)
         direction = MODE_DEFINITION  # bu so'z uchun gap yo'q
-    if direction == MODE_SYNONYM and not VOCAB[word_id]["synonym"]:
-        direction = MODE_DEFINITION
+    if direction in (MODE_SYNONYM, MODE_ANTONYM) and not VOCAB[word_id][FIELD_OF[direction]]:
+        direction = MODE_DEFINITION  # sinonim yoki antonimi yo'q so'z
     return _choice_question(word_id, direction, pool)
 
 
+def _supports(word_id: int, direction: str) -> bool:
+    if direction == MODE_SENTENCE:
+        return word_id in SENTENCES
+    if direction in FIELD_OF:
+        return bool(VOCAB[word_id][FIELD_OF[direction]])
+    return True
+
+
+def assign_directions(word_ids: list[int]) -> dict[int, str]:
+    """Har bir so'zga savol turi: turlar teng taqsimlanadi, cheklangan turlar (antonim, sinonim,
+    gap) mos so'zlarga birinchi bo'lib beriladi."""
+    count, kinds = len(word_ids), len(DAY_DIRECTIONS)
+    quotas = {d: count // kinds + (i < count % kinds) for i, d in enumerate(DAY_DIRECTIONS)}
+    remaining = random.sample(word_ids, k=count)
+    plan: dict[int, str] = {}
+    for direction in sorted(DAY_DIRECTIONS, key=lambda d: sum(_supports(w, d) for w in word_ids)):
+        chosen = [w for w in remaining if _supports(w, direction)][: quotas[direction]]
+        plan.update(dict.fromkeys(chosen, direction))
+        remaining = [w for w in remaining if w not in plan]
+    plan.update(dict.fromkeys(remaining, MODE_DEFINITION))  # mos tur qolmagan so'zlar
+    return plan
+
+
 def build_day_questions(day: int) -> list[Question]:
-    """Kunning 50 ta so'zi — har biri bittadan savol, turlari aralash, tartibi tasodifiy."""
+    """Testning 50 ta so'zi — har biri bittadan savol, turlari teng aralash, tartibi tasodifiy."""
     pool = list(day_word_ids(day))
-    order = random.sample(pool, k=len(pool))
-    return [
-        make_day_question(word_id, DAY_DIRECTIONS[number % len(DAY_DIRECTIONS)], pool)
-        for number, word_id in enumerate(order)
-    ]
+    plan = assign_directions(pool)
+    return [make_day_question(word_id, plan[word_id], pool) for word_id in random.sample(pool, k=len(pool))]

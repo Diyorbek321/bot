@@ -278,7 +278,15 @@ async def finish_game(bot: Bot, game: PollGame, asked: int, open_poll: int | Non
     for player in game.players.values():
         if not player.answered:
             continue  # jamoaga qo'shilgan, lekin birorta savolga javob bermagan
-        db.save_result(player.user_id, player.score, player.correct, player.answered, player.best_streak)
+        db.save_result(
+            player.user_id,
+            player.score,
+            player.correct,
+            player.answered,
+            player.best_streak,
+            mode=game.mode,
+            chat_id=game.chat_id,
+        )
 
     if open_poll is not None:
         try:
