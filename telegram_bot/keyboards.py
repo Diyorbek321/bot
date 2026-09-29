@@ -30,8 +30,10 @@ def main_menu(bot_username: str) -> InlineKeyboardMarkup:
     return kb.as_markup()
 
 
-def group_menu() -> InlineKeyboardMarkup:
+def group_menu(join: InlineKeyboardButton) -> InlineKeyboardMarkup:
+    """Guruh menyusi; join — o'quvchini shu guruhga biriktirib, botni ochadigan tugma."""
     kb = InlineKeyboardBuilder()
+    kb.row(join)
     kb.row(InlineKeyboardButton(text="⏱ Quizni boshlash", callback_data="pq:menu"))
     kb.row(InlineKeyboardButton(text=f"📝 {DAY_COUNT} ta test ({DAY_SIZE} savoldan)", callback_data="day:list"))
     kb.row(InlineKeyboardButton(text="🏆 Reyting", callback_data="top:all"))

@@ -86,6 +86,7 @@ to'xtaganda avtomatik qayta ishga tushadi.
 | `/start` | Bosh menyu     |
 | `/quiz`  | Yangi quiz (guruhda — jamoaviy) |
 | `/admin` | Admin panel: o'quvchilar reytingi, testlar bo'yicha natijalar, Excel (faqat `ADMIN_IDS`) |
+| `/guruh` | Guruhda — biriktirish havolasi (pin qiling); botda — o'quvchining guruhi |
 | `/myid`  | O'z Telegram ID'ingizni bilish |
 | `/test`  | 10 ta test (`/test 3` — 3-testni ochadi): test, kartochkalar, PDF |
 | `/stop`  | Quizni to'xtatish (boshlagan odam yoki admin) |
@@ -113,15 +114,29 @@ Admin panel guruhda ochilmaydi — o'quvchilar ma'lumoti faqat adminga ko'rinadi
 
 ### 🏫 Guruhlar reytingi
 
-Bot qo'shilgan har bir guruh nomi bilan ro'yxatga olinadi. Guruh natijasi — faqat **shu guruhda**
-ishlangan testlar (shaxsiy chatdagi natijalar guruhga qo'shilmaydi).
+O'quvchilar testni **botda** (shaxsiy chatda) ishlaydi, shuning uchun har bir o'quvchi o'z guruhiga
+biriktiriladi va guruh natijasi — **guruh a'zolarining barcha testlari**.
 
-- `/admin` → **🏫 Guruhlar reytingi** — barcha guruhlar: 🎯 aniqlik, ⭐ ball, 👥 o'quvchilar, 🎮 o'yinlar,
-  🕒 oxirgi faollik. Saralash: **aniqlik** bo'yicha (standart — guruhlar kattaligi har xil bo'lgani uchun
-  adolatli) yoki **ball** bo'yicha
-- guruhni bossangiz — guruh ichidagi o'quvchilar reytingi va Test 1–10 bo'yicha o'rtacha natija
+**Sozlash (har bir guruh uchun bir marta):**
+
+1. Botni guruhga qo'shing va **admin** qiling (maxsus huquq shart emas). Admin bo'lmasa Telegram botga
+   o'quvchi guruh a'zosi ekanini tekshirishga ruxsat bermasligi mumkin.
+2. Guruhda `/guruh` yozing — bot **📝 Testlarni botda ishlash** tugmali xabar yuboradi. Uni **pin** qiling.
+3. O'quvchi tugmani bosadi → bot ochiladi (`/start g<chat_id>`) → bot a'zolikni tekshirib, o'quvchini
+   shu guruhga biriktiradi. Boshqa guruhning havolasi bosilsa — o'quvchi o'sha guruhga o'tadi.
+
+Guruhdagi jamoaviy quizda qatnashgan yoki guruhda `/top` yozgan, lekin hali biriktirilmagan o'quvchi ham
+avtomatik shu guruhga biriktiriladi. O'quvchi o'z guruhini profilida yoki botda `/guruh` bilan ko'radi.
+
+**Ko'rish:**
+
+- `/admin` → **🏫 Guruhlar reytingi** — barcha guruhlar: 🎯 aniqlik, ⭐ ball, 👥 test ishlaganlar/a'zolar,
+  📝 testlar, 🕒 oxirgi faollik; guruhga biriktirilmagan o'quvchilar soni. Saralash: **aniqlik**
+  (standart — guruhlar kattaligi har xil bo'lgani uchun adolatli) yoki **ball** bo'yicha
+- guruhni bossangiz — barcha a'zolar reytingi (**hali test ishlamaganlar** ham ko'rinadi) va Test 1–10
+  bo'yicha guruhning o'rtacha natijasi
 - 📥 guruhlar reytingi CSV'da
-- guruhning o'zida `/top` — shu guruh o'quvchilari va "📍 Guruhlar orasida: 3-o'rin / 12"
+- guruhning o'zida `/top` — shu guruh a'zolari reytingi va "📍 Guruhlar orasida: 3-o'rin / 12"
 
 ## 👥 Guruhda ishlatish
 
@@ -205,6 +220,8 @@ telegram_bot/
 ├── vocab.py          # 10 ta test: so'z kartochkalari va test savollari
 ├── admin.py          # /admin: o'quvchilar reytingi, test natijalari, CSV
 ├── groups.py         # Guruhlar reytingi (admin) va guruhdagi /top
+├── groups_db.py      # Guruhlar va a'zolik so'rovlari
+├── group_link.py     # /guruh: o'quvchini guruhga biriktirish havolasi
 ├── day_handlers.py   # /test: testlar ro'yxati, kartochkalar, PDF, 50 savollik test
 ├── build_pdfs.py     # vocab.json → pdf/dayNN.pdf
 ├── branding.py       # Umumiy matn bezaklari

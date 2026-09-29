@@ -57,7 +57,10 @@ def _connect() -> sqlite3.Connection:
 
 
 # Eski bazalarga qo'shiladigan ustunlar (ALTER TABLE — ma'lumotlar saqlanib qoladi)
-MIGRATIONS = {"results": {"mode": "TEXT", "chat_id": "INTEGER"}}
+MIGRATIONS = {
+    "results": {"mode": "TEXT", "chat_id": "INTEGER"},
+    "users": {"group_id": "INTEGER"},  # o'quvchi biriktirilgan guruh (groups.chat_id)
+}
 
 
 def init_db() -> None:
@@ -70,6 +73,7 @@ def init_db() -> None:
                     conn.execute(f"ALTER TABLE {table} ADD COLUMN {column} {kind}")
         conn.execute("CREATE INDEX IF NOT EXISTS idx_results_user_mode ON results (user_id, mode)")
         conn.execute("CREATE INDEX IF NOT EXISTS idx_results_chat ON results (chat_id)")
+        conn.execute("CREATE INDEX IF NOT EXISTS idx_users_group ON users (group_id)")
 
 
 def upsert_user(user_id: int, full_name: str, username: str | None) -> None:
@@ -278,97 +282,3 @@ def best_by_mode() -> list[sqlite3.Row]:
             "FROM results WHERE mode IS NOT NULL GROUP BY user_id, mode"
         ).fetchall()
 
-
-# ─────────────────────────── Guruhlar ───────────────────────────
-
-# Aniqlik — guruhlar kattaligi har xil bo'lgani uchun adolatli ko'rsatkich; javobsiz guruhlar oxirida
-GROUP_ORDER = {
-    "acc": "(answered = 0), CAST(correct AS REAL) / MAX(answered, 1) DESC, total_score DESC",
-    "score": "total_score DESC, CAST(correct AS REAL) / MAX(answered, 1) DESC",
-}
-
-
-def upsert_group(chat_id: int, title: str) -> None:
-    with closing(_connect()) as conn, conn:
-        conn.execute(
-            """
-            INSERT INTO groups (chat_id, title, added_at) VALUES (?, ?, ?)
-            ON CONFLICT(chat_id) DO UPDATE SET title = excluded.title
-            """,
-            (chat_id, title, _now()),
-        )
-
-
-def add_group_game(chat_id: int) -> None:
-    with closing(_connect()) as conn, conn:
-        conn.execute("UPDATE groups SET games = games + 1 WHERE chat_id = ?", (chat_id,))
-
-
-def get_group(chat_id: int) -> sqlite3.Row | None:
-    with closing(_connect()) as conn:
-        return conn.execute("SELECT * FROM groups WHERE chat_id = ?", (chat_id,)).fetchone()
-
-
-def group_ranking(order: str) -> list[sqlite3.Row]:
-    """Guruhlar reytingi: o'quvchilar, o'yinlar, ball va aniqlik (faqat shu guruhda ishlangan testlar)."""
-    with closing(_connect()) as conn:
-        return conn.execute(
-            f"""
-            SELECT * FROM (
-                SELECT g.chat_id, g.title, g.games,
-                       COUNT(DISTINCT r.user_id) AS students,
-                       COALESCE(SUM(r.score), 0) AS total_score,
-                       COALESCE(SUM(r.correct), 0) AS correct,
-                       COALESCE(SUM(r.total), 0) AS answered,
-                       MAX(r.finished_at) AS last_active
-                FROM groups g
-                LEFT JOIN results r ON r.chat_id = g.chat_id
-                GROUP BY g.chat_id
-            )
-            ORDER BY {GROUP_ORDER[order]}
-            """
-        ).fetchall()
-
-
-def group_place(chat_id: int) -> tuple[int, int] | None:
-    """Guruhning aniqlik bo'yicha o'rni va natijasi bor guruhlar soni."""
-    ranked = [row["chat_id"] for row in group_ranking("acc") if row["answered"]]
-    if chat_id not in ranked:
-        return None
-    return ranked.index(chat_id) + 1, len(ranked)
-
-
-def group_students(chat_id: int, limit: int) -> list[sqlite3.Row]:
-    """Guruh ichidagi reyting: faqat shu guruhda to'plangan ballar."""
-    with closing(_connect()) as conn:
-        return conn.execute(
-            """
-            SELECT u.user_id, u.full_name, u.username, SUM(r.score) AS score, SUM(r.correct) AS correct,
-                   SUM(r.total) AS answered, COUNT(*) AS games, MAX(r.finished_at) AS last_active
-            FROM results r
-            JOIN users u ON u.user_id = r.user_id
-            WHERE r.chat_id = ?
-            GROUP BY r.user_id
-            ORDER BY score DESC, correct DESC
-            LIMIT ?
-            """,
-            (chat_id, limit),
-        ).fetchall()
-
-
-def group_tests(chat_id: int) -> list[sqlite3.Row]:
-    """Guruhning har bir test bo'yicha natijasi: o'quvchilar eng yaxshi natijalarining o'rtachasi."""
-    with closing(_connect()) as conn:
-        return conn.execute(
-            """
-            SELECT mode, COUNT(*) AS participants, AVG(best) AS avg_best, MAX(total) AS total
-            FROM (
-                SELECT mode, user_id, MAX(correct) AS best, MAX(total) AS total
-                FROM results
-                WHERE chat_id = ? AND mode IS NOT NULL
-                GROUP BY mode, user_id
-            )
-            GROUP BY mode
-            """,
-            (chat_id,),
-        ).fetchall()

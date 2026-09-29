@@ -11,7 +11,9 @@ from aiogram.filters import JOIN_TRANSITION, ChatMemberUpdatedFilter, Command, C
 from aiogram.types import CallbackQuery, Chat, ChatMemberUpdated, InlineKeyboardMarkup, Message, PollAnswer
 
 import database as db
+import groups_db as gdb
 import keyboards as kb
+from group_link import join_button, remember_group
 from branding import BRAND_FOOTER, BRAND_HEADER, DIVIDER, MEDALS, short_name
 from config import (
     BRAND_NAME,
@@ -54,8 +56,10 @@ GROUP_WELCOME = (
     f"⚡ Tez javob — ko'p ball ({POINTS_MAX} → {POINTS_MIN})\n"
     "🏆 Oxirida g'olib jamoa va eng yaxshi o'yinchilar e'lon qilinadi\n"
     f"{DIVIDER}\n\n"
-    "📝 10 ta test, har biri 50 savol — so'zlari PDF va kartochkalarda\n\n"
-    "Test: /test · Quiz: /quiz · To'xtatish: /stop\n\n"
+    "📝 10 ta test, har biri 50 savol — so'zlari PDF va kartochkalarda\n"
+    "🏫 <b>Testlarni botda ishlash</b> tugmasini bosgan o'quvchining natijalari shu guruh reytingiga "
+    "qo'shiladi\n\n"
+    "Test: /test · Guruh reytingi: /top · Havola: /guruh · To'xtatish: /stop\n\n"
     f"{BRAND_FOOTER}"
 )
 
@@ -288,7 +292,10 @@ async def finish_game(bot: Bot, game: PollGame, asked: int, open_poll: int | Non
             chat_id=game.chat_id,
         )
     if game.is_group and any(player.answered for player in game.players.values()):
-        db.add_group_game(game.chat_id)
+        gdb.add_group_game(game.chat_id)
+        for player in game.players.values():
+            if player.answered:  # guruhda o'ynagan — demak shu guruh a'zosi
+                gdb.set_group_if_missing(player.user_id, game.chat_id)
 
     if open_poll is not None:
         try:
@@ -364,21 +371,21 @@ def schedule_lobby_refresh(bot: Bot, game: PollGame) -> None:
 
 # ─────────────────────────── Guruh ───────────────────────────
 
-def remember_group(chat: Chat) -> None:
-    """Guruhni reyting uchun ro'yxatga oladi (nomi o'zgargan bo'lsa yangilaydi)."""
-    db.upsert_group(chat.id, chat.title or f"Guruh {chat.id}")
+async def group_menu(bot: Bot, chat: Chat) -> InlineKeyboardMarkup:
+    me = await bot.me()
+    return kb.group_menu(join_button(me.username, chat.id))
 
 
 @router.my_chat_member(ChatMemberUpdatedFilter(JOIN_TRANSITION), F.chat.type.in_(GROUP_CHATS))
 async def on_added_to_group(event: ChatMemberUpdated) -> None:
     remember_group(event.chat)
-    await event.bot.send_message(event.chat.id, GROUP_WELCOME, reply_markup=kb.group_menu())
+    await event.bot.send_message(event.chat.id, GROUP_WELCOME, reply_markup=await group_menu(event.bot, event.chat))
 
 
 @router.message(CommandStart(), F.chat.type.in_(GROUP_CHATS))
 async def cmd_start_group(message: Message) -> None:
     remember_group(message.chat)
-    await message.answer(GROUP_WELCOME, reply_markup=kb.group_menu())
+    await message.answer(GROUP_WELCOME, reply_markup=await group_menu(message.bot, message.chat))
 
 
 @router.message(Command("quiz"))

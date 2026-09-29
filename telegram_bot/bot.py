@@ -9,13 +9,15 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.client.session.aiohttp import AiohttpSession
 from aiogram.enums import ChatType, ParseMode
 from aiogram.exceptions import TelegramBadRequest
-from aiogram.filters import Command, CommandStart
+from aiogram.filters import Command, CommandObject, CommandStart
 from aiogram.types import BotCommand, CallbackQuery, InlineKeyboardMarkup, Message, User
 
 import admin
 import database as db
 import day_handlers
+import group_link
 import groups
+import groups_db as gdb
 import keyboards as kb
 import poll_handlers
 from branding import BRAND_FOOTER, BRAND_HEADER, DIVIDER, MEDALS, short_name
@@ -27,6 +29,7 @@ dp.include_router(poll_handlers.router)
 dp.include_router(day_handlers.router)
 dp.include_router(admin.router)
 dp.include_router(groups.router)
+dp.include_router(group_link.router)
 PRIVATE = F.chat.type == ChatType.PRIVATE
 
 
@@ -103,7 +106,8 @@ def profile_text(user: User) -> str:
     if not row or row["quizzes"] == 0:
         return (
             f"{BRAND_HEADER}\n\n"
-            f"👤 <b>{escape(user.full_name)}</b>\n\n"
+            f"👤 <b>{escape(user.full_name)}</b>\n"
+            f"{group_link.group_line(user.id, hint=' — /guruh')}\n\n"
             "Siz hali birorta ham test ishlamadingiz.\n"
             "🎯 Birinchi testni boshlang va reytingga kiring!"
         )
@@ -111,7 +115,8 @@ def profile_text(user: User) -> str:
     rank, participants = db.get_rank(user.id)
     return (
         f"{BRAND_HEADER}\n\n"
-        f"👤 <b>{escape(row['full_name'])}</b>\n\n"
+        f"👤 <b>{escape(row['full_name'])}</b>\n"
+        f"{group_link.group_line(user.id, hint=' — /guruh')}\n\n"
         f"{DIVIDER}\n"
         f"🏆 Reyting: <b>{rank}</b>-o'rin ({participants} ta ishtirokchi)\n"
         f"⭐ Umumiy ball: <b>{row['total_score']}</b>\n"
@@ -163,8 +168,12 @@ async def main_menu(bot: Bot) -> InlineKeyboardMarkup:
 
 
 @dp.message(CommandStart(), PRIVATE)
-async def cmd_start(message: Message) -> None:
+async def cmd_start(message: Message, command: CommandObject) -> None:
     register(message.from_user)
+    # Guruhdagi "📝 Testlarni botda ishlash" tugmasi: /start g<chat_id> — o'quvchini guruhga biriktiradi
+    group_id = group_link.parse_join_payload(command.args)
+    if group_id is not None:
+        await message.answer(await group_link.link_student(message.bot, message.from_user, group_id))
     await message.answer(welcome_text(message.from_user), reply_markup=await main_menu(message.bot))
 
 
@@ -173,8 +182,13 @@ async def cmd_top(message: Message) -> None:
     register(message.from_user)
     if message.chat.type in poll_handlers.GROUP_CHATS:
         # Guruhda — shu guruh o'quvchilari va guruhning boshqa guruhlar orasidagi o'rni
-        poll_handlers.remember_group(message.chat)
-        await message.answer(groups.group_top_text(message.chat.id, message.chat.title or "", message.from_user.id))
+        group_link.remember_group(message.chat)
+        gdb.set_group_if_missing(message.from_user.id, message.chat.id)
+        me = await message.bot.me()
+        await message.answer(
+            groups.group_top_text(message.chat.id, message.chat.title or "", message.from_user.id),
+            reply_markup=group_link.join_keyboard(me.username, message.chat.id),
+        )
         return
     await message.answer(leaderboard_text(message.from_user, "all"), reply_markup=kb.leaderboard("all"))
 
@@ -239,6 +253,7 @@ async def main() -> None:
             BotCommand(command="test", description="📝 10 ta test (50 savoldan)"),
             BotCommand(command="stop", description="⛔ Quizni to'xtatish"),
             BotCommand(command="top", description="🏆 Reyting"),
+            BotCommand(command="guruh", description="🏫 Guruhim / guruh havolasi"),
             BotCommand(command="me", description="👤 Profilim"),
             BotCommand(command="help", description="ℹ️ Yordam"),
         ]

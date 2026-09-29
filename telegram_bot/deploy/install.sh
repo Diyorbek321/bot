@@ -23,7 +23,7 @@ id "$APP_USER" &>/dev/null || useradd --system --home-dir "$APP_DIR" --shell /us
 mkdir -p "$APP_DIR"
 
 # Kodni nusxalash (.env, baza va venv saqlanib qoladi)
-for f in admin.py bot.py branding.py config.py database.py day_handlers.py groups.py keyboards.py poll_game.py \
+for f in admin.py bot.py branding.py config.py database.py day_handlers.py group_link.py groups.py groups_db.py keyboards.py poll_game.py \
          poll_handlers.py quiz.py vocab.py words.json sentences.json vocab.json requirements.txt; do
     install -m 644 "$SRC_DIR/$f" "$APP_DIR/$f"
 done

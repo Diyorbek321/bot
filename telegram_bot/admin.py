@@ -16,6 +16,7 @@ from aiogram.types import BufferedInputFile, CallbackQuery, InlineKeyboardButton
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 import database as db
+from group_link import group_line
 from branding import BRAND_HEADER, DIVIDER, MEDALS
 from config import ADMIN_IDS, BRAND_NAME, DAY_COUNT
 from poll_handlers import edit_or_send
@@ -109,6 +110,7 @@ def student_text(user_id: int) -> str | None:
         f"📝 Testlar: <b>{user['quizzes']}</b> · ✅ {user['correct']}/{user['answered']} · "
         f"🎯 {accuracy(user['correct'], user['answered'])}%",
         f"🧠 Takrorlash kerak so'zlar: <b>{len(db.get_mistakes(user_id))}</b>",
+        group_line(user_id),
         "",
         DIVIDER,
         "📝 <b>Testlar bo'yicha (eng yaxshi natija)</b>",

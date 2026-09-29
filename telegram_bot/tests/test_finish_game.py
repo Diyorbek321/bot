@@ -22,8 +22,9 @@ def test_results_sent_even_if_poll_cannot_be_stopped(monkeypatch):
 
 
 def test_group_game_is_counted_with_mode_and_chat(monkeypatch):
-    fake_db = MagicMock()
+    fake_db, fake_gdb = MagicMock(), MagicMock()
     monkeypatch.setattr(poll_handlers, "db", fake_db)
+    monkeypatch.setattr(poll_handlers, "gdb", fake_gdb)
     questions = [Question(0, "word ____", MODE_SENTENCE, ["a", "b", "c", "d"], 1)]
     game = PollGame(chat_id=-100, is_group=True, mode="day2", questions=questions, started_by=7)
     game.polls = {"p0": 0}
@@ -35,16 +36,19 @@ def test_group_game_is_counted_with_mode_and_chat(monkeypatch):
     asyncio.run(poll_handlers.finish_game(bot, game, asked=1, open_poll=None))
 
     assert fake_db.save_result.call_args.kwargs == {"mode": "day2", "chat_id": -100}
-    fake_db.add_group_game.assert_called_once_with(-100)
+    fake_gdb.add_group_game.assert_called_once_with(-100)
+    # guruhda o'ynagan, lekin guruhga biriktirilmagan o'quvchi shu guruhga biriktiriladi
+    fake_gdb.set_group_if_missing.assert_called_once_with(7, -100)
 
 
 def test_group_game_without_answers_is_not_counted(monkeypatch):
-    fake_db = MagicMock()
-    monkeypatch.setattr(poll_handlers, "db", fake_db)
+    fake_gdb = MagicMock()
+    monkeypatch.setattr(poll_handlers, "db", MagicMock())
+    monkeypatch.setattr(poll_handlers, "gdb", fake_gdb)
     questions = [Question(0, "word ____", MODE_SENTENCE, ["a", "b", "c", "d"], 1)]
     game = PollGame(chat_id=-100, is_group=True, mode="day2", questions=questions, started_by=7)
     game.join_team(7, "Ali", "red")
 
     asyncio.run(poll_handlers.finish_game(MagicMock(send_message=AsyncMock()), game, asked=1, open_poll=None))
 
-    fake_db.add_group_game.assert_not_called()
+    fake_gdb.add_group_game.assert_not_called()

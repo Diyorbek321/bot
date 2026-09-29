@@ -8,6 +8,7 @@ from aiogram.enums import ChatType
 
 import database as db
 import groups
+import groups_db as gdb
 
 ADMIN, STUDENT = 111, 222
 GROUP_A, GROUP_B = -1001, -1002
@@ -18,12 +19,15 @@ def setup(tmp_path, monkeypatch):
     monkeypatch.setattr(db, "DB_PATH", str(tmp_path / "quiz.db"))
     monkeypatch.setattr(groups, "is_admin", lambda user_id: user_id == ADMIN)
     db.init_db()
-    db.upsert_group(GROUP_A, "IELTS <1>")
-    db.upsert_group(GROUP_B, "Kids 2")
-    db.upsert_user(1, "Ali", "ali")
-    db.upsert_user(2, "Vali", None)
-    db.save_result(1, 3000, 30, 50, 3, mode="day1", chat_id=GROUP_A)
-    db.save_result(2, 1500, 45, 50, 3, mode="day1", chat_id=GROUP_B)
+    gdb.upsert_group(GROUP_A, "IELTS <1>")
+    gdb.upsert_group(GROUP_B, "Kids 2")
+    for user_id, name, username, group in ((1, "Ali", "ali", GROUP_A), (2, "Vali", None, GROUP_B),
+                                           (3, "Dangasa", None, GROUP_A)):
+        db.upsert_user(user_id, name, username)
+        gdb.set_user_group(user_id, group)
+    # Testlar botda — shaxsiy chatda ishlangan
+    db.save_result(1, 3000, 30, 50, 3, mode="day1", chat_id=1)
+    db.save_result(2, 1500, 45, 50, 3, mode="day1", chat_id=2)
 
 
 def query(data: str, user_id: int = ADMIN, chat_type: str = ChatType.PRIVATE):
@@ -39,32 +43,42 @@ def query(data: str, user_id: int = ADMIN, chat_type: str = ChatType.PRIVATE):
 def test_groups_text_sorted_by_accuracy_and_escaped():
     text = groups.groups_text("acc", 0)
     assert text.index("Kids 2") < text.index("IELTS &lt;1&gt;")
-    assert "🎯 90%" in text
+    assert "🎯 90%" in text and "👥 1/2" in text  # IELTS: 2 a'zodan 1 tasi test ishlagan
     by_score = groups.groups_text("score", 0)
     assert by_score.index("IELTS") < by_score.index("Kids 2")
 
 
-def test_group_detail():
+def test_groups_text_counts_ungrouped_students():
+    db.upsert_user(9, "Yolg'iz", None)
+    db.save_result(9, 10, 1, 5, 1)
+    assert "biriktirilmagan o'quvchilar: <b>1</b>" in groups.groups_text("acc", 0)
+
+
+def test_group_detail_lists_members_without_tests():
     text = groups.group_detail_text(GROUP_A)
-    assert "2</b>-o'rin / 2" in text and "Ali" in text and "Test 1: ✅ <b>30/50</b>" in text
-    assert "Test 2: —" in text
+    assert "2</b>-o'rin / 2" in text and "Test 1: ✅ <b>30/50</b>" in text and "Test 2: —" in text
+    assert "A'zolar: <b>2</b>" in text
+    assert "Dangasa — <i>hali test ishlamagan</i>" in text
     assert groups.group_detail_text(-999) is None
 
 
-def test_group_top_marks_viewer():
-    text = groups.group_top_text(GROUP_B, "Kids 2", viewer_id=2)
-    assert "1</b>-o'rin / 2" in text and "Vali" in text and "👈" in text and "Ali" not in text
+def test_group_top_marks_viewer_and_hides_inactive():
+    text = groups.group_top_text(GROUP_A, "IELTS", viewer_id=1)
+    assert "2</b>-o'rin / 2" in text and "Ali" in text and "👈" in text
+    assert "Dangasa" not in text and "Vali" not in text
 
 
 def test_group_top_for_new_group():
-    db.upsert_group(-1003, "Yangi")
+    gdb.upsert_group(-1003, "Yangi")
     text = groups.group_top_text(-1003, "Yangi", viewer_id=1)
-    assert "hali test ishlanmagan" in text and "reytingiga kirish" in text
+    assert "hech kim test ishlamagan" in text and "reytingiga kirish" in text
 
 
 def test_groups_csv():
     rows = list(csv.reader(io.StringIO(groups.groups_csv().decode("utf-8-sig")), delimiter=";"))
-    assert rows[0][1] == "Guruh" and rows[1][1] == "Kids 2" and rows[1][8] == "90"
+    assert rows[0][1] == "Guruh" and rows[0][3] == "A'zolar"
+    assert rows[1][1] == "Kids 2" and rows[1][9] == "90"
+    assert rows[2][3:6] == ["2", "1", "1"]
 
 
 def test_student_cannot_open_groups():
@@ -94,7 +108,7 @@ def test_bad_group_callbacks_ignored(data):
 
 
 def test_group_callback_data_fits_telegram_limit():
-    db.upsert_group(-1009999999999, "Katta guruh")
+    gdb.upsert_group(-1009999999999, "Katta guruh")
     markup = groups.groups_keyboard("score", 0)
     assert all(len(b.callback_data.encode()) <= 64 for row in markup.inline_keyboard for b in row)
 
