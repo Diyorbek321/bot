@@ -279,9 +279,12 @@ async def finish_game(bot: Bot, game: PollGame, asked: int, open_poll: int | Non
             continue  # jamoaga qo'shilgan, lekin birorta savolga javob bermagan
         db.save_result(player.user_id, player.score, player.correct, player.answered, player.best_streak)
 
-    try:
-        if open_poll is not None:
+    if open_poll is not None:
+        try:
             await bot.stop_poll(game.chat_id, open_poll)
+        except TelegramAPIError:
+            pass  # vaqti tugagan poll'ni yopib bo'lmaydi — natijalar baribir yuboriladi
+    try:
         if asked:
             await bot.send_message(game.chat_id, results_text(game, asked), reply_markup=kb.after_poll_quiz(game.is_group))
     except TelegramAPIError:
